@@ -70,6 +70,20 @@ Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.
 
 More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md).
 
+## Compounding With SJ Skills
+
+This plugin is meant to improve with use. A Jobs-style review should sharpen the artifact in front of you and leave behind a reusable lesson for the next session.
+
+| Phase | Question | Useful Skills |
+|---|---|---|
+| Sense | What kind of problem is this? | `$sj-core-catalog` |
+| Ground | What artifact or evidence are we judging? | `$sj-product-concrete-artifact-review`, `$sj-product-raw-work-no-filters` |
+| Simplify | What is the one thing that matters? | `$sj-product-simplify-to-one`, `$sj-product-hack-away-unessential` |
+| Raise the bar | Where is the standard too low? | `$sj-product-taste-review`, `$sj-people-a-player-bar` |
+| Compound | What should the system remember? | `$sj-core-compound-learning`, `$sj-learning-progressive-summarization` |
+
+See [`docs/COMPOUNDING.md`](docs/COMPOUNDING.md) for maturity stages, beliefs to adopt, and reusable capture patterns.
+
 ## Full Skill Inventory
 
 | Skill | Purpose |
@@ -173,6 +187,8 @@ For examples for every skill, see [`docs/SKILL_REFERENCE.md`](docs/SKILL_REFEREN
 | `docs/SYMLINKS.md` | Symlink recipes and collision policy |
 | `docs/SKILL_REFERENCE.md` | Full skill table with examples |
 | `docs/EXAMPLES.md` | Scenario-based usage examples |
+| `docs/COMPOUNDING.md` | Compound-style operating loop for SJ skills |
+| `docs/PLUGIN_ARCHITECTURE.md` | Plugin structure and public-safety policy |
 
 ## Install Matrix
 
@@ -231,6 +247,10 @@ The structure was influenced by public skill/plugin repositories such as:
 - <https://github.com/EveryInc/compound-engineering-plugin>
 - <https://github.com/EveryInc/compound-knowledge-plugin>
 - <https://github.com/steipete/agent-scripts/tree/main/skills>
+
+The compounding workflow framing is also influenced by Every's guide to compound engineering:
+
+- <https://every.to/guides/compound-engineering>
 
 ## FAQ
 

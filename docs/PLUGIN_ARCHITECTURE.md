@@ -1,6 +1,6 @@
 # Plugin Architecture
 
-This package has four layers.
+This package has five layers.
 
 | Layer | Path | Purpose |
 |---|---|---|
@@ -8,6 +8,7 @@ This package has four layers.
 | Plugin manifest | `.codex-plugin/plugin.json` | Makes the package installable as a Codex plugin. |
 | Runtime skills | `skills/sj-*/SKILL.md` | Small procedural instructions that Codex can load when relevant. |
 | Shared references | `references/sj-*.md` | Broader Jobs-derived context loaded only when useful. |
+| Human docs | `docs/` | Tables, install instructions, examples, and compounding guidance. |
 
 ## Why Keep Skills Small?
 
@@ -31,3 +32,7 @@ The agent should read those only when deeper grounding is needed.
 ## Public-Safe Source Policy
 
 The plugin is inspired by books, interviews, and podcast notes. The public repo contains operating patterns and paraphrased references, not source texts, full transcripts, or long copyrighted passages.
+
+## Compound Workflow Fit
+
+`docs/COMPOUNDING.md` describes how to use the skills as a loop: route, ground in an artifact, simplify, raise the bar, change the artifact, and capture the reusable lesson. This keeps the plugin useful as an operating system instead of a static list of prompts.
