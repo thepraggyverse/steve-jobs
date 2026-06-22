@@ -1,15 +1,16 @@
 {
   "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
   "name": "steve-jobs",
-  "description": "80 sj-prefixed Steve Jobs operating skills for product craft, story, people, strategy, learning, and failure review.",
+  "description": "81 sj-prefixed Steve Jobs operating skills for product craft, story, people, strategy, learning, and failure review.",
   "notGrouped": "bottom",
   "groupings": [
     {
       "label": "Core",
-      "description": "Route a request, choose the right lens, and capture reusable lessons.",
+      "description": "Route a request, choose the right lens, capture reusable lessons, and refresh saved learnings.",
       "skills": [
         "sj-core-catalog",
-        "sj-core-compound-learning"
+        "sj-core-compound-learning",
+        "sj-core-learning-refresh"
       ]
     },
     {

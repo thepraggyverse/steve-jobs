@@ -4,12 +4,13 @@ This is the full inventory of runtime skills. Every skill starts with `sj-` for 
 
 ## Core
 
-Route requests, choose a lens, and capture reusable lessons.
+Route requests, choose a lens, capture reusable lessons, and refresh saved learnings.
 
 | Skill | Purpose | Example Prompt |
 |---|---|---|
 | `$sj-core-catalog` | Choose the right Steve Jobs operating skill and sequence. | `Use $sj-core-catalog to choose the best Steve Jobs skill sequence for this product decision.` |
 | `$sj-core-compound-learning` | Capture reusable Jobs-derived lessons after each use. | `Use $sj-core-compound-learning to extract reusable Jobs lessons from this session.` |
+| `$sj-core-learning-refresh` | Audit saved SJ learning notes for drift, duplication, weak retrieval, and contradictions. | `Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them.` |
 
 ## Product craft
 
@@ -130,4 +131,3 @@ Catch ego, fake traction, overfunding, revenge, and other failure modes early.
 | `$sj-anti-revenge-motive-check` | Detect when strategy is secretly ego or revenge. | `Use $sj-anti-revenge-motive-check to test my motive here.` |
 | `$sj-anti-channel-stuffing-check` | Separate real traction from fake comfort. | `Use $sj-anti-channel-stuffing-check to audit these growth numbers.` |
 | `$sj-anti-too-much-money-check` | Prevent abundant funding from killing discipline. | `Use $sj-anti-too-much-money-check to audit this funding plan.` |
-

@@ -98,3 +98,10 @@ Use $sj-people-a-player-bar to define the bar.
 Then use $sj-people-pushback-interview to design interview questions.
 Then use $sj-people-missionaries-not-mercenaries to check mission fit.
 ```
+
+## Compounding And Refresh
+
+| Situation | Prompt | What Good Output Looks Like |
+|---|---|---|
+| A review produced a reusable principle | `Use $sj-core-compound-learning to save the lesson from this product review.` | 1-3 approved learning candidates, duplicate check, saved paths, and retrieval tags. |
+| Old learnings may be stale | `Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them.` | Keep/update/merge/archive recommendations with exact file paths. |

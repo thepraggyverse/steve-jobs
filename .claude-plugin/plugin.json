@@ -3,6 +3,7 @@
   "skills": [
     "./skills/sj-core-catalog",
     "./skills/sj-core-compound-learning",
+    "./skills/sj-core-learning-refresh",
     "./skills/sj-product-make-something-wonderful",
     "./skills/sj-product-customer-backwards",
     "./skills/sj-product-bicycle-for-the-mind",

@@ -55,6 +55,8 @@ Native plugin formats differ across harnesses. A self-contained `SKILL.md` folde
 Use $sj-core-catalog to choose the right Steve Jobs operating skill for this task.
 ```
 
+For Codex plugin installs, the stronger live proof is in [`docs/HANDOFF.md`](HANDOFF.md): it starts a fresh read-only `codex exec` session and verifies that `$sj-core-learning-refresh` loads from the installed plugin cache.
+
 ## What This Repo Does Not Claim
 
 This repo does not claim official native plugin support for every harness. It claims portable skill-folder support and ships the manifests that are currently useful. When a harness publishes a stable plugin schema, add that manifest with validation rather than guessing.

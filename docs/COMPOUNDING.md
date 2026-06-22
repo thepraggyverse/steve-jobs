@@ -13,7 +13,8 @@ For this project, that means a Jobs-style critique should not end as a clever an
 | Simplify | What is the one thing that matters? | `$sj-product-simplify-to-one`, `$sj-product-hack-away-unessential` | Clearer product/job/message |
 | Raise The Bar | Where is the standard too low? | `$sj-product-taste-review`, `$sj-people-a-player-bar`, `$sj-product-back-of-cabinet-quality` | Quality critique |
 | Ship The Next Artifact | What should change next? | Any domain skill | Revised artifact or next demo |
-| Compound | What should the system remember? | `$sj-core-compound-learning`, `$sj-learning-progressive-summarization` | Reusable lesson |
+| Compound | What should the system remember? | `$sj-core-compound-learning`, `$sj-learning-progressive-summarization` | Approved learning in `docs/steve-jobs/learnings/` |
+| Refresh | Is saved knowledge still useful? | `$sj-core-learning-refresh` | Keep/update/merge/archive report |
 
 ## When To Use The Loop
 
@@ -57,7 +58,7 @@ For this project, that means a Jobs-style critique should not end as a clever an
 | 2. Skill chains | Route through two or three skills. | Chain product, story, and anti-pattern checks. |
 | 3. Artifact loops | Apply skills to real screens, plans, copy, metrics, and people decisions. | Use concrete artifact review and revise the thing. |
 | 4. Compounding | Capture lessons into prompts, docs, references, or new skills. | End with `$sj-core-compound-learning`. |
-| 5. Taste system | Your team has stable patterns for product craft, story, hiring, and failure review. | Refresh references and prune stale patterns. |
+| 5. Taste system | Your team has stable patterns for product craft, story, hiring, and failure review. | Use `$sj-core-learning-refresh` to prune stale patterns. |
 
 ## Three Questions Without Tooling
 
@@ -68,6 +69,16 @@ If you do not know which skill to invoke, ask:
 3. What are we least confident about?
 
 Then route the answer through `$sj-core-catalog`.
+
+## Memory And Logs
+
+Use `docs/MEMORY_AND_LOGS.md` as the operating policy.
+
+| State | Path | Use |
+|---|---|---|
+| Durable learning | `docs/steve-jobs/learnings/` | Approved reusable lessons saved in the user's project. |
+| Temporary artifacts | `/tmp/steve-jobs/<skill>/<run-id>/` | Scratch notes, duplicate checks, and refresh comparisons. |
+| Repo-bound context | `.context/steve-jobs/<workflow>/` | Optional project-specific context only when it is truly repo-bound. |
 
 ## What To Capture
 
@@ -89,6 +100,8 @@ Capture lessons that would help a future agent or future version of you.
 - One-off personal preferences that will not matter later
 - Notes that flatter the decision instead of making it clearer
 - Anything private or copyrighted that should not live in a public repo
+
+Use `templates/sj-learning.md` for approved learning notes.
 
 ## Source Inspiration
 

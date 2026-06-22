@@ -1,6 +1,6 @@
 # Plugin Architecture
 
-This package has six layers.
+This package has seven layers.
 
 | Layer | Path | Purpose |
 |---|---|---|
@@ -10,7 +10,9 @@ This package has six layers.
 | Portable catalogs | `.claude-plugin/plugin.json`, `skills.sh.json` | Let other installers discover the same skill folders. |
 | Runtime skills | `skills/sj-*/SKILL.md` | Small procedural instructions that agents can load when relevant. |
 | Skill-local references | `skills/sj-*/references/sj-*.md` | Compact Jobs-derived context loaded only when useful. |
-| Human docs | `README.md`, `docs/` | Tables, install instructions, examples, update guides, and audit notes. |
+| Human docs | `README.md`, `docs/` | Tables, install instructions, examples, update guides, audit notes, and memory policy. |
+| Templates | `templates/` | Reusable file shapes for project-local SJ learning notes. |
+| Closeout proof | `docs/HANDOFF.md` | Installed-plugin validation, live harness test, autoreview command, and handoff template. |
 
 ## Why Keep Skills Small?
 
@@ -40,3 +42,5 @@ The plugin is inspired by books, interviews, and podcast notes. The public repo 
 ## Compound Workflow Fit
 
 `docs/COMPOUNDING.md` describes how to use the skills as a loop: route, ground in an artifact, simplify, raise the bar, change the artifact, and capture the reusable lesson. This keeps the plugin useful as an operating system instead of a static list of prompts.
+
+`docs/MEMORY_AND_LOGS.md` defines where that lesson should live. Durable user-project learnings go in `docs/steve-jobs/learnings/`, temporary artifacts go under `/tmp/steve-jobs/<skill>/<run-id>/`, and repo-bound context uses `.context/steve-jobs/<workflow>/` only when needed.

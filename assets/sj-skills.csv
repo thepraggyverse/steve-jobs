@@ -1,6 +1,7 @@
 name,category,title
 sj-core-catalog,core,Catalog and router
 sj-core-compound-learning,core,Compound Jobs learning
+sj-core-learning-refresh,core,Learning refresh
 sj-product-make-something-wonderful,product,Make something wonderful
 sj-product-customer-backwards,product,Customer backwards
 sj-product-bicycle-for-the-mind,product,Bicycle for the mind

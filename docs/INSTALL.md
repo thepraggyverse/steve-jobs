@@ -161,9 +161,18 @@ find references -maxdepth 1 -name 'sj-*.md' | wc -l
 Expected:
 
 ```text
-80 skills
+81 skills
 8 root references
 ```
+
+For a native Codex plugin install, also verify the installed cache:
+
+```bash
+codex plugin list | rg 'steve-jobs@personal|PLUGIN|Marketplace `personal`' -C 2
+"$HOME/.codex/plugins/cache/personal/steve-jobs/0.1.0/scripts/validate.sh"
+```
+
+For a live harness test, use the plugin-only `codex exec` recipe in [`docs/HANDOFF.md`](HANDOFF.md).
 
 ## Update
 

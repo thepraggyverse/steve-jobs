@@ -8,11 +8,14 @@ python3 <<'PYVALIDATE'
 import json
 import os
 import re
+import csv
 from pathlib import Path
 
 root = Path(os.environ['ROOT'])
 skills_dir = root / 'skills'
 refs_dir = root / 'references'
+expected_skill_count = 81
+max_description_chars = 260
 
 required_files = [
     'README.md',
@@ -38,8 +41,11 @@ required_files = [
     'docs/SKILL_REFERENCE.md',
     'docs/EXAMPLES.md',
     'docs/COMPOUNDING.md',
+    'docs/MEMORY_AND_LOGS.md',
+    'docs/HANDOFF.md',
     'docs/PLUGIN_ARCHITECTURE.md',
     'docs/DEVELOPMENT.md',
+    'templates/sj-learning.md',
 ]
 
 errors = []
@@ -50,8 +56,10 @@ for rel in required_files:
 skills = sorted(p for p in skills_dir.iterdir() if p.is_dir() and p.name.startswith('sj-'))
 refs = sorted(refs_dir.glob('sj-*.md'))
 
-if len(skills) != 80:
-    errors.append(f'expected 80 skills, found {len(skills)}')
+skill_names = [p.name for p in skills]
+
+if len(skills) != expected_skill_count:
+    errors.append(f'expected {expected_skill_count} skills, found {len(skills)}')
 if len(refs) != 8:
     errors.append(f'expected 8 root references, found {len(refs)}')
 
@@ -77,6 +85,12 @@ for skill in skills:
         seen_names.add(match.group(1))
     if not desc_re.search(text):
         errors.append(f'missing quoted frontmatter description: {skill_md}')
+    else:
+        description = desc_re.search(text).group(1)
+        if len(description) > max_description_chars:
+            errors.append(f'frontmatter description too long ({len(description)} chars): {skill_md}')
+    if '[TODO:' in text or 'TODO:' in text:
+        errors.append(f'skill still contains TODO placeholder: {skill_md}')
     if '../../references/' in text or '../' in text:
         errors.append(f'skill has non-local reference traversal: {skill_md}')
     for ref in local_ref_re.findall(text):
@@ -100,6 +114,16 @@ else:
         errors.append('plugin manifest skills path must be ./skills/')
 
 try:
+    with (root / 'assets' / 'sj-skills.csv').open(newline='') as handle:
+        rows = list(csv.DictReader(handle))
+except Exception as exc:
+    errors.append(f'assets/sj-skills.csv could not be read: {exc}')
+else:
+    csv_names = [row.get('name', '') for row in rows]
+    if len(csv_names) != expected_skill_count or sorted(csv_names) != sorted(skill_names):
+        errors.append('assets/sj-skills.csv must list exactly the skill folders')
+
+try:
     claude_manifest = json.loads((root / '.claude-plugin' / 'plugin.json').read_text())
 except Exception as exc:
     errors.append(f'Claude plugin manifest is not valid JSON: {exc}')
@@ -107,8 +131,9 @@ else:
     skills_list = claude_manifest.get('skills')
     if claude_manifest.get('name') != 'steve-jobs':
         errors.append('Claude plugin manifest name must be steve-jobs')
-    if not isinstance(skills_list, list) or len(skills_list) != 80:
-        errors.append('Claude plugin manifest must list 80 skills')
+    expected_paths = [f'./skills/{name}' for name in skill_names]
+    if not isinstance(skills_list, list) or sorted(skills_list) != sorted(expected_paths):
+        errors.append(f'Claude plugin manifest must list exactly the {expected_skill_count} skill folders')
 
 try:
     skills_sh = json.loads((root / 'skills.sh.json').read_text())
@@ -118,8 +143,8 @@ else:
     listed = []
     for group in skills_sh.get('groupings', []):
         listed.extend(group.get('skills', []))
-    if len(listed) != 80 or sorted(listed) != sorted(p.name for p in skills):
-        errors.append('skills.sh.json must list exactly the 80 skill folders')
+    if len(listed) != expected_skill_count or sorted(listed) != sorted(skill_names):
+        errors.append(f'skills.sh.json must list exactly the {expected_skill_count} skill folders')
 
 try:
     marketplace = json.loads((root / '.agents' / 'plugins' / 'marketplace.json').read_text())
@@ -133,6 +158,82 @@ else:
         errors.append('marketplace plugins must be an array')
     elif not any(entry.get('name') == 'steve-jobs' for entry in entries if isinstance(entry, dict)):
         errors.append('marketplace must include steve-jobs plugin entry')
+
+inventory_files = [
+    'README.md',
+    'docs/SKILL_REFERENCE.md',
+    'references/sj-skill-catalog.md',
+]
+for rel in inventory_files:
+    path = root / rel
+    if not path.exists():
+        continue
+    content = path.read_text()
+    for name in skill_names:
+        if name not in content:
+            errors.append(f'{rel} is missing skill reference: {name}')
+
+numbered_catalogs = [
+    'references/sj-skill-catalog.md',
+    'skills/sj-core-catalog/references/sj-skill-catalog.md',
+    'skills/sj-core-compound-learning/references/sj-skill-catalog.md',
+]
+numbered_skill_re = re.compile(r'^(\d+)\.\s+`\$sj-[^`]+`', re.MULTILINE)
+for rel in numbered_catalogs:
+    path = root / rel
+    if not path.exists():
+        errors.append(f'missing numbered skill catalog: {rel}')
+        continue
+    numbers = [int(match.group(1)) for match in numbered_skill_re.finditer(path.read_text())]
+    expected_numbers = list(range(1, expected_skill_count + 1))
+    if numbers != expected_numbers:
+        errors.append(f'{rel} must number skills sequentially 1..{expected_skill_count}')
+
+known_skill_tokens = set(skill_names)
+known_non_skill_tokens = {
+    'sj-core',
+    'sj-core-',
+    'sj-product',
+    'sj-product-',
+    'sj-story',
+    'sj-story-',
+    'sj-people',
+    'sj-people-',
+    'sj-strategy',
+    'sj-strategy-',
+    'sj-learning',
+    'sj-learning-',
+    'sj-anti',
+    'sj-anti-',
+    'sj-prefixed',
+}
+stale_ref_re = re.compile(r'\bsj-[a-z0-9-]+')
+scan_roots = [
+    root / 'README.md',
+    root / 'AGENTS.md',
+    root / 'docs',
+    root / 'references',
+    root / 'assets',
+    root / 'skills.sh.json',
+    root / '.claude-plugin' / 'plugin.json',
+]
+for scan_root in scan_roots:
+    candidates = [scan_root] if scan_root.is_file() else sorted(scan_root.rglob('*'))
+    for path in candidates:
+        if not path.is_file() or path.suffix not in {'', '.md', '.json', '.csv'}:
+            continue
+        rel = path.relative_to(root)
+        content = path.read_text(errors='ignore')
+        for token in stale_ref_re.findall(content):
+            if token.endswith('-plugin') or token in known_skill_tokens:
+                continue
+            if token in known_non_skill_tokens:
+                continue
+            if token.startswith(('sj-source', 'sj-skill', 'sj-product-craft', 'sj-story-selling', 'sj-people-leadership', 'sj-strategy-failure', 'sj-learning-practice', 'sj-anti-patterns')):
+                continue
+            errors.append(f'stale or unknown sj-* reference in {rel}: {token}')
+        if '/Users/praggy' in content:
+            errors.append(f'author-local absolute path leaked into public file: {rel}')
 
 if errors:
     for error in errors:

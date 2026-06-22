@@ -1,7 +1,7 @@
 {
   "name": "steve-jobs",
   "version": "0.1.0",
-  "description": "80 sj-prefixed operating skills for product craft, storytelling, hiring, strategy, learning, and failure review.",
+  "description": "81 sj-prefixed operating skills for product craft, storytelling, hiring, strategy, learning, and failure review.",
   "author": {
     "name": "Praggy",
     "url": "https://github.com/thepraggyverse"
@@ -21,8 +21,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Steve Jobs",
-    "shortDescription": "80 Steve Jobs operating skills for product, story, people, strategy, learning, and failure review.",
-    "longDescription": "A compact pack of 80 sj-prefixed skills that help agents choose and apply Steve Jobs-derived operating lenses for product craft, simplification, storytelling, hiring, strategy, learning, and anti-pattern review. Each skill is self-contained, public-safe, and usable as a Codex plugin or as loose skill folders in compatible harnesses.",
+    "shortDescription": "81 Steve Jobs operating skills for product, story, people, strategy, learning, and failure review.",
+    "longDescription": "A compact pack of 81 sj-prefixed skills that help agents choose, apply, capture, and refresh Steve Jobs-derived operating lenses for product craft, simplification, storytelling, hiring, strategy, learning, and anti-pattern review. Each skill is self-contained, public-safe, and usable as a Codex plugin or as loose skill folders in compatible harnesses.",
     "developerName": "Praggy",
     "category": "Productivity",
     "capabilities": [],

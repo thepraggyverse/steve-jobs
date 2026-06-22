@@ -17,6 +17,13 @@ That script runs:
 
 Then restart Codex or reinstall from the `/plugins` UI if your profile still has an older cached plugin copy.
 
+If `codex plugin add steve-jobs@personal` reports success but the cache still contains old files, refresh the installed cache explicitly:
+
+```bash
+codex plugin remove steve-jobs@personal
+codex plugin add steve-jobs@personal
+```
+
 ## GitHub Marketplace Update
 
 If you installed from the GitHub marketplace:
@@ -61,7 +68,7 @@ find skills -mindepth 1 -maxdepth 1 -type d | wc -l
 Expected count:
 
 ```text
-80
+81
 ```
 
 Then test one router prompt:
@@ -69,3 +76,5 @@ Then test one router prompt:
 ```text
 Use $sj-core-catalog to choose the right SJ skill for this product problem.
 ```
+
+For release or handoff, run the installed-cache and clean live-test commands in [`docs/HANDOFF.md`](HANDOFF.md).

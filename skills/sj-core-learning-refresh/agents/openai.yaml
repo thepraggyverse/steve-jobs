@@ -1,0 +1,7 @@
+interface:
+  display_name: "Core Learning Refresh"
+  short_description: "Audit saved SJ lessons for drift"
+  default_prompt: "Use $sj-core-learning-refresh to audit saved SJ lessons for stale or duplicate patterns."
+
+policy:
+  allow_implicit_invocation: true

@@ -14,7 +14,7 @@ This repo was audited against the current public shape of these projects and doc
 
 | Gap | Fix |
 |---|---|
-| README led with `unofficial Codex plugin`, which hid what the package does. | Rewrote the lead around 80 operating skills and moved affiliation language to the disclaimer. |
+| README led with `unofficial Codex plugin`, which hid what the package does. | Rewrote the lead around the operating skill pack and moved affiliation language to the disclaimer. |
 | No `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, or `CONTEXT.md`. | Added canonical repo instructions, compatibility shims, and a vocabulary file. |
 | Runtime skills referenced root `../../references/*` files. | Copied needed references into each skill's own `references/` folder and changed skill instructions to local paths. |
 | Install docs were Codex-heavy. | Added a harness matrix, Claude loose-skill instructions, copy mode, skills.sh manifest notes, and update guidance. |
@@ -23,6 +23,8 @@ This repo was audited against the current public shape of these projects and doc
 | No Claude-style manifest or skills.sh-style catalog. | Added `.claude-plugin/plugin.json` and `skills.sh.json`. |
 | Validation did not catch non-local runtime references or missing public repo files. | Expanded `scripts/validate.sh` checks. |
 | No privacy/security/changelog docs. | Added `PRIVACY.md`, `SECURITY.md`, and `CHANGELOG.md`. |
+| `$sj-core-compound-learning` named compounding but did not define durable storage, approval, duplicate checks, or refresh. | Added `docs/MEMORY_AND_LOGS.md`, `templates/sj-learning.md`, upgraded capture rules, and `$sj-core-learning-refresh`. |
+| No explicit closeout, live-test, autoreview, or handoff recipe. | Added `docs/HANDOFF.md` and made it part of validation. |
 
 ## What Was Intentionally Not Added
 
@@ -37,7 +39,7 @@ This repo was audited against the current public shape of these projects and doc
 
 | Surface | Count or status |
 |---|---|
-| Runtime skills | 80 |
+| Runtime skills | 81 |
 | Root maintainer references | 8 |
 | Skill-local reference copies | Created for every referenced runtime file |
 | Native Codex manifest | `.codex-plugin/plugin.json` |
@@ -45,4 +47,5 @@ This repo was audited against the current public shape of these projects and doc
 | Grouped catalog | `skills.sh.json` |
 | Local marketplace | `.agents/plugins/marketplace.json` |
 | Install scripts | `install-local.sh`, `link-skills.sh`, `copy-skills.sh`, `update-local.sh` |
+| Closeout and handoff | `docs/HANDOFF.md` |
 | Validation | `scripts/validate.sh` plus optional Codex authoring validators |

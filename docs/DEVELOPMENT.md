@@ -74,6 +74,26 @@ skills.sh.json
 .claude-plugin/plugin.json
 ```
 
+If the skill is referenced by another skill's local catalog, update that skill-local `references/sj-skill-catalog.md` copy too.
+
+When changing memory or compounding behavior, update:
+
+```text
+docs/MEMORY_AND_LOGS.md
+templates/sj-learning.md
+docs/COMPOUNDING.md
+docs/PLUGIN_ARCHITECTURE.md
+```
+
+When changing install, validation, live testing, or release closeout behavior, update:
+
+```text
+docs/HANDOFF.md
+docs/INSTALL.md
+docs/UPDATE.md
+CHANGELOG.md
+```
+
 Then run:
 
 ```bash
@@ -96,6 +116,14 @@ If local Codex authoring validators are available at:
 ```
 
 the validation script will use them automatically.
+
+Validation should catch skill count drift, duplicate names, missing manifest entries, missing README/catalog references, stale skill references, and overlong descriptions.
+
+Before handing work to another agent or publishing, follow `docs/HANDOFF.md`.
+
+## Lifecycle Cleanup
+
+Do not add CE-style install manifests or legacy cleanup while `sj-*` names remain stable. Add lifecycle cleanup only when skills are renamed, removed, or moved in a way that would leave stale loose-skill installs behind.
 
 ## Public Safety
 

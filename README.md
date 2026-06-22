@@ -1,6 +1,6 @@
 # Steve Jobs Operating Skills [![Validate](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml/badge.svg)](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml)
 
-**80 `sj-*` skills for product craft, simplification, storytelling, hiring, strategy, learning, and failure review.**
+**81 `sj-*` skills for product craft, simplification, storytelling, hiring, strategy, learning, and failure review.**
 
 These skills help an agent apply Steve Jobs-derived operating patterns to a real artifact: a product idea, screen, launch story, hiring decision, strategy memo, failure review, or learning loop. They are not a personality simulator. The useful output is a clearer product, sharper story, higher bar, better decision, or reusable lesson.
 
@@ -12,7 +12,7 @@ This repository does not include source books, full transcripts, or long copyrig
 
 | Group | Count | What it does | Example skills |
 | --- | --- | --- | --- |
-| Core | 2 | Route requests, choose the right lens, and capture reusable lessons. | `$sj-core-catalog`, `$sj-core-compound-learning` |
+| Core | 3 | Route requests, choose the right lens, capture reusable lessons, and refresh saved learnings. | `$sj-core-catalog`, `$sj-core-compound-learning`, `$sj-core-learning-refresh` |
 | Product craft | 23 | Simplify products, inspect artifacts, improve taste, craft, speed, and UX. | `$sj-product-simplify-to-one`, `$sj-product-customer-backwards`, `$sj-product-taste-review` |
 | Story and selling | 9 | Shape launches, demos, value propositions, analogies, and marketing. | `$sj-story-one-message-marketing`, `$sj-story-sell-the-improvement`, `$sj-story-three-act-launch` |
 | People and leadership | 19 | Raise the talent bar, improve leadership, feedback, trust, and team design. | `$sj-people-a-player-bar`, `$sj-people-missionaries-not-mercenaries`, `$sj-people-truth-to-founder` |
@@ -65,6 +65,7 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | --- | --- |
 | `$sj-core-catalog` | Choose the right Steve Jobs operating skill and sequence. |
 | `$sj-core-compound-learning` | Capture reusable Jobs-derived lessons after each use. |
+| `$sj-core-learning-refresh` | Audit saved SJ learning notes for stale, duplicate, generic, contradictory, or low-confidence guidance. |
 | `$sj-product-make-something-wonderful` | Raise ambition, care, usefulness, and emotional quality. |
 | `$sj-product-customer-backwards` | Start from the user experience and work back to technology. |
 | `$sj-product-bicycle-for-the-mind` | Frame tools as human leverage rather than machinery. |
@@ -155,9 +156,12 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `.codex-plugin/plugin.json` | Native Codex plugin manifest. |
 | `.claude-plugin/plugin.json` | Simple Claude-style skill manifest listing all skill folders. |
 | `skills.sh.json` | Grouped skill catalog for skills.sh-style installers and audits. |
-| `skills/sj-*` | 80 runtime skill folders. Each folder is self-contained. |
+| `skills/sj-*` | 81 runtime skill folders. Each folder is self-contained. |
 | `skills/sj-*/references/` | Skill-local reference notes used at runtime. |
 | `references/` | Root maintainer copies of the compact reference notes. |
+| `docs/MEMORY_AND_LOGS.md` | Durable learning, temporary artifact, and refresh policy. |
+| `docs/HANDOFF.md` | Closeout checklist, live install proof, autoreview, and handoff template. |
+| `templates/sj-learning.md` | Template for approved project learning notes. |
 | `assets/sj-skills.csv` | Machine-readable skill catalog. |
 | `scripts/install-local.sh` | Local Codex plugin installer. |
 | `scripts/link-skills.sh` | Symlink skills into Codex, Claude, or another harness. |
@@ -198,7 +202,9 @@ More detail: [`docs/UPDATE.md`](docs/UPDATE.md).
 ./scripts/validate.sh
 ```
 
-The validator checks exactly 80 skills, exactly 8 root references, required repo docs and manifests, skill frontmatter, `agents/openai.yaml`, skill-local runtime references, JSON manifests, and local Codex authoring validators when available.
+The validator checks exactly 81 skills, exactly 8 root references, required repo docs, templates, manifests, skill frontmatter, `agents/openai.yaml`, skill-local runtime references, inventory drift, JSON manifests, and local Codex authoring validators when available.
+
+For installed-plugin proof and handoff, use [`docs/HANDOFF.md`](docs/HANDOFF.md).
 
 ## Design Notes
 
@@ -230,7 +236,7 @@ No. It is an independent educational and productivity project. The useful part i
 
 No. It intentionally avoids full books, full transcripts, and long copyrighted excerpts. The runtime material is compact, paraphrased, and operational.
 
-### Why 80 skills instead of one big skill?
+### Why many skills instead of one big skill?
 
 Small skills are easier to trigger, search, inspect, symlink, copy, validate, and compose. `sj-core-catalog` is the router when you do not know which one to use.
 

@@ -1,6 +1,6 @@
 # Agent Instructions
 
-This repository packages the `steve-jobs` operating skills: 80 `sj-*` skills for product craft, storytelling, hiring, strategy, learning, and failure review.
+This repository packages the `steve-jobs` operating skills: 81 `sj-*` skills for product craft, storytelling, hiring, strategy, learning, and failure review.
 
 `AGENTS.md` is the canonical authoring file for this repo. `CLAUDE.md` and `GEMINI.md` are compatibility shims for harnesses that look for those names.
 
@@ -42,7 +42,11 @@ If two skills need the same reference, duplicate the small reference into each s
 
 When adding, renaming, or removing a skill, update `assets/sj-skills.csv`, `references/sj-skill-catalog.md`, `README.md`, `docs/SKILL_REFERENCE.md`, `skills.sh.json`, and `.claude-plugin/plugin.json`.
 
+When adding memory, logging, or compounding behavior, update `docs/MEMORY_AND_LOGS.md`, `templates/sj-learning.md`, and validation coverage.
+
 When install behavior changes, update `README.md`, `docs/INSTALL.md`, `docs/SYMLINKS.md`, `docs/HARNESSES.md`, and `docs/UPDATE.md`.
+
+When live verification, release closeout, or continuation instructions change, update `docs/HANDOFF.md`.
 
 ## Validation
 
@@ -51,6 +55,8 @@ Run this before committing:
 ```bash
 ./scripts/validate.sh
 ```
+
+For release or handoff closeout, also follow `docs/HANDOFF.md`.
 
 The validator checks skill counts, manifest JSON, local reference portability, skill frontmatter, prompt stubs, and system validators when available.
 
