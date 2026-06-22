@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Truth To Founder"
+  short_description: "Create channels for reality to reach the decision maker"
+  default_prompt: "Use $sj-people-truth-to-founder to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

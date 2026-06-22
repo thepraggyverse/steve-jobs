@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Founder Soul Guardian"
+  short_description: "Protect the product or company soul"
+  default_prompt: "Use $sj-people-founder-soul-guardian to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

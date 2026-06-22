@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strategy Startup Discipline"
+  short_description: "Keep scarcity, focus, and truth inside the startup"
+  default_prompt: "Use $sj-strategy-startup-discipline to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Progressive Summarization"
+  short_description: "Turn books, podcasts, and notes into reusable knowledge"
+  default_prompt: "Use $sj-learning-progressive-summarization to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

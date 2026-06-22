@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Taste Review"
+  short_description: "Use judgment where metrics and committees are not enough"
+  default_prompt: "Use $sj-product-taste-review to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

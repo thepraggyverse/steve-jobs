@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Ceo At Bottom"
+  short_description: "Treat leadership as service to the builders"
+  default_prompt: "Use $sj-people-ceo-at-bottom to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

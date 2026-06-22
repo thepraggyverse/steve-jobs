@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Skepticism Hierarchy"
+  short_description: "Sort objections by signal, source, and importance"
+  default_prompt: "Use $sj-product-skepticism-hierarchy to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

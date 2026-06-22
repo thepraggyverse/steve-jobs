@@ -1,0 +1,7 @@
+interface:
+  display_name: "Anti Revenge Motive Check"
+  short_description: "Detect when strategy is secretly ego or revenge"
+  default_prompt: "Use $sj-anti-revenge-motive-check to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

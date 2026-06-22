@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Creative Selection"
+  short_description: "Run a concrete demo-driven iteration loop"
+  default_prompt: "Use $sj-product-creative-selection to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

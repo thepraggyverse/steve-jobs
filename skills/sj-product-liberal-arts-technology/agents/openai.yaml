@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Liberal Arts Technology"
+  short_description: "Connect engineering with taste, story, culture, and emotion"
+  default_prompt: "Use $sj-product-liberal-arts-technology to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

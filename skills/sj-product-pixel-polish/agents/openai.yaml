@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Pixel Polish"
+  short_description: "Review the artifact at detail level and improve finish"
+  default_prompt: "Use $sj-product-pixel-polish to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

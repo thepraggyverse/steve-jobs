@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Balanced Builder Audit"
+  short_description: "Check ambition against health, family, joy, and sanity"
+  default_prompt: "Use $sj-learning-balanced-builder-audit to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

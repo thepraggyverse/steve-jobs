@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Ideas From Anywhere"
+  short_description: "Remove hierarchy from idea flow"
+  default_prompt: "Use $sj-people-ideas-from-anywhere to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

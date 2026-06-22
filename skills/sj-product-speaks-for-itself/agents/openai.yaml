@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Speaks For Itself"
+  short_description: "Remove design that requires explanation to make sense"
+  default_prompt: "Use $sj-product-speaks-for-itself to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

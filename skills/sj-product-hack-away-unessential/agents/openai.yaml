@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Hack Away Unessential"
+  short_description: "Remove anything that does not serve the core experience"
+  default_prompt: "Use $sj-product-hack-away-unessential to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

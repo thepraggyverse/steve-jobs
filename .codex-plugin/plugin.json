@@ -1,0 +1,36 @@
+{
+  "name": "steve-jobs",
+  "version": "0.1.0",
+  "description": "Steve Jobs operating skills for product craft, simplification, storytelling, teams, strategy, learning, and failure review.",
+  "author": {
+    "name": "Praggy",
+    "url": "https://github.com/thepraggyverse"
+  },
+  "homepage": "https://github.com/thepraggyverse/steve-jobs",
+  "repository": "https://github.com/thepraggyverse/steve-jobs",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "plugin",
+    "steve-jobs",
+    "product",
+    "strategy",
+    "storytelling"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Steve Jobs",
+    "shortDescription": "Steve Jobs operating skills.",
+    "longDescription": "Steve Jobs provides 80 sj-prefixed Codex skills backed by shared references from Steve Jobs books, interviews, and podcast notes.",
+    "developerName": "Praggy",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/thepraggyverse/steve-jobs",
+    "defaultPrompt": [
+      "Use $sj-core-catalog to choose the right SJ skill.",
+      "Use $sj-product-simplify-to-one on this idea.",
+      "Use $sj-strategy-failure-apprenticeship here."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Mortality Lens"
+  short_description: "Use finitude to clarify courage and priority"
+  default_prompt: "Use $sj-learning-mortality-lens to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

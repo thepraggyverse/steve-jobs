@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Biographies As Mentors"
+  short_description: "Use lives of builders as reusable mentorship"
+  default_prompt: "Use $sj-learning-biographies-as-mentors to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

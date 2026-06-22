@@ -1,0 +1,7 @@
+interface:
+  display_name: "Story Missionary Pr"
+  short_description: "Use publicity to educate, not just hype"
+  default_prompt: "Use $sj-story-missionary-pr to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Andy Grove Correction"
+  short_description: "Accept hard correction from a serious operator"
+  default_prompt: "Use $sj-people-andy-grove-correction to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

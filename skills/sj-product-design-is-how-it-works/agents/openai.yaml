@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Design Is How It Works"
+  short_description: "Judge design by behavior, not surface styling"
+  default_prompt: "Use $sj-product-design-is-how-it-works to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

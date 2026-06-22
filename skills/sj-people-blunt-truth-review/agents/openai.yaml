@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Blunt Truth Review"
+  short_description: "Say the direct thing clearly and usefully"
+  default_prompt: "Use $sj-people-blunt-truth-review to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Core Compound Learning"
+  short_description: "Capture reusable Jobs-derived lessons after each use"
+  default_prompt: "Use $sj-core-compound-learning to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

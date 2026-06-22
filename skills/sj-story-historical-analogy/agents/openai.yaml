@@ -1,0 +1,7 @@
+interface:
+  display_name: "Story Historical Analogy"
+  short_description: "Use history to make the future understandable"
+  default_prompt: "Use $sj-story-historical-analogy to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

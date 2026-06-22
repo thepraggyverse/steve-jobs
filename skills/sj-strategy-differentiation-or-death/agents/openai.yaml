@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strategy Differentiation Or Death"
+  short_description: "Check whether the product is meaningfully different"
+  default_prompt: "Use $sj-strategy-differentiation-or-death to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

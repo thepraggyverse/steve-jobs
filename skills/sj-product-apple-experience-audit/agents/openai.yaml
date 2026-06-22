@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Apple Experience Audit"
+  short_description: "Audit every touchpoint as a trust deposit or withdrawal"
+  default_prompt: "Use $sj-product-apple-experience-audit to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

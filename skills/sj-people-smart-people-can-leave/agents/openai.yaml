@@ -1,0 +1,7 @@
+interface:
+  display_name: "People Smart People Can Leave"
+  short_description: "Remember talented people are volunteers, not possessions"
+  default_prompt: "Use $sj-people-smart-people-can-leave to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

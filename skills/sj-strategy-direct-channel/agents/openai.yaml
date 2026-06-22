@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strategy Direct Channel"
+  short_description: "Build a direct relationship with customers"
+  default_prompt: "Use $sj-strategy-direct-channel to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

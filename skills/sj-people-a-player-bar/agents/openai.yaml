@@ -1,0 +1,7 @@
+interface:
+  display_name: "People A Player Bar"
+  short_description: "Apply an unusually high talent standard"
+  default_prompt: "Use $sj-people-a-player-bar to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

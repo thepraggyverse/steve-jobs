@@ -1,0 +1,7 @@
+interface:
+  display_name: "People One Owner No Committees"
+  short_description: "Assign clear ownership and remove committee drift"
+  default_prompt: "Use $sj-people-one-owner-no-committees to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Story Sell The Improvement"
+  short_description: "Sell the better life, not the product feature"
+  default_prompt: "Use $sj-story-sell-the-improvement to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Simple Stick"
+  short_description: "Challenge undistilled, winding, or overcomplicated thinking"
+  default_prompt: "Use $sj-product-simple-stick to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

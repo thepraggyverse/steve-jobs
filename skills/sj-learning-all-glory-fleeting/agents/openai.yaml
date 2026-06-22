@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning All Glory Fleeting"
+  short_description: "Keep ego and success in perspective"
+  default_prompt: "Use $sj-learning-all-glory-fleeting to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

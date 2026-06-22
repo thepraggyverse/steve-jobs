@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strategy Focus Matrix"
+  short_description: "Reduce product lines, priorities, or bets to a clear grid"
+  default_prompt: "Use $sj-strategy-focus-matrix to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

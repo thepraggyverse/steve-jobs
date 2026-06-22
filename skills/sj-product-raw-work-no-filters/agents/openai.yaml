@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Raw Work No Filters"
+  short_description: "Get decision makers close to the actual artifact"
+  default_prompt: "Use $sj-product-raw-work-no-filters to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

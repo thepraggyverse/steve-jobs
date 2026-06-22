@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strategy Ambush Distribution"
+  short_description: "Meet customers where attention and traffic already are"
+  default_prompt: "Use $sj-strategy-ambush-distribution to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

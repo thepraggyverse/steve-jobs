@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strategy Say Yes Then Learn"
+  short_description: "Commit before full certainty when the risk is survivable"
+  default_prompt: "Use $sj-strategy-say-yes-then-learn to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Endurance Loop"
+  short_description: "Design the repeated effort needed for mastery"
+  default_prompt: "Use $sj-learning-endurance-loop to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Story Number Context"
+  short_description: "Make numbers vivid and meaningful"
+  default_prompt: "Use $sj-story-number-context to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

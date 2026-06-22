@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Regret Vs Mistake"
+  short_description: "Separate reversible mistakes from life regrets"
+  default_prompt: "Use $sj-learning-regret-vs-mistake to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Make Something Wonderful"
+  short_description: "Raise ambition, care, usefulness, and emotional quality"
+  default_prompt: "Use $sj-product-make-something-wonderful to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true

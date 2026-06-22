@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Avocation To Vocation"
+  short_description: "Turn deep curiosity into work"
+  default_prompt: "Use $sj-learning-avocation-to-vocation to apply this Steve Jobs operating pattern to my task."
+
+policy:
+  allow_implicit_invocation: true
