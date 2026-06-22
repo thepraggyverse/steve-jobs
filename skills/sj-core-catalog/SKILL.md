@@ -19,8 +19,8 @@ Choose the right Steve Jobs operating skill and sequence.
 
 ## Read References
 
-- Read `../../references/sj-source-map.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-skill-catalog.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-skill-catalog.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

@@ -1,0 +1,130 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "name": "steve-jobs",
+  "description": "80 sj-prefixed Steve Jobs operating skills for product craft, story, people, strategy, learning, and failure review.",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "label": "Core",
+      "description": "Route a request, choose the right lens, and capture reusable lessons.",
+      "skills": [
+        "sj-core-catalog",
+        "sj-core-compound-learning"
+      ]
+    },
+    {
+      "label": "Product craft",
+      "description": "Simplify product ideas, inspect artifacts, and improve taste, speed, quality, and UX.",
+      "skills": [
+        "sj-product-make-something-wonderful",
+        "sj-product-customer-backwards",
+        "sj-product-bicycle-for-the-mind",
+        "sj-product-liberal-arts-technology",
+        "sj-product-speaks-for-itself",
+        "sj-product-design-is-how-it-works",
+        "sj-product-simplify-to-one",
+        "sj-product-simple-stick",
+        "sj-product-hack-away-unessential",
+        "sj-product-speed-as-feature",
+        "sj-product-apple-experience-audit",
+        "sj-product-back-of-cabinet-quality",
+        "sj-product-taste-review",
+        "sj-product-pixel-polish",
+        "sj-product-no-second-rate-products",
+        "sj-product-beautiful-object-standard",
+        "sj-product-telegraph-to-telephone",
+        "sj-product-founder-workbench",
+        "sj-product-reputation-credits",
+        "sj-product-skepticism-hierarchy",
+        "sj-product-raw-work-no-filters",
+        "sj-product-creative-selection",
+        "sj-product-concrete-artifact-review"
+      ]
+    },
+    {
+      "label": "Story and selling",
+      "description": "Shape launches, demos, value propositions, analogies, and marketing.",
+      "skills": [
+        "sj-story-one-message-marketing",
+        "sj-story-sell-the-improvement",
+        "sj-story-three-act-launch",
+        "sj-story-number-context",
+        "sj-story-historical-analogy",
+        "sj-story-demo-rehearsal-loop",
+        "sj-story-values-marketing",
+        "sj-story-missionary-pr",
+        "sj-story-old-story-new-tool"
+      ]
+    },
+    {
+      "label": "People and leadership",
+      "description": "Raise hiring bars, design strong teams, and improve feedback, trust, and leadership.",
+      "skills": [
+        "sj-people-a-player-bar",
+        "sj-people-missionaries-not-mercenaries",
+        "sj-people-pushback-interview",
+        "sj-people-small-a-team",
+        "sj-people-one-owner-no-committees",
+        "sj-people-blunt-truth-review",
+        "sj-people-no-seagull-management",
+        "sj-people-management-by-values",
+        "sj-people-ideas-from-anywhere",
+        "sj-people-founder-soul-guardian",
+        "sj-people-ceo-at-bottom",
+        "sj-people-confidant-board",
+        "sj-people-ask-for-help",
+        "sj-people-smart-people-can-leave",
+        "sj-people-permanent-ensemble",
+        "sj-people-truth-to-founder",
+        "sj-people-ed-catmull-patience",
+        "sj-people-andy-grove-correction",
+        "sj-people-bob-iger-trust"
+      ]
+    },
+    {
+      "label": "Strategy",
+      "description": "Focus portfolios, choose pivots, handle distribution, and review failure patterns.",
+      "skills": [
+        "sj-strategy-focus-matrix",
+        "sj-strategy-differentiation-or-death",
+        "sj-strategy-innovate-out",
+        "sj-strategy-direct-channel",
+        "sj-strategy-ambush-distribution",
+        "sj-strategy-say-yes-then-learn",
+        "sj-strategy-reality-is-malleable",
+        "sj-strategy-failure-apprenticeship",
+        "sj-strategy-startup-discipline",
+        "sj-strategy-pivot-to-core",
+        "sj-strategy-synthesizer-strategy",
+        "sj-strategy-do-not-overplay-hand",
+        "sj-strategy-build-for-yourself",
+        "sj-strategy-company-as-invention",
+        "sj-strategy-web-as-community"
+      ]
+    },
+    {
+      "label": "Learning and practice",
+      "description": "Turn biographies, practice, mortality, and reflection into reusable operating habits.",
+      "skills": [
+        "sj-learning-biographies-as-mentors",
+        "sj-learning-regret-vs-mistake",
+        "sj-learning-mortality-lens",
+        "sj-learning-avocation-to-vocation",
+        "sj-learning-endurance-loop",
+        "sj-learning-fundamentals-practice",
+        "sj-learning-progressive-summarization",
+        "sj-learning-balanced-builder-audit",
+        "sj-learning-all-glory-fleeting"
+      ]
+    },
+    {
+      "label": "Anti-patterns",
+      "description": "Catch revenge, fake traction, overfunding, and other failure modes early.",
+      "skills": [
+        "sj-anti-revenge-motive-check",
+        "sj-anti-channel-stuffing-check",
+        "sj-anti-too-much-money-check"
+      ]
+    }
+  ]
+}

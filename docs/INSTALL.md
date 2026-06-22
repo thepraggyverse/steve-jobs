@@ -1,30 +1,27 @@
 # Install Guide
 
-This repository can be used in two ways:
+This repository can be used in three ways:
 
-1. As a Codex plugin.
-2. As loose symlinked skill folders for Codex, Claude Code, or another harness.
+1. As a native Codex plugin.
+2. As loose `SKILL.md` folders linked or copied into a harness skill directory.
+3. As a source catalog for installers that read `.claude-plugin/plugin.json` or `skills.sh.json`.
 
-Use the plugin install when your harness supports `.codex-plugin/plugin.json`. Use loose skills when the harness only scans a skill directory.
+Use the native plugin path when your harness supports `.codex-plugin/plugin.json`. Use loose skills when the harness scans a skill directory. Use copy mode when the harness does not follow symlinks.
 
-## Option A: Codex Plugin Install
+## Compatibility Matrix
 
-Clone directly into the default personal plugin location:
+| Harness | Recommended path | Status | Notes |
+|---|---|---|---|
+| Codex App | GitHub marketplace -> native plugin install | Supported | Add `thepraggyverse/steve-jobs` as a custom marketplace, install `steve-jobs`, restart Codex. |
+| Codex CLI | `codex plugin marketplace add` plus `/plugins` | Supported | Marketplace registration makes it visible; the `/plugins` UI activates it. |
+| Local Codex plugin | `scripts/install-local.sh` | Supported | Creates or refreshes `~/plugins/steve-jobs` and `~/.agents/plugins/marketplace.json`. |
+| Codex loose skills | `scripts/link-skills.sh ~/.codex/skills` | Supported | Useful when you want direct skill folders. |
+| Claude Code loose skills | `scripts/link-skills.sh ~/.claude/skills` | Supported | Skills are self-contained and use local references. |
+| Claude plugin-aware loaders | `.claude-plugin/plugin.json` | Manifest included | Use if your loader accepts a local Claude plugin manifest. |
+| Cursor, OpenCode, Gemini, Qwen, Pi, Copilot-style harnesses | Link or copy `skills/sj-*` into that harness skill directory | Portable | These docs avoid claiming a native plugin format unless the harness documents one. |
+| skills.sh-style catalogs | `skills.sh.json` | Manifest included | Grouped by skill family for browsing and installer experiments. |
 
-```bash
-git clone https://github.com/thepraggyverse/steve-jobs.git ~/plugins/steve-jobs
-cd ~/plugins/steve-jobs
-./scripts/install-local.sh
-codex plugin add steve-jobs@personal
-```
-
-Start a new Codex thread, then invoke:
-
-```text
-Use $sj-core-catalog to choose the right Steve Jobs operating skill for this task.
-```
-
-## Option B: Codex App From GitHub
+## Option A: Codex App From GitHub
 
 In the Codex app, add this repository as a custom plugin marketplace:
 
@@ -36,7 +33,13 @@ In the Codex app, add this repository as a custom plugin marketplace:
 
 Then install the **Steve Jobs** plugin from that marketplace and restart Codex.
 
-## Option C: Codex CLI Marketplace
+Invoke:
+
+```text
+Use $sj-core-catalog to choose the right Steve Jobs operating skill for this task.
+```
+
+## Option B: Codex CLI Marketplace
 
 Register the GitHub repository as a marketplace:
 
@@ -53,6 +56,28 @@ CODEX_HOME="$HOME/.codex/profiles/work" codex plugin marketplace add thepraggyve
 CODEX_HOME="$HOME/.codex/profiles/work" codex
 ```
 
+Inside Codex, run `/plugins` from that profile and install `steve-jobs`.
+
+## Option C: Local Codex Plugin
+
+Clone directly into the default personal plugin location:
+
+```bash
+git clone https://github.com/thepraggyverse/steve-jobs.git ~/plugins/steve-jobs
+cd ~/plugins/steve-jobs
+./scripts/install-local.sh
+codex plugin add steve-jobs@personal
+```
+
+If you keep source repos elsewhere:
+
+```bash
+git clone https://github.com/thepraggyverse/steve-jobs.git ~/Developer/steve-jobs
+cd ~/Developer/steve-jobs
+./scripts/install-local.sh
+codex plugin add steve-jobs@personal
+```
+
 ## What The Local Installer Does
 
 `scripts/install-local.sh`:
@@ -63,75 +88,39 @@ CODEX_HOME="$HOME/.codex/profiles/work" codex
 - adds or refreshes the `steve-jobs` entry
 - refuses to overwrite a real, non-symlink directory at `~/plugins/steve-jobs`
 
-The marketplace entry uses:
-
-```json
-{
-  "name": "steve-jobs",
-  "source": {
-    "source": "local",
-    "path": "./plugins/steve-jobs"
-  },
-  "policy": {
-    "installation": "AVAILABLE",
-    "authentication": "ON_INSTALL"
-  },
-  "category": "Productivity"
-}
-```
-
-## Option D: Clone Elsewhere And Symlink The Plugin
-
-If you keep source repos under `~/Developer`:
-
-```bash
-git clone https://github.com/thepraggyverse/steve-jobs.git ~/Developer/steve-jobs
-cd ~/Developer/steve-jobs
-./scripts/install-local.sh
-codex plugin add steve-jobs@personal
-```
-
-The installer creates:
-
-```text
-~/plugins/steve-jobs -> ~/Developer/steve-jobs
-```
-
-## Option E: Loose Skill Symlinks
-
-Codex skill home:
+## Option D: Loose Skill Symlinks
 
 ```bash
 ./scripts/link-skills.sh ~/.codex/skills
-```
-
-Claude Code skill home:
-
-```bash
 ./scripts/link-skills.sh ~/.claude/skills
-```
-
-Custom skill home:
-
-```bash
 ./scripts/link-skills.sh /path/to/skills
 ```
 
-Only product skills:
+Only one group:
 
 ```bash
 ./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'
-```
-
-Only strategy skills:
-
-```bash
+./scripts/link-skills.sh ~/.codex/skills 'sj-story-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-strategy-*'
 ```
 
-## Manual Plugin Install
+## Option E: Copy Skills Instead Of Symlink
 
-If you do not want to run the installer:
+Use copy mode when a harness does not follow symlinks or when you want a frozen snapshot.
+
+```bash
+./scripts/copy-skills.sh ~/.codex/skills
+./scripts/copy-skills.sh ~/.claude/skills
+./scripts/copy-skills.sh /path/to/skills 'sj-product-*'
+```
+
+Copy mode refuses to overwrite existing folders by default. To replace a previous copy intentionally:
+
+```bash
+SKILL_COPY_OVERWRITE=1 ./scripts/copy-skills.sh ~/.codex/skills
+```
+
+## Manual Plugin Install
 
 ```bash
 mkdir -p ~/plugins ~/.agents/plugins
@@ -173,19 +162,24 @@ Expected:
 
 ```text
 80 skills
-8 references
+8 root references
 ```
 
 ## Update
 
 ```bash
 cd ~/plugins/steve-jobs
-git pull
-./scripts/install-local.sh
-codex plugin add steve-jobs@personal
+./scripts/update-local.sh
 ```
 
-Start a new Codex thread after reinstalling.
+For copied loose skills:
+
+```bash
+git pull --ff-only
+SKILL_COPY_OVERWRITE=1 ./scripts/copy-skills.sh ~/.codex/skills
+```
+
+Start a new agent session after updating so cached skill text reloads.
 
 ## Uninstall
 
@@ -200,6 +194,13 @@ If you linked loose skills:
 ```bash
 find ~/.codex/skills -maxdepth 1 -type l -name 'sj-*' -delete
 find ~/.claude/skills -maxdepth 1 -type l -name 'sj-*' -delete
+```
+
+If you copied loose skills:
+
+```bash
+find ~/.codex/skills -maxdepth 1 -type d -name 'sj-*' -exec rm -rf {} +
+find ~/.claude/skills -maxdepth 1 -type d -name 'sj-*' -exec rm -rf {} +
 ```
 
 If you want to remove the marketplace entry too, delete the `steve-jobs` object from `~/.agents/plugins/marketplace.json`.

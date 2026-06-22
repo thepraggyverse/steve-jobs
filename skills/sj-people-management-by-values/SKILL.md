@@ -19,8 +19,8 @@ Align destination and values, then allow flexible routes.
 
 ## Read References
 
-- Read `../../references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

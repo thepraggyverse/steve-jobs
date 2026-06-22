@@ -19,8 +19,8 @@ Use history to make the future understandable.
 
 ## Read References
 
-- Read `../../references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

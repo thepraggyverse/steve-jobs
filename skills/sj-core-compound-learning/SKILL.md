@@ -19,8 +19,8 @@ Capture reusable Jobs-derived lessons after each use.
 
 ## Read References
 
-- Read `../../references/sj-source-map.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-skill-catalog.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-skill-catalog.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

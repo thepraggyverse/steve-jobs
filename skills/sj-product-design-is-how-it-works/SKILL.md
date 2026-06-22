@@ -19,8 +19,8 @@ Judge design by behavior, not surface styling.
 
 ## Read References
 
-- Read `../../references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

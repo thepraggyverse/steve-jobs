@@ -19,8 +19,8 @@ Build a direct relationship with customers.
 
 ## Read References
 
-- Read `../../references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

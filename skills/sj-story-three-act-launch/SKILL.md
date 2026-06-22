@@ -19,8 +19,8 @@ Build the problem, meaning, solution arc.
 
 ## Read References
 
-- Read `../../references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

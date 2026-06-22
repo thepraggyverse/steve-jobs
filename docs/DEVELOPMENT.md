@@ -26,6 +26,8 @@ Each skill should contain:
 skills/<skill-name>/
   SKILL.md
   agents/openai.yaml
+  references/
+    sj-*.md
 ```
 
 `SKILL.md` should stay lean:
@@ -42,9 +44,11 @@ Do not paste book chapters or long excerpts into skills.
 
 ## References
 
-Shared references live in `references/` and are loaded only when useful.
+Root reference copies live in `references/` for maintainers and docs.
 
-Current reference set:
+Runtime skills must reference only files inside their own directory tree, usually `references/<file>.md`. If a skill needs a root reference, copy it into that skill's local `references/` folder.
+
+Current root reference set:
 
 ```text
 sj-source-map.md
@@ -55,6 +59,25 @@ sj-people-leadership.md
 sj-strategy-failure.md
 sj-learning-practice.md
 sj-anti-patterns.md
+```
+
+## Updating Skill Lists
+
+When adding, removing, or renaming a skill, update:
+
+```text
+assets/sj-skills.csv
+references/sj-skill-catalog.md
+README.md
+docs/SKILL_REFERENCE.md
+skills.sh.json
+.claude-plugin/plugin.json
+```
+
+Then run:
+
+```bash
+./scripts/validate.sh
 ```
 
 ## Validation
@@ -76,18 +99,6 @@ the validation script will use them automatically.
 
 ## Public Safety
 
-This repository should contain:
+This repository should contain skill workflows, paraphrased operating principles, source titles, compact references, and install scripts.
 
-- skill workflows
-- paraphrased operating principles
-- source titles
-- compact references
-- install scripts
-
-It should not contain:
-
-- full books
-- full transcripts
-- long copyrighted excerpts
-- private notes the user did not intend to publish
-- local machine secrets
+It should not contain full books, full transcripts, long copyrighted excerpts, private notes the user did not intend to publish, local machine secrets, or local absolute paths in runtime skill content.

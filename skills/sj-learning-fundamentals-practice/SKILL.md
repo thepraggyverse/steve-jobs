@@ -19,8 +19,8 @@ Return to the basic reps that compound.
 
 ## Read References
 
-- Read `../../references/sj-learning-practice.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-source-map.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-learning-practice.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

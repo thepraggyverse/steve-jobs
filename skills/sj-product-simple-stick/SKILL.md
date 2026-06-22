@@ -19,8 +19,8 @@ Challenge undistilled, winding, or overcomplicated thinking.
 
 ## Read References
 
-- Read `../../references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
-- Read `../../references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
+- Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
 ## Output
 

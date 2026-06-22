@@ -1,31 +1,32 @@
-# Steve Jobs Codex Plugin [![Validate](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml/badge.svg)](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml)
+# Steve Jobs Operating Skills [![Validate](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml/badge.svg)](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml)
 
-An unofficial Codex plugin with **80 `sj-*` skills** for product craft, simplicity, storytelling, hiring, strategy, learning, and failure review.
+**80 `sj-*` skills for product craft, simplification, storytelling, hiring, strategy, learning, and failure review.**
 
-The goal is simple: make Steve Jobs-derived operating patterns easy to invoke inside Codex and other agent harnesses without stuffing an entire book summary into every prompt.
+These skills help an agent apply Steve Jobs-derived operating patterns to a real artifact: a product idea, screen, launch story, hiring decision, strategy memo, failure review, or learning loop. They are not a personality simulator. The useful output is a clearer product, sharper story, higher bar, better decision, or reusable lesson.
 
-This repository does **not** include source books, full transcripts, or long copyrighted excerpts. It contains compact skill workflows, paraphrased references, source-title notes, install scripts, and examples.
+The repo works as a Codex plugin and as plain `SKILL.md` folders for harnesses that scan a skills directory. Runtime skills are small and self-contained so individual folders can be symlinked, copied, or converted without breaking their references.
 
-## Philosophy
+This repository does not include source books, full transcripts, or long copyrighted excerpts. It contains compact workflows, paraphrased reference notes, source-title notes, install scripts, and examples.
 
-Each pass through a product, strategy, story, or team decision should make the next pass sharper.
+## What The Skills Do
 
-A good Jobs-style review is not cosplay. It should produce leverage:
-
-- clearer product intent
-- fewer features fighting for attention
-- a stronger user-facing story
-- higher hiring and craft standards
-- more honest failure review
-- reusable lessons for the next agent session
+| Group | Count | What it does | Example skills |
+| --- | --- | --- | --- |
+| Core | 2 | Route requests, choose the right lens, and capture reusable lessons. | `$sj-core-catalog`, `$sj-core-compound-learning` |
+| Product craft | 23 | Simplify products, inspect artifacts, improve taste, craft, speed, and UX. | `$sj-product-simplify-to-one`, `$sj-product-customer-backwards`, `$sj-product-taste-review` |
+| Story and selling | 9 | Shape launches, demos, value propositions, analogies, and marketing. | `$sj-story-one-message-marketing`, `$sj-story-sell-the-improvement`, `$sj-story-three-act-launch` |
+| People and leadership | 19 | Raise the talent bar, improve leadership, feedback, trust, and team design. | `$sj-people-a-player-bar`, `$sj-people-missionaries-not-mercenaries`, `$sj-people-truth-to-founder` |
+| Strategy | 15 | Focus the portfolio, handle pivots, negotiate, and review failure patterns. | `$sj-strategy-focus-matrix`, `$sj-strategy-differentiation-or-death`, `$sj-strategy-failure-apprenticeship` |
+| Learning and practice | 9 | Turn books, practice, mortality, and reflection into reusable operating habits. | `$sj-learning-biographies-as-mentors`, `$sj-learning-progressive-summarization`, `$sj-learning-mortality-lens` |
+| Anti-patterns | 3 | Catch ego, fake traction, overfunding, revenge, and other failure modes early. | `$sj-anti-revenge-motive-check`, `$sj-anti-channel-stuffing-check`, `$sj-anti-too-much-money-check` |
 
 ## The Core Loop
 
-| Step | Skill | What It Does | Output |
-|---|---|---|---|
+| Step | Skill | What happens | Output |
+| --- | --- | --- | --- |
 | 1 | `$sj-core-catalog` | Choose the right Jobs lens or sequence. | Skill route and order |
-| 2 | One domain skill | Product, story, people, strategy, learning, or anti-pattern review. | Concrete critique or draft |
-| 3 | Artifact pass | Apply the critique to the real product, plan, copy, decision, or demo. | Next artifact to inspect |
+| 2 | A domain skill | Review the product, story, people, strategy, learning, or anti-pattern question. | Concrete critique or draft |
+| 3 | Artifact pass | Apply the critique to the real screen, plan, copy, decision, demo, or memo. | Next artifact to inspect |
 | 4 | `$sj-core-compound-learning` | Capture what should become reusable. | Future-facing lesson |
 
 Typical prompt:
@@ -42,23 +43,11 @@ Use $sj-story-sell-the-improvement to rewrite this feature list.
 Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.
 ```
 
-## Skill Groups
-
-| Group | Count | When To Use | Example Skills |
-|---|---:|---|---|
-| Core | 2 | Route requests, choose a lens, and capture reusable lessons. | `$sj-core-catalog`, `$sj-core-compound-learning` |
-| Product craft | 23 | Simplify products, inspect artifacts, improve taste, craft, speed, and UX. | `$sj-product-make-something-wonderful`, `$sj-product-customer-backwards`, `$sj-product-bicycle-for-the-mind` |
-| Story and selling | 9 | Shape launches, demos, value propositions, analogies, and marketing. | `$sj-story-one-message-marketing`, `$sj-story-sell-the-improvement`, `$sj-story-three-act-launch` |
-| People and leadership | 19 | Raise the talent bar, improve leadership, feedback, trust, and team design. | `$sj-people-a-player-bar`, `$sj-people-missionaries-not-mercenaries`, `$sj-people-pushback-interview` |
-| Strategy | 15 | Focus the portfolio, handle pivots, negotiate, and review failure patterns. | `$sj-strategy-focus-matrix`, `$sj-strategy-differentiation-or-death`, `$sj-strategy-innovate-out` |
-| Learning and practice | 9 | Turn books, practice, mortality, and reflection into reusable operating habits. | `$sj-learning-biographies-as-mentors`, `$sj-learning-regret-vs-mistake`, `$sj-learning-mortality-lens` |
-| Anti-patterns | 3 | Catch ego, fake traction, overfunding, revenge, and other failure modes early. | `$sj-anti-revenge-motive-check`, `$sj-anti-channel-stuffing-check`, `$sj-anti-too-much-money-check` |
-
 ## Quick Examples
 
-| Situation | Use | Example Prompt | Expected Shape |
-|---|---|---|---|
-| A product idea has too many features. | `$sj-product-simplify-to-one` | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | One core job, cuts, tradeoff, next artifact |
+| Situation | Use | Example prompt | Expected shape |
+| --- | --- | --- | --- |
+| A product idea has too many features. | `$sj-product-simplify-to-one` | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | One user job, cuts, tradeoff, next artifact |
 | A UI needs explaining. | `$sj-product-speaks-for-itself` | `Use $sj-product-speaks-for-itself to audit this onboarding flow.` | Explanation dependencies and simplifications |
 | A feature list sounds boring. | `$sj-story-sell-the-improvement` | `Use $sj-story-sell-the-improvement to rewrite this feature list.` | Customer improvement, proof, sharper copy |
 | A launch needs structure. | `$sj-story-three-act-launch` | `Use $sj-story-three-act-launch to structure this product announcement.` | Problem, meaning, solution, demo beats |
@@ -68,26 +57,12 @@ Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.
 | Success is distorting judgment. | `$sj-learning-all-glory-fleeting` | `Use $sj-learning-all-glory-fleeting to deflate this ego trap.` | Perspective, risk, grounding action |
 | Funding is making the team soft. | `$sj-anti-too-much-money-check` | `Use $sj-anti-too-much-money-check to audit this funding plan.` | Failure pattern, evidence, correction |
 
-More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md).
-
-## Compounding With SJ Skills
-
-This plugin is meant to improve with use. A Jobs-style review should sharpen the artifact in front of you and leave behind a reusable lesson for the next session.
-
-| Phase | Question | Useful Skills |
-|---|---|---|
-| Sense | What kind of problem is this? | `$sj-core-catalog` |
-| Ground | What artifact or evidence are we judging? | `$sj-product-concrete-artifact-review`, `$sj-product-raw-work-no-filters` |
-| Simplify | What is the one thing that matters? | `$sj-product-simplify-to-one`, `$sj-product-hack-away-unessential` |
-| Raise the bar | Where is the standard too low? | `$sj-product-taste-review`, `$sj-people-a-player-bar` |
-| Compound | What should the system remember? | `$sj-core-compound-learning`, `$sj-learning-progressive-summarization` |
-
-See [`docs/COMPOUNDING.md`](docs/COMPOUNDING.md) for maturity stages, beliefs to adopt, and reusable capture patterns.
+More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples for every skill live in [`docs/SKILL_REFERENCE.md`](docs/SKILL_REFERENCE.md).
 
 ## Full Skill Inventory
 
 | Skill | Purpose |
-|---|---|
+| --- | --- |
 | `$sj-core-catalog` | Choose the right Steve Jobs operating skill and sequence. |
 | `$sj-core-compound-learning` | Capture reusable Jobs-derived lessons after each use. |
 | `$sj-product-make-something-wonderful` | Raise ambition, care, usefulness, and emotional quality. |
@@ -169,41 +144,53 @@ See [`docs/COMPOUNDING.md`](docs/COMPOUNDING.md) for maturity stages, beliefs to
 | `$sj-anti-channel-stuffing-check` | Separate real traction from fake comfort. |
 | `$sj-anti-too-much-money-check` | Prevent abundant funding from killing discipline. |
 
-For examples for every skill, see [`docs/SKILL_REFERENCE.md`](docs/SKILL_REFERENCE.md).
-
 ## Repository Layout
 
 | Path | Purpose |
-|---|---|
-| `.agents/plugins/marketplace.json` | Repo-local marketplace entry for GitHub/custom marketplace installs |
-| `.codex-plugin/plugin.json` | Codex plugin manifest |
-| `skills/` | 80 runtime skill folders |
-| `references/` | Shared Jobs-derived references loaded only when useful |
-| `assets/sj-skills.csv` | Machine-readable skill catalog |
-| `scripts/install-local.sh` | Local Codex plugin installer |
-| `scripts/link-skills.sh` | Symlink skills into Codex, Claude, or another harness |
-| `scripts/validate.sh` | Public validation script |
-| `docs/INSTALL.md` | Detailed install and update guide |
-| `docs/SYMLINKS.md` | Symlink recipes and collision policy |
-| `docs/SKILL_REFERENCE.md` | Full skill table with examples |
-| `docs/EXAMPLES.md` | Scenario-based usage examples |
-| `docs/COMPOUNDING.md` | Compound-style operating loop for SJ skills |
-| `docs/PLUGIN_ARCHITECTURE.md` | Plugin structure and public-safety policy |
+| --- | --- |
+| `AGENTS.md` | Canonical authoring instructions for this repository. |
+| `CLAUDE.md`, `GEMINI.md` | Compatibility shims that point to `AGENTS.md`. |
+| `CONTEXT.md` | Vocabulary for maintainers and agents working in this repo. |
+| `.agents/plugins/marketplace.json` | Repo-local marketplace entry for GitHub/custom marketplace installs. |
+| `.codex-plugin/plugin.json` | Native Codex plugin manifest. |
+| `.claude-plugin/plugin.json` | Simple Claude-style skill manifest listing all skill folders. |
+| `skills.sh.json` | Grouped skill catalog for skills.sh-style installers and audits. |
+| `skills/sj-*` | 80 runtime skill folders. Each folder is self-contained. |
+| `skills/sj-*/references/` | Skill-local reference notes used at runtime. |
+| `references/` | Root maintainer copies of the compact reference notes. |
+| `assets/sj-skills.csv` | Machine-readable skill catalog. |
+| `scripts/install-local.sh` | Local Codex plugin installer. |
+| `scripts/link-skills.sh` | Symlink skills into Codex, Claude, or another harness. |
+| `scripts/copy-skills.sh` | Copy skills into harnesses that do not follow symlinks. |
+| `scripts/update-local.sh` | Pull, reinstall the local plugin pointer, and validate. |
+| `scripts/validate.sh` | Public validation script. |
+| `docs/` | Install, harness, update, audit, architecture, examples, and reference docs. |
 
 ## Install Matrix
 
-| Target | Command | Notes |
-|---|---|---|
-| Codex App from GitHub | Add marketplace source `thepraggyverse/steve-jobs` | Git ref `main`, sparse paths blank |
-| Codex CLI marketplace | `codex plugin marketplace add thepraggyverse/steve-jobs` | Then install `steve-jobs` from `/plugins` |
-| Codex plugin, default local path | `git clone https://github.com/thepraggyverse/steve-jobs.git ~/plugins/steve-jobs && cd ~/plugins/steve-jobs && ./scripts/install-local.sh` | Then run `codex plugin add steve-jobs@personal` |
-| Codex plugin, repo cloned elsewhere | `./scripts/install-local.sh` | Creates `~/plugins/steve-jobs` symlink to this checkout |
-| Codex loose skills | `./scripts/link-skills.sh ~/.codex/skills` | Useful when you want direct skill folders |
-| Claude Code loose skills | `./scripts/link-skills.sh ~/.claude/skills` | Symlinks all `sj-*` folders |
-| Custom harness | `./scripts/link-skills.sh /path/to/skills` | Works for any directory-scanning harness |
-| One skill group | `./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'` | Also supports `sj-story-*`, `sj-people-*`, etc. |
+| Target | Best path | Command or action |
+| --- | --- | --- |
+| Codex App | Native plugin marketplace | Add GitHub marketplace `thepraggyverse/steve-jobs`, install `steve-jobs`, restart Codex. |
+| Codex CLI | Marketplace plus `/plugins` UI | `codex plugin marketplace add thepraggyverse/steve-jobs`, then install from `/plugins`. |
+| Local Codex plugin | Local marketplace entry | `git clone https://github.com/thepraggyverse/steve-jobs.git ~/plugins/steve-jobs && cd ~/plugins/steve-jobs && ./scripts/install-local.sh` |
+| Codex loose skills | Symlink or copy skill folders | `./scripts/link-skills.sh ~/.codex/skills` |
+| Claude Code loose skills | Symlink or copy skill folders | `./scripts/link-skills.sh ~/.claude/skills` |
+| Claude plugin-aware loaders | Use `.claude-plugin/plugin.json` | Import this checkout if your loader accepts a local Claude plugin manifest. |
+| Cursor, OpenCode, Gemini, Qwen, Pi, Copilot-style harnesses | Plain `SKILL.md` folders | Use that harness skill directory with `scripts/link-skills.sh` or `scripts/copy-skills.sh`. |
+| skills.sh-style catalogs | `skills.sh.json` | Use the grouped manifest to browse or install the `sj-*` skills. |
 
-Full installation details live in [`docs/INSTALL.md`](docs/INSTALL.md).
+Full install details: [`docs/INSTALL.md`](docs/INSTALL.md). Harness notes: [`docs/HARNESSES.md`](docs/HARNESSES.md). Symlink and copy recipes: [`docs/SYMLINKS.md`](docs/SYMLINKS.md).
+
+## Update
+
+```bash
+cd ~/plugins/steve-jobs
+./scripts/update-local.sh
+```
+
+For a loose symlink install, `git pull --ff-only` is enough because the harness points at this checkout. For copied skills, rerun `scripts/copy-skills.sh` with `SKILL_COPY_OVERWRITE=1`.
+
+More detail: [`docs/UPDATE.md`](docs/UPDATE.md).
 
 ## Validate
 
@@ -211,52 +198,33 @@ Full installation details live in [`docs/INSTALL.md`](docs/INSTALL.md).
 ./scripts/validate.sh
 ```
 
-The validator checks:
-
-- exactly 80 skill folders
-- exactly 8 shared references
-- each skill has `SKILL.md`
-- each skill has `agents/openai.yaml`
-- each skill frontmatter name matches its folder
-- `agents/openai.yaml` default prompt mentions the skill
-- plugin manifest parses as JSON
-- local Codex validators, when available
-
-## Update
-
-```bash
-cd ~/plugins/steve-jobs
-git pull
-./scripts/install-local.sh
-codex plugin add steve-jobs@personal
-```
-
-Start a new Codex thread after reinstalling so the updated skills load.
+The validator checks exactly 80 skills, exactly 8 root references, required repo docs and manifests, skill frontmatter, `agents/openai.yaml`, skill-local runtime references, JSON manifests, and local Codex authoring validators when available.
 
 ## Design Notes
 
-This package follows three constraints:
+This package follows five constraints:
 
 1. Every skill starts with `sj-` so search is easy.
 2. Each `SKILL.md` stays small and procedural.
-3. Shared references hold the broader Jobs-derived ideas so every skill does not duplicate the same context.
+3. Each runtime skill is self-contained, with local `references/` files.
+4. Human-facing tables and examples live in docs, not every runtime skill.
+5. The public repo contains operating patterns and paraphrase, not source texts.
 
-The structure was influenced by public skill/plugin repositories such as:
+The structure was audited against:
 
-- <https://github.com/mattpocock/skills>
-- <https://github.com/EveryInc/compound-engineering-plugin>
-- <https://github.com/EveryInc/compound-knowledge-plugin>
-- <https://github.com/steipete/agent-scripts/tree/main/skills>
+- [Every's compound engineering guide](https://every.to/guides/compound-engineering)
+- [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)
+- [mattpocock/skills](https://github.com/mattpocock/skills)
+- [EveryInc/compound-knowledge-plugin](https://github.com/EveryInc/compound-knowledge-plugin)
+- [steipete/agent-scripts skills](https://github.com/steipete/agent-scripts/tree/main/skills)
 
-The compounding workflow framing is also influenced by Every's guide to compound engineering:
-
-- <https://every.to/guides/compound-engineering>
+See [`docs/AUDIT.md`](docs/AUDIT.md) for what was adopted and what was intentionally left out.
 
 ## FAQ
 
 ### Is this official?
 
-No. This is an unofficial educational and productivity project.
+No. It is an independent educational and productivity project. The useful part is the skill pack: compact operating workflows inspired by Steve Jobs-related public materials.
 
 ### Does this include the books or transcripts?
 
@@ -264,19 +232,19 @@ No. It intentionally avoids full books, full transcripts, and long copyrighted e
 
 ### Why 80 skills instead of one big skill?
 
-Small skills are easier to trigger, search, inspect, symlink, and compose. `$sj-core-catalog` is the router when you do not know which one to use.
+Small skills are easier to trigger, search, inspect, symlink, copy, validate, and compose. `sj-core-catalog` is the router when you do not know which one to use.
 
 ### Can I use only a few skills?
 
-Yes. Use `scripts/link-skills.sh` with a pattern such as `sj-product-*` or copy specific skill folders manually.
+Yes. Use `scripts/link-skills.sh` or `scripts/copy-skills.sh` with a pattern such as `sj-product-*`, `sj-story-*`, or `sj-strategy-*`.
 
 ### Do I need the plugin wrapper?
 
-No. The plugin wrapper is best for Codex plugin workflows. The `skills/` folders can also be used directly by any harness that reads skill directories.
+No. The plugin wrapper is best for Codex native plugin workflows. The `skills/` folders can also be used directly by any harness that reads skill directories.
 
 ## Disclaimer
 
-This is an unofficial educational and productivity project. It is not affiliated with Apple, Steve Jobs, the Steve Jobs Archive, publishers, authors, or rights holders. "Steve Jobs" is used descriptively to identify the inspiration for the operating patterns.
+This is an independent educational and productivity project. It is not affiliated with Apple, Steve Jobs, the Steve Jobs Archive, publishers, authors, podcast hosts, or rights holders. "Steve Jobs" is used descriptively to identify the inspiration for the operating patterns.
 
 ## License
 
