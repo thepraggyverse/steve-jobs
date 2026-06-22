@@ -1,0 +1,20 @@
+{
+  "name": "steve-jobs-plugin",
+  "interface": {
+    "displayName": "Steve Jobs"
+  },
+  "plugins": [
+    {
+      "name": "steve-jobs",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

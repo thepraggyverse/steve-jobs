@@ -15,6 +15,7 @@ root = Path(os.environ["ROOT"])
 skills_dir = root / "skills"
 refs_dir = root / "references"
 plugin_json = root / ".codex-plugin" / "plugin.json"
+marketplace_json = root / ".agents" / "plugins" / "marketplace.json"
 
 skills = sorted(p for p in skills_dir.iterdir() if p.is_dir() and p.name.startswith("sj-"))
 refs = sorted(refs_dir.glob("sj-*.md"))
@@ -54,6 +55,19 @@ else:
         errors.append("plugin manifest name must be steve-jobs")
     if manifest.get("skills") != "./skills/":
         errors.append("plugin manifest skills path must be ./skills/")
+
+try:
+    marketplace = json.loads(marketplace_json.read_text())
+except Exception as exc:
+    errors.append(f"marketplace manifest is not valid JSON: {exc}")
+else:
+    if marketplace.get("name") != "steve-jobs-plugin":
+        errors.append("marketplace name must be steve-jobs-plugin")
+    entries = marketplace.get("plugins")
+    if not isinstance(entries, list):
+        errors.append("marketplace plugins must be an array")
+    elif not any(entry.get("name") == "steve-jobs" for entry in entries if isinstance(entry, dict)):
+        errors.append("marketplace must include steve-jobs plugin entry")
 
 if errors:
     for error in errors:

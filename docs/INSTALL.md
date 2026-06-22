@@ -24,7 +24,36 @@ Start a new Codex thread, then invoke:
 Use $sj-core-catalog to choose the right Steve Jobs operating skill for this task.
 ```
 
-### What The Installer Does
+## Option B: Codex App From GitHub
+
+In the Codex app, add this repository as a custom plugin marketplace:
+
+| Field | Value |
+|---|---|
+| Source | `thepraggyverse/steve-jobs` |
+| Git ref | `main` |
+| Sparse paths | leave blank |
+
+Then install the **Steve Jobs** plugin from that marketplace and restart Codex.
+
+## Option C: Codex CLI Marketplace
+
+Register the GitHub repository as a marketplace:
+
+```bash
+codex plugin marketplace add thepraggyverse/steve-jobs
+```
+
+Then launch Codex, open `/plugins`, select the **Steve Jobs** marketplace, install `steve-jobs`, and restart Codex.
+
+For a non-default Codex profile, keep the marketplace and install steps on the same `CODEX_HOME`:
+
+```bash
+CODEX_HOME="$HOME/.codex/profiles/work" codex plugin marketplace add thepraggyverse/steve-jobs
+CODEX_HOME="$HOME/.codex/profiles/work" codex
+```
+
+## What The Local Installer Does
 
 `scripts/install-local.sh`:
 
@@ -51,7 +80,7 @@ The marketplace entry uses:
 }
 ```
 
-## Option B: Clone Elsewhere And Symlink The Plugin
+## Option D: Clone Elsewhere And Symlink The Plugin
 
 If you keep source repos under `~/Developer`:
 
@@ -68,7 +97,7 @@ The installer creates:
 ~/plugins/steve-jobs -> ~/Developer/steve-jobs
 ```
 
-## Option C: Loose Skill Symlinks
+## Option E: Loose Skill Symlinks
 
 Codex skill home:
 
