@@ -30,6 +30,16 @@ Expected shape:
 | Hidden quality risk | `Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project.` | Reviews internal details that shape trust even when users never see them. |
 | Usability gap | `Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph.` | Turns expert workflow into ordinary-user flow. |
 
+## Jony Ive Design Studio Examples
+
+| Situation | Prompt | What Good Output Looks Like |
+|---|---|---|
+| Technical product feels cold | `Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable.` | Finds cold points, desired human feeling, copy changes, interaction changes, and a next prototype. |
+| First moment matters | `Use $sj-ive-first-touch-moment to review the first moment someone experiences this product.` | Reviews the first sequence, immediate trust signals, withdrawals, and a more generous first encounter. |
+| Design debate is abstract | `Use $sj-ive-prototype-volume to turn this design debate into a prototype selection loop.` | Defines the smallest comparable prototype, variants, and selection criteria. |
+| Object or UI feels careless | `Use $sj-ive-care-is-felt to find where this product feels cared for or careless.` | Separates functional correctness from felt quality and names high-leverage details. |
+| Redesign risks betrayal | `Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it.` | Separates enduring soul from nostalgia and defines continuity signals plus transition proof. |
+
 ## Story And Selling Examples
 
 | Situation | Prompt | What Good Output Looks Like |
@@ -80,6 +90,16 @@ Then use $sj-product-customer-backwards.
 Then use $sj-product-simplify-to-one.
 Then use $sj-story-sell-the-improvement.
 Then use $sj-core-compound-learning to capture what we learned.
+```
+
+A useful chain for product craft and tactile design:
+
+```text
+Use $sj-product-customer-backwards to define the user experience.
+Then use $sj-product-simplify-to-one to cut to the core job.
+Then use $sj-ive-design-story to find the design story.
+Then use $sj-ive-prototype-volume to compare concrete variants.
+Then use $sj-ive-care-is-felt to inspect the chosen artifact.
 ```
 
 A useful chain for a failed project:

@@ -1,7 +1,7 @@
 {
   "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
   "name": "steve-jobs",
-  "description": "81 sj-prefixed Steve Jobs operating skills for product craft, story, people, strategy, learning, and failure review.",
+  "description": "91 sj-prefixed Steve Jobs and Jony Ive operating skills for product craft, design, story, people, strategy, learning, and failure review.",
   "notGrouped": "bottom",
   "groupings": [
     {
@@ -40,6 +40,22 @@
         "sj-product-raw-work-no-filters",
         "sj-product-creative-selection",
         "sj-product-concrete-artifact-review"
+      ]
+    },
+    {
+      "label": "Jony Ive design studio",
+      "description": "Make product decisions tactile through story, care, materials, first touch, prototypes, manufacturing, and modernization.",
+      "skills": [
+        "sj-ive-design-story",
+        "sj-ive-humanize-technology",
+        "sj-ive-first-touch-moment",
+        "sj-ive-prototype-volume",
+        "sj-ive-material-honesty",
+        "sj-ive-manufacturing-as-design",
+        "sj-ive-care-is-felt",
+        "sj-ive-better-not-different",
+        "sj-ive-fragile-idea-protection",
+        "sj-ive-future-without-betrayal"
       ]
     },
     {
@@ -120,7 +136,7 @@
     },
     {
       "label": "Anti-patterns",
-      "description": "Catch revenge, fake traction, overfunding, and other failure modes early.",
+      "description": "Catch ego, fake traction, overfunding, revenge, and other failure modes early.",
       "skills": [
         "sj-anti-revenge-motive-check",
         "sj-anti-channel-stuffing-check",

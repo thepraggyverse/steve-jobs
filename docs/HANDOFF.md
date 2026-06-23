@@ -6,8 +6,8 @@ Use this document when preparing a release, passing the repo to another agent, o
 
 | Surface | Expected state |
 |---|---|
-| Skill count | 81 `sj-*` runtime skills |
-| Root references | 8 `references/sj-*.md` maintainer files |
+| Skill count | 91 `sj-*` runtime skills |
+| Root references | 9 `references/sj-*.md` maintainer files |
 | Native Codex plugin | `.codex-plugin/plugin.json` points at `./skills/` |
 | Claude-style manifest | `.claude-plugin/plugin.json` lists every `./skills/sj-*` folder |
 | skills.sh catalog | `skills.sh.json` lists every skill exactly once |

@@ -1,6 +1,6 @@
 ---
 name: sj-core-catalog
-description: "Choose the right Steve Jobs operating skill and sequence. Use when the user asks for a Steve Jobs lens, Jobs-style critique, simplification, product craft, launch thinking, hiring bar, failure review, or does not know which sj skill to use."
+description: "Choose the right Steve Jobs operating skill and sequence. Use when the user asks for a Jobs lens, Ive design studio lens, simplification, product craft, launch thinking, hiring bar, failure review, or does not know which sj skill to use."
 ---
 
 # Catalog and router
@@ -21,6 +21,12 @@ Choose the right Steve Jobs operating skill and sequence.
 
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-skill-catalog.md` when this skill needs source grounding or deeper examples.
+
+## Routing Notes
+
+- Use `sj-product-*` skills for product direction, simplification, quality bar, usability, and artifact review.
+- Use `sj-ive-*` skills for design story, care, first touch, material, prototype selection, manufacturing reality, and modernization without loss of soul.
+- Use `sj-story-*`, `sj-people-*`, `sj-strategy-*`, `sj-learning-*`, and `sj-anti-*` when those domains are the main constraint.
 
 ## Output
 

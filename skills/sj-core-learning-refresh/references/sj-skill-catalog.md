@@ -5,8 +5,8 @@ Use this compact catalog when refreshing saved learning notes and checking wheth
 ## Core
 
 - `$sj-core-catalog`: Choose the right Steve Jobs operating skill and sequence.
-- `$sj-core-compound-learning`: Capture approved reusable Jobs-derived lessons.
-- `$sj-core-learning-refresh`: Audit saved SJ learning notes for drift, duplication, and weak retrieval.
+- `$sj-core-compound-learning`: Capture 1-3 approved Jobs-derived lessons into a durable project learning store.
+- `$sj-core-learning-refresh`: Audit saved Steve Jobs learning notes for stale, duplicate, generic, contradictory, or low-confidence guidance.
 
 ## Product craft
 
@@ -33,6 +33,19 @@ Use this compact catalog when refreshing saved learning notes and checking wheth
 - `$sj-product-raw-work-no-filters`: Get decision makers close to the actual artifact.
 - `$sj-product-creative-selection`: Run a concrete demo-driven iteration loop.
 - `$sj-product-concrete-artifact-review`: Force decisions around visible work rather than ideas.
+
+## Jony Ive design studio
+
+- `$sj-ive-design-story`: Find the product's design story before debating features.
+- `$sj-ive-humanize-technology`: Make technology feel approachable, friendly, touchable, and emotionally legible.
+- `$sj-ive-first-touch-moment`: Audit the first thing a user sees, opens, touches, hears, wears, or feels.
+- `$sj-ive-prototype-volume`: Replace argument with many concrete models and selection.
+- `$sj-ive-material-honesty`: Review material, finish, weight, color, sound, edge, and texture as part of the idea.
+- `$sj-ive-manufacturing-as-design`: Treat production, tooling, suppliers, and implementation constraints as part of design.
+- `$sj-ive-care-is-felt`: Audit whether users can sense care or carelessness in an artifact.
+- `$sj-ive-better-not-different`: Test whether novelty makes the product better, not merely different.
+- `$sj-ive-fragile-idea-protection`: Protect early promising ideas from premature committee, metric, or engineering flattening.
+- `$sj-ive-future-without-betrayal`: Move a beloved product, brand, or category into the future without losing its soul.
 
 ## Story and selling
 
@@ -86,7 +99,7 @@ Use this compact catalog when refreshing saved learning notes and checking wheth
 - `$sj-strategy-company-as-invention`: Treat the company as the machine that makes great products.
 - `$sj-strategy-web-as-community`: Use the web as relationship infrastructure.
 
-## Learning and anti-patterns
+## Learning and practice
 
 - `$sj-learning-biographies-as-mentors`: Use lives of builders as reusable mentorship.
 - `$sj-learning-regret-vs-mistake`: Separate reversible mistakes from life regrets.
@@ -97,6 +110,9 @@ Use this compact catalog when refreshing saved learning notes and checking wheth
 - `$sj-learning-progressive-summarization`: Turn books, podcasts, and notes into reusable knowledge.
 - `$sj-learning-balanced-builder-audit`: Check ambition against health, family, joy, and sanity.
 - `$sj-learning-all-glory-fleeting`: Keep ego and success in perspective.
+
+## Anti-patterns
+
 - `$sj-anti-revenge-motive-check`: Detect when strategy is secretly ego or revenge.
 - `$sj-anti-channel-stuffing-check`: Separate real traction from fake comfort.
 - `$sj-anti-too-much-money-check`: Prevent abundant funding from killing discipline.

@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added 10 `sj-ive-*` skills for Jony Ive design studio practice: design story, humanizing technology, first-touch moments, prototype volume, material honesty, manufacturing as design, care, novelty discipline, fragile idea protection, and future-without-betrayal transitions.
+- Added `references/sj-ive-design-studio.md`, expanded the source map with the Jony Ive notes, and connected the new skills through the README, skill reference, catalogs, manifests, installer docs, validator, and handoff checklist.
 - Added the SJ memory and logging system, including durable learning guidance, a learning template, and `$sj-core-learning-refresh`.
 - Upgraded `$sj-core-compound-learning` with approval, duplicate-checking, source-safety, and durable learning rules.
 - Added closeout documentation for installed-plugin validation, live `codex exec` proof, autoreview, and handoff.

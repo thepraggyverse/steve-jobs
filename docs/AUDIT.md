@@ -25,6 +25,7 @@ This repo was audited against the current public shape of these projects and doc
 | No privacy/security/changelog docs. | Added `PRIVACY.md`, `SECURITY.md`, and `CHANGELOG.md`. |
 | `$sj-core-compound-learning` named compounding but did not define durable storage, approval, duplicate checks, or refresh. | Added `docs/MEMORY_AND_LOGS.md`, `templates/sj-learning.md`, upgraded capture rules, and `$sj-core-learning-refresh`. |
 | No explicit closeout, live-test, autoreview, or handoff recipe. | Added `docs/HANDOFF.md` and made it part of validation. |
+| The Jony Ive source notes were not represented as first-class runtime skills. | Added a connected `sj-ive-*` design studio layer and `references/sj-ive-design-studio.md`. |
 
 ## What Was Intentionally Not Added
 
@@ -39,8 +40,8 @@ This repo was audited against the current public shape of these projects and doc
 
 | Surface | Count or status |
 |---|---|
-| Runtime skills | 81 |
-| Root maintainer references | 8 |
+| Runtime skills | 91 |
+| Root maintainer references | 9 |
 | Skill-local reference copies | Created for every referenced runtime file |
 | Native Codex manifest | `.codex-plugin/plugin.json` |
 | Claude-style manifest | `.claude-plugin/plugin.json` |

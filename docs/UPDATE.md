@@ -68,7 +68,7 @@ find skills -mindepth 1 -maxdepth 1 -type d | wc -l
 Expected count:
 
 ```text
-81
+91
 ```
 
 Then test one router prompt:

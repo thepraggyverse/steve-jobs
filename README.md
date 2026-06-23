@@ -1,8 +1,8 @@
 # Steve Jobs Operating Skills [![Validate](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml/badge.svg)](https://github.com/thepraggyverse/steve-jobs/actions/workflows/validate.yml)
 
-**81 `sj-*` skills for product craft, simplification, storytelling, hiring, strategy, learning, and failure review.**
+**91 `sj-*` skills for product craft, simplification, Jony Ive design studio practice, storytelling, hiring, strategy, learning, and failure review.**
 
-These skills help an agent apply Steve Jobs-derived operating patterns to a real artifact: a product idea, screen, launch story, hiring decision, strategy memo, failure review, or learning loop. They are not a personality simulator. The useful output is a clearer product, sharper story, higher bar, better decision, or reusable lesson.
+These skills help an agent apply Steve Jobs-derived operating patterns and Jony Ive design studio lenses to a real artifact: a product idea, screen, object, launch story, hiring decision, strategy memo, failure review, or learning loop. They are not a personality simulator. The useful output is a clearer product, sharper story, higher bar, better decision, more human design, or reusable lesson.
 
 The repo works as a Codex plugin and as plain `SKILL.md` folders for harnesses that scan a skills directory. Runtime skills are small and self-contained so individual folders can be symlinked, copied, or converted without breaking their references.
 
@@ -14,6 +14,7 @@ This repository does not include source books, full transcripts, or long copyrig
 | --- | --- | --- | --- |
 | Core | 3 | Route requests, choose the right lens, capture reusable lessons, and refresh saved learnings. | `$sj-core-catalog`, `$sj-core-compound-learning`, `$sj-core-learning-refresh` |
 | Product craft | 23 | Simplify products, inspect artifacts, improve taste, craft, speed, and UX. | `$sj-product-simplify-to-one`, `$sj-product-customer-backwards`, `$sj-product-taste-review` |
+| Jony Ive design studio | 10 | Make product decisions tactile through story, care, materials, first touch, prototypes, manufacturing, and modernization. | `$sj-ive-humanize-technology`, `$sj-ive-care-is-felt`, `$sj-ive-future-without-betrayal` |
 | Story and selling | 9 | Shape launches, demos, value propositions, analogies, and marketing. | `$sj-story-one-message-marketing`, `$sj-story-sell-the-improvement`, `$sj-story-three-act-launch` |
 | People and leadership | 19 | Raise the talent bar, improve leadership, feedback, trust, and team design. | `$sj-people-a-player-bar`, `$sj-people-missionaries-not-mercenaries`, `$sj-people-truth-to-founder` |
 | Strategy | 15 | Focus the portfolio, handle pivots, negotiate, and review failure patterns. | `$sj-strategy-focus-matrix`, `$sj-strategy-differentiation-or-death`, `$sj-strategy-failure-apprenticeship` |
@@ -39,6 +40,7 @@ Then follow the route it gives you, for example:
 
 ```text
 Use $sj-product-simplify-to-one to find the one thing this MVP should do.
+Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable.
 Use $sj-story-sell-the-improvement to rewrite this feature list.
 Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.
 ```
@@ -49,6 +51,8 @@ Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.
 | --- | --- | --- | --- |
 | A product idea has too many features. | `$sj-product-simplify-to-one` | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | One user job, cuts, tradeoff, next artifact |
 | A UI needs explaining. | `$sj-product-speaks-for-itself` | `Use $sj-product-speaks-for-itself to audit this onboarding flow.` | Explanation dependencies and simplifications |
+| A technical product feels cold. | `$sj-ive-humanize-technology` | `Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable.` | Cold points, human feeling, language and interaction changes |
+| A redesign may lose what people love. | `$sj-ive-future-without-betrayal` | `Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it.` | Enduring soul, false nostalgia, continuity signals, transition proof |
 | A feature list sounds boring. | `$sj-story-sell-the-improvement` | `Use $sj-story-sell-the-improvement to rewrite this feature list.` | Customer improvement, proof, sharper copy |
 | A launch needs structure. | `$sj-story-three-act-launch` | `Use $sj-story-three-act-launch to structure this product announcement.` | Problem, meaning, solution, demo beats |
 | A candidate seems impressive but unclear. | `$sj-people-a-player-bar` | `Use $sj-people-a-player-bar to evaluate this candidate.` | Bar, evidence, risk, recommendation |
@@ -89,6 +93,16 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `$sj-product-raw-work-no-filters` | Get decision makers close to the actual artifact. |
 | `$sj-product-creative-selection` | Run a concrete demo-driven iteration loop. |
 | `$sj-product-concrete-artifact-review` | Force decisions around visible work rather than ideas. |
+| `$sj-ive-design-story` | Find the product's design story before debating features. |
+| `$sj-ive-humanize-technology` | Make technology feel approachable, friendly, touchable, and emotionally legible. |
+| `$sj-ive-first-touch-moment` | Audit the first thing a user sees, opens, touches, hears, wears, or feels. |
+| `$sj-ive-prototype-volume` | Replace argument with many concrete models and selection. |
+| `$sj-ive-material-honesty` | Review material, finish, weight, color, sound, edge, and texture as part of the idea. |
+| `$sj-ive-manufacturing-as-design` | Treat production, tooling, suppliers, and implementation constraints as part of design. |
+| `$sj-ive-care-is-felt` | Audit whether users can sense care or carelessness in an artifact. |
+| `$sj-ive-better-not-different` | Test whether novelty makes the product better, not merely different. |
+| `$sj-ive-fragile-idea-protection` | Protect early promising ideas from premature committee, metric, or engineering flattening. |
+| `$sj-ive-future-without-betrayal` | Move a beloved product, brand, or category into the future without losing its soul. |
 | `$sj-story-one-message-marketing` | Make one clear promise across copy, ads, and launch. |
 | `$sj-story-sell-the-improvement` | Sell the better life, not the product feature. |
 | `$sj-story-three-act-launch` | Build the problem, meaning, solution arc. |
@@ -156,7 +170,7 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `.codex-plugin/plugin.json` | Native Codex plugin manifest. |
 | `.claude-plugin/plugin.json` | Simple Claude-style skill manifest listing all skill folders. |
 | `skills.sh.json` | Grouped skill catalog for skills.sh-style installers and audits. |
-| `skills/sj-*` | 81 runtime skill folders. Each folder is self-contained. |
+| `skills/sj-*` | 91 runtime skill folders. Each folder is self-contained. |
 | `skills/sj-*/references/` | Skill-local reference notes used at runtime. |
 | `references/` | Root maintainer copies of the compact reference notes. |
 | `docs/MEMORY_AND_LOGS.md` | Durable learning, temporary artifact, and refresh policy. |
@@ -202,7 +216,7 @@ More detail: [`docs/UPDATE.md`](docs/UPDATE.md).
 ./scripts/validate.sh
 ```
 
-The validator checks exactly 81 skills, exactly 8 root references, required repo docs, templates, manifests, skill frontmatter, `agents/openai.yaml`, skill-local runtime references, inventory drift, JSON manifests, and local Codex authoring validators when available.
+The validator checks exactly 91 skills, exactly 9 root references, required repo docs, templates, manifests, skill frontmatter, `agents/openai.yaml`, skill-local runtime references, inventory drift, JSON manifests, and local Codex authoring validators when available.
 
 For installed-plugin proof and handoff, use [`docs/HANDOFF.md`](docs/HANDOFF.md).
 
@@ -242,7 +256,7 @@ Small skills are easier to trigger, search, inspect, symlink, copy, validate, an
 
 ### Can I use only a few skills?
 
-Yes. Use `scripts/link-skills.sh` or `scripts/copy-skills.sh` with a pattern such as `sj-product-*`, `sj-story-*`, or `sj-strategy-*`.
+Yes. Use `scripts/link-skills.sh` or `scripts/copy-skills.sh` with a pattern such as `sj-product-*`, `sj-ive-*`, `sj-story-*`, or `sj-strategy-*`.
 
 ### Do I need the plugin wrapper?
 
@@ -250,7 +264,7 @@ No. The plugin wrapper is best for Codex native plugin workflows. The `skills/` 
 
 ## Disclaimer
 
-This is an independent educational and productivity project. It is not affiliated with Apple, Steve Jobs, the Steve Jobs Archive, publishers, authors, podcast hosts, or rights holders. "Steve Jobs" is used descriptively to identify the inspiration for the operating patterns.
+This is an independent educational and productivity project. It is not affiliated with Apple, Steve Jobs, Jony Ive, LoveFrom, the Steve Jobs Archive, publishers, authors, podcast hosts, or rights holders. "Steve Jobs" and "Jony Ive" are used descriptively to identify the inspiration for the operating patterns.
 
 ## License
 

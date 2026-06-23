@@ -1,7 +1,7 @@
 {
   "name": "steve-jobs",
   "version": "0.1.0",
-  "description": "81 sj-prefixed operating skills for product craft, storytelling, hiring, strategy, learning, and failure review.",
+  "description": "91 sj-prefixed operating skills for product craft, Jony Ive design studio practice, storytelling, hiring, strategy, learning, and failure review.",
   "author": {
     "name": "Praggy",
     "url": "https://github.com/thepraggyverse"
@@ -16,13 +16,16 @@
     "steve-jobs",
     "product",
     "strategy",
-    "storytelling"
+    "storytelling",
+    "design",
+    "jony-ive",
+    "apple-design"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Steve Jobs",
-    "shortDescription": "81 Steve Jobs operating skills for product, story, people, strategy, learning, and failure review.",
-    "longDescription": "A compact pack of 81 sj-prefixed skills that help agents choose, apply, capture, and refresh Steve Jobs-derived operating lenses for product craft, simplification, storytelling, hiring, strategy, learning, and anti-pattern review. Each skill is self-contained, public-safe, and usable as a Codex plugin or as loose skill folders in compatible harnesses.",
+    "shortDescription": "91 Steve Jobs and Jony Ive operating skills for product, design, story, people, strategy, learning, and failure review.",
+    "longDescription": "A compact pack of 91 sj-prefixed skills that help agents choose, apply, capture, and refresh Steve Jobs-derived and Jony Ive design-studio operating lenses for product craft, simplification, tactile design, storytelling, hiring, strategy, learning, and anti-pattern review. Each skill is self-contained, public-safe, and usable as a Codex plugin or as loose skill folders in compatible harnesses.",
     "developerName": "Praggy",
     "category": "Productivity",
     "capabilities": [],
@@ -30,7 +33,7 @@
     "defaultPrompt": [
       "Use $sj-core-catalog to choose the right SJ skill sequence for this task.",
       "Use $sj-product-simplify-to-one to reduce this product idea to one clear job.",
-      "Use $sj-story-sell-the-improvement to rewrite this feature list around the user improvement."
+      "Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable."
     ]
   }
 }

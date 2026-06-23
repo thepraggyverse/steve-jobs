@@ -100,6 +100,7 @@ Only one group:
 
 ```bash
 ./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'
+./scripts/link-skills.sh ~/.codex/skills 'sj-ive-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-story-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-strategy-*'
 ```
@@ -161,8 +162,8 @@ find references -maxdepth 1 -name 'sj-*.md' | wc -l
 Expected:
 
 ```text
-81 skills
-8 root references
+91 skills
+9 root references
 ```
 
 For a native Codex plugin install, also verify the installed cache:

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ive First Touch Moment"
+  short_description: "Audit the first user touchpoint as a trust moment."
+  default_prompt: "Use $sj-ive-first-touch-moment to apply this Jony Ive design studio lens to my task."
+
+policy:
+  allow_implicit_invocation: true

@@ -9,6 +9,7 @@ Use this category shape:
 ```text
 sj-core-*
 sj-product-*
+sj-ive-*
 sj-story-*
 sj-people-*
 sj-strategy-*
@@ -54,6 +55,7 @@ Current root reference set:
 sj-source-map.md
 sj-skill-catalog.md
 sj-product-craft.md
+sj-ive-design-studio.md
 sj-story-selling.md
 sj-people-leadership.md
 sj-strategy-failure.md

@@ -1,82 +1,92 @@
-name,category,title
-sj-core-catalog,core,Catalog and router
-sj-core-compound-learning,core,Compound Jobs learning
-sj-core-learning-refresh,core,Learning refresh
-sj-product-make-something-wonderful,product,Make something wonderful
-sj-product-customer-backwards,product,Customer backwards
-sj-product-bicycle-for-the-mind,product,Bicycle for the mind
-sj-product-liberal-arts-technology,product,Liberal arts and technology
-sj-product-speaks-for-itself,product,Product speaks for itself
-sj-product-design-is-how-it-works,product,Design is how it works
-sj-product-simplify-to-one,product,Simplify to one
-sj-product-simple-stick,product,Simple stick
-sj-product-hack-away-unessential,product,Hack away unessential
-sj-product-speed-as-feature,product,Speed as feature
-sj-product-apple-experience-audit,product,Apple Experience audit
-sj-product-back-of-cabinet-quality,product,Back of cabinet quality
-sj-product-taste-review,product,Taste review
-sj-product-pixel-polish,product,Pixel polish
-sj-product-no-second-rate-products,product,No second-rate products
-sj-product-beautiful-object-standard,product,Beautiful object standard
-sj-product-telegraph-to-telephone,product,Telegraph to telephone
-sj-product-founder-workbench,product,Founder workbench
-sj-product-reputation-credits,product,Reputation credits
-sj-product-skepticism-hierarchy,product,Skepticism hierarchy
-sj-product-raw-work-no-filters,product,Raw work no filters
-sj-product-creative-selection,product,Creative selection
-sj-product-concrete-artifact-review,product,Concrete artifact review
-sj-story-one-message-marketing,story,One message marketing
-sj-story-sell-the-improvement,story,Sell the improvement
-sj-story-three-act-launch,story,Three act launch
-sj-story-number-context,story,Number context
-sj-story-historical-analogy,story,Historical analogy
-sj-story-demo-rehearsal-loop,story,Demo rehearsal loop
-sj-story-values-marketing,story,Values marketing
-sj-story-missionary-pr,story,Missionary PR
-sj-story-old-story-new-tool,story,Old story new tool
-sj-people-a-player-bar,people,A-player bar
-sj-people-missionaries-not-mercenaries,people,Missionaries not mercenaries
-sj-people-pushback-interview,people,Pushback interview
-sj-people-small-a-team,people,Small A-team
-sj-people-one-owner-no-committees,people,One owner no committees
-sj-people-blunt-truth-review,people,Blunt truth review
-sj-people-no-seagull-management,people,No seagull management
-sj-people-management-by-values,people,Management by values
-sj-people-ideas-from-anywhere,people,Ideas from anywhere
-sj-people-founder-soul-guardian,people,Founder soul guardian
-sj-people-ceo-at-bottom,people,CEO at bottom
-sj-people-confidant-board,people,Confidant board
-sj-people-ask-for-help,people,Ask for help
-sj-people-smart-people-can-leave,people,Smart people can leave
-sj-people-permanent-ensemble,people,Permanent ensemble
-sj-people-truth-to-founder,people,Truth to founder
-sj-people-ed-catmull-patience,people,Ed Catmull patience
-sj-people-andy-grove-correction,people,Andy Grove correction
-sj-people-bob-iger-trust,people,Bob Iger trust
-sj-strategy-focus-matrix,strategy,Focus matrix
-sj-strategy-differentiation-or-death,strategy,Differentiation or death
-sj-strategy-innovate-out,strategy,Innovate out
-sj-strategy-direct-channel,strategy,Direct channel
-sj-strategy-ambush-distribution,strategy,Ambush distribution
-sj-strategy-say-yes-then-learn,strategy,Say yes then learn
-sj-strategy-reality-is-malleable,strategy,Reality is malleable
-sj-strategy-failure-apprenticeship,strategy,Failure apprenticeship
-sj-strategy-startup-discipline,strategy,Startup discipline
-sj-strategy-pivot-to-core,strategy,Pivot to core
-sj-strategy-synthesizer-strategy,strategy,Synthesizer strategy
-sj-strategy-do-not-overplay-hand,strategy,Do not overplay hand
-sj-strategy-build-for-yourself,strategy,Build for yourself
-sj-strategy-company-as-invention,strategy,Company as invention
-sj-strategy-web-as-community,strategy,Web as community
-sj-learning-biographies-as-mentors,learning,Biographies as mentors
-sj-learning-regret-vs-mistake,learning,Regret versus mistake
-sj-learning-mortality-lens,learning,Mortality lens
-sj-learning-avocation-to-vocation,learning,Avocation to vocation
-sj-learning-endurance-loop,learning,Endurance loop
-sj-learning-fundamentals-practice,learning,Fundamentals practice
-sj-learning-progressive-summarization,learning,Progressive summarization
-sj-learning-balanced-builder-audit,learning,Balanced builder audit
-sj-learning-all-glory-fleeting,learning,All glory fleeting
-sj-anti-revenge-motive-check,anti,Revenge motive check
-sj-anti-channel-stuffing-check,anti,Channel stuffing check
-sj-anti-too-much-money-check,anti,Too much money check
+name,category,description
+sj-core-catalog,core,"Choose the right Steve Jobs operating skill and sequence. Use when the user asks for a Steve Jobs lens, Jobs-style critique, simplification, product craft, launch thinking, hiring bar, failure review, or does not know which sj skill to use."
+sj-core-compound-learning,core,"Capture 1-3 approved Jobs-derived lessons into a durable project learning store. Use after a product review, launch, hiring decision, strategy session, failure autopsy, or skill chain produced reusable operating knowledge."
+sj-core-learning-refresh,core,"Audit saved Steve Jobs learning notes for stale, duplicate, generic, contradictory, or low-confidence guidance. Use when maintaining docs/steve-jobs/learnings/ or preparing SJ learnings for reuse."
+sj-product-make-something-wonderful,product,"Raise ambition, care, usefulness, and emotional quality. Use when a product, app, feature, artifact, essay, or plan is technically adequate but needs more taste, care, humanity, or wonder."
+sj-product-customer-backwards,product,"Start from the user experience and work back to technology. Use when a proposal starts with technology, implementation, model choice, architecture, or features before naming the customer experience."
+sj-product-bicycle-for-the-mind,product,"Frame tools as human leverage rather than machinery. Use when explaining a tool, computer, AI system, app, or workflow as an amplifier of human ability."
+sj-product-liberal-arts-technology,product,"Connect engineering with taste, story, culture, and emotion. Use when a product feels technically competent but culturally thin, emotionally flat, or disconnected from human meaning."
+sj-product-speaks-for-itself,product,"Remove design that requires explanation to make sense. Use when a UI, onboarding, demo, flow, or feature depends on presenter explanation, docs, tooltips, or apologetic copy."
+sj-product-design-is-how-it-works,product,"Judge design by behavior, not surface styling. Use when reviewing UI, UX, product design, service design, or architecture where function and experience matter more than decoration."
+sj-product-simplify-to-one,product,"Reduce a product, path, message, or priority set to one clear thing. Use when something feels bloated, over-explained, committee-shaped, split across too many messages, features, users, paths, or owners."
+sj-product-simple-stick,product,"Challenge undistilled, winding, or overcomplicated thinking. Use when a proposal, interface, explanation, or plan rambles, hides weak thinking in complexity, or needs sharper directness."
+sj-product-hack-away-unessential,product,"Remove anything that does not serve the core experience. Use when a feature list, workflow, roadmap, or design needs pruning, deferral, merging, or sharper tradeoffs."
+sj-product-speed-as-feature,product,"Choose speed or responsiveness as a product rule. Use when performance, latency, waiting, loading, build speed, or workflow drag may be the defining product experience."
+sj-product-apple-experience-audit,product,"Audit every touchpoint as a trust deposit or withdrawal. Use when reviewing customer support, onboarding, purchase, install, trial, docs, error states, packaging, retail, or any end-to-end experience."
+sj-product-back-of-cabinet-quality,product,"Care about hidden quality even when users may not see it. Use when evaluating code quality, architecture, invisible UX, manufacturing, internal tools, naming, docs, or polish behind the surface."
+sj-product-taste-review,product,"Use judgment where metrics and committees are not enough. Use when a design, name, interface, launch, or product choice needs taste, restraint, and coherent judgment rather than only data."
+sj-product-pixel-polish,product,"Review the artifact at detail level and improve finish. Use when a visual interface, presentation, landing page, demo, or artifact needs detailed polish and exactness."
+sj-product-no-second-rate-products,product,"Identify mediocrity and force a higher standard. Use when a product line, feature, design, or plan has acceptable-but-not-great parts that should be cut, remade, or clarified."
+sj-product-beautiful-object-standard,product,"Ask whether the thing deserves to exist as an object. Use when judging hardware, apps, documents, interfaces, tools, names, or experiences as crafted objects people should want to use."
+sj-product-telegraph-to-telephone,product,"Turn expert complexity into everyday usability. Use when simplifying technical, command-line, AI, developer, enterprise, or professional tools for ordinary users."
+sj-product-founder-workbench,product,"Demystify reality by making and inspecting things directly. Use when a founder, builder, or agent is too abstract and needs to touch the materials, prototype, code, customer flow, or real artifact."
+sj-product-reputation-credits,product,"Treat each interaction as adding or withdrawing trust. Use when auditing quality, support, onboarding, performance, reliability, messaging, or any customer contact point."
+sj-product-skepticism-hierarchy,product,"Sort objections by signal, source, and importance. Use when feedback conflicts, critics disagree, or a product team needs to know which objections matter."
+sj-product-raw-work-no-filters,product,"Get decision makers close to the actual artifact. Use when layers, summaries, decks, managers, or process prevent leaders from seeing the real product, code, design, or customer issue."
+sj-product-creative-selection,product,"Run a concrete demo-driven iteration loop. Use when a product, feature, interface, prototype, pitch, or design needs artifact-based review instead of abstract discussion."
+sj-product-concrete-artifact-review,product,"Force decisions around visible work rather than ideas. Use when the conversation is stuck in hypotheticals and needs a screen, draft, prototype, patch, diagram, or demo."
+sj-ive-design-story,ive,"Find the product's design story before debating features. Use when an artifact feels like disconnected features, lacks meaning, or needs a human metaphor for how it enters daily life."
+sj-ive-humanize-technology,ive,"Make technology feel approachable, friendly, touchable, and emotionally legible. Use when a tool feels cold, intimidating, abstract, or too technical for normal users."
+sj-ive-first-touch-moment,ive,"Audit the first thing a user sees, opens, touches, hears, wears, or feels. Use when onboarding, packaging, first screen, or first physical interaction must earn trust."
+sj-ive-prototype-volume,ive,"Replace argument with many concrete models and selection. Use when a team is debating taste, form, interaction, or direction without enough prototypes to compare."
+sj-ive-material-honesty,ive,"Review material, finish, weight, color, sound, edge, and texture as part of the idea. Use when an artifact's physical or sensory qualities affect trust and desire."
+sj-ive-manufacturing-as-design,ive,"Treat production, tooling, suppliers, and implementation constraints as part of design. Use when a concept may not survive manufacturing or engineering reality."
+sj-ive-care-is-felt,ive,"Audit whether users can sense care or carelessness in an artifact. Use when something works functionally but feels indifferent, rough, cheap, or unloved."
+sj-ive-better-not-different,ive,"Test whether novelty makes the product better, not merely different. Use when a design, feature, or brand move is unusual but its improvement is unclear."
+sj-ive-fragile-idea-protection,ive,"Protect early promising ideas from premature committee, metric, or engineering flattening. Use when a rough concept needs room to mature before judgment."
+sj-ive-future-without-betrayal,ive,"Move a beloved product, brand, or category into the future without losing its soul. Use for redesigns, AI shifts, electrification, or major technology transitions."
+sj-story-one-message-marketing,story,"Make one clear promise across copy, ads, and launch. Use when marketing has too many messages, audiences, claims, taglines, benefits, or explanations."
+sj-story-sell-the-improvement,story,"Sell the better life, not the product feature. Use when converting feature lists, specs, technical claims, or product details into customer-facing value."
+sj-story-three-act-launch,story,"Build the problem, meaning, solution arc. Use when writing a keynote, demo, launch post, sales page, pitch, video script, or investor/product narrative."
+sj-story-number-context,story,"Make numbers vivid and meaningful. Use when metrics, specs, performance claims, market sizes, pricing, or comparisons need context people can feel."
+sj-story-historical-analogy,story,"Use history to make the future understandable. Use when explaining a new technology, market shift, tool, platform, or product category through a familiar analogy."
+sj-story-demo-rehearsal-loop,story,"Practice until the demo feels inevitable. Use when preparing a keynote, launch, investor demo, product walkthrough, screencast, or live presentation."
+sj-story-values-marketing,story,"Explain what the brand stands for. Use when brand messaging should communicate values, identity, and belief rather than only product facts."
+sj-story-missionary-pr,story,"Use publicity to educate, not just hype. Use when drafting PR, press strategy, launch education, media outreach, or founder messaging around a new category."
+sj-story-old-story-new-tool,story,"Put new technology inside enduring human stories. Use when a product story feels too technical and needs timeless human stakes, characters, tension, or transformation."
+sj-people-a-player-bar,people,"Apply an unusually high talent standard. Use when hiring, evaluating collaborators, designing a team, raising standards, or deciding whether someone improves the room."
+sj-people-missionaries-not-mercenaries,people,"Filter for purpose, ownership, and belief. Use when judging candidates, cofounders, agencies, vendors, teammates, or partners for mission fit versus transactional motivation."
+sj-people-pushback-interview,people,"Test independent thinking and intelligent disagreement. Use when designing interviews, collaboration filters, team reviews, or founder conversations that need real pushback."
+sj-people-small-a-team,people,"Prefer a small excellent team over a large average one. Use when staffing a project, cutting coordination drag, simplifying ownership, or comparing team designs."
+sj-people-one-owner-no-committees,people,"Assign clear ownership and remove committee drift. Use when decisions diffuse across groups, committees, review boards, or unclear owners."
+sj-people-blunt-truth-review,people,"Say the direct thing clearly and usefully. Use when feedback, strategy, copy, or review needs directness without euphemism, fog, or false politeness."
+sj-people-no-seagull-management,people,"Avoid detached executive drive-by feedback. Use when leaders parachute into work late, create chaos, or give shallow critiques without context."
+sj-people-management-by-values,people,"Align destination and values, then allow flexible routes. Use when a team needs principles, decision rules, or operating values more than micromanaged instructions."
+sj-people-ideas-from-anywhere,people,"Remove hierarchy from idea flow. Use when good ideas may be blocked by title, function, seniority, process, or fear of speaking up."
+sj-people-founder-soul-guardian,people,"Protect the product or company soul. Use when growth, funding, bureaucracy, acquisition, scale, or short-term pressure threatens the core identity."
+sj-people-ceo-at-bottom,people,"Treat leadership as service to the builders. Use when leadership needs humility, talent retention, clearer service posture, or less command-and-control energy."
+sj-people-confidant-board,people,"Use trusted outsiders to organize thought. Use when a founder, builder, or operator needs serious sounding boards, coaches, confidants, or mental organization."
+sj-people-ask-for-help,people,"Ask serious builders directly and specifically. Use when seeking mentorship, advice, introductions, customer conversations, expert review, or help from people ahead of you."
+sj-people-smart-people-can-leave,people,"Remember talented people are volunteers, not possessions. Use when reviewing retention, leadership behavior, autonomy, team culture, or founder arrogance around talent."
+sj-people-permanent-ensemble,people,"Build a recurring creative team with compounding trust. Use when designing a studio, product org, creative team, research group, or agent team intended to improve together over time."
+sj-people-truth-to-founder,people,"Create channels for reality to reach the decision maker. Use when leaders are insulated, teams hide bad news, metrics are massaged, or reality is not reaching the person with authority."
+sj-people-ed-catmull-patience,people,"Use facts, trust, and time to change strong minds. Use when persuading a difficult but intelligent leader, founder, or stakeholder without escalating into ego conflict."
+sj-people-andy-grove-correction,people,"Accept hard correction from a serious operator. Use when feedback from a strong operator conflicts with pride, attachment, or your current strategy."
+sj-people-bob-iger-trust,people,"Negotiate with transparency when trust matters. Use when a negotiation, partnership, acquisition, or leadership relationship depends on trust more than tactical dominance."
+sj-strategy-focus-matrix,strategy,"Reduce product lines, priorities, or bets to a clear grid. Use when strategy, roadmap, product lines, offerings, or priorities are scattered and need focus."
+sj-strategy-differentiation-or-death,strategy,"Check whether the product is meaningfully different. Use when a product risks becoming a commodity, copycat, feature checklist, or price-only competitor."
+sj-strategy-innovate-out,strategy,"Respond to commoditization with invention. Use when differentiation is evaporating and the answer must be a new product, category, architecture, or experience."
+sj-strategy-direct-channel,strategy,"Build a direct relationship with customers. Use when strategy depends on distribution, web, community, retail, content, support, or owning the customer relationship."
+sj-strategy-ambush-distribution,strategy,"Meet customers where attention and traffic already are. Use when a product needs a retail, web, content, community, partnership, or launch distribution strategy."
+sj-strategy-say-yes-then-learn,strategy,"Commit before full certainty when the risk is survivable. Use when deciding whether to accept an opportunity, ship a stretch promise, learn under pressure, or take a calculated leap."
+sj-strategy-reality-is-malleable,strategy,"Challenge learned helplessness and false constraints. Use when a plan is blocked by assumptions, inherited limits, fear, or claims that something cannot be changed."
+sj-strategy-failure-apprenticeship,strategy,"Turn failure into operating wisdom without flattering it. Use when a project failed, a strategy is stuck, a founder is wounded, or a reset needs lessons rather than comfort."
+sj-strategy-startup-discipline,strategy,"Keep scarcity, focus, and truth inside the startup. Use when money, prestige, vanity, hiring, offices, manufacturing, or process may be making a young effort soft."
+sj-strategy-pivot-to-core,strategy,"Find the real business after the first plan fails. Use when the original product, market, or business model is not working but valuable technology or capability remains."
+sj-strategy-synthesizer-strategy,strategy,"Combine separate technologies into one coherent product. Use when many ingredients exist but need a product vision that synthesizes them into a new whole."
+sj-strategy-do-not-overplay-hand,strategy,"Use leverage with restraint. Use when negotiating, partnering, acquiring, fundraising, selling, or deciding how hard to push an advantage."
+sj-strategy-build-for-yourself,strategy,"Build what the team deeply wants and understands. Use when product taste may be outsourced to surveys, committees, or imagined users instead of lived need."
+sj-strategy-company-as-invention,strategy,"Treat the company as the machine that makes great products. Use when designing culture, operating cadence, hiring, values, product process, or long-term company capability."
+sj-strategy-web-as-community,strategy,"Use the web as relationship infrastructure. Use when designing direct-to-consumer channels, community, education, support, publishing, or customer feedback loops."
+sj-learning-biographies-as-mentors,learning,"Use lives of builders as reusable mentorship. Use when choosing what to read, extracting lessons from biographies, or building a personal operating system from history."
+sj-learning-regret-vs-mistake,learning,"Separate reversible mistakes from life regrets. Use when making major life, product, career, founder, or relationship decisions under uncertainty."
+sj-learning-mortality-lens,learning,"Use finitude to clarify courage and priority. Use when a decision needs urgency, honesty, focus, or escape from status games and fear."
+sj-learning-avocation-to-vocation,learning,"Turn deep curiosity into work. Use when exploring career direction, creative work, founder ideas, personal projects, or what to build next."
+sj-learning-endurance-loop,learning,"Design the repeated effort needed for mastery. Use when a goal requires sustained iteration, pain tolerance, patience, or repeated attempts before quality appears."
+sj-learning-fundamentals-practice,learning,"Return to the basic reps that compound. Use when improving craft, product work, writing, sales, design, coding, leadership, or any skill through repeated fundamentals."
+sj-learning-progressive-summarization,learning,"Turn books, podcasts, and notes into reusable knowledge. Use when processing reading, transcripts, podcast notes, highlights, or source material into durable summaries and skills."
+sj-learning-balanced-builder-audit,learning,"Check ambition against health, family, joy, and sanity. Use when intense work, obsession, founder drive, or excellence risks becoming too expensive personally."
+sj-learning-all-glory-fleeting,learning,"Keep ego and success in perspective. Use when success, status, praise, winning, or recognition might distort judgment or priorities."
+sj-anti-revenge-motive-check,anti,"Detect when strategy is secretly ego or revenge. Use when a project, company, negotiation, or response may be driven by proving someone wrong rather than serving the product or customer."
+sj-anti-channel-stuffing-check,anti,"Separate real traction from fake comfort. Use when sales, usage, metrics, revenue, inventory, or pipeline might be inflated, pulled forward, or misread as demand."
+sj-anti-too-much-money-check,anti,"Prevent abundant funding from killing discipline. Use when a team has money, attention, headcount, or prestige and may be losing startup urgency, truth, or focus."

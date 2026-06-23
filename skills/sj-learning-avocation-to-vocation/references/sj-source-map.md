@@ -13,6 +13,12 @@ Use this reference to ground the Steve Jobs skills in the source corpus used dur
 - Steve Jobs In His Own Words (Make Something Wonderful).txt
 - Insights From History's Greatest Thinkers - David Senra.txt
 - How Steve Jobs Kept Things Simple.txt
+- The Simple Genius of Jony Ive.txt
+- Why Jony Ive is a great designer Lex Fridman Podcast Clips.txt
+- The First All Electric Ferrari, explained by its designers.txt
+- Jony Ive & Anna Wintour in Conversation - REWIRED 2021 Designing for the Future We Want to Inhabit.txt
+- Jony Ive's Creative Process.txt
+- Apple - The Design Legacy of Jony Ive (Full Documentary).txt
 
 ## Use
 

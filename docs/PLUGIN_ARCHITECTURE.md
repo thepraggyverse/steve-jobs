@@ -28,6 +28,7 @@ A skill links to one or two files inside its own directory, for example:
 
 ```text
 references/sj-product-craft.md
+references/sj-ive-design-studio.md
 references/sj-anti-patterns.md
 ```
 

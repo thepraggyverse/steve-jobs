@@ -14,7 +14,7 @@ from pathlib import Path
 root = Path(os.environ['ROOT'])
 skills_dir = root / 'skills'
 refs_dir = root / 'references'
-expected_skill_count = 81
+expected_skill_count = 91
 max_description_chars = 260
 
 required_files = [
@@ -60,8 +60,8 @@ skill_names = [p.name for p in skills]
 
 if len(skills) != expected_skill_count:
     errors.append(f'expected {expected_skill_count} skills, found {len(skills)}')
-if len(refs) != 8:
-    errors.append(f'expected 8 root references, found {len(refs)}')
+if len(refs) != 9:
+    errors.append(f'expected 9 root references, found {len(refs)}')
 
 name_re = re.compile(r'^name:\s*([a-z0-9-]+)\s*$', re.MULTILINE)
 desc_re = re.compile(r'^description:\s*"(.+)"\s*$', re.MULTILINE)
@@ -195,6 +195,8 @@ known_non_skill_tokens = {
     'sj-core-',
     'sj-product',
     'sj-product-',
+    'sj-ive',
+    'sj-ive-',
     'sj-story',
     'sj-story-',
     'sj-people',
@@ -229,7 +231,7 @@ for scan_root in scan_roots:
                 continue
             if token in known_non_skill_tokens:
                 continue
-            if token.startswith(('sj-source', 'sj-skill', 'sj-product-craft', 'sj-story-selling', 'sj-people-leadership', 'sj-strategy-failure', 'sj-learning-practice', 'sj-anti-patterns')):
+            if token.startswith(('sj-source', 'sj-skill', 'sj-product-craft', 'sj-ive-design-studio', 'sj-story-selling', 'sj-people-leadership', 'sj-strategy-failure', 'sj-learning-practice', 'sj-anti-patterns')):
                 continue
             errors.append(f'stale or unknown sj-* reference in {rel}: {token}')
         if '/Users/praggy' in content:

@@ -4,17 +4,17 @@ This is the full inventory of runtime skills. Every skill starts with `sj-` for 
 
 ## Core
 
-Route requests, choose a lens, capture reusable lessons, and refresh saved learnings.
+Route a request, choose the right lens, capture reusable lessons, and refresh saved learnings.
 
 | Skill | Purpose | Example Prompt |
 |---|---|---|
 | `$sj-core-catalog` | Choose the right Steve Jobs operating skill and sequence. | `Use $sj-core-catalog to choose the best Steve Jobs skill sequence for this product decision.` |
-| `$sj-core-compound-learning` | Capture reusable Jobs-derived lessons after each use. | `Use $sj-core-compound-learning to extract reusable Jobs lessons from this session.` |
-| `$sj-core-learning-refresh` | Audit saved SJ learning notes for drift, duplication, weak retrieval, and contradictions. | `Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them.` |
+| `$sj-core-compound-learning` | Capture 1-3 approved Jobs-derived lessons into a durable project learning store. | `Use $sj-core-compound-learning to extract reusable Jobs lessons from this session.` |
+| `$sj-core-learning-refresh` | Audit saved Steve Jobs learning notes for stale, duplicate, generic, contradictory, or low-confidence guidance. | `Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them in this product strategy.` |
 
 ## Product craft
 
-Simplify products, inspect artifacts, improve taste, craft, speed, and UX.
+Simplify product ideas, inspect artifacts, and improve taste, speed, quality, and UX.
 
 | Skill | Purpose | Example Prompt |
 |---|---|---|
@@ -42,6 +42,23 @@ Simplify products, inspect artifacts, improve taste, craft, speed, and UX.
 | `$sj-product-creative-selection` | Run a concrete demo-driven iteration loop. | `Use $sj-product-creative-selection to run the next demo review for this prototype.` |
 | `$sj-product-concrete-artifact-review` | Force decisions around visible work rather than ideas. | `Use $sj-product-concrete-artifact-review to critique this artifact instead of the idea.` |
 
+## Jony Ive design studio
+
+Make product decisions tactile through story, care, materials, first touch, prototypes, manufacturing, and modernization.
+
+| Skill | Purpose | Example Prompt |
+|---|---|---|
+| `$sj-ive-design-story` | Find the product's design story before debating features. | `Use $sj-ive-design-story to find the design story for this product before we debate features.` |
+| `$sj-ive-humanize-technology` | Make technology feel approachable, friendly, touchable, and emotionally legible. | `Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable.` |
+| `$sj-ive-first-touch-moment` | Audit the first thing a user sees, opens, touches, hears, wears, or feels. | `Use $sj-ive-first-touch-moment to review the first moment someone experiences this product.` |
+| `$sj-ive-prototype-volume` | Replace argument with many concrete models and selection. | `Use $sj-ive-prototype-volume to turn this design debate into a prototype selection loop.` |
+| `$sj-ive-material-honesty` | Review material, finish, weight, color, sound, edge, and texture as part of the idea. | `Use $sj-ive-material-honesty to audit the material and sensory truth of this artifact.` |
+| `$sj-ive-manufacturing-as-design` | Treat production, tooling, suppliers, and implementation constraints as part of design. | `Use $sj-ive-manufacturing-as-design to test whether this concept survives production reality.` |
+| `$sj-ive-care-is-felt` | Audit whether users can sense care or carelessness in an artifact. | `Use $sj-ive-care-is-felt to find where this product feels cared for or careless.` |
+| `$sj-ive-better-not-different` | Test whether novelty makes the product better, not merely different. | `Use $sj-ive-better-not-different to test whether this unusual design choice is actually better.` |
+| `$sj-ive-fragile-idea-protection` | Protect early promising ideas from premature committee, metric, or engineering flattening. | `Use $sj-ive-fragile-idea-protection to protect this early idea long enough to test it fairly.` |
+| `$sj-ive-future-without-betrayal` | Move a beloved product, brand, or category into the future without losing its soul. | `Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it.` |
+
 ## Story and selling
 
 Shape launches, demos, value propositions, analogies, and marketing.
@@ -60,7 +77,7 @@ Shape launches, demos, value propositions, analogies, and marketing.
 
 ## People and leadership
 
-Raise the talent bar, improve leadership, feedback, trust, and team design.
+Raise hiring bars, design strong teams, and improve feedback, trust, and leadership.
 
 | Skill | Purpose | Example Prompt |
 |---|---|---|
@@ -86,7 +103,7 @@ Raise the talent bar, improve leadership, feedback, trust, and team design.
 
 ## Strategy
 
-Focus the portfolio, handle pivots, negotiate, and review failure patterns.
+Focus portfolios, choose pivots, handle distribution, and review failure patterns.
 
 | Skill | Purpose | Example Prompt |
 |---|---|---|
@@ -108,7 +125,7 @@ Focus the portfolio, handle pivots, negotiate, and review failure patterns.
 
 ## Learning and practice
 
-Turn books, practice, mortality, and reflection into reusable operating habits.
+Turn biographies, practice, mortality, and reflection into reusable operating habits.
 
 | Skill | Purpose | Example Prompt |
 |---|---|---|

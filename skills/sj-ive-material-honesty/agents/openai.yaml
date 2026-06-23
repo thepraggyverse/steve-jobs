@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ive Material Honesty"
+  short_description: "Treat material and sensory qualities as part of the idea."
+  default_prompt: "Use $sj-ive-material-honesty to apply this Jony Ive design studio lens to my task."
+
+policy:
+  allow_implicit_invocation: true

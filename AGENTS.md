@@ -1,6 +1,6 @@
 # Agent Instructions
 
-This repository packages the `steve-jobs` operating skills: 81 `sj-*` skills for product craft, storytelling, hiring, strategy, learning, and failure review.
+This repository packages the `steve-jobs` operating skills: 91 `sj-*` skills for product craft, Jony Ive design studio practice, storytelling, hiring, strategy, learning, and failure review.
 
 `AGENTS.md` is the canonical authoring file for this repo. `CLAUDE.md` and `GEMINI.md` are compatibility shims for harnesses that look for those names.
 
