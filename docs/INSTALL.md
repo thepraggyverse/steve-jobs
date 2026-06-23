@@ -153,6 +153,20 @@ codex plugin add steve-jobs@personal
 
 ## Validate Install
 
+One-command check:
+
+```bash
+./scripts/check-install.sh --refresh
+```
+
+Add `--live` to run a read-only `codex exec` smoke test:
+
+```bash
+./scripts/check-install.sh --refresh --live
+```
+
+Manual checks:
+
 ```bash
 ./scripts/validate.sh
 find skills -mindepth 1 -maxdepth 1 -type d | wc -l
@@ -170,7 +184,7 @@ For a native Codex plugin install, also verify the installed cache:
 
 ```bash
 codex plugin list | rg 'steve-jobs@personal|PLUGIN|Marketplace `personal`' -C 2
-"$HOME/.codex/plugins/cache/personal/steve-jobs/0.1.0/scripts/validate.sh"
+"$HOME/.codex/plugins/cache/personal/steve-jobs/0.2.0/scripts/validate.sh"
 ```
 
 For a live harness test, use the plugin-only `codex exec` recipe in [`docs/HANDOFF.md`](HANDOFF.md).
@@ -190,6 +204,23 @@ SKILL_COPY_OVERWRITE=1 ./scripts/copy-skills.sh ~/.codex/skills
 ```
 
 Start a new agent session after updating so cached skill text reloads.
+
+## Skill Profiles
+
+Use profiles when you want a smaller loose-skill install:
+
+```bash
+./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'
+./scripts/link-skills.sh ~/.codex/skills 'sj-ive-*'
+./scripts/link-skills.sh ~/.codex/skills 'sj-story-*'
+./scripts/link-skills.sh ~/.codex/skills 'sj-strategy-*'
+```
+
+For copy mode:
+
+```bash
+SKILL_COPY_OVERWRITE=1 ./scripts/copy-skills.sh ~/.codex/skills 'sj-ive-*'
+```
 
 ## Uninstall
 

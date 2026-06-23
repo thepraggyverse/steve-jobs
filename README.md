@@ -8,6 +8,29 @@ The repo works as a Codex plugin and as plain `SKILL.md` folders for harnesses t
 
 This repository does not include source books, full transcripts, or long copyrighted excerpts. It contains compact workflows, paraphrased reference notes, source-title notes, install scripts, and examples.
 
+## Start Here
+
+Use the pack through the router first:
+
+```text
+Use $sj-core-catalog to choose the right SJ skill sequence for this task:
+<describe the artifact, decision, product, story, team, strategy, or failure>
+```
+
+Then run the recommended skills in order. If the session produces a reusable lesson, finish with:
+
+```text
+Use $sj-core-compound-learning to extract reusable lessons from this session.
+```
+
+Later, clean old saved lessons with:
+
+```text
+Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them.
+```
+
+For ready-made chains, use [`docs/PLAYBOOKS.md`](docs/PLAYBOOKS.md).
+
 ## What The Skills Do
 
 | Group | Count | What it does | Example skills |
@@ -175,8 +198,10 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `references/` | Root maintainer copies of the compact reference notes. |
 | `docs/MEMORY_AND_LOGS.md` | Durable learning, temporary artifact, and refresh policy. |
 | `docs/HANDOFF.md` | Closeout checklist, live install proof, autoreview, and handoff template. |
+| `docs/PLAYBOOKS.md` | Practical chains for product, design, launch, hiring, strategy, failure, and learning workflows. |
 | `templates/sj-learning.md` | Template for approved project learning notes. |
 | `assets/sj-skills.csv` | Machine-readable skill catalog. |
+| `scripts/check-install.sh` | One-command source, installed-cache, and optional live smoke verification. |
 | `scripts/install-local.sh` | Local Codex plugin installer. |
 | `scripts/link-skills.sh` | Symlink skills into Codex, Claude, or another harness. |
 | `scripts/copy-skills.sh` | Copy skills into harnesses that do not follow symlinks. |
@@ -198,6 +223,18 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | skills.sh-style catalogs | `skills.sh.json` | Use the grouped manifest to browse or install the `sj-*` skills. |
 
 Full install details: [`docs/INSTALL.md`](docs/INSTALL.md). Harness notes: [`docs/HARNESSES.md`](docs/HARNESSES.md). Symlink and copy recipes: [`docs/SYMLINKS.md`](docs/SYMLINKS.md).
+
+## Check Your Install
+
+```bash
+./scripts/check-install.sh --refresh
+```
+
+For a live read-only smoke test:
+
+```bash
+./scripts/check-install.sh --refresh --live
+```
 
 ## Update
 

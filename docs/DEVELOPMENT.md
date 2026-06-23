@@ -93,7 +93,9 @@ When changing install, validation, live testing, or release closeout behavior, u
 docs/HANDOFF.md
 docs/INSTALL.md
 docs/UPDATE.md
+docs/PLAYBOOKS.md
 CHANGELOG.md
+scripts/check-install.sh
 ```
 
 Then run:

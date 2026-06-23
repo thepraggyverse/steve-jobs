@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Bumped the Codex plugin version to `0.2.0`.
+- Added `scripts/check-install.sh` for source validation, local plugin visibility, installed-cache validation, optional refresh, and optional live smoke testing.
+- Added `docs/PLAYBOOKS.md` with practical skill chains and profile install guidance.
+- Added a README start-here flow for using the pack as a router-driven operating system.
 - Added 10 `sj-ive-*` skills for Jony Ive design studio practice: design story, humanizing technology, first-touch moments, prototype volume, material honesty, manufacturing as design, care, novelty discipline, fragile idea protection, and future-without-betrayal transitions.
 - Added `references/sj-ive-design-studio.md`, expanded the source map with the Jony Ive notes, and connected the new skills through the README, skill reference, catalogs, manifests, installer docs, validator, and handoff checklist.
 - Added the SJ memory and logging system, including durable learning guidance, a learning template, and `$sj-core-learning-refresh`.

@@ -22,6 +22,7 @@ Run these from the repository root:
 ```bash
 ./scripts/validate.sh
 git diff --check
+./scripts/check-install.sh --refresh
 codex plugin list | rg 'steve-jobs@personal|PLUGIN|Marketplace `personal`' -C 2
 ```
 
@@ -30,7 +31,13 @@ For a local Codex plugin install:
 ```bash
 ./scripts/install-local.sh
 codex plugin add steve-jobs@personal --json
-"$HOME/.codex/plugins/cache/personal/steve-jobs/0.1.0/scripts/validate.sh"
+"$HOME/.codex/plugins/cache/personal/steve-jobs/0.2.0/scripts/validate.sh"
+```
+
+For the current plugin version, prefer:
+
+```bash
+./scripts/check-install.sh --refresh --live
 ```
 
 If the installed cache is stale after a same-version local change, refresh it:

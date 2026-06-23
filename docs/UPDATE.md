@@ -17,6 +17,12 @@ That script runs:
 
 Then restart Codex or reinstall from the `/plugins` UI if your profile still has an older cached plugin copy.
 
+To refresh and verify the local plugin in one command:
+
+```bash
+./scripts/check-install.sh --refresh
+```
+
 If `codex plugin add steve-jobs@personal` reports success but the cache still contains old files, refresh the installed cache explicitly:
 
 ```bash

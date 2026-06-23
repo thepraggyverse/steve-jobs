@@ -40,12 +40,14 @@ required_files = [
     'docs/AUDIT.md',
     'docs/SKILL_REFERENCE.md',
     'docs/EXAMPLES.md',
+    'docs/PLAYBOOKS.md',
     'docs/COMPOUNDING.md',
     'docs/MEMORY_AND_LOGS.md',
     'docs/HANDOFF.md',
     'docs/PLUGIN_ARCHITECTURE.md',
     'docs/DEVELOPMENT.md',
     'templates/sj-learning.md',
+    'scripts/check-install.sh',
 ]
 
 errors = []
