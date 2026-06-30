@@ -47,3 +47,5 @@ The plugin is inspired by books, interviews, and podcast notes. The public repo 
 `docs/MEMORY_AND_LOGS.md` defines where that lesson should live. Durable user-project learnings go in `docs/steve-jobs/learnings/`, temporary artifacts go under `/tmp/steve-jobs/<skill>/<run-id>/`, and repo-bound context uses `.context/steve-jobs/<workflow>/` only when needed.
 
 `scripts/check-install.sh` is the operational proof entrypoint. It validates the source tree, confirms the local plugin is visible, validates the installed cache, compares source/cache counts, and can run a live read-only smoke test.
+
+`scripts/check-inventory.sh` is the catalog proof entrypoint. It compares the actual `skills/sj-*` folders against `skills.sh.json`, `assets/sj-skills.csv`, `.claude-plugin/plugin.json`, `references/sj-skill-catalog.md`, and `docs/SKILL_REFERENCE.md`.

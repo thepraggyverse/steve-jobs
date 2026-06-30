@@ -210,15 +210,23 @@ Start a new agent session after updating so cached skill text reloads.
 Use profiles when you want a smaller loose-skill install:
 
 ```bash
-./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'
-./scripts/link-skills.sh ~/.codex/skills 'sj-ive-*'
-./scripts/link-skills.sh ~/.codex/skills 'sj-story-*'
-./scripts/link-skills.sh ~/.codex/skills 'sj-strategy-*'
+./scripts/list-skills.sh profiles
+./scripts/install-profile.sh product ~/.codex/skills
+./scripts/install-profile.sh ive ~/.codex/skills
+./scripts/install-profile.sh story ~/.codex/skills
+./scripts/install-profile.sh strategy ~/.codex/skills
 ```
 
 For copy mode:
 
 ```bash
+./scripts/install-profile.sh ive ~/.codex/skills --copy
+```
+
+The lower-level scripts still accept raw patterns:
+
+```bash
+./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'
 SKILL_COPY_OVERWRITE=1 ./scripts/copy-skills.sh ~/.codex/skills 'sj-ive-*'
 ```
 
@@ -233,8 +241,8 @@ rm -f ~/plugins/steve-jobs
 If you linked loose skills:
 
 ```bash
-find ~/.codex/skills -maxdepth 1 -type l -name 'sj-*' -delete
-find ~/.claude/skills -maxdepth 1 -type l -name 'sj-*' -delete
+./scripts/unlink-skills.sh ~/.codex/skills 'sj-*'
+./scripts/unlink-skills.sh ~/.claude/skills 'sj-*'
 ```
 
 If you copied loose skills:

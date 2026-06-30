@@ -28,6 +28,7 @@ count=0
 failed=0
 
 shopt -s nullglob
+# shellcheck disable=SC2086 # FILTER is intentionally a caller-provided glob.
 for skill in "$SOURCE_DIR"/skills/$FILTER; do
   [ -d "$skill" ] || continue
   name="$(basename "$skill")"

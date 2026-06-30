@@ -41,6 +41,7 @@ required_files = [
     'docs/SKILL_REFERENCE.md',
     'docs/EXAMPLES.md',
     'docs/PLAYBOOKS.md',
+    'docs/WHEN_TO_USE_WHAT.md',
     'docs/COMPOUNDING.md',
     'docs/MEMORY_AND_LOGS.md',
     'docs/HANDOFF.md',
@@ -48,6 +49,10 @@ required_files = [
     'docs/DEVELOPMENT.md',
     'templates/sj-learning.md',
     'scripts/check-install.sh',
+    'scripts/check-inventory.sh',
+    'scripts/install-profile.sh',
+    'scripts/list-skills.sh',
+    'scripts/unlink-skills.sh',
 ]
 
 errors = []
@@ -266,3 +271,10 @@ if [ -f "$PLUGIN_VALIDATE" ]; then
 else
   echo "Codex plugin validator not found; skipped"
 fi
+
+for script in "$ROOT"/scripts/*.sh; do
+  bash -n "$script"
+done
+echo "Shell syntax validation passed"
+
+"$ROOT/scripts/check-inventory.sh"

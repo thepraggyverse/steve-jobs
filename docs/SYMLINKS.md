@@ -41,9 +41,20 @@ The script creates links like:
 
 ## Link One Group
 
+The profile installer is the easiest path:
+
+```bash
+./scripts/install-profile.sh product ~/.codex/skills
+./scripts/install-profile.sh ive ~/.codex/skills
+./scripts/install-profile.sh story ~/.codex/skills
+```
+
+The lower-level linker accepts raw patterns:
+
 ```bash
 ./scripts/link-skills.sh ~/.codex/skills 'sj-core-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-product-*'
+./scripts/link-skills.sh ~/.codex/skills 'sj-ive-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-story-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-people-*'
 ./scripts/link-skills.sh ~/.codex/skills 'sj-strategy-*'
@@ -79,9 +90,12 @@ Copying is less convenient because `git pull` will not update the copied skill f
 
 ## Remove Skill Symlinks
 
+Use the safe remover so only symlinks pointing into this checkout are removed:
+
 ```bash
-find ~/.codex/skills -maxdepth 1 -type l -name 'sj-*' -delete
-find ~/.claude/skills -maxdepth 1 -type l -name 'sj-*' -delete
+./scripts/unlink-skills.sh ~/.codex/skills 'sj-*'
+./scripts/unlink-skills.sh ~/.claude/skills 'sj-*'
+./scripts/unlink-skills.sh ~/.codex/skills 'sj-ive-*' --dry-run
 ```
 
 ## Remove Copied Skills

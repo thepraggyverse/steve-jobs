@@ -2,7 +2,14 @@
 
 ## Unreleased
 
+- Nothing yet.
+
+## 0.2.0 - 2026-06-30
+
 - Bumped the Codex plugin version to `0.2.0`.
+- Added `scripts/list-skills.sh`, `scripts/install-profile.sh`, `scripts/unlink-skills.sh`, and `scripts/check-inventory.sh`.
+- Added `docs/WHEN_TO_USE_WHAT.md` for choosing between product, Ive, story, people, strategy, learning, and anti-pattern skills.
+- Hardened CI with shell syntax validation and optional ShellCheck.
 - Added `scripts/check-install.sh` for source validation, local plugin visibility, installed-cache validation, optional refresh, and optional live smoke testing.
 - Added `docs/PLAYBOOKS.md` with practical skill chains and profile install guidance.
 - Added a README start-here flow for using the pack as a router-driven operating system.

@@ -94,8 +94,13 @@ docs/HANDOFF.md
 docs/INSTALL.md
 docs/UPDATE.md
 docs/PLAYBOOKS.md
+docs/WHEN_TO_USE_WHAT.md
 CHANGELOG.md
 scripts/check-install.sh
+scripts/check-inventory.sh
+scripts/install-profile.sh
+scripts/list-skills.sh
+scripts/unlink-skills.sh
 ```
 
 Then run:

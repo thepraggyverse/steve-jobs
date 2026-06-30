@@ -21,6 +21,7 @@ Run these from the repository root:
 
 ```bash
 ./scripts/validate.sh
+./scripts/check-inventory.sh
 git diff --check
 ./scripts/check-install.sh --refresh
 codex plugin list | rg 'steve-jobs@personal|PLUGIN|Marketplace `personal`' -C 2
@@ -101,6 +102,7 @@ Installed:
 
 Verified:
 - ./scripts/validate.sh: <result>
+- ./scripts/check-inventory.sh: <result>
 - installed cache validate: <result>
 - live codex exec test: <result>
 - autoreview: <result>

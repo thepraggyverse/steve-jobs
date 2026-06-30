@@ -42,11 +42,11 @@ If two skills need the same reference, duplicate the small reference into each s
 
 When adding, renaming, or removing a skill, update `assets/sj-skills.csv`, `references/sj-skill-catalog.md`, `README.md`, `docs/SKILL_REFERENCE.md`, `skills.sh.json`, and `.claude-plugin/plugin.json`.
 
-When changing usage chains, scenario guidance, or install profiles, update `docs/PLAYBOOKS.md`.
+When changing usage chains, scenario guidance, or install profiles, update `docs/PLAYBOOKS.md` and `docs/WHEN_TO_USE_WHAT.md`.
 
 When adding memory, logging, or compounding behavior, update `docs/MEMORY_AND_LOGS.md`, `templates/sj-learning.md`, and validation coverage.
 
-When install behavior changes, update `README.md`, `docs/INSTALL.md`, `docs/SYMLINKS.md`, `docs/HARNESSES.md`, `docs/UPDATE.md`, and `scripts/check-install.sh`.
+When install behavior changes, update `README.md`, `docs/INSTALL.md`, `docs/SYMLINKS.md`, `docs/HARNESSES.md`, `docs/UPDATE.md`, `scripts/check-install.sh`, `scripts/install-profile.sh`, and `scripts/unlink-skills.sh`.
 
 When live verification, release closeout, or continuation instructions change, update `docs/HANDOFF.md`.
 

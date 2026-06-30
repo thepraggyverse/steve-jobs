@@ -13,3 +13,13 @@ jobs:
         with:
           python-version: "3.x"
       - run: bash scripts/validate.sh
+      - run: |
+          for script in scripts/*.sh; do
+            bash -n "$script"
+          done
+      - run: |
+          if command -v shellcheck >/dev/null 2>&1; then
+            shellcheck scripts/*.sh
+          else
+            echo "shellcheck not installed; skipped"
+          fi

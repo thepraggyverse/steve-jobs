@@ -29,7 +29,7 @@ Later, clean old saved lessons with:
 Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them.
 ```
 
-For ready-made chains, use [`docs/PLAYBOOKS.md`](docs/PLAYBOOKS.md).
+For ready-made chains, use [`docs/PLAYBOOKS.md`](docs/PLAYBOOKS.md). When two skill families both seem plausible, use [`docs/WHEN_TO_USE_WHAT.md`](docs/WHEN_TO_USE_WHAT.md).
 
 ## What The Skills Do
 
@@ -199,9 +199,14 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `docs/MEMORY_AND_LOGS.md` | Durable learning, temporary artifact, and refresh policy. |
 | `docs/HANDOFF.md` | Closeout checklist, live install proof, autoreview, and handoff template. |
 | `docs/PLAYBOOKS.md` | Practical chains for product, design, launch, hiring, strategy, failure, and learning workflows. |
+| `docs/WHEN_TO_USE_WHAT.md` | Decision guide for choosing the right skill family. |
 | `templates/sj-learning.md` | Template for approved project learning notes. |
 | `assets/sj-skills.csv` | Machine-readable skill catalog. |
 | `scripts/check-install.sh` | One-command source, installed-cache, and optional live smoke verification. |
+| `scripts/check-inventory.sh` | Generated inventory drift check across catalogs and manifests. |
+| `scripts/list-skills.sh` | Grouped skill browser for the command line. |
+| `scripts/install-profile.sh` | Profile installer for all, product, Ive, story, people, strategy, learning, or anti-pattern skills. |
+| `scripts/unlink-skills.sh` | Safe loose-skill symlink remover. |
 | `scripts/install-local.sh` | Local Codex plugin installer. |
 | `scripts/link-skills.sh` | Symlink skills into Codex, Claude, or another harness. |
 | `scripts/copy-skills.sh` | Copy skills into harnesses that do not follow symlinks. |
@@ -223,6 +228,16 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | skills.sh-style catalogs | `skills.sh.json` | Use the grouped manifest to browse or install the `sj-*` skills. |
 
 Full install details: [`docs/INSTALL.md`](docs/INSTALL.md). Harness notes: [`docs/HARNESSES.md`](docs/HARNESSES.md). Symlink and copy recipes: [`docs/SYMLINKS.md`](docs/SYMLINKS.md).
+
+## Browse And Install Profiles
+
+```bash
+./scripts/list-skills.sh
+./scripts/list-skills.sh profiles
+./scripts/install-profile.sh ive ~/.codex/skills
+./scripts/install-profile.sh product ~/.claude/skills --copy
+./scripts/unlink-skills.sh ~/.codex/skills 'sj-ive-*' --dry-run
+```
 
 ## Check Your Install
 

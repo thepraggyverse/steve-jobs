@@ -23,6 +23,12 @@ To refresh and verify the local plugin in one command:
 ./scripts/check-install.sh --refresh
 ```
 
+To verify catalog and manifest inventory drift:
+
+```bash
+./scripts/check-inventory.sh
+```
+
 If `codex plugin add steve-jobs@personal` reports success but the cache still contains old files, refresh the installed cache explicitly:
 
 ```bash

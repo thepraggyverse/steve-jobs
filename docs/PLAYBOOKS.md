@@ -163,6 +163,8 @@ Use profiles when a harness has too many global skills or when you want a smalle
 Examples:
 
 ```bash
-./scripts/link-skills.sh ~/.codex/skills 'sj-ive-*'
-./scripts/copy-skills.sh ~/.claude/skills 'sj-product-*'
+./scripts/list-skills.sh profiles
+./scripts/install-profile.sh ive ~/.codex/skills
+./scripts/install-profile.sh product ~/.claude/skills --copy
+./scripts/unlink-skills.sh ~/.codex/skills 'sj-ive-*' --dry-run
 ```
