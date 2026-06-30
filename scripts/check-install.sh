@@ -116,12 +116,14 @@ if [ "$RUN_LIVE" -eq 1 ]; then
   echo "== Live read-only smoke test =="
   tmp_dir="$(mktemp -d /tmp/steve-jobs-check-install.XXXXXX)"
   output_path="$tmp_dir/output.txt"
+  # shellcheck disable=SC2016 # The $sj-* token is a literal skill invocation.
+  smoke_prompt='Use $sj-ive-humanize-technology. Clean install smoke test. Do not modify files. Review README.md and return: skill loaded, artifact reviewed, cold points, human feeling, suggested changes, and no files modified.'
   printf '# Live smoke test\n\nAn AI settings page feels cold, dense, and full of jargon.\n' > "$tmp_dir/README.md"
   codex exec --ephemeral --skip-git-repo-check \
     -C "$tmp_dir" \
     -s read-only \
     -o "$output_path" \
-    'Use $sj-ive-humanize-technology. Clean install smoke test. Do not modify files. Review README.md and return: skill loaded, artifact reviewed, cold points, human feeling, suggested changes, and no files modified.'
+    "$smoke_prompt"
   sed -n '1,220p' "$output_path"
 fi
 
