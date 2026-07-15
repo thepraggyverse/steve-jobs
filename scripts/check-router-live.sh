@@ -38,6 +38,7 @@ errors = []
 for line in Path(sys.argv[2]).read_text().splitlines():
     value = line.strip()
     if not value:
+        errors.append("unexpected blank output line")
         continue
     match = re.fullmatch(r"([a-z0-9-]+)=(sj-[a-z0-9-]+)", value)
     if not match:
