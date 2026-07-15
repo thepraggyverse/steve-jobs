@@ -34,12 +34,23 @@ from pathlib import Path
 expected_data = json.loads(Path(sys.argv[1]).read_text())
 expected = {case["id"]: case["expected_primary"] for case in expected_data["cases"]}
 actual = {}
-for line in Path(sys.argv[2]).read_text().splitlines():
-    match = re.fullmatch(r"([a-z0-9-]+)=(sj-[a-z0-9-]+)", line.strip())
-    if match:
-        actual[match.group(1)] = match.group(2)
-
 errors = []
+for line in Path(sys.argv[2]).read_text().splitlines():
+    value = line.strip()
+    if not value:
+        continue
+    match = re.fullmatch(r"([a-z0-9-]+)=(sj-[a-z0-9-]+)", value)
+    if not match:
+        errors.append(f"unexpected output line: {value}")
+        continue
+    case_id, skill = match.groups()
+    if case_id in actual:
+        errors.append(f"duplicate route: {case_id}")
+        continue
+    actual[case_id] = skill
+
+if len(actual) != len(expected):
+    errors.append(f"route count mismatch: expected {len(expected)}, got {len(actual)}")
 for case_id, skill in expected.items():
     if case_id not in actual:
         errors.append(f"missing route: {case_id}")
