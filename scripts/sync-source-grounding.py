@@ -259,7 +259,8 @@ def main() -> int:
             skill_path.write_text(expected)
 
         refs = SKILLS / name / "references"
-        refs.mkdir(exist_ok=True)
+        if not args.check:
+            refs.mkdir(exist_ok=True)
         local_files = {
             "sj-source-map.md": local_source_map(sources),
             "sj-evidence-map.md": local_evidence_map(claim_id, name, sources, level),

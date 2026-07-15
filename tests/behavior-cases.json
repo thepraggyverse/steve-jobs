@@ -7,7 +7,7 @@
       "id": "sj-anti-channel-stuffing-check:positive",
       "skill": "sj-anti-channel-stuffing-check",
       "mode": "positive",
-      "prompt": "Use $sj-anti-channel-stuffing-check to audit these growth numbers. Context: A funded startup reports rapid channel growth while inventory, incentives, personal rivalry, spending, and end-customer demand remain insufficiently reconciled.",
+      "prompt": "Use $sj-anti-channel-stuffing-check to audit these growth numbers. Context: Quarterly shipments rose 40 percent, partner inventory doubled, discounts increased, returns lag by 60 days, and end-customer activation grew 6 percent.",
       "claim_id": "SJ-A02",
       "required_output_fields": [
         "Channel reconciliation",
@@ -45,7 +45,7 @@
       "id": "sj-anti-revenge-motive-check:positive",
       "skill": "sj-anti-revenge-motive-check",
       "mode": "positive",
-      "prompt": "Use $sj-anti-revenge-motive-check to test my motive here. Context: A funded startup reports rapid channel growth while inventory, incentives, personal rivalry, spending, and end-customer demand remain insufficiently reconciled.",
+      "prompt": "Use $sj-anti-revenge-motive-check to test my motive here. Context: A founder wants to enter a former partner's market after a public insult; customer pull is weak and a neutral adjacent market has stronger evidence.",
       "claim_id": "SJ-A01",
       "required_output_fields": [
         "Action and emotional context",
@@ -83,7 +83,7 @@
       "id": "sj-anti-too-much-money-check:positive",
       "skill": "sj-anti-too-much-money-check",
       "mode": "positive",
-      "prompt": "Use $sj-anti-too-much-money-check to audit this funding plan. Context: A funded startup reports rapid channel growth while inventory, incentives, personal rivalry, spending, and end-customer demand remain insufficiently reconciled.",
+      "prompt": "Use $sj-anti-too-much-money-check to audit this funding plan. Context: After raising $30 million, a pre-retention startup plans 45 hires, three offices, and a national campaign before its six-month retention cohort matures.",
       "claim_id": "SJ-A03",
       "required_output_fields": [
         "Capital and runway map",
@@ -121,7 +121,7 @@
       "id": "sj-core-catalog:positive",
       "skill": "sj-core-catalog",
       "mode": "positive",
-      "prompt": "Use $sj-core-catalog to choose the best Steve Jobs skill sequence for this product decision. Context: A team must choose how to improve a cluttered AI notes app before a launch in two weeks. It has weak onboarding, an unclear demo, and no durable learning log.",
+      "prompt": "Use $sj-core-catalog to choose the best Steve Jobs skill sequence for this product decision. Context: A team has a cluttered AI notes app, weak onboarding, an unclear launch demo, and no durable learning loop. Choose the smallest useful sequence.",
       "claim_id": "SJ-C01",
       "required_output_fields": [
         "Selected skill sequence",
@@ -159,7 +159,7 @@
       "id": "sj-core-compound-learning:positive",
       "skill": "sj-core-compound-learning",
       "mode": "positive",
-      "prompt": "Use $sj-core-compound-learning to extract reusable Jobs lessons from this session. Context: A team must choose how to improve a cluttered AI notes app before a launch in two weeks. It has weak onboarding, an unclear demo, and no durable learning log.",
+      "prompt": "Use $sj-core-compound-learning to extract reusable Jobs lessons from this session. Context: A completed onboarding review showed that one clear first action raised test completion from 42 to 61 percent. The user has not yet approved saving anything.",
       "claim_id": "SJ-C02",
       "required_output_fields": [
         "Candidate lessons",
@@ -213,7 +213,7 @@
       "id": "sj-core-learning-refresh:positive",
       "skill": "sj-core-learning-refresh",
       "mode": "positive",
-      "prompt": "Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them in this product strategy. Context: A team must choose how to improve a cluttered AI notes app before a launch in two weeks. It has weak onboarding, an unclear demo, and no durable learning log.",
+      "prompt": "Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them in this product strategy. Context: The project has three saved SJ lessons: two repeat the same simplification advice, one cites a superseded flow, and one has low confidence.",
       "claim_id": "SJ-C03",
       "required_output_fields": [
         "Learning store path",
@@ -255,7 +255,7 @@
       "id": "sj-ive-better-not-different:positive",
       "skill": "sj-ive-better-not-different",
       "mode": "positive",
-      "prompt": "Use $sj-ive-better-not-different to test whether this unusual design choice is actually better. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-better-not-different to test whether this unusual design choice is actually better. Context: A redesigned camera replaces the familiar shutter with a squeeze gesture; it looks novel but is slower with gloves and has no proven accessibility gain.",
       "claim_id": "SJ-I08",
       "required_output_fields": [
         "Novel choice",
@@ -295,7 +295,7 @@
       "id": "sj-ive-care-is-felt:positive",
       "skill": "sj-ive-care-is-felt",
       "mode": "positive",
-      "prompt": "Use $sj-ive-care-is-felt to find where this product feels cared for or careless. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-care-is-felt to find where this product feels cared for or careless. Context: A journaling app saves reliably but opens with a spinner, uses abrupt keyboard motion, loses scroll position, and sends thoughtful recovery copy after a sync error.",
       "claim_id": "SJ-I07",
       "required_output_fields": [
         "Care signals",
@@ -335,7 +335,7 @@
       "id": "sj-ive-design-story:positive",
       "skill": "sj-ive-design-story",
       "mode": "positive",
-      "prompt": "Use $sj-ive-design-story to find the design story for this product before we debate features. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-design-story to find the design story for this product before we debate features. Context: A home energy display can show consumption, cost, and carbon impact; the intended story is helping a family make one calm daily choice together.",
       "claim_id": "SJ-I01",
       "required_output_fields": [
         "Human situation",
@@ -375,7 +375,7 @@
       "id": "sj-ive-first-touch-moment:positive",
       "skill": "sj-ive-first-touch-moment",
       "mode": "positive",
-      "prompt": "Use $sj-ive-first-touch-moment to review the first moment someone experiences this product. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-first-touch-moment to review the first moment someone experiences this product. Context: A sleep ring arrives in a plain shipping pouch, requires charging before setup, flashes an unexplained red light, and asks for six permissions on first launch.",
       "claim_id": "SJ-I03",
       "required_output_fields": [
         "First moment sequence",
@@ -415,7 +415,7 @@
       "id": "sj-ive-fragile-idea-protection:positive",
       "skill": "sj-ive-fragile-idea-protection",
       "mode": "positive",
-      "prompt": "Use $sj-ive-fragile-idea-protection to protect this early idea long enough to test it fairly. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-fragile-idea-protection to protect this early idea long enough to test it fairly. Context: An early ambient calendar prototype has delighted three testers, but metrics, security, battery use, and implementation are too rough for a launch decision.",
       "claim_id": "SJ-I09",
       "required_output_fields": [
         "Fragile idea",
@@ -455,7 +455,7 @@
       "id": "sj-ive-future-without-betrayal:positive",
       "skill": "sj-ive-future-without-betrayal",
       "mode": "positive",
-      "prompt": "Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it. Context: Modernize an iconic sports car dashboard while preserving driver focus and mechanical trust, not its obsolete gauges, switches, or combustion-era layout.",
       "claim_id": "SJ-I10",
       "required_output_fields": [
         "Enduring soul",
@@ -495,7 +495,7 @@
       "id": "sj-ive-humanize-technology:positive",
       "skill": "sj-ive-humanize-technology",
       "mode": "positive",
-      "prompt": "Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable. Context: An AI settings screen is dense, cold, jargon-heavy, and technically complete; a working prototype exposes temperature, context window, tools, and sampling controls.",
       "claim_id": "SJ-I02",
       "required_output_fields": [
         "Cold or abstract points",
@@ -535,7 +535,7 @@
       "id": "sj-ive-manufacturing-as-design:positive",
       "skill": "sj-ive-manufacturing-as-design",
       "mode": "positive",
-      "prompt": "Use $sj-ive-manufacturing-as-design to test whether this concept survives production reality. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-manufacturing-as-design to test whether this concept survives production reality. Context: A seamless lamp concept requires a hidden hinge, replaceable battery, waterproof seal, repair access, and a supplier limited to two aluminum draws.",
       "claim_id": "SJ-I06",
       "required_output_fields": [
         "Production path",
@@ -575,7 +575,7 @@
       "id": "sj-ive-material-honesty:positive",
       "skill": "sj-ive-material-honesty",
       "mode": "positive",
-      "prompt": "Use $sj-ive-material-honesty to audit the material and sensory truth of this artifact. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-material-honesty to audit the material and sensory truth of this artifact. Context: A premium speaker uses a metal-look plastic grille, glossy touch surface, hollow tap sound, visible seams, and a genuinely solid recycled-aluminum frame.",
       "claim_id": "SJ-I05",
       "required_output_fields": [
         "Sensory inventory",
@@ -615,7 +615,7 @@
       "id": "sj-ive-prototype-volume:positive",
       "skill": "sj-ive-prototype-volume",
       "mode": "positive",
-      "prompt": "Use $sj-ive-prototype-volume to turn this design debate into a prototype selection loop. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "prompt": "Use $sj-ive-prototype-volume to turn this design debate into a prototype selection loop. Context: A team is split between bottom navigation, a command palette, and a canvas for a tablet editor; only one static mock of each exists.",
       "claim_id": "SJ-I04",
       "required_output_fields": [
         "Abstract debate",
@@ -655,7 +655,7 @@
       "id": "sj-learning-all-glory-fleeting:positive",
       "skill": "sj-learning-all-glory-fleeting",
       "mode": "positive",
-      "prompt": "Use $sj-learning-all-glory-fleeting to deflate this ego trap. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-all-glory-fleeting to deflate this ego trap. Context: After a public award, a founder is ignoring user complaints, overcommitting to press, and skipping the craft review that produced the winning work.",
       "claim_id": "SJ-L09",
       "required_output_fields": [
         "Temporary glory",
@@ -693,7 +693,7 @@
       "id": "sj-learning-avocation-to-vocation:positive",
       "skill": "sj-learning-avocation-to-vocation",
       "mode": "positive",
-      "prompt": "Use $sj-learning-avocation-to-vocation to find the vocation inside this interest. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-avocation-to-vocation to find the vocation inside this interest. Context: A weekend furniture maker has practiced for four years, receives repeat commissions, dislikes sales, and has six months of savings for bounded paid experiments.",
       "claim_id": "SJ-L04",
       "required_output_fields": [
         "Recurring avocation",
@@ -731,7 +731,7 @@
       "id": "sj-learning-balanced-builder-audit:positive",
       "skill": "sj-learning-balanced-builder-audit",
       "mode": "positive",
-      "prompt": "Use $sj-learning-balanced-builder-audit to audit the life cost of this plan. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-balanced-builder-audit to audit the life cost of this plan. Context: A launch plan requires 70-hour weeks for three months, has already reduced sleep and family time, and can cut two secondary markets or hire support.",
       "claim_id": "SJ-L08",
       "required_output_fields": [
         "Life-cost map",
@@ -769,7 +769,7 @@
       "id": "sj-learning-biographies-as-mentors:positive",
       "skill": "sj-learning-biographies-as-mentors",
       "mode": "positive",
-      "prompt": "Use $sj-learning-biographies-as-mentors to turn this biography into mentorship notes. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-biographies-as-mentors to turn this biography into mentorship notes. Context: Use three episodes from a builder biography to study how they responded to failure; include contradictory behavior and differences in capital and power.",
       "claim_id": "SJ-L01",
       "required_output_fields": [
         "Mentorship question",
@@ -807,7 +807,7 @@
       "id": "sj-learning-endurance-loop:positive",
       "skill": "sj-learning-endurance-loop",
       "mode": "positive",
-      "prompt": "Use $sj-learning-endurance-loop to design the 100-rep path. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-endurance-loop to design the 100-rep path. Context: Design 100 writing reps for clearer product memos using weekly editor feedback, a sustainable three-day cadence, and a stop rule for declining sleep.",
       "claim_id": "SJ-L05",
       "required_output_fields": [
         "Capability and rep",
@@ -845,7 +845,7 @@
       "id": "sj-learning-fundamentals-practice:positive",
       "skill": "sj-learning-fundamentals-practice",
       "mode": "positive",
-      "prompt": "Use $sj-learning-fundamentals-practice to define my daily reps. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-fundamentals-practice to define my daily reps. Context: A designer's polished screens still have weak hierarchy; create a drill around spacing and type scale, then retest on a real settings page.",
       "claim_id": "SJ-L06",
       "required_output_fields": [
         "Fundamental map",
@@ -883,7 +883,7 @@
       "id": "sj-learning-mortality-lens:positive",
       "skill": "sj-learning-mortality-lens",
       "mode": "positive",
-      "prompt": "Use $sj-learning-mortality-lens to clarify what matters here. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-mortality-lens to clarify what matters here. Context: A builder is choosing between a prestigious expansion and completing meaningful work, while supporting dependents and managing a reversible six-month option.",
       "claim_id": "SJ-L03",
       "required_output_fields": [
         "Decision and pressure",
@@ -921,7 +921,7 @@
       "id": "sj-learning-progressive-summarization:positive",
       "skill": "sj-learning-progressive-summarization",
       "mode": "positive",
-      "prompt": "Use $sj-learning-progressive-summarization to process this book into skill material. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-progressive-summarization to process this book into skill material. Context: Process complete notes from a 12-chapter book and two interviews into sourced claims, contradictions, and no more than three reusable operating practices.",
       "claim_id": "SJ-L07",
       "required_output_fields": [
         "Bounded source ledger",
@@ -959,7 +959,7 @@
       "id": "sj-learning-regret-vs-mistake:positive",
       "skill": "sj-learning-regret-vs-mistake",
       "mode": "positive",
-      "prompt": "Use $sj-learning-regret-vs-mistake to evaluate this decision. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "prompt": "Use $sj-learning-regret-vs-mistake to evaluate this decision. Context: A founder declined a role two years ago using good family information, later envied the company's success, and can pursue similar work now.",
       "claim_id": "SJ-L02",
       "required_output_fields": [
         "Decision context",
@@ -997,7 +997,7 @@
       "id": "sj-people-a-player-bar:positive",
       "skill": "sj-people-a-player-bar",
       "mode": "positive",
-      "prompt": "Use $sj-people-a-player-bar to evaluate this candidate. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-a-player-bar to evaluate this candidate. Context: A product designer candidate shipped two accessible mobile flows, improved activation by 18 percent, challenges weak premises respectfully, and lacks enterprise experience.",
       "claim_id": "SJ-PE01",
       "required_output_fields": [
         "Role bar",
@@ -1035,7 +1035,7 @@
       "id": "sj-people-andy-grove-correction:positive",
       "skill": "sj-people-andy-grove-correction",
       "mode": "positive",
-      "prompt": "Use $sj-people-andy-grove-correction to process this harsh feedback. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-andy-grove-correction to process this harsh feedback. Context: A respected operator says the founder's roadmap reviews reward certainty and punish early warnings; three recent decisions show late surprise and rework.",
       "claim_id": "SJ-PE18",
       "required_output_fields": [
         "Feedback claim",
@@ -1073,7 +1073,7 @@
       "id": "sj-people-ask-for-help:positive",
       "skill": "sj-people-ask-for-help",
       "mode": "positive",
-      "prompt": "Use $sj-people-ask-for-help to draft this advice request. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-ask-for-help to draft this advice request. Context: Draft a request to an experienced accessibility lead about one unresolved focus-order decision after two prototypes and a user test.",
       "claim_id": "SJ-PE13",
       "required_output_fields": [
         "Specific need",
@@ -1111,7 +1111,7 @@
       "id": "sj-people-blunt-truth-review:positive",
       "skill": "sj-people-blunt-truth-review",
       "mode": "positive",
-      "prompt": "Use $sj-people-blunt-truth-review to give the plain version of this critique. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-blunt-truth-review to give the plain version of this critique. Context: A launch video is visually polished but hides the slow core task and makes an unsupported accuracy claim; the editor needs actionable feedback today.",
       "claim_id": "SJ-PE06",
       "required_output_fields": [
         "Review standard",
@@ -1149,7 +1149,7 @@
       "id": "sj-people-bob-iger-trust:positive",
       "skill": "sj-people-bob-iger-trust",
       "mode": "positive",
-      "prompt": "Use $sj-people-bob-iger-trust to plan this partnership conversation. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-bob-iger-trust to plan this partnership conversation. Context: Two companies want a content partnership after a prior reporting breach; rights, customer data, decision authority, and a reversible pilot need explicit terms.",
       "claim_id": "SJ-PE19",
       "required_output_fields": [
         "Trust context",
@@ -1187,7 +1187,7 @@
       "id": "sj-people-ceo-at-bottom:positive",
       "skill": "sj-people-ceo-at-bottom",
       "mode": "positive",
-      "prompt": "Use $sj-people-ceo-at-bottom to invert this leadership plan. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-ceo-at-bottom to invert this leadership plan. Context: Support agents need approval for refunds under $50 while executives receive daily custom reports that take operators six hours to prepare.",
       "claim_id": "SJ-PE11",
       "required_output_fields": [
         "Value-creation map",
@@ -1225,7 +1225,7 @@
       "id": "sj-people-confidant-board:positive",
       "skill": "sj-people-confidant-board",
       "mode": "positive",
-      "prompt": "Use $sj-people-confidant-board to design my personal advisory circle. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-confidant-board to design my personal advisory circle. Context: A founder needs counsel on product taste, financing, people conflict, and personal sustainability; current advisers are two investors who usually agree.",
       "claim_id": "SJ-PE12",
       "required_output_fields": [
         "Advice needs",
@@ -1263,7 +1263,7 @@
       "id": "sj-people-ed-catmull-patience:positive",
       "skill": "sj-people-ed-catmull-patience",
       "mode": "positive",
-      "prompt": "Use $sj-people-ed-catmull-patience to plan this hard persuasion. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-ed-catmull-patience to plan this hard persuasion. Context: An engineering lead doubts a new prototype because of latency and reliability; shared user goals exist and a two-week instrumented pilot can test both concerns.",
       "claim_id": "SJ-PE17",
       "required_output_fields": [
         "Disagreement model",
@@ -1301,7 +1301,7 @@
       "id": "sj-people-founder-soul-guardian:positive",
       "skill": "sj-people-founder-soul-guardian",
       "mode": "positive",
-      "prompt": "Use $sj-people-founder-soul-guardian to name what must not be compromised. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-founder-soul-guardian to name what must not be compromised. Context: A beloved writing tool considers ads and engagement loops; its enduring promise is private, calm thinking, while the founder personally dislikes all subscriptions.",
       "claim_id": "SJ-PE10",
       "required_output_fields": [
         "Enduring purpose",
@@ -1339,7 +1339,7 @@
       "id": "sj-people-ideas-from-anywhere:positive",
       "skill": "sj-people-ideas-from-anywhere",
       "mode": "positive",
-      "prompt": "Use $sj-people-ideas-from-anywhere to improve this product review culture. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-ideas-from-anywhere to improve this product review culture. Context: Frontline support has three recurring onboarding ideas, but only directors present in product review and rejected contributors receive no explanation.",
       "claim_id": "SJ-PE09",
       "required_output_fields": [
         "Open decision question",
@@ -1377,7 +1377,7 @@
       "id": "sj-people-management-by-values:positive",
       "skill": "sj-people-management-by-values",
       "mode": "positive",
-      "prompt": "Use $sj-people-management-by-values to define decision values for this team. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-management-by-values to define decision values for this team. Context: A distributed team escalates speed-versus-quality, privacy-versus-growth, and autonomy-versus-consistency decisions because its values are abstract nouns.",
       "claim_id": "SJ-PE08",
       "required_output_fields": [
         "Repeated decision set",
@@ -1415,7 +1415,7 @@
       "id": "sj-people-missionaries-not-mercenaries:positive",
       "skill": "sj-people-missionaries-not-mercenaries",
       "mode": "positive",
-      "prompt": "Use $sj-people-missionaries-not-mercenaries to rewrite this hiring screen. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-missionaries-not-mercenaries to rewrite this hiring screen. Context: A senior engineer values the mission, has stayed through difficult customer work, asks hard questions about strategy, expects market pay, and protects family time.",
       "claim_id": "SJ-PE02",
       "required_output_fields": [
         "Mission and hard reality",
@@ -1453,7 +1453,7 @@
       "id": "sj-people-no-seagull-management:positive",
       "skill": "sj-people-no-seagull-management",
       "mode": "positive",
-      "prompt": "Use $sj-people-no-seagull-management to audit this leadership pattern. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-no-seagull-management to audit this leadership pattern. Context: A CEO joins monthly, reverses decisions after five-minute demos, leaves criticism unowned, and causes two weeks of rework after each visit.",
       "claim_id": "SJ-PE07",
       "required_output_fields": [
         "Intervention timeline",
@@ -1491,7 +1491,7 @@
       "id": "sj-people-one-owner-no-committees:positive",
       "skill": "sj-people-one-owner-no-committees",
       "mode": "positive",
-      "prompt": "Use $sj-people-one-owner-no-committees to fix this decision process. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-one-owner-no-committees to fix this decision process. Context: Seven leaders can block a pricing decision due Friday; product has the data but finance, sales, and legal inputs are not separated from vetoes.",
       "claim_id": "SJ-PE05",
       "required_output_fields": [
         "Decision and deadline",
@@ -1529,7 +1529,7 @@
       "id": "sj-people-permanent-ensemble:positive",
       "skill": "sj-people-permanent-ensemble",
       "mode": "positive",
-      "prompt": "Use $sj-people-permanent-ensemble to design this creative team. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-permanent-ensemble to design this creative team. Context: A studio repeatedly builds launch films using the same director and editor but replaces design, sound, research, and production teams every project.",
       "claim_id": "SJ-PE15",
       "required_output_fields": [
         "Recurring work",
@@ -1567,7 +1567,7 @@
       "id": "sj-people-pushback-interview:positive",
       "skill": "sj-people-pushback-interview",
       "mode": "positive",
-      "prompt": "Use $sj-people-pushback-interview to create interview questions. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-pushback-interview to create interview questions. Context: Design an interview for a platform lead who must challenge a founder's unsafe launch shortcut without becoming reflexively oppositional.",
       "claim_id": "SJ-PE03",
       "required_output_fields": [
         "Pushback scenarios",
@@ -1605,7 +1605,7 @@
       "id": "sj-people-small-a-team:positive",
       "skill": "sj-people-small-a-team",
       "mode": "positive",
-      "prompt": "Use $sj-people-small-a-team to shrink this project team. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-small-a-team to shrink this project team. Context: A six-week pilot needs mobile UX, API integration, security review, customer onboarding, and one accountable product decision; 14 people currently attend every meeting.",
       "claim_id": "SJ-PE04",
       "required_output_fields": [
         "Smallest complete outcome",
@@ -1643,7 +1643,7 @@
       "id": "sj-people-smart-people-can-leave:positive",
       "skill": "sj-people-smart-people-can-leave",
       "mode": "positive",
-      "prompt": "Use $sj-people-smart-people-can-leave to audit retention risk. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-smart-people-can-leave to audit retention risk. Context: A critical engineer has no growth path, carries undocumented deployment knowledge, reports chronic on-call load, and has declined a counteroffer discussion.",
       "claim_id": "SJ-PE14",
       "required_output_fields": [
         "Impact and dependency map",
@@ -1681,7 +1681,7 @@
       "id": "sj-people-truth-to-founder:positive",
       "skill": "sj-people-truth-to-founder",
       "mode": "positive",
-      "prompt": "Use $sj-people-truth-to-founder to create a truth channel. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "prompt": "Use $sj-people-truth-to-founder to create a truth channel. Context: Bad-news metrics are softened before reaching the founder; one security warning was delayed and two dissenters stopped speaking after public rebukes.",
       "claim_id": "SJ-PE16",
       "required_output_fields": [
         "Truth-sensitive decisions",
@@ -1719,7 +1719,7 @@
       "id": "sj-product-apple-experience-audit:positive",
       "skill": "sj-product-apple-experience-audit",
       "mode": "positive",
-      "prompt": "Use $sj-product-apple-experience-audit to review this signup-to-first-value path. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-apple-experience-audit to review this signup-to-first-value path. Context: Audit the path from pricing page through signup, email verification, import, first result, billing receipt, and cancellation for a research tool.",
       "claim_id": "SJ-P11",
       "required_output_fields": [
         "Journey segment",
@@ -1759,7 +1759,7 @@
       "id": "sj-product-back-of-cabinet-quality:positive",
       "skill": "sj-product-back-of-cabinet-quality",
       "mode": "positive",
-      "prompt": "Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project. Context: A finance app displays correct totals, but exported CSV columns change order, audit logs omit timezone, and recovery scripts are untested.",
       "claim_id": "SJ-P12",
       "required_output_fields": [
         "Hidden surface",
@@ -1799,7 +1799,7 @@
       "id": "sj-product-beautiful-object-standard:positive",
       "skill": "sj-product-beautiful-object-standard",
       "mode": "positive",
-      "prompt": "Use $sj-product-beautiful-object-standard to critique this artifact as an object. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-beautiful-object-standard to critique this artifact as an object. Context: Review a desk timer prototype whose plastic shell flexes, button travel feels inconsistent, display blooms at night, and internal layout is otherwise repairable.",
       "claim_id": "SJ-P16",
       "required_output_fields": [
         "Object promise",
@@ -1839,7 +1839,7 @@
       "id": "sj-product-bicycle-for-the-mind:positive",
       "skill": "sj-product-bicycle-for-the-mind",
       "mode": "positive",
-      "prompt": "Use $sj-product-bicycle-for-the-mind to explain this AI workflow to normal users. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-bicycle-for-the-mind to explain this AI workflow to normal users. Context: An AI spreadsheet assistant currently advertises model size and tool calls; its real benefit is helping shop owners forecast cash without formulas.",
       "claim_id": "SJ-P03",
       "required_output_fields": [
         "Human ability",
@@ -1879,7 +1879,7 @@
       "id": "sj-product-concrete-artifact-review:positive",
       "skill": "sj-product-concrete-artifact-review",
       "mode": "positive",
-      "prompt": "Use $sj-product-concrete-artifact-review to critique this artifact instead of the idea. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-concrete-artifact-review to critique this artifact instead of the idea. Context: The team is arguing about a new editor from a concept memo; a clickable prototype and two representative documents are ready for direct review.",
       "claim_id": "SJ-P23",
       "required_output_fields": [
         "Artifact inspected",
@@ -1919,7 +1919,7 @@
       "id": "sj-product-creative-selection:positive",
       "skill": "sj-product-creative-selection",
       "mode": "positive",
-      "prompt": "Use $sj-product-creative-selection to run the next demo review for this prototype. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-creative-selection to run the next demo review for this prototype. Context: Three working onboarding prototypes differ in account timing, sample data, and first action; five representative users can test them tomorrow.",
       "claim_id": "SJ-P22",
       "required_output_fields": [
         "Decision under review",
@@ -1959,7 +1959,7 @@
       "id": "sj-product-customer-backwards:positive",
       "skill": "sj-product-customer-backwards",
       "mode": "positive",
-      "prompt": "Use $sj-product-customer-backwards to reframe this feature from the user experience back. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-customer-backwards to reframe this feature from the user experience back. Context: Engineers propose an embeddings dashboard, while users only want to find the note that answered a prior client question in under ten seconds.",
       "claim_id": "SJ-P02",
       "required_output_fields": [
         "User and moment",
@@ -1999,7 +1999,7 @@
       "id": "sj-product-design-is-how-it-works:positive",
       "skill": "sj-product-design-is-how-it-works",
       "mode": "positive",
-      "prompt": "Use $sj-product-design-is-how-it-works to review this dashboard. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-design-is-how-it-works to review this dashboard. Context: A polished analytics dashboard has beautiful charts, but filtering resets selections and comparison requires opening three separate screens.",
       "claim_id": "SJ-P06",
       "required_output_fields": [
         "User intent",
@@ -2039,7 +2039,7 @@
       "id": "sj-product-founder-workbench:positive",
       "skill": "sj-product-founder-workbench",
       "mode": "positive",
-      "prompt": "Use $sj-product-founder-workbench to turn this abstract idea into a hands-on build step. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-founder-workbench to turn this abstract idea into a hands-on build step. Context: A founder debates whether voice capture is central but has not recorded, corrected, searched, and shared ten real voice notes end to end.",
       "claim_id": "SJ-P18",
       "required_output_fields": [
         "Abstract claim",
@@ -2079,7 +2079,7 @@
       "id": "sj-product-hack-away-unessential:positive",
       "skill": "sj-product-hack-away-unessential",
       "mode": "positive",
-      "prompt": "Use $sj-product-hack-away-unessential to cut this roadmap down. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-hack-away-unessential to cut this roadmap down. Context: A roadmap has 28 items; only search reliability, citation accuracy, and export are required for the paid pilot in six weeks.",
       "claim_id": "SJ-P09",
       "required_output_fields": [
         "Core promise",
@@ -2119,7 +2119,7 @@
       "id": "sj-product-liberal-arts-technology:positive",
       "skill": "sj-product-liberal-arts-technology",
       "mode": "positive",
-      "prompt": "Use $sj-product-liberal-arts-technology to add the humanities layer to this product. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-liberal-arts-technology to add the humanities layer to this product. Context: A technically strong family-history app organizes records well but has no sense of memory, ritual, voice, or emotional continuity.",
       "claim_id": "SJ-P04",
       "required_output_fields": [
         "Technical capability",
@@ -2159,7 +2159,7 @@
       "id": "sj-product-make-something-wonderful:positive",
       "skill": "sj-product-make-something-wonderful",
       "mode": "positive",
-      "prompt": "Use $sj-product-make-something-wonderful to make this app concept feel worth making. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-make-something-wonderful to make this app concept feel worth making. Context: A reliable medication reminder works but feels generic; users miss doses when traveling and say the app feels scolding.",
       "claim_id": "SJ-P01",
       "required_output_fields": [
         "Useful baseline",
@@ -2199,7 +2199,7 @@
       "id": "sj-product-no-second-rate-products:positive",
       "skill": "sj-product-no-second-rate-products",
       "mode": "positive",
-      "prompt": "Use $sj-product-no-second-rate-products to identify what feels mediocre here. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-no-second-rate-products to identify what feels mediocre here. Context: A team plans to ship a calendar integration with duplicate events, unclear conflict handling, and no offline recovery because the launch date is fixed.",
       "claim_id": "SJ-P15",
       "required_output_fields": [
         "Excellence bar",
@@ -2239,7 +2239,7 @@
       "id": "sj-product-pixel-polish:positive",
       "skill": "sj-product-pixel-polish",
       "mode": "positive",
-      "prompt": "Use $sj-product-pixel-polish to find rough edges in this UI. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-pixel-polish to find rough edges in this UI. Context: A checkout screen is available at mobile and desktop sizes with uneven alignment, clipped translated labels, weak focus states, and a jumping total row.",
       "claim_id": "SJ-P14",
       "required_output_fields": [
         "Surfaces inspected",
@@ -2279,7 +2279,7 @@
       "id": "sj-product-raw-work-no-filters:positive",
       "skill": "sj-product-raw-work-no-filters",
       "mode": "positive",
-      "prompt": "Use $sj-product-raw-work-no-filters to redesign this review process. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-raw-work-no-filters to redesign this review process. Context: Executives review weekly slide summaries while users encounter a broken import; support tickets, session recordings, and the failing build are available.",
       "claim_id": "SJ-P21",
       "required_output_fields": [
         "Filters in the way",
@@ -2319,7 +2319,7 @@
       "id": "sj-product-reputation-credits:positive",
       "skill": "sj-product-reputation-credits",
       "mode": "positive",
-      "prompt": "Use $sj-product-reputation-credits to find trust deposits and withdrawals in this flow. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-reputation-credits to find trust deposits and withdrawals in this flow. Context: A subscription flow promises a free trial, requests a card late, sends no reminder, makes cancellation hard to find, and responds quickly to support.",
       "claim_id": "SJ-P19",
       "required_output_fields": [
         "Promise under review",
@@ -2359,7 +2359,7 @@
       "id": "sj-product-simple-stick:positive",
       "skill": "sj-product-simple-stick",
       "mode": "positive",
-      "prompt": "Use $sj-product-simple-stick to simplify this product memo. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-simple-stick to simplify this product memo. Context: A two-page product memo circles among collaboration, intelligence, speed, and trust without naming the user or decision.",
       "claim_id": "SJ-P08",
       "required_output_fields": [
         "Central claim",
@@ -2399,7 +2399,7 @@
       "id": "sj-product-simplify-to-one:positive",
       "skill": "sj-product-simplify-to-one",
       "mode": "positive",
-      "prompt": "Use $sj-product-simplify-to-one to find the one thing this MVP should do. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-simplify-to-one to find the one thing this MVP should do. Context: An MVP serves students, recruiters, and researchers with six primary actions; the strongest repeated need is turning one source set into a cited brief.",
       "claim_id": "SJ-P07",
       "required_output_fields": [
         "Primary user and outcome",
@@ -2439,7 +2439,7 @@
       "id": "sj-product-skepticism-hierarchy:positive",
       "skill": "sj-product-skepticism-hierarchy",
       "mode": "positive",
-      "prompt": "Use $sj-product-skepticism-hierarchy to triage this feedback. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-skepticism-hierarchy to triage this feedback. Context: Feedback includes one accessibility blocker from a screen-reader user, ten vague dislike comments, one security report with a reproduction, and a loud executive preference.",
       "claim_id": "SJ-P20",
       "required_output_fields": [
         "Normalized objections",
@@ -2479,7 +2479,7 @@
       "id": "sj-product-speaks-for-itself:positive",
       "skill": "sj-product-speaks-for-itself",
       "mode": "positive",
-      "prompt": "Use $sj-product-speaks-for-itself to audit this onboarding flow. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-speaks-for-itself to audit this onboarding flow. Context: New users need a seven-step tooltip tour to create their first project, and 38 percent cannot repeat the task after the tour disappears.",
       "claim_id": "SJ-P05",
       "required_output_fields": [
         "Unassisted task",
@@ -2519,7 +2519,7 @@
       "id": "sj-product-speed-as-feature:positive",
       "skill": "sj-product-speed-as-feature",
       "mode": "positive",
-      "prompt": "Use $sj-product-speed-as-feature to find the Safari-speed rule for this product. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-speed-as-feature to find the Safari-speed rule for this product. Context: A code search tool returns accurate results in 4.8 seconds; users abandon repeated queries after the third wait, while cached results arrive in 300 milliseconds.",
       "claim_id": "SJ-P10",
       "required_output_fields": [
         "Critical wait moments",
@@ -2559,7 +2559,7 @@
       "id": "sj-product-taste-review:positive",
       "skill": "sj-product-taste-review",
       "mode": "positive",
-      "prompt": "Use $sj-product-taste-review to critique this screen. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-taste-review to critique this screen. Context: Two music-player prototypes meet the same metrics: one exposes every control, while the other reveals queue editing only when a song is moved.",
       "claim_id": "SJ-P13",
       "required_output_fields": [
         "Intended standard",
@@ -2599,7 +2599,7 @@
       "id": "sj-product-telegraph-to-telephone:positive",
       "skill": "sj-product-telegraph-to-telephone",
       "mode": "positive",
-      "prompt": "Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "prompt": "Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph. Context: A database backup tool asks ordinary shop owners to choose regions, retention classes, snapshots, encryption keys, and restore topology before protecting data.",
       "claim_id": "SJ-P17",
       "required_output_fields": [
         "Expert workflow",
@@ -2639,7 +2639,7 @@
       "id": "sj-story-demo-rehearsal-loop:positive",
       "skill": "sj-story-demo-rehearsal-loop",
       "mode": "positive",
-      "prompt": "Use $sj-story-demo-rehearsal-loop to tighten this demo. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-demo-rehearsal-loop to tighten this demo. Context: A seven-minute keynote demo imports sources, asks a question, and exports a brief; import fails one in five runs and the current rehearsal lasts nine minutes.",
       "claim_id": "SJ-ST06",
       "required_output_fields": [
         "Audience and belief shift",
@@ -2677,7 +2677,7 @@
       "id": "sj-story-historical-analogy:positive",
       "skill": "sj-story-historical-analogy",
       "mode": "positive",
-      "prompt": "Use $sj-story-historical-analogy to position this AI product. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-historical-analogy to position this AI product. Context: Position an AI coding assistant using a transition from manual lookup to interactive tools while explicitly avoiding claims that adoption is inevitable.",
       "claim_id": "SJ-ST05",
       "required_output_fields": [
         "New change",
@@ -2715,7 +2715,7 @@
       "id": "sj-story-missionary-pr:positive",
       "skill": "sj-story-missionary-pr",
       "mode": "positive",
-      "prompt": "Use $sj-story-missionary-pr to create an educational PR angle. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-missionary-pr to create an educational PR angle. Context: Create a useful PR angle around how small nonprofits can verify AI-generated grant research, supported by a public checklist and a transparent demo.",
       "claim_id": "SJ-ST08",
       "required_output_fields": [
         "Public problem",
@@ -2753,7 +2753,7 @@
       "id": "sj-story-number-context:positive",
       "skill": "sj-story-number-context",
       "mode": "positive",
-      "prompt": "Use $sj-story-number-context to explain these benchmark numbers. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-number-context to explain these benchmark numbers. Context: A benchmark reports 37 percent faster synthesis on 120 English reports, from 8.1 to 5.1 minutes, with no quality difference detected in that sample.",
       "claim_id": "SJ-ST04",
       "required_output_fields": [
         "Verified numbers",
@@ -2791,7 +2791,7 @@
       "id": "sj-story-old-story-new-tool:positive",
       "skill": "sj-story-old-story-new-tool",
       "mode": "positive",
-      "prompt": "Use $sj-story-old-story-new-tool to humanize this AI tool story. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-old-story-new-tool to humanize this AI tool story. Context: Explain an AI voice archive through the enduring human wish to preserve a grandparent's stories, while keeping consent and editing responsibility visible.",
       "claim_id": "SJ-ST09",
       "required_output_fields": [
         "Enduring human story",
@@ -2829,7 +2829,7 @@
       "id": "sj-story-one-message-marketing:positive",
       "skill": "sj-story-one-message-marketing",
       "mode": "positive",
-      "prompt": "Use $sj-story-one-message-marketing to create one launch message. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-one-message-marketing to create one launch message. Context: A research assistant launch page claims citations, speed, collaboration, privacy, multiple models, exports, templates, automation, and lower cost.",
       "claim_id": "SJ-ST01",
       "required_output_fields": [
         "Chosen audience",
@@ -2867,7 +2867,7 @@
       "id": "sj-story-sell-the-improvement:positive",
       "skill": "sj-story-sell-the-improvement",
       "mode": "positive",
-      "prompt": "Use $sj-story-sell-the-improvement to rewrite this feature list. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-sell-the-improvement to rewrite this feature list. Context: Rewrite features including automatic citations, source comparison, and export around a consultant producing a trustworthy client brief before a morning meeting.",
       "claim_id": "SJ-ST02",
       "required_output_fields": [
         "Feature-to-outcome map",
@@ -2905,7 +2905,7 @@
       "id": "sj-story-three-act-launch:positive",
       "skill": "sj-story-three-act-launch",
       "mode": "positive",
-      "prompt": "Use $sj-story-three-act-launch to structure this product announcement. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-three-act-launch to structure this product announcement. Context: A launch has a working cited-answer demo, a customer story, and availability today, but its current run of show starts with architecture and ends without a clear action.",
       "claim_id": "SJ-ST03",
       "required_output_fields": [
         "Act one setup",
@@ -2943,7 +2943,7 @@
       "id": "sj-story-values-marketing:positive",
       "skill": "sj-story-values-marketing",
       "mode": "positive",
-      "prompt": "Use $sj-story-values-marketing to write the values layer of this launch. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "prompt": "Use $sj-story-values-marketing to write the values layer of this launch. Context: A privacy campaign claims user control; the product supports local deletion and export but defaults to training consent buried in settings.",
       "claim_id": "SJ-ST07",
       "required_output_fields": [
         "Claimed value",
@@ -2981,7 +2981,7 @@
       "id": "sj-strategy-ambush-distribution:positive",
       "skill": "sj-strategy-ambush-distribution",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-ambush-distribution to find our Apple Store equivalent. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-ambush-distribution to find our Apple Store equivalent. Context: Independent designers already gather in three template marketplaces and two weekly critique streams; paid search is expensive and incumbents ignore those workflows.",
       "claim_id": "SJ-S05",
       "required_output_fields": [
         "Customer gathering map",
@@ -3019,7 +3019,7 @@
       "id": "sj-strategy-build-for-yourself:positive",
       "skill": "sj-strategy-build-for-yourself",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-build-for-yourself to see where we should trust our own use. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-build-for-yourself to see where we should trust our own use. Context: The founding team uses its own developer notebook daily and loves keyboard control, while external researchers need collaboration and have not validated willingness to pay.",
       "claim_id": "SJ-S13",
       "required_output_fields": [
         "Internal problem",
@@ -3057,7 +3057,7 @@
       "id": "sj-strategy-company-as-invention:positive",
       "skill": "sj-strategy-company-as-invention",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-company-as-invention to design the company behind this product. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-company-as-invention to design the company behind this product. Context: A company promises exceptional end-to-end privacy but security reviews happen late, incentives reward launch count, and customer incidents lack one owner.",
       "claim_id": "SJ-S14",
       "required_output_fields": [
         "Enduring capability",
@@ -3095,7 +3095,7 @@
       "id": "sj-strategy-differentiation-or-death:positive",
       "skill": "sj-strategy-differentiation-or-death",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-differentiation-or-death to test this startup idea. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-differentiation-or-death to test this startup idea. Context: A meeting transcription startup claims better AI, while buyers compare it with bundled tools on accuracy, consent, workflow fit, and switching cost.",
       "claim_id": "SJ-S02",
       "required_output_fields": [
         "User and alternatives",
@@ -3133,7 +3133,7 @@
       "id": "sj-strategy-direct-channel:positive",
       "skill": "sj-strategy-direct-channel",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-direct-channel to design our direct customer loop. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-direct-channel to design our direct customer loop. Context: A hardware company sells through distributors and receives quarterly summaries; customers need setup education and the team cannot see activation or failures.",
       "claim_id": "SJ-S04",
       "required_output_fields": [
         "Intermediary map",
@@ -3171,7 +3171,7 @@
       "id": "sj-strategy-do-not-overplay-hand:positive",
       "skill": "sj-strategy-do-not-overplay-hand",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-do-not-overplay-hand to review this negotiation plan. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-do-not-overplay-hand to review this negotiation plan. Context: A supplier delay gives temporary leverage in renewal talks; the company has one alternative, needs the relationship next year, and is considering an ultimatum.",
       "claim_id": "SJ-S12",
       "required_output_fields": [
         "Leverage inventory",
@@ -3209,7 +3209,7 @@
       "id": "sj-strategy-failure-apprenticeship:positive",
       "skill": "sj-strategy-failure-apprenticeship",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-failure-apprenticeship to autopsy this failed launch. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-failure-apprenticeship to autopsy this failed launch. Context: A launch missed targets after ignored beta churn, a late pricing change, one platform outage, and an assumption that waitlist size predicted paid use.",
       "claim_id": "SJ-S08",
       "required_output_fields": [
         "Failure timeline",
@@ -3247,7 +3247,7 @@
       "id": "sj-strategy-focus-matrix:positive",
       "skill": "sj-strategy-focus-matrix",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-focus-matrix to simplify this product portfolio. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-focus-matrix to simplify this product portfolio. Context: Four products consume 42, 28, 18, and 12 percent of staff; only two share the target customer, one grows, and runway is nine months.",
       "claim_id": "SJ-S01",
       "required_output_fields": [
         "Portfolio inventory",
@@ -3285,7 +3285,7 @@
       "id": "sj-strategy-innovate-out:positive",
       "skill": "sj-strategy-innovate-out",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-innovate-out to find our way out of this market trap. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-innovate-out to find our way out of this market trap. Context: A storage product faces commoditized pricing, but the team owns trusted compliance workflows and customers struggle to prove retention policies.",
       "claim_id": "SJ-S03",
       "required_output_fields": [
         "Strategic trap",
@@ -3323,7 +3323,7 @@
       "id": "sj-strategy-pivot-to-core:positive",
       "skill": "sj-strategy-pivot-to-core",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-pivot-to-core to find our WebObjects pivot. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-pivot-to-core to find our WebObjects pivot. Context: A failed website builder has one internal collaboration engine that three agencies repeatedly ask to license; legacy hosting commitments remain.",
       "claim_id": "SJ-S10",
       "required_output_fields": [
         "Evidence inventory",
@@ -3361,7 +3361,7 @@
       "id": "sj-strategy-reality-is-malleable:positive",
       "skill": "sj-strategy-reality-is-malleable",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-reality-is-malleable to identify fake constraints. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-reality-is-malleable to identify fake constraints. Context: The team says procurement forbids a pilot, but nobody has read the policy; security review is real, budget timing is negotiable, and patient data cannot be used.",
       "claim_id": "SJ-S07",
       "required_output_fields": [
         "Constraint statements",
@@ -3399,7 +3399,7 @@
       "id": "sj-strategy-say-yes-then-learn:positive",
       "skill": "sj-strategy-say-yes-then-learn",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-say-yes-then-learn to decide if this is a stretch yes. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-say-yes-then-learn to decide if this is a stretch yes. Context: A hospital requests a six-week pilot; the team knows workflow software but lacks clinical safety expertise and can stage a non-diagnostic test with an adviser.",
       "claim_id": "SJ-S06",
       "required_output_fields": [
         "Opportunity and exposure",
@@ -3437,7 +3437,7 @@
       "id": "sj-strategy-startup-discipline:positive",
       "skill": "sj-strategy-startup-discipline",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-startup-discipline to audit our burn and discipline. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-startup-discipline to audit our burn and discipline. Context: A company has $1.2 million cash, $145,000 monthly burn, weak retention, nine open roles, and one enterprise pilot that could prove the core workflow.",
       "claim_id": "SJ-S09",
       "required_output_fields": [
         "Runway truth",
@@ -3475,7 +3475,7 @@
       "id": "sj-strategy-synthesizer-strategy:positive",
       "skill": "sj-strategy-synthesizer-strategy",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-synthesizer-strategy to combine these capabilities into one product. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-synthesizer-strategy to combine these capabilities into one product. Context: Combine speech recognition, citations, CRM context, and approval workflows into one outcome for account managers preparing a verified follow-up.",
       "claim_id": "SJ-S11",
       "required_output_fields": [
         "Capability inventory",
@@ -3513,7 +3513,7 @@
       "id": "sj-strategy-web-as-community:positive",
       "skill": "sj-strategy-web-as-community",
       "mode": "positive",
-      "prompt": "Use $sj-strategy-web-as-community to build our web community strategy. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "prompt": "Use $sj-strategy-web-as-community to build our web community strategy. Context: A 40,000-person newsletter wants to become a community; readers share a professional practice but currently cannot help, recognize, or govern one another.",
       "claim_id": "SJ-S15",
       "required_output_fields": [
         "Community purpose",
