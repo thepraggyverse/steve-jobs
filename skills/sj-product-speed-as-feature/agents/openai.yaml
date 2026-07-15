@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Speed As Feature"
   short_description: "Choose speed or responsiveness as a product rule"
-  default_prompt: "Use $sj-product-speed-as-feature to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-speed-as-feature to find the Safari-speed rule for this product."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

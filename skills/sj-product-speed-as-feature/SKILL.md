@@ -11,33 +11,40 @@ Choose speed or responsiveness as a product rule.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Identify the repeated moments where waiting changes user behavior or confidence.
+2. Measure or estimate current latency, variability, and perceived delay at each moment.
+3. Set an explicit response-time budget tied to the intended feeling.
+4. Remove work, precompute, stream, cache, defer, or redesign rather than only adding loading polish.
+5. Define a repeatable measurement and the product tradeoff accepted to meet the budget.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P10`
+- Sources: `S03`, `S07`, `S09`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Critical wait moments
+- Current latency and variance
+- Speed budget
+- Structural speed move
+- Measurement and tradeoff
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Optimize the user's wait, not an irrelevant benchmark.
+- Preserve correctness, safety, and trust boundaries.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Treat perceived speed and actual speed as separate evidence.
 
 ## Example Prompt
 

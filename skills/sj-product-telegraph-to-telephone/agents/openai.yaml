@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Telegraph To Telephone"
   short_description: "Turn expert complexity into everyday usability"
-  default_prompt: "Use $sj-product-telegraph-to-telephone to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

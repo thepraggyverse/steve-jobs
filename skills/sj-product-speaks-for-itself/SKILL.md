@@ -11,33 +11,40 @@ Remove design that requires explanation to make sense.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Observe or simulate the first-use path without presenter narration or hidden knowledge.
+2. Mark every moment that requires a tooltip, manual, apology, or verbal explanation.
+3. Diagnose whether the dependency comes from hierarchy, language, affordance, state, or product model.
+4. Replace explanation with a clearer structure, cue, default, feedback loop, or narrower feature.
+5. Re-test the path with a novice and record where explanation is still necessary.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P05`
+- Sources: `S02`, `S03`, `S09`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Unassisted task
+- Explanation dependencies
+- Root causes
+- Self-evident replacements
+- Novice re-test
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Documentation may support depth but must not rescue the core path.
+- Do not hide consequential choices merely to reduce explanation.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Test comprehension through action, not stated preference.
 
 ## Example Prompt
 

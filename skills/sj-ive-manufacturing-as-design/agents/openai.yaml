@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Manufacturing As Design"
-  short_description: "Treat production constraints as part of design."
-  default_prompt: "Use $sj-ive-manufacturing-as-design to apply this Jony Ive design studio lens to my task."
+  short_description: "Treat production constraints as part of design"
+  default_prompt: "Use $sj-ive-manufacturing-as-design to test whether this concept survives production reality."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

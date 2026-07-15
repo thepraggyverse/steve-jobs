@@ -11,33 +11,40 @@ Remove anything that does not serve the core experience.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. State the core promise and the minimum complete experience that fulfills it.
+2. Inventory features, steps, words, states, dependencies, and owners.
+3. Classify each item as essential, supporting, mergeable, deferrable, or removable.
+4. Remove or merge the highest-cost nonessential items and state the lost option.
+5. Re-run the core journey to prove the cuts preserved usefulness and coherence.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P09`
+- Sources: `S02`, `S07`, `S09`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Core promise
+- Essential set
+- Merge, defer, and remove list
+- Tradeoffs accepted
+- Post-cut journey proof
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not remove support that makes the core promise trustworthy.
+- Treat maintenance and cognitive cost as real cost.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Simplicity is a coherent whole, not the smallest feature count.
 
 ## Example Prompt
 

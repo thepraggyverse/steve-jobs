@@ -11,33 +11,40 @@ Frame tools as human leverage rather than machinery.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Name the human ability, effort, or limitation before the tool exists.
+2. Show how the tool multiplies reach, speed, quality, memory, or creative range.
+3. Remove machine-centered language that describes implementation instead of leverage.
+4. Express the before-and-after change through one concrete user task.
+5. Produce one plain-language leverage statement and the proof needed to believe it.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P03`
+- Sources: `S01`, `S02`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Human ability
+- Current limitation
+- Leverage created
+- Before-and-after task
+- Plain-language promise and proof
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Keep the human as the actor and the tool as the amplifier.
+- Do not claim leverage that removes agency or hides material risk.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Prefer a demonstrable task over an abstract productivity claim.
 
 ## Example Prompt
 

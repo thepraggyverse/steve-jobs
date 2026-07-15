@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Simplify To One"
-  short_description: "Reduce a product, path, message, or priority set to one clear..."
-  default_prompt: "Use $sj-product-simplify-to-one to apply this Steve Jobs operating pattern to my task."
+  short_description: "Reduce competing priorities to one clear product path"
+  default_prompt: "Use $sj-product-simplify-to-one to find the one thing this MVP should do."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

@@ -11,33 +11,40 @@ Identify mediocrity and force a higher standard.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Define the minimum excellence bar for the product and its critical moments.
+2. Grade each major component as excellent, credible, second-rate, or unnecessary using evidence.
+3. Identify the weakest component that degrades the whole experience or brand promise.
+4. Decide whether to remake, remove, narrow, or delay it.
+5. Set a concrete exit criterion before the component can rejoin the product.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P15`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Excellence bar
+- Component grades
+- Second-rate element
+- Remake or removal decision
+- Re-entry criterion
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Apply the bar most strongly to the core promise, not every minor detail.
+- Do not use harsh labels without observable criteria.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- A narrower excellent product is an acceptable outcome.
 
 ## Example Prompt
 

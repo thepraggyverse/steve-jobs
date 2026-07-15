@@ -35,6 +35,13 @@ Review the SJ learning store and recommend what to keep, update, merge, or archi
 | Malformed | Required frontmatter or sections are missing. |
 | Weak retrieval | Tags, skills, or `Reuse When` would not help a future agent find the note. |
 
+## Source Grounding
+
+- Claim: `SJ-C03`
+- Sources: `S02`, `S07`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact report with:

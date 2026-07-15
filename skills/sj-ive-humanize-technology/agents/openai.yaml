@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Humanize Technology"
-  short_description: "Make technology feel approachable and emotionally legible."
-  default_prompt: "Use $sj-ive-humanize-technology to apply this Jony Ive design studio lens to my task."
+  short_description: "Make technology approachable and emotionally legible"
+  default_prompt: "Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

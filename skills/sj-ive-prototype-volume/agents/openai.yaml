@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Prototype Volume"
-  short_description: "Replace debate with many concrete prototypes."
-  default_prompt: "Use $sj-ive-prototype-volume to apply this Jony Ive design studio lens to my task."
+  short_description: "Replace debate with many concrete prototypes"
+  default_prompt: "Use $sj-ive-prototype-volume to turn this design debate into a prototype selection loop."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

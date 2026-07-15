@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Concrete Artifact Review"
   short_description: "Force decisions around visible work rather than ideas"
-  default_prompt: "Use $sj-product-concrete-artifact-review to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-concrete-artifact-review to critique this artifact instead of the idea."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

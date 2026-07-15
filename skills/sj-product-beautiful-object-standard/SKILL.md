@@ -11,33 +11,40 @@ Ask whether the thing deserves to exist as an object.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. State what kind of object or experience this artifact claims to be.
+2. Inspect form, proportion, hierarchy, coherence, tactility, and behavior as one composition.
+3. Identify generic, unresolved, ornamental, or careless choices that weaken the whole.
+4. Test whether the artifact earns desire through usefulness and integrity rather than decoration.
+5. Return a keep, remake, or remove verdict with the next physical or digital proof.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P16`
+- Sources: `S02`, `S03`, `S10`, `S15`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Object promise
+- Coherent qualities
+- Disqualifying details
+- Beauty-through-use judgment
+- Verdict and next proof
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not confuse luxury signals with beauty.
+- Judge software as an interactive object, not a screenshot.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Utility must survive the aesthetic standard.
 
 ## Example Prompt
 

@@ -61,6 +61,13 @@ Use `templates/sj-learning.md` from this repository as the authoring template wh
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-skill-catalog.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-C02`
+- Sources: `S02`, `S07`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Before saving, return:

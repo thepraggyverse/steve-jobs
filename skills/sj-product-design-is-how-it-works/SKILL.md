@@ -11,33 +11,40 @@ Judge design by behavior, not surface styling.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Trace the user-visible behavior from intent through success, failure, and recovery.
+2. Identify where visual styling promises behavior the system does not deliver.
+3. Inspect affordance, feedback, state, latency, defaults, and error handling.
+4. Rewrite the interaction rule so form and behavior express the same idea.
+5. Define a task-based test that proves the design works without explanation.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P06`
+- Sources: `S02`, `S03`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- User intent
+- Behavior trace
+- Promise-behavior mismatch
+- Revised interaction rule
+- Task-based proof
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not grade a functional design from static appearance alone.
+- Include failure and recovery states in the design.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Prefer observed behavior over design rationale.
 
 ## Example Prompt
 

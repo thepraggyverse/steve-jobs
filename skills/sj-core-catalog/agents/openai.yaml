@@ -1,7 +1,7 @@
 interface:
   display_name: "Core Catalog"
   short_description: "Choose the right Steve Jobs operating skill and sequence"
-  default_prompt: "Use $sj-core-catalog to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-core-catalog to choose the best Steve Jobs skill sequence for this product decision."
 
 policy:
   allow_implicit_invocation: true

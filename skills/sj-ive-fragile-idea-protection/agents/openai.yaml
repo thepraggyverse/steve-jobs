@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Fragile Idea Protection"
-  short_description: "Protect promising rough ideas before premature judgment."
-  default_prompt: "Use $sj-ive-fragile-idea-protection to apply this Jony Ive design studio lens to my task."
+  short_description: "Protect promising rough ideas before premature judgment"
+  default_prompt: "Use $sj-ive-fragile-idea-protection to protect this early idea long enough to test it fairly."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

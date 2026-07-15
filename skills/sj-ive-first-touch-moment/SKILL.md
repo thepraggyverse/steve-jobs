@@ -22,6 +22,13 @@ Treat the first encounter as a trust-setting moment where care, hierarchy, affor
 - Read `references/sj-ive-design-studio.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-I03`
+- Sources: `S10`, `S12`, `S15`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:

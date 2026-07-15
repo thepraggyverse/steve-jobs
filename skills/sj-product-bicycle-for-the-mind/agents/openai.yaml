@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Bicycle For The Mind"
   short_description: "Frame tools as human leverage rather than machinery"
-  default_prompt: "Use $sj-product-bicycle-for-the-mind to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-bicycle-for-the-mind to explain this AI workflow to normal users."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

@@ -22,6 +22,13 @@ Force every novel choice to prove a real improvement in use, meaning, trust, sim
 - Read `references/sj-ive-design-studio.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-I08`
+- Sources: `S11`, `S12`, `S13`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:

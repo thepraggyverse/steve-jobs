@@ -11,33 +11,40 @@ Force decisions around visible work rather than ideas.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Require the smallest real artifact that exposes the disputed decision.
+2. Separate direct observations from interpretations and missing evidence.
+3. Walk the artifact in the order a user, operator, or builder encounters it.
+4. Make decisions against visible details, not imagined future quality.
+5. Specify the changed artifact that must return for the next review.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P23`
+- Sources: `S03`, `S07`, `S14`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Artifact inspected
+- Direct observations
+- Assumptions and gaps
+- Decisions made
+- Required next version
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not accept a deck or description when the real artifact can be inspected.
+- Do not turn preference into an observation.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- End with a versioned artifact, not an open-ended discussion.
 
 ## Example Prompt
 

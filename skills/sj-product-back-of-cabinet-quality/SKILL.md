@@ -11,33 +11,40 @@ Care about hidden quality even when users may not see it.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Inventory the hidden structures that support the visible experience.
+2. Define the quality standard for naming, architecture, edge cases, maintenance, and failure behavior.
+3. Find concealed shortcuts that can leak into reliability, speed, trust, or future change cost.
+4. Separate harmless internal roughness from craftsmanship debt with user consequences.
+5. Choose the hidden repair and inspection that best protects the visible product.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P12`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Hidden surface
+- Quality standard
+- Craftsmanship debt
+- User consequence
+- Repair and verification
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not polish internals that cannot affect reliability, changeability, or trust.
+- Treat hidden quality as stewardship, not perfectionism.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Make the verification inspectable by another builder.
 
 ## Example Prompt
 

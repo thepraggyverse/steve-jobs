@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Beautiful Object Standard"
   short_description: "Ask whether the thing deserves to exist as an object"
-  default_prompt: "Use $sj-product-beautiful-object-standard to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-beautiful-object-standard to critique this artifact as an object."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

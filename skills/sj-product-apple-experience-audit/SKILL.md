@@ -11,33 +11,40 @@ Audit every touchpoint as a trust deposit or withdrawal.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Map the journey from discovery through purchase, setup, use, failure, support, and return.
+2. Record the user's expectation and the product signal at each relevant touchpoint.
+3. Mark trust deposits, trust withdrawals, broken handoffs, and contradictory promises.
+4. Prioritize withdrawals by severity, frequency, and recoverability.
+5. Assign one repair, owner, and observable proof for the highest-risk touchpoint.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P11`
+- Sources: `S02`, `S03`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Journey segment
+- Trust deposits
+- Trust withdrawals
+- Broken handoffs
+- Priority repair and proof
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Review the whole journey, not only the polished happy path.
+- Separate observed touchpoints from assumed ones.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not call delight a repair when reliability or clarity is broken.
 
 ## Example Prompt
 

@@ -11,33 +11,40 @@ Run a concrete demo-driven iteration loop.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Name the decision that cannot be resolved through discussion alone.
+2. Create or request contrasting variants that each test a distinct bet.
+3. Define selection criteria tied to the user job, product story, and technical truth.
+4. Compare variants side by side and record what each reveals.
+5. Select, combine, or reject variants and set the next demo threshold.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P22`
+- Sources: `S03`, `S10`, `S14`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Decision under review
+- Variant set
+- Selection criteria
+- Comparison findings
+- Selection and next demo
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Each variant must test a meaningfully different choice.
+- Do not let authorship determine selection.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Stop generating variants once the decision is visible.
 
 ## Example Prompt
 

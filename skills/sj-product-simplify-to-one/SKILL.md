@@ -11,33 +11,40 @@ Reduce a product, path, message, or priority set to one clear thing.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Name the primary user and the single outcome they return to achieve.
+2. List the competing jobs, paths, messages, features, audiences, or owners.
+3. Select one organizing priority using user value, frequency, differentiation, and strategic fit.
+4. Cut, defer, merge, or subordinate everything that competes with that priority.
+5. Define one end-to-end artifact that proves the simplified product is complete enough.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P07`
+- Sources: `S02`, `S07`, `S09`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Primary user and outcome
+- Competing priorities
+- One organizing priority
+- Cuts and subordinations
+- End-to-end proof
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- One priority may support several necessary steps, but only one outcome should organize them.
+- State who or what is no longer served.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not call a tagline simplification if the product remains split.
 
 ## Example Prompt
 

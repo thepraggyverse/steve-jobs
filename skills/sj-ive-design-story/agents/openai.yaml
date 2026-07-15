@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Design Story"
-  short_description: "Find the product's design story before debating features."
-  default_prompt: "Use $sj-ive-design-story to apply this Jony Ive design studio lens to my task."
+  short_description: "Find the product design story before debating features"
+  default_prompt: "Use $sj-ive-design-story to find the design story for this product before we debate features."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

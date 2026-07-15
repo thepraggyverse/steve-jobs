@@ -22,6 +22,13 @@ Look for the tiny decisions where users infer whether the maker cared, even when
 - Read `references/sj-ive-design-studio.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-I07`
+- Sources: `S10`, `S11`, `S13`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:

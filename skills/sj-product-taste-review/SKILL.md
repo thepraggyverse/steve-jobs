@@ -11,33 +11,40 @@ Use judgment where metrics and committees are not enough.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. State the intended feeling, product principles, audience, and non-negotiable constraints.
+2. Compare the actual options or artifact against coherence, restraint, clarity, originality, and care.
+3. Identify choices that are individually attractive but weaken the whole.
+4. Make a judgment, explain the tradeoff, and name evidence that could overturn it.
+5. Request the next concrete variant needed to sharpen or confirm the judgment.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P13`
+- Sources: `S03`, `S04`, `S11`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Intended standard
+- Coherent choices
+- Taste violations
+- Judgment and tradeoff
+- Counter-evidence and next variant
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Taste is accountable judgment, not unexplained authority.
+- Do not use metrics as a veto or taste as immunity from evidence.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Judge the whole before polishing isolated details.
 
 ## Example Prompt
 

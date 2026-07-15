@@ -11,33 +11,40 @@ Treat each interaction as adding or withdrawing trust.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Enumerate the interactions where the product makes or breaks a promise.
+2. Assign each interaction a trust deposit, neutral effect, or withdrawal with evidence.
+3. Identify repeated small withdrawals and rare catastrophic ones.
+4. Choose the repair that restores the most trust without making a new promise the system cannot keep.
+5. Define a behavioral or operational signal that shows reputation is recovering.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P19`
+- Sources: `S04`, `S05`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Promise under review
+- Trust ledger
+- Cumulative withdrawals
+- Reputation repair
+- Recovery signal
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not treat branding as a substitute for reliable behavior.
+- Weight broken high-stakes promises more than cosmetic defects.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Avoid promising recovery before the repair is proven.
 
 ## Example Prompt
 

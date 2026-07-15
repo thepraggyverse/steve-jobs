@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Customer Backwards"
   short_description: "Start from the user experience and work back to technology"
-  default_prompt: "Use $sj-product-customer-backwards to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-customer-backwards to reframe this feature from the user experience back."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

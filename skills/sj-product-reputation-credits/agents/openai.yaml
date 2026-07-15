@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Reputation Credits"
   short_description: "Treat each interaction as adding or withdrawing trust"
-  default_prompt: "Use $sj-product-reputation-credits to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-reputation-credits to find trust deposits and withdrawals in this flow."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

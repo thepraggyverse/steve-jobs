@@ -11,33 +11,40 @@ Demystify reality by making and inspecting things directly.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Name the abstract claim or decision that has drifted away from reality.
+2. Choose the smallest material, code, prototype, or customer artifact that can expose it.
+3. Inspect or make the artifact directly with the responsible builder.
+4. Record facts that changed the original belief, including awkward details.
+5. Convert the inspection into one immediate build, test, or customer action.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P18`
+- Sources: `S03`, `S04`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Abstract claim
+- Workbench artifact
+- Facts discovered
+- Belief changed
+- Immediate hands-on action
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Direct involvement must clarify reality, not bypass ownership.
+- Do not substitute founder taste for user evidence when the question is empirical.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Leave the builder with a clearer decision and authority.
 
 ## Example Prompt
 

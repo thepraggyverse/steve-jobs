@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Founder Workbench"
   short_description: "Demystify reality by making and inspecting things directly"
-  default_prompt: "Use $sj-product-founder-workbench to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-founder-workbench to turn this abstract idea into a hands-on build step."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

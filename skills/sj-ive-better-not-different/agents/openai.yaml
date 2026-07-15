@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Better Not Different"
-  short_description: "Test whether novelty is actually better."
-  default_prompt: "Use $sj-ive-better-not-different to apply this Jony Ive design studio lens to my task."
+  short_description: "Test whether novelty makes the product genuinely better"
+  default_prompt: "Use $sj-ive-better-not-different to test whether this unusual design choice is actually better."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

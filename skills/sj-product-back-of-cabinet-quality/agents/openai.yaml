@@ -1,7 +1,7 @@
 interface:
   display_name: "Product Back Of Cabinet Quality"
   short_description: "Care about hidden quality even when users may not see it"
-  default_prompt: "Use $sj-product-back-of-cabinet-quality to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

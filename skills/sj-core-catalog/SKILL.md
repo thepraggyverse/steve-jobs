@@ -28,6 +28,13 @@ Choose the right Steve Jobs operating skill and sequence.
 - Use `sj-ive-*` skills for design story, care, first touch, material, prototype selection, manufacturing reality, and modernization without loss of soul.
 - Use `sj-story-*`, `sj-people-*`, `sj-strategy-*`, `sj-learning-*`, and `sj-anti-*` when those domains are the main constraint.
 
+## Source Grounding
+
+- Claim: `SJ-C01`
+- Sources: `S02`, `S03`, `S04`, `S06`, `S07`, `S08`, `S09`, `S10`, `S13`, `S14`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:

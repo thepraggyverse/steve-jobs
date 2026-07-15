@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Care Is Felt"
-  short_description: "Audit whether users can sense care in the artifact."
-  default_prompt: "Use $sj-ive-care-is-felt to apply this Jony Ive design studio lens to my task."
+  short_description: "Audit whether users can sense care in the artifact"
+  default_prompt: "Use $sj-ive-care-is-felt to find where this product feels cared for or careless."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

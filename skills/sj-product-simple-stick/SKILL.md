@@ -11,33 +11,40 @@ Challenge undistilled, winding, or overcomplicated thinking.
 
 ## Workflow
 
-1. Locate or ask for the real artifact, flow, screen, code path, or product claim.
-2. Name the user, the job, and the intended feeling or behavior.
-3. Find the complexity, friction, weak taste, or explanation dependency.
-4. Choose one concrete improvement and state the tradeoff.
-5. End with the next artifact to demo or inspect.
+1. Extract the central claim, decision, or request from the artifact.
+2. Remove jargon, throat-clearing, duplicated logic, and complexity that hides uncertainty.
+3. Rewrite the idea as one plain sentence that a serious outsider can challenge.
+4. List unresolved questions that the original complexity concealed.
+5. Rebuild only the supporting detail needed to decide or act.
 
 ## Read References
 
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-P08`
+- Sources: `S02`, `S07`, `S09`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Core user job
-- What works
-- What breaks
-- Simplifying move
-- Next artifact
+- Central claim
+- Complexity removed
+- Plain statement
+- Hidden unresolved questions
+- Decision-ready rewrite
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
+- Do not simplify away a real technical or ethical constraint.
+- Plain language should expose uncertainty rather than disguise it.
 - Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Preserve only detail that changes the decision.
 
 ## Example Prompt
 

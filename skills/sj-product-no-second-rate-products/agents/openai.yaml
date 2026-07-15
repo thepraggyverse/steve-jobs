@@ -1,7 +1,7 @@
 interface:
   display_name: "Product No Second Rate Products"
   short_description: "Identify mediocrity and force a higher standard"
-  default_prompt: "Use $sj-product-no-second-rate-products to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-product-no-second-rate-products to identify what feels mediocre here."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

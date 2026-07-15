@@ -1,7 +1,7 @@
 interface:
   display_name: "Ive Future Without Betrayal"
-  short_description: "Modernize without losing the soul users trust."
-  default_prompt: "Use $sj-ive-future-without-betrayal to apply this Jony Ive design studio lens to my task."
+  short_description: "Modernize without losing the soul users trust"
+  default_prompt: "Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false
