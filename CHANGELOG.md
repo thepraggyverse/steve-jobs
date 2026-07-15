@@ -4,6 +4,19 @@
 
 - Nothing yet.
 
+## 0.3.0 - 2026-07-15
+
+- Replaced shared family templates with 91 distinct workflow and output contracts.
+- Added stable claim IDs, 15 source IDs, evidence levels, a complete evidence map, and self-contained local provenance files for every skill.
+- Made `$sj-core-catalog` the only implicitly invokable skill while keeping all 90 leaf skills explicitly invokable.
+- Replaced generic UI prompts with each skill's concrete example prompt and enforced 25-64 character metadata descriptions.
+- Added 182 generated behavior cases, 18 ambiguous router cases, a source-blind behavior contract, and strict semantic validation.
+- Added source, metadata, and behavior synchronization tools with drift checks in `scripts/validate.sh`.
+- Corrected native Codex examples to use the `$steve-jobs:sj-*` plugin namespace and made live install proof fail closed when a skill does not load.
+- Added a source-blind live router checker that evaluates all 18 ambiguous routing fixtures against hidden expected primaries.
+- Completed the Claude plugin manifest with version, description, author, homepage, repository, and license metadata.
+- Expanded installation, architecture, development, audit, behavior-testing, and handoff documentation for the deeper runtime contract.
+
 ## 0.2.0 - 2026-06-30
 
 - Bumped the Codex plugin version to `0.2.0`.

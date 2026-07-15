@@ -26,6 +26,11 @@ This repo was audited against the current public shape of these projects and doc
 | `$sj-core-compound-learning` named compounding but did not define durable storage, approval, duplicate checks, or refresh. | Added `docs/MEMORY_AND_LOGS.md`, `templates/sj-learning.md`, upgraded capture rules, and `$sj-core-learning-refresh`. |
 | No explicit closeout, live-test, autoreview, or handoff recipe. | Added `docs/HANDOFF.md` and made it part of validation. |
 | The Jony Ive source notes were not represented as first-class runtime skills. | Added a connected `sj-ive-*` design studio layer and `references/sj-ive-design-studio.md`. |
+| Most leaf skills in a family shared the same workflow and output labels. | Rewrote every leaf into a skill-specific procedure and added a validator requiring 91 unique workflow/output contracts. |
+| All 91 skills were implicitly invokable, which inflated global skill context. | Kept only `$sj-core-catalog` implicit and made the 90 leaf skills explicit by name. |
+| UI prompts were generic and did not demonstrate the skill. | Synchronized every `agents/openai.yaml` default prompt with the skill's concrete example prompt. |
+| The source map listed titles but did not connect claims to skills. | Added 15 source IDs, 91 claim IDs, evidence levels, and a complete `sj-evidence-map.md`. |
+| Validation proved structure but not behavioral contract depth. | Added 182 per-skill cases, 18 ambiguous router cases, a source-blind behavior contract, and semantic drift checks. |
 
 ## What Was Intentionally Not Added
 
@@ -41,7 +46,7 @@ This repo was audited against the current public shape of these projects and doc
 | Surface | Count or status |
 |---|---|
 | Runtime skills | 91 |
-| Root maintainer references | 9 |
+| Root maintainer references | 10 |
 | Skill-local reference copies | Created for every referenced runtime file |
 | Native Codex manifest | `.codex-plugin/plugin.json` |
 | Claude-style manifest | `.claude-plugin/plugin.json` |
@@ -49,4 +54,7 @@ This repo was audited against the current public shape of these projects and doc
 | Local marketplace | `.agents/plugins/marketplace.json` |
 | Install scripts | `install-local.sh`, `link-skills.sh`, `copy-skills.sh`, `update-local.sh` |
 | Closeout and handoff | `docs/HANDOFF.md` |
-| Validation | `scripts/validate.sh` plus optional Codex authoring validators |
+| Provenance | 15 sources, 91 claim mappings, and self-contained local evidence maps |
+| Invocation policy | One implicit router and 90 explicit leaf skills |
+| Behavior dataset | 182 skill cases and 18 router cases |
+| Validation | Structural, semantic, provenance, metadata, dataset, inventory, and optional Codex authoring validators |

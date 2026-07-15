@@ -36,8 +36,12 @@ Then install the **Steve Jobs** plugin from that marketplace and restart Codex.
 Invoke:
 
 ```text
-Use $sj-core-catalog to choose the right Steve Jobs operating skill for this task.
+Use $steve-jobs:sj-core-catalog to choose the right Steve Jobs operating skill for this task.
 ```
+
+Codex namespaces native-plugin skills with the plugin name.
+Use `$steve-jobs:sj-product-simplify-to-one` for a native-plugin leaf.
+Use the shorter `$sj-product-simplify-to-one` form only when the skill folders are installed loose.
 
 ## Option B: Codex CLI Marketplace
 
@@ -177,14 +181,14 @@ Expected:
 
 ```text
 91 skills
-9 root references
+10 root references
 ```
 
 For a native Codex plugin install, also verify the installed cache:
 
 ```bash
 codex plugin list | rg 'steve-jobs@personal|PLUGIN|Marketplace `personal`' -C 2
-"$HOME/.codex/plugins/cache/personal/steve-jobs/0.2.0/scripts/validate.sh"
+"$HOME/.codex/plugins/cache/personal/steve-jobs/0.3.0/scripts/validate.sh"
 ```
 
 For a live harness test, use the plugin-only `codex exec` recipe in [`docs/HANDOFF.md`](HANDOFF.md).

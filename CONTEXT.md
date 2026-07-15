@@ -18,6 +18,16 @@ This file defines vocabulary used in the Steve Jobs operating skills repo.
 
 **Compound capture**: Ending a useful run by writing down the reusable lesson so a future session starts smarter.
 
+**Claim ID**: A stable `SJ-*` handle connecting one executable skill to its evidence-map row.
+
+**Source ID**: A stable `S01` through `S15` handle for one item in the bounded source corpus.
+
+**Implicit router**: `$sj-core-catalog`, the only skill eligible for automatic invocation and the entrypoint when the user has not named a leaf skill.
+
+**Explicit leaf skill**: Any non-router `sj-*` skill. It remains directly invokable by name but does not consume implicit skill context.
+
+**Behavior case**: A generated positive or boundary prompt tied to one skill's claim, output fields, and guardrails.
+
 ## Avoided Terms
 
 - Do not describe the skills as a Steve Jobs simulator.

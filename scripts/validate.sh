@@ -47,9 +47,19 @@ required_files = [
     'docs/HANDOFF.md',
     'docs/PLUGIN_ARCHITECTURE.md',
     'docs/DEVELOPMENT.md',
+    'docs/SOURCE_TRACEABILITY.md',
+    'docs/BEHAVIOR_TESTING.md',
+    'tests/BEHAVIOR_CONTRACT.md',
+    'tests/behavior-cases.json',
+    'tests/router-cases.json',
     'templates/sj-learning.md',
     'scripts/check-install.sh',
     'scripts/check-inventory.sh',
+    'scripts/check-router-live.sh',
+    'scripts/check-skill-quality.py',
+    'scripts/sync-source-grounding.py',
+    'scripts/sync-openai-metadata.py',
+    'scripts/build-behavior-cases.py',
     'scripts/install-profile.sh',
     'scripts/list-skills.sh',
     'scripts/unlink-skills.sh',
@@ -67,8 +77,8 @@ skill_names = [p.name for p in skills]
 
 if len(skills) != expected_skill_count:
     errors.append(f'expected {expected_skill_count} skills, found {len(skills)}')
-if len(refs) != 9:
-    errors.append(f'expected 9 root references, found {len(refs)}')
+if len(refs) != 10:
+    errors.append(f'expected 10 root references, found {len(refs)}')
 
 name_re = re.compile(r'^name:\s*([a-z0-9-]+)\s*$', re.MULTILINE)
 desc_re = re.compile(r'^description:\s*"(.+)"\s*$', re.MULTILINE)
@@ -110,6 +120,7 @@ for skill in skills:
         if f'${skill.name}' not in yaml_text:
             errors.append(f'default prompt does not mention ${skill.name}: {openai_yaml}')
 
+manifest = {}
 try:
     manifest = json.loads((root / '.codex-plugin' / 'plugin.json').read_text())
 except Exception as exc:
@@ -138,6 +149,12 @@ else:
     skills_list = claude_manifest.get('skills')
     if claude_manifest.get('name') != 'steve-jobs':
         errors.append('Claude plugin manifest name must be steve-jobs')
+    if claude_manifest.get('version') != manifest.get('version'):
+        errors.append('Claude and Codex plugin manifest versions must match')
+    if not claude_manifest.get('description'):
+        errors.append('Claude plugin manifest must include a description')
+    if not isinstance(claude_manifest.get('author'), dict) or not claude_manifest['author'].get('name'):
+        errors.append('Claude plugin manifest must include author.name')
     expected_paths = [f'./skills/{name}' for name in skill_names]
     if not isinstance(skills_list, list) or sorted(skills_list) != sorted(expected_paths):
         errors.append(f'Claude plugin manifest must list exactly the {expected_skill_count} skill folders')
@@ -238,7 +255,7 @@ for scan_root in scan_roots:
                 continue
             if token in known_non_skill_tokens:
                 continue
-            if token.startswith(('sj-source', 'sj-skill', 'sj-product-craft', 'sj-ive-design-studio', 'sj-story-selling', 'sj-people-leadership', 'sj-strategy-failure', 'sj-learning-practice', 'sj-anti-patterns')):
+            if token.startswith(('sj-source', 'sj-evidence', 'sj-skill', 'sj-product-craft', 'sj-ive-design-studio', 'sj-story-selling', 'sj-people-leadership', 'sj-strategy-failure', 'sj-learning-practice', 'sj-anti-patterns')):
                 continue
             errors.append(f'stale or unknown sj-* reference in {rel}: {token}')
         if '/Users/praggy' in content:
@@ -272,9 +289,20 @@ else
   echo "Codex plugin validator not found; skipped"
 fi
 
+if command -v claude >/dev/null 2>&1; then
+  claude plugin validate "$ROOT" >/dev/null
+  echo "Claude plugin validation passed"
+else
+  echo "Claude plugin validator not found; skipped"
+fi
+
 for script in "$ROOT"/scripts/*.sh; do
   bash -n "$script"
 done
 echo "Shell syntax validation passed"
 
 "$ROOT/scripts/check-inventory.sh"
+"$ROOT/scripts/sync-source-grounding.py" --check
+"$ROOT/scripts/sync-openai-metadata.py" --check
+"$ROOT/scripts/build-behavior-cases.py" --check
+"$ROOT/scripts/check-skill-quality.py"

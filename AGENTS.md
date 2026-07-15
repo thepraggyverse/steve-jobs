@@ -35,6 +35,13 @@ Every runtime skill must:
 - point only to files inside its own directory tree when it references runtime support files
 - avoid absolute paths, `../` traversal, and harness-specific variables in core behavior
 - avoid full books, full transcripts, and long copyrighted excerpts
+- define a skill-specific workflow, output contract, and at least three failure guardrails
+- include a stable claim ID and source IDs under `Source Grounding`
+- keep its `agents/openai.yaml` prompt synchronized with its example prompt
+
+`$sj-core-catalog` is the only skill with `allow_implicit_invocation: true`.
+All leaf skills remain available through explicit `$sj-*` invocation.
+This policy keeps the full 91-skill pack searchable without consuming the model's global implicit-skill budget.
 
 If two skills need the same reference, duplicate the small reference into each skill's own `references/` folder. Root `references/` are source copies for maintainers and docs; runtime skills should read their local copies.
 
@@ -50,6 +57,16 @@ When install behavior changes, update `README.md`, `docs/INSTALL.md`, `docs/SYML
 
 When live verification, release closeout, or continuation instructions change, update `docs/HANDOFF.md`.
 
+When source grounding changes, update `references/sj-source-map.md`, `scripts/sync-source-grounding.py`, and regenerate the local evidence files.
+
+When a workflow, output, guardrail, example prompt, or metadata policy changes, run all synchronization scripts before validation:
+
+```bash
+./scripts/sync-source-grounding.py
+./scripts/sync-openai-metadata.py
+./scripts/build-behavior-cases.py
+```
+
 ## Validation
 
 Run this before committing:
@@ -61,7 +78,7 @@ Run this before committing:
 For release or handoff closeout, also follow `docs/HANDOFF.md`.
 Use `scripts/check-install.sh --refresh` when installed-cache truth matters.
 
-The validator checks skill counts, manifest JSON, local reference portability, skill frontmatter, prompt stubs, and system validators when available.
+The validator checks inventory, unique workflow and output contracts, provenance, metadata policy, 182 behavior cases, router cases, local reference portability, manifests, and system validators when available.
 
 ## Public Safety
 

@@ -1,5 +1,14 @@
 {
   "name": "steve-jobs",
+  "version": "0.3.0",
+  "description": "91 source-grounded operating skills for product, design, story, people, strategy, learning, and failure review.",
+  "author": {
+    "name": "Praggy",
+    "url": "https://github.com/thepraggyverse"
+  },
+  "homepage": "https://github.com/thepraggyverse/steve-jobs",
+  "repository": "https://github.com/thepraggyverse/steve-jobs",
+  "license": "MIT",
   "skills": [
     "./skills/sj-core-catalog",
     "./skills/sj-core-compound-learning",

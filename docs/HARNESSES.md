@@ -2,6 +2,13 @@
 
 The portable unit in this repo is a complete skill folder: `skills/sj-*/SKILL.md` plus its local `references/` and `agents/` files.
 
+The native Codex metadata exposes only `$sj-core-catalog` for implicit invocation.
+All 90 leaf skills are intentionally explicit and remain searchable by the `sj-` prefix.
+Harnesses that ignore `agents/openai.yaml` can still load the same portable folders, but their automatic-trigger behavior is harness-defined.
+
+Codex addresses plugin-contributed skills as `$steve-jobs:sj-*`.
+Loose-skill installs address the same folder as `$sj-*`.
+
 ## Support Matrix
 
 | Harness family | Works as native plugin? | Works as loose skills? | Recommended install |
@@ -23,6 +30,7 @@ Native plugin formats differ across harnesses. A self-contained `SKILL.md` folde
 - no dependency on a root repo file at runtime
 - local `references/` files inside each skill that needs grounding
 - a short `agents/openai.yaml` stub for harnesses that read agent metadata
+- local source and evidence maps that resolve the skill's claim IDs
 
 ## Native Manifests Included
 
@@ -53,6 +61,12 @@ Native plugin formats differ across harnesses. A self-contained `SKILL.md` folde
 
 ```text
 Use $sj-core-catalog to choose the right Steve Jobs operating skill for this task.
+```
+
+For a native Codex plugin test, use:
+
+```text
+Use $steve-jobs:sj-core-catalog to choose the right Steve Jobs operating skill for this task.
 ```
 
 For Codex plugin installs, the stronger live proof is in [`docs/HANDOFF.md`](HANDOFF.md): it starts a fresh read-only `codex exec` session and verifies that `$sj-core-learning-refresh` loads from the installed plugin cache.

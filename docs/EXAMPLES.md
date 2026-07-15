@@ -24,11 +24,11 @@ Expected shape:
 
 | Situation | Prompt | What Good Output Looks Like |
 |---|---|---|
-| MVP bloat | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | Names the core user job, cuts features, explains tradeoff, picks next demo. |
-| UI needs a walkthrough | `Use $sj-product-speaks-for-itself to audit this onboarding flow.` | Finds where the interface depends on explanation and suggests self-evident changes. |
-| Technical product feels cold | `Use $sj-product-liberal-arts-technology to add the humanities layer to this product.` | Connects the tool to human meaning, emotion, and craft. |
-| Hidden quality risk | `Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project.` | Reviews internal details that shape trust even when users never see them. |
-| Usability gap | `Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph.` | Turns expert workflow into ordinary-user flow. |
+| MVP bloat | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | Identifies the primary outcome, competing priorities, one organizing priority, cuts, and end-to-end proof. |
+| UI needs a walkthrough | `Use $sj-product-speaks-for-itself to audit this onboarding flow.` | Names the unassisted task, explanation dependencies, root causes, replacements, and novice retest. |
+| Technical product feels cold | `Use $sj-product-liberal-arts-technology to add the humanities layer to this product.` | Connects technical capability to a human situation, missing meaning, a change, and a meaningful-use prototype. |
+| Hidden quality risk | `Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project.` | Reviews the hidden surface, quality standard, craftsmanship debt, user consequence, and verification. |
+| Usability gap | `Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph.` | Maps the expert workflow to ordinary intent, absorbed complexity, progressive path, and novice proof. |
 
 ## Jony Ive Design Studio Examples
 
@@ -44,41 +44,41 @@ Expected shape:
 
 | Situation | Prompt | What Good Output Looks Like |
 |---|---|---|
-| Feature list is dull | `Use $sj-story-sell-the-improvement to rewrite this feature list.` | Converts specs into customer transformation. |
-| Launch lacks structure | `Use $sj-story-three-act-launch to structure this product announcement.` | Problem, meaning, solution, demo beats. |
-| Metrics need clarity | `Use $sj-story-number-context to explain these benchmark numbers.` | Makes the number tangible and relevant. |
-| New category is hard to explain | `Use $sj-story-historical-analogy to position this AI product.` | Uses a familiar transition to explain the new thing. |
-| Demo is rough | `Use $sj-story-demo-rehearsal-loop to tighten this demo.` | Produces rehearsal passes, weak points, and next practice move. |
+| Feature list is dull | `Use $sj-story-sell-the-improvement to rewrite this feature list.` | Produces a feature-to-outcome map, chosen improvement, before and after, proof, and transformation pitch. |
+| Launch lacks structure | `Use $sj-story-three-act-launch to structure this product announcement.` | Produces three explicit acts, proof beats, and a timed run of show. |
+| Metrics need clarity | `Use $sj-story-number-context to explain these benchmark numbers.` | Verifies numbers, baselines, denominators, human context, and limits. |
+| New category is hard to explain | `Use $sj-story-historical-analogy to position this AI product.` | Maps a structural historical parallel, its breakpoints, and plain-language positioning. |
+| Demo is rough | `Use $sj-story-demo-rehearsal-loop to tighten this demo.` | Produces timed beats, a failure/fallback map, revisions, and a cold-run verdict. |
 
 ## People And Leadership Examples
 
 | Situation | Prompt | What Good Output Looks Like |
 |---|---|---|
-| Candidate review | `Use $sj-people-a-player-bar to evaluate this candidate.` | Defines the bar, evidence, gaps, risks, and recommendation. |
+| Candidate review | `Use $sj-people-a-player-bar to evaluate this candidate.` | Defines the role bar, evidence matrix, work-sample signal, risks, and decision with counterargument. |
 | Mission fit | `Use $sj-people-missionaries-not-mercenaries to rewrite this hiring screen.` | Filters for ownership, purpose, and taste. |
-| Decision committee mess | `Use $sj-people-one-owner-no-committees to fix this decision process.` | Assigns one owner and removes approval fog. |
-| Founder is insulated | `Use $sj-people-truth-to-founder to create a truth channel.` | Designs a way for reality to reach authority. |
-| Hard persuasion | `Use $sj-people-ed-catmull-patience to plan this hard persuasion.` | Uses facts, timing, and trust rather than ego escalation. |
+| Decision committee mess | `Use $sj-people-one-owner-no-committees to fix this decision process.` | Defines the decision, accountable owner, input and veto map, protocol, and review. |
+| Founder is insulated | `Use $sj-people-truth-to-founder to create a truth channel.` | Designs protected channels, an evidence brief, founder response protocol, and effectiveness measure. |
+| Hard persuasion | `Use $sj-people-ed-catmull-patience to plan this hard persuasion.` | Maps disagreement, shared ground, an evidence sequence, decision horizon, and stop call. |
 
 ## Strategy Examples
 
 | Situation | Prompt | What Good Output Looks Like |
 |---|---|---|
-| Too many products | `Use $sj-strategy-focus-matrix to simplify this product portfolio.` | A compact grid with keep/cut/sequence logic. |
-| Commodity risk | `Use $sj-strategy-differentiation-or-death to test this startup idea.` | Shows where differentiation is real or fake. |
-| Failed launch | `Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.` | Facts, false story, real lesson, discipline leak, next smaller move. |
-| Negotiation | `Use $sj-strategy-do-not-overplay-hand to review this negotiation plan.` | Identifies leverage, trust risk, and restraint. |
-| Pivot needed | `Use $sj-strategy-pivot-to-core to find our WebObjects pivot.` | Finds reusable capability after the initial business fails. |
+| Too many products | `Use $sj-strategy-focus-matrix to simplify this product portfolio.` | Inventories the portfolio, chooses decision axes, makes explicit portfolio calls, and reallocates resources. |
+| Commodity risk | `Use $sj-strategy-differentiation-or-death to test this startup idea.` | Tests alternatives, choice criteria, defensibility, and evidence that the difference changes a choice. |
+| Failed launch | `Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.` | Reconstructs the timeline, causes, missed signal, causal lessons, and changed operating tests. |
+| Negotiation | `Use $sj-strategy-do-not-overplay-hand to review this negotiation plan.` | Inventories leverage, checks bluff and assumptions, and defines a proportionate proposal and exit rules. |
+| Pivot needed | `Use $sj-strategy-pivot-to-core to find our WebObjects pivot.` | Separates story from capability, chooses a candidate core, plans retirement, and defines narrow validation. |
 
 ## Learning And Anti-Pattern Examples
 
 | Situation | Prompt | What Good Output Looks Like |
 |---|---|---|
-| Turn reading into skill material | `Use $sj-learning-progressive-summarization to process this book into skill material.` | Extracts principles, warnings, and reusable prompts. |
-| Major life/work decision | `Use $sj-learning-regret-vs-mistake to evaluate this decision.` | Separates reversible mistakes from long-term regret. |
-| Ambition feels costly | `Use $sj-learning-balanced-builder-audit to audit the life cost of this plan.` | Names health, family, sanity, and joy tradeoffs. |
-| Ego strategy | `Use $sj-anti-revenge-motive-check to test my motive here.` | Separates product truth from revenge or status motive. |
-| Too much funding | `Use $sj-anti-too-much-money-check to audit this funding plan.` | Finds where money is weakening focus or truth. |
+| Turn reading into skill material | `Use $sj-learning-progressive-summarization to process this book into skill material.` | Produces a bounded ledger, atomic notes, claim map, reusable compression, and coverage audit. |
+| Major life/work decision | `Use $sj-learning-regret-vs-mistake to evaluate this decision.` | Assesses process versus outcome, classifies regret, and defines repair or release plus a future rule. |
+| Ambition feels costly | `Use $sj-learning-balanced-builder-audit to audit the life cost of this plan.` | Maps life costs, sustainability baselines, redesign, and stop conditions. |
+| Ego strategy | `Use $sj-anti-revenge-motive-check to test my motive here.` | Runs a rival-free value test, compares a neutral alternative, and removes punitive elements. |
+| Too much funding | `Use $sj-anti-too-much-money-check to audit this funding plan.` | Maps capital, discipline risks, lower-capital paths, evidence gates, and stop-loss governance. |
 
 ## Chaining Skills
 

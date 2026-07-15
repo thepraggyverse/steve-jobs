@@ -37,9 +37,14 @@ skills/<skill-name>/
 - core move
 - workflow
 - reference pointers
+- source grounding
 - output shape
 - guardrails
 - example prompt
+
+The workflow and output pair must be unique to the operating move.
+Do not create a renamed copy of another skill's procedure.
+Every skill needs at least three concrete failure guardrails.
 
 Do not paste book chapters or long excerpts into skills.
 
@@ -53,6 +58,7 @@ Current root reference set:
 
 ```text
 sj-source-map.md
+sj-evidence-map.md
 sj-skill-catalog.md
 sj-product-craft.md
 sj-ive-design-studio.md
@@ -78,6 +84,17 @@ skills.sh.json
 
 If the skill is referenced by another skill's local catalog, update that skill-local `references/sj-skill-catalog.md` copy too.
 
+Source grounding and Codex metadata are synchronized rather than hand-copied:
+
+```bash
+./scripts/sync-source-grounding.py
+./scripts/sync-openai-metadata.py
+./scripts/build-behavior-cases.py
+```
+
+`$sj-core-catalog` is the only implicitly invokable skill.
+Keep all leaves explicit so the installed pack does not consume the global implicit-skill description budget.
+
 When changing memory or compounding behavior, update:
 
 ```text
@@ -98,6 +115,7 @@ docs/WHEN_TO_USE_WHAT.md
 CHANGELOG.md
 scripts/check-install.sh
 scripts/check-inventory.sh
+scripts/check-router-live.sh
 scripts/install-profile.sh
 scripts/list-skills.sh
 scripts/unlink-skills.sh
@@ -126,7 +144,7 @@ If local Codex authoring validators are available at:
 
 the validation script will use them automatically.
 
-Validation should catch skill count drift, duplicate names, missing manifest entries, missing README/catalog references, stale skill references, and overlong descriptions.
+Validation catches skill count drift, duplicate workflow/output contracts, retired generic templates, missing source or claim mappings, metadata policy drift, behavior dataset drift, router errors, missing manifest entries, documentation reference drift, stale skill references, and overlong descriptions.
 
 Before handing work to another agent or publishing, follow `docs/HANDOFF.md`.
 

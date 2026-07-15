@@ -25,11 +25,11 @@ Then use $sj-ive-care-is-felt to inspect whether users can sense care.
 
 Expected output:
 
-- Core user job
-- Cuts and simplifications
-- Interface points that explain themselves
+- Primary user and organizing outcome
+- Cuts, subordinations, and end-to-end proof
+- Explanation dependencies, replacements, and novice retest
 - Humanized language and interaction changes
-- Care/carelessness inspection list
+- Care signals, withdrawals, and a high-leverage repair
 
 ## Jony Ive Design Studio Pass
 
@@ -64,10 +64,10 @@ Then use $sj-story-demo-rehearsal-loop to make the demo feel inevitable.
 
 Expected output:
 
-- Customer transformation
-- One launch promise
-- Problem, meaning, solution, demo beats
-- Rehearsal passes and weak points
+- Before-and-after customer transformation with proof
+- One remembered launch message
+- Three acts and proof beats
+- Timed demo, fallback map, and cold-run verdict
 
 ## Founder Strategy Review
 
@@ -82,10 +82,10 @@ Then use $sj-people-truth-to-founder to create a reality channel.
 
 Expected output:
 
-- Keep/cut/sequence grid
-- Real vs fake differentiation
-- Company design risks
-- Truth channel for future correction
+- Evidence-based portfolio matrix and resource shift
+- Defensible difference and choice-changing evidence
+- Institutional mechanism and bounded organization prototype
+- Protected truth channels and founder response protocol
 
 ## Hiring And Team Bar
 
@@ -100,10 +100,10 @@ Then use $sj-people-small-a-team to simplify the team shape.
 
 Expected output:
 
-- Hiring bar
-- Mission-fit evidence
-- Pushback questions
-- Smaller stronger team design
+- Role bar, evidence matrix, and work-sample signal
+- Mission commitment and principled-disagreement evidence
+- Pushback scenarios and scored rubric
+- Smallest complete outcome and named core team
 
 ## Failure Autopsy
 
@@ -118,11 +118,10 @@ Then use $sj-strategy-pivot-to-core to find the reusable capability.
 
 Expected output:
 
-- Facts
-- False story
-- Discipline leak
-- Ego or fake-traction risks
-- Smaller next move
+- Failure timeline, cause classification, and missed signal
+- Rival-free motive test and neutral alternative
+- Channel reconciliation and normalized performance
+- Candidate core, retirement plan, and narrow validation
 
 ## Learning And Compounding
 

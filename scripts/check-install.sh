@@ -117,7 +117,7 @@ if [ "$RUN_LIVE" -eq 1 ]; then
   tmp_dir="$(mktemp -d /tmp/steve-jobs-check-install.XXXXXX)"
   output_path="$tmp_dir/output.txt"
   # shellcheck disable=SC2016 # The $sj-* token is a literal skill invocation.
-  smoke_prompt='Use $sj-ive-humanize-technology. Clean install smoke test. Do not modify files. Review README.md and return: skill loaded, artifact reviewed, cold points, human feeling, suggested changes, and no files modified.'
+  smoke_prompt='Use $steve-jobs:sj-ive-humanize-technology. Clean install smoke test. Do not modify files. Review README.md. Begin with exactly "Skill loaded: yes". Then return the declared fields: Cold or abstract points, Desired human feeling, Language changes, Interaction changes, and Next prototype. Finish with exactly "No files modified."'
   printf '# Live smoke test\n\nAn AI settings page feels cold, dense, and full of jargon.\n' > "$tmp_dir/README.md"
   codex exec --ephemeral --skip-git-repo-check \
     -C "$tmp_dir" \
@@ -125,6 +125,14 @@ if [ "$RUN_LIVE" -eq 1 ]; then
     -o "$output_path" \
     "$smoke_prompt"
   sed -n '1,220p' "$output_path"
+  if ! rg -q '^Skill loaded: yes' "$output_path"; then
+    echo "ERROR: live Codex test did not confirm that the installed namespaced skill loaded." >&2
+    exit 1
+  fi
+  if ! rg -q '^No files modified\.$' "$output_path"; then
+    echo "ERROR: live Codex test did not confirm the read-only contract." >&2
+    exit 1
+  fi
 fi
 
 echo

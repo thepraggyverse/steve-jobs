@@ -6,7 +6,12 @@ These skills help an agent apply Steve Jobs-derived operating patterns and Jony 
 
 The repo works as a Codex plugin and as plain `SKILL.md` folders for harnesses that scan a skills directory. Runtime skills are small and self-contained so individual folders can be symlinked, copied, or converted without breaking their references.
 
-This repository does not include source books, full transcripts, or long copyrighted excerpts. It contains compact workflows, paraphrased reference notes, source-title notes, install scripts, and examples.
+Only `$sj-core-catalog` is implicitly invokable.
+The other 90 skills remain directly available through explicit `$sj-*` prompts.
+This router-first policy keeps the complete pack searchable without loading 91 descriptions into every model turn.
+
+This repository does not include source books, full transcripts, or long copyrighted excerpts.
+It contains compact workflows, paraphrased reference notes, 15 stable source IDs, 91 claim-to-skill mappings, install scripts, behavior contracts, and examples.
 
 ## Start Here
 
@@ -16,6 +21,16 @@ Use the pack through the router first:
 Use $sj-core-catalog to choose the right SJ skill sequence for this task:
 <describe the artifact, decision, product, story, team, strategy, or failure>
 ```
+
+That is the portable loose-skill form.
+In a native Codex plugin install, Codex namespaces plugin skills, so use:
+
+```text
+Use $steve-jobs:sj-core-catalog to choose the right SJ skill sequence for this task:
+<describe the artifact, decision, product, story, team, strategy, or failure>
+```
+
+The same rule applies to leaves: `$sj-product-simplify-to-one` as a loose skill and `$steve-jobs:sj-product-simplify-to-one` through the native plugin.
 
 Then run the recommended skills in order. If the session produces a reusable lesson, finish with:
 
@@ -72,17 +87,17 @@ Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.
 
 | Situation | Use | Example prompt | Expected shape |
 | --- | --- | --- | --- |
-| A product idea has too many features. | `$sj-product-simplify-to-one` | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | One user job, cuts, tradeoff, next artifact |
+| A product idea has too many features. | `$sj-product-simplify-to-one` | `Use $sj-product-simplify-to-one to find the one thing this MVP should do.` | Primary outcome, competing priorities, one organizing priority, cuts, end-to-end proof |
 | A UI needs explaining. | `$sj-product-speaks-for-itself` | `Use $sj-product-speaks-for-itself to audit this onboarding flow.` | Explanation dependencies and simplifications |
 | A technical product feels cold. | `$sj-ive-humanize-technology` | `Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable.` | Cold points, human feeling, language and interaction changes |
 | A redesign may lose what people love. | `$sj-ive-future-without-betrayal` | `Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it.` | Enduring soul, false nostalgia, continuity signals, transition proof |
 | A feature list sounds boring. | `$sj-story-sell-the-improvement` | `Use $sj-story-sell-the-improvement to rewrite this feature list.` | Customer improvement, proof, sharper copy |
 | A launch needs structure. | `$sj-story-three-act-launch` | `Use $sj-story-three-act-launch to structure this product announcement.` | Problem, meaning, solution, demo beats |
-| A candidate seems impressive but unclear. | `$sj-people-a-player-bar` | `Use $sj-people-a-player-bar to evaluate this candidate.` | Bar, evidence, risk, recommendation |
-| A startup may be drifting. | `$sj-strategy-focus-matrix` | `Use $sj-strategy-focus-matrix to simplify this product portfolio.` | Focus grid, keep/cut choices, next test |
-| A failure needs truth. | `$sj-strategy-failure-apprenticeship` | `Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.` | Facts, false story, lesson, pivot |
-| Success is distorting judgment. | `$sj-learning-all-glory-fleeting` | `Use $sj-learning-all-glory-fleeting to deflate this ego trap.` | Perspective, risk, grounding action |
-| Funding is making the team soft. | `$sj-anti-too-much-money-check` | `Use $sj-anti-too-much-money-check to audit this funding plan.` | Failure pattern, evidence, correction |
+| A candidate seems impressive but unclear. | `$sj-people-a-player-bar` | `Use $sj-people-a-player-bar to evaluate this candidate.` | Role bar, evidence matrix, work sample, risks, decision with counterargument |
+| A startup may be drifting. | `$sj-strategy-focus-matrix` | `Use $sj-strategy-focus-matrix to simplify this product portfolio.` | Portfolio, decision axes, matrix, portfolio calls, resource shift |
+| A failure needs truth. | `$sj-strategy-failure-apprenticeship` | `Use $sj-strategy-failure-apprenticeship to autopsy this failed launch.` | Failure timeline, cause classes, missed signal, causal lessons, changed tests |
+| Success is distorting judgment. | `$sj-learning-all-glory-fleeting` | `Use $sj-learning-all-glory-fleeting to deflate this ego trap.` | Temporary glory, durable anchors, distortion risk, grounding action, review |
+| Funding is making the team soft. | `$sj-anti-too-much-money-check` | `Use $sj-anti-too-much-money-check to audit this funding plan.` | Capital map, discipline risks, alternatives, evidence gates, stop-loss governance |
 
 More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples for every skill live in [`docs/SKILL_REFERENCE.md`](docs/SKILL_REFERENCE.md).
 
@@ -194,8 +209,13 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `.claude-plugin/plugin.json` | Simple Claude-style skill manifest listing all skill folders. |
 | `skills.sh.json` | Grouped skill catalog for skills.sh-style installers and audits. |
 | `skills/sj-*` | 91 runtime skill folders. Each folder is self-contained. |
-| `skills/sj-*/references/` | Skill-local reference notes used at runtime. |
+| `skills/sj-*/references/` | Skill-local thematic notes plus only the claim and source rows that skill needs. |
 | `references/` | Root maintainer copies of the compact reference notes. |
+| `references/sj-source-map.md` | Fifteen-source corpus index and evidence-level definitions. |
+| `references/sj-evidence-map.md` | Complete claim-to-source-to-skill mapping. |
+| `tests/behavior-cases.json` | 182 positive and boundary behavior contracts. |
+| `tests/router-cases.json` | Ambiguous requests with expected catalog routing. |
+| `tests/BEHAVIOR_CONTRACT.md` | Source-blind user-visible acceptance contract. |
 | `docs/MEMORY_AND_LOGS.md` | Durable learning, temporary artifact, and refresh policy. |
 | `docs/HANDOFF.md` | Closeout checklist, live install proof, autoreview, and handoff template. |
 | `docs/PLAYBOOKS.md` | Practical chains for product, design, launch, hiring, strategy, failure, and learning workflows. |
@@ -204,6 +224,11 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 | `assets/sj-skills.csv` | Machine-readable skill catalog. |
 | `scripts/check-install.sh` | One-command source, installed-cache, and optional live smoke verification. |
 | `scripts/check-inventory.sh` | Generated inventory drift check across catalogs and manifests. |
+| `scripts/check-skill-quality.py` | Semantic uniqueness, provenance, metadata, docs, and dataset checks. |
+| `scripts/check-router-live.sh` | Source-blind live routing proof across all 18 ambiguous cases. |
+| `scripts/sync-source-grounding.py` | Synchronizes claim and source mappings into every portable skill. |
+| `scripts/sync-openai-metadata.py` | Synchronizes prompts and router-only implicit invocation policy. |
+| `scripts/build-behavior-cases.py` | Builds two behavior cases for every skill. |
 | `scripts/list-skills.sh` | Grouped skill browser for the command line. |
 | `scripts/install-profile.sh` | Profile installer for all, product, Ive, story, people, strategy, learning, or anti-pattern skills. |
 | `scripts/unlink-skills.sh` | Safe loose-skill symlink remover. |
@@ -229,6 +254,9 @@ More detailed examples live in [`docs/EXAMPLES.md`](docs/EXAMPLES.md). Examples 
 
 Full install details: [`docs/INSTALL.md`](docs/INSTALL.md). Harness notes: [`docs/HARNESSES.md`](docs/HARNESSES.md). Symlink and copy recipes: [`docs/SYMLINKS.md`](docs/SYMLINKS.md).
 
+Native Codex plugin invocations use `$steve-jobs:sj-*`.
+Loose-skill and most portable examples use `$sj-*`.
+
 ## Browse And Install Profiles
 
 ```bash
@@ -251,6 +279,12 @@ For a live read-only smoke test:
 ./scripts/check-install.sh --refresh --live
 ```
 
+For the full 18-case live router suite:
+
+```bash
+./scripts/check-router-live.sh
+```
+
 ## Update
 
 ```bash
@@ -268,7 +302,9 @@ More detail: [`docs/UPDATE.md`](docs/UPDATE.md).
 ./scripts/validate.sh
 ```
 
-The validator checks exactly 91 skills, exactly 9 root references, required repo docs, templates, manifests, skill frontmatter, `agents/openai.yaml`, skill-local runtime references, inventory drift, JSON manifests, and local Codex authoring validators when available.
+The validator checks exactly 91 skills, 10 root references, 91 unique workflow/output contracts, 91 source claims, 182 behavior cases, 18 router cases, router-only implicit invocation, required docs, manifests, portable local references, and Codex authoring validators when available.
+
+Behavior and provenance details: [`docs/BEHAVIOR_TESTING.md`](docs/BEHAVIOR_TESTING.md) and [`docs/SOURCE_TRACEABILITY.md`](docs/SOURCE_TRACEABILITY.md).
 
 For installed-plugin proof and handoff, use [`docs/HANDOFF.md`](docs/HANDOFF.md).
 
@@ -281,6 +317,8 @@ This package follows five constraints:
 3. Each runtime skill is self-contained, with local `references/` files.
 4. Human-facing tables and examples live in docs, not every runtime skill.
 5. The public repo contains operating patterns and paraphrase, not source texts.
+6. One implicit router selects among 90 explicit leaf skills.
+7. Generated checks make metadata, provenance, behavior, and documentation drift fail validation.
 
 The structure was audited against:
 

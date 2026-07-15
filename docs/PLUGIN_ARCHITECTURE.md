@@ -1,6 +1,6 @@
 # Plugin Architecture
 
-This package has seven layers.
+This package has ten layers.
 
 | Layer | Path | Purpose |
 |---|---|---|
@@ -10,6 +10,9 @@ This package has seven layers.
 | Portable catalogs | `.claude-plugin/plugin.json`, `skills.sh.json` | Let other installers discover the same skill folders. |
 | Runtime skills | `skills/sj-*/SKILL.md` | Small procedural instructions that agents can load when relevant. |
 | Skill-local references | `skills/sj-*/references/sj-*.md` | Compact Jobs-derived context loaded only when useful. |
+| Provenance | `references/sj-source-map.md`, `references/sj-evidence-map.md` | Connects 15 bounded sources to 91 stable skill claims. |
+| Invocation metadata | `skills/sj-*/agents/openai.yaml` | Exposes concrete prompts and keeps only the catalog implicit. |
+| Behavior contracts | `tests/` | Defines two cases per skill, ambiguous router cases, and source-blind acceptance rules. |
 | Human docs | `README.md`, `docs/` | Tables, install instructions, playbooks, examples, update guides, audit notes, and memory policy. |
 | Templates | `templates/` | Reusable file shapes for project-local SJ learning notes. |
 | Closeout proof | `docs/HANDOFF.md` | Installed-plugin validation, live harness test, autoreview command, and handoff template. |
@@ -32,6 +35,7 @@ references/sj-ive-design-studio.md
 references/sj-anti-patterns.md
 ```
 
+Every skill also carries a local evidence row and only the source-map rows it needs, so claim IDs resolve after a single folder is moved without copying the full index into every skill.
 The agent should read those only when deeper grounding is needed.
 
 Root `references/` are maintainer copies. Runtime skills should not use `../../references/*` because converter-based and loose-skill installs may move each skill folder independently.
@@ -49,3 +53,8 @@ The plugin is inspired by books, interviews, and podcast notes. The public repo 
 `scripts/check-install.sh` is the operational proof entrypoint. It validates the source tree, confirms the local plugin is visible, validates the installed cache, compares source/cache counts, and can run a live read-only smoke test.
 
 `scripts/check-inventory.sh` is the catalog proof entrypoint. It compares the actual `skills/sj-*` folders against `skills.sh.json`, `assets/sj-skills.csv`, `.claude-plugin/plugin.json`, `references/sj-skill-catalog.md`, and `docs/SKILL_REFERENCE.md`.
+
+`scripts/check-skill-quality.py` is the semantic proof entrypoint.
+It rejects duplicate skill contracts, generic retired templates, invalid metadata policy, provenance gaps, behavior-case drift, router-case drift, and `docs/SKILL_REFERENCE.md` contract mismatches.
+
+The synchronization scripts produce deterministic files and support `--check`, so CI fails when generated metadata, source grounding, or behavior contracts drift.
