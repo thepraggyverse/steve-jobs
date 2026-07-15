@@ -11,33 +11,39 @@ Keep ego and success in perspective.
 
 ## Workflow
 
-1. Identify the source, practice, decision, or life pattern under study.
-2. Extract the principle without turning it into hero worship.
-3. Convert the principle into a repeatable action, rep, question, or checklist.
-4. Name the tradeoff or warning attached to the lesson.
-5. Save only the reusable insight, not every anecdote.
+1. Name the praise, status, win, or identity currently distorting judgment.
+2. Separate the temporary event from durable craft, relationships, obligations, and character.
+3. Identify the behavior success is tempting you to neglect or exaggerate.
+4. Choose a grounding action that returns attention to users, work, teachers, or unfinished fundamentals.
+5. Set a later review based on quality and contribution rather than applause.
 
 ## Read References
 
 - Read `references/sj-learning-practice.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-L09`
+- Sources: `S02`, `S07`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Lesson
-- Practice
-- Warning
-- Reusable prompt
-- Next rep
+- Temporary glory
+- Durable anchors
+- Distortion risk
+- Grounding action
+- Contribution-based review
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Humility does not require denying real achievement.
+- Do not use impermanence to avoid celebration or fair credit.
+- Grounding should restore perspective, not create self-punishment.
 
 ## Example Prompt
 

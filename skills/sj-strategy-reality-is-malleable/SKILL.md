@@ -11,33 +11,39 @@ Challenge learned helplessness and false constraints.
 
 ## Workflow
 
-1. State the current reality in plain facts.
-2. Identify constraints, leverage, differentiation, focus, and failure risks.
-3. Separate ego story from business truth.
-4. Choose the next smaller, truer strategic move.
-5. Name what to stop, what to protect, and what to test next.
+1. Write each blocking constraint as a testable statement with an owner, source, and consequence.
+2. Classify it as physical, legal, ethical, economic, contractual, organizational, conventional, or assumed.
+3. Challenge conventional and assumed constraints with direct evidence, expert input, prototypes, or renegotiation.
+4. Respect hard boundaries while redesigning the surrounding system to create more room.
+5. Record which constraints moved, which held, and the next lawful experiment.
 
 ## Read References
 
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-S07`
+- Sources: `S02`, `S05`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Facts
-- False story
-- Strategic choice
-- Tradeoff
-- Next test
+- Constraint statements
+- Constraint classes
+- Challenge evidence
+- System redesign
+- Moved-held-next record
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Optimism does not repeal physics, law, consent, safety, or ethics.
+- Do not pressure people to absorb risk created by an unrealistic commitment.
+- A constraint is not fake merely because it is inconvenient.
 
 ## Example Prompt
 

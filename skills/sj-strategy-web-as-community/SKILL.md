@@ -11,33 +11,39 @@ Use the web as relationship infrastructure.
 
 ## Workflow
 
-1. State the current reality in plain facts.
-2. Identify constraints, leverage, differentiation, focus, and failure risks.
-3. Separate ego story from business truth.
-4. Choose the next smaller, truer strategic move.
-5. Name what to stop, what to protect, and what to test next.
+1. Define the people, shared practice, and recurring value that exist beyond consuming company content.
+2. Map member journeys from discovery through contribution, recognition, governance, and departure.
+3. Design useful rituals, tools, and norms that enable members to help one another directly.
+4. Set moderation, privacy, ownership, safety, and incentive rules before pursuing growth.
+5. Measure healthy participation, contribution quality, member outcomes, and concentration rather than raw signups.
 
 ## Read References
 
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-S15`
+- Sources: `S01`, `S05`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Facts
-- False story
-- Strategic choice
-- Tradeoff
-- Next test
+- Community purpose
+- Member journey
+- Member-to-member mechanisms
+- Governance and safety
+- Health measures
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- An audience, mailing list, or support queue is not automatically a community.
+- Do not exploit unpaid contribution without clear reciprocal value.
+- Growth must not outrun moderation and member safety.
 
 ## Example Prompt
 

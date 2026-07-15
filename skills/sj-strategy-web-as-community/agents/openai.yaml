@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Web As Community"
   short_description: "Use the web as relationship infrastructure"
-  default_prompt: "Use $sj-strategy-web-as-community to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-web-as-community to build our web community strategy."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

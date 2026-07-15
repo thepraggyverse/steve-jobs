@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Company As Invention"
   short_description: "Treat the company as the machine that makes great products"
-  default_prompt: "Use $sj-strategy-company-as-invention to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-company-as-invention to design the company behind this product."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

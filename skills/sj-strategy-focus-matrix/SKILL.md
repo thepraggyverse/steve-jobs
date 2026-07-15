@@ -11,33 +11,39 @@ Reduce product lines, priorities, or bets to a clear grid.
 
 ## Workflow
 
-1. State the current reality in plain facts.
-2. Identify constraints, leverage, differentiation, focus, and failure risks.
-3. Separate ego story from business truth.
-4. Choose the next smaller, truer strategic move.
-5. Name what to stop, what to protect, and what to test next.
+1. List every product line or bet with target user, strategic role, owner, cost, traction, and dependency.
+2. Choose two decision axes that expose the portfolio's essential tradeoff rather than flatter existing work.
+3. Place each item using evidence and mark uncertainty instead of forcing precision.
+4. Select the few cells the company will fund and name what will stop, merge, maintain, or graduate.
+5. Reallocate people and milestones immediately, then schedule a review against explicit portfolio outcomes.
 
 ## Read References
 
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-S01`
+- Sources: `S04`, `S05`, `S09`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Facts
-- False story
-- Strategic choice
-- Tradeoff
-- Next test
+- Portfolio inventory
+- Decision axes
+- Evidence-based matrix
+- Fund-stop-merge-maintain calls
+- Resource shift and review
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- A matrix is a decision aid, not a decorative inventory.
+- Do not choose axes after seeing where favored projects land.
+- Focus requires actual resource withdrawal from rejected bets.
 
 ## Example Prompt
 

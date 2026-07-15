@@ -11,33 +11,39 @@ Check ambition against health, family, joy, and sanity.
 
 ## Workflow
 
-1. Identify the source, practice, decision, or life pattern under study.
-2. Extract the principle without turning it into hero worship.
-3. Convert the principle into a repeatable action, rep, question, or checklist.
-4. Name the tradeoff or warning attached to the lesson.
-5. Save only the reusable insight, not every anecdote.
+1. Map the plan's demands on time, health, sleep, relationships, attention, finances, and identity.
+2. Identify which costs are temporary and chosen, which are chronic, and who bears them without consent.
+3. Compare the plan with minimum sustainable baselines and early warning signals.
+4. Redesign scope, cadence, support, delegation, or ambition to protect long-run building capacity.
+5. Schedule recurring evidence-based check-ins with permission to slow, stop, or seek professional help.
 
 ## Read References
 
 - Read `references/sj-learning-practice.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-L08`
+- Sources: `S02`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Lesson
-- Practice
-- Warning
-- Reusable prompt
-- Next rep
+- Life-cost map
+- Temporary and chronic costs
+- Sustainability baselines
+- Plan redesign
+- Review and stop conditions
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not glorify burnout, neglect, or untreated illness.
+- Important work does not erase obligations to other people.
+- This audit does not replace medical, mental-health, or financial professionals.
 
 ## Example Prompt
 

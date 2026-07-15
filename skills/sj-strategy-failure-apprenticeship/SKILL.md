@@ -11,33 +11,39 @@ Turn failure into operating wisdom without flattering it.
 
 ## Workflow
 
-1. State the current reality in plain facts.
-2. Identify constraints, leverage, differentiation, focus, and failure risks.
-3. Separate ego story from business truth.
-4. Choose the next smaller, truer strategic move.
-5. Name what to stop, what to protect, and what to test next.
+1. Reconstruct the failed effort as a timeline of assumptions, decisions, signals, and outcomes.
+2. Separate controllable mistakes, environmental changes, execution gaps, and reasonable bets that lost.
+3. Identify the earliest evidence that contradicted the plan and why it did not change action.
+4. Convert no more than three causal lessons into changed thresholds, practices, or tests.
+5. Assign each change to a future decision and verify that the organization can detect recurrence.
 
 ## Read References
 
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-S08`
+- Sources: `S04`, `S05`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Facts
-- False story
-- Strategic choice
-- Tradeoff
-- Next test
+- Failure timeline
+- Cause classification
+- Missed signal
+- Causal lessons
+- Changed operating tests
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Avoid hindsight certainty and blame narratives.
+- Do not turn every painful event into a universal rule.
+- A lesson is incomplete until a future behavior changes.
 
 ## Example Prompt
 

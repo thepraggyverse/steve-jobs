@@ -1,7 +1,7 @@
 interface:
   display_name: "Learning Fundamentals Practice"
   short_description: "Return to the basic reps that compound"
-  default_prompt: "Use $sj-learning-fundamentals-practice to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-learning-fundamentals-practice to define my daily reps."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

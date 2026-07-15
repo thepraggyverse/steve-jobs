@@ -11,33 +11,39 @@ Turn books, podcasts, and notes into reusable knowledge.
 
 ## Workflow
 
-1. Identify the source, practice, decision, or life pattern under study.
-2. Extract the principle without turning it into hero worship.
-3. Convert the principle into a repeatable action, rep, question, or checklist.
-4. Name the tradeoff or warning attached to the lesson.
-5. Save only the reusable insight, not every anecdote.
+1. Bound the source set, record provenance, and state the decision or capability the synthesis should support.
+2. Extract atomic observations with enough context to preserve meaning and mark direct evidence versus interpretation.
+3. Group observations into recurring claims, contradictions, examples, and open questions while retaining source IDs.
+4. Compress only the highest-leverage claims into reusable principles, tests, or skill steps.
+5. Run a coverage audit against the source ledger and save the synthesis separately from raw copyrighted material.
 
 ## Read References
 
 - Read `references/sj-learning-practice.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-L07`
+- Sources: `S02`, `S07`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Lesson
-- Practice
-- Warning
-- Reusable prompt
-- Next rep
+- Bounded source ledger
+- Atomic evidence notes
+- Claim and contradiction map
+- Reusable compression
+- Coverage and provenance audit
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not summarize from highlights alone when full coverage is promised.
+- Compression must preserve uncertainty and disagreement.
+- Never publish private transcripts, secrets, or long copyrighted excerpts.
 
 ## Example Prompt
 

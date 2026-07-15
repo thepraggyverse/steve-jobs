@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Synthesizer Strategy"
   short_description: "Combine separate technologies into one coherent product"
-  default_prompt: "Use $sj-strategy-synthesizer-strategy to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-synthesizer-strategy to combine these capabilities into one product."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

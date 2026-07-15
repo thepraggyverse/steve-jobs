@@ -11,33 +11,39 @@ Prevent abundant funding from killing discipline.
 
 ## Workflow
 
-1. Name the suspected failure pattern directly.
-2. List the evidence that the pattern is present.
-3. Explain the consequence if it continues.
-4. Find the simplest honest test or correction.
-5. Return the stop-doing, start-doing, and verification signal.
+1. Map current capital, burn, commitments, runway, hiring pace, and the next evidence milestone.
+2. Identify spending that reduces learning discipline, hides weak demand, or creates scale before repeatability.
+3. Compare each major commitment with a lower-capital path that preserves the essential test.
+4. Stage funding release behind evidence gates and assign explicit stop-loss authority.
+5. Return excess ambition to product, customer, and operating constraints rather than treating cash as validation.
 
 ## Read References
 
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-A03`
+- Sources: `S04`, `S05`, `S08`
+- Evidence level: `counterexample`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Failure pattern
-- Evidence
-- Cost
-- Correction
-- Verification signal
+- Capital and runway map
+- Discipline risks
+- Lower-capital alternatives
+- Evidence-gated release
+- Stop-loss governance
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Capital abundance is not itself a failure; undisciplined commitment is.
+- Do not underfund safety, obligations, or proven infrastructure merely to appear lean.
+- Consider qualified financial and legal advice for material funding decisions.
 
 ## Example Prompt
 

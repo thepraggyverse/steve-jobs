@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Do Not Overplay Hand"
   short_description: "Use leverage with restraint"
-  default_prompt: "Use $sj-strategy-do-not-overplay-hand to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-do-not-overplay-hand to review this negotiation plan."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

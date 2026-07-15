@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Failure Apprenticeship"
   short_description: "Turn failure into operating wisdom without flattering it"
-  default_prompt: "Use $sj-strategy-failure-apprenticeship to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-failure-apprenticeship to autopsy this failed launch."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

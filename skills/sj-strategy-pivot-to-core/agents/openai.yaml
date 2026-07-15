@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Pivot To Core"
   short_description: "Find the real business after the first plan fails"
-  default_prompt: "Use $sj-strategy-pivot-to-core to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-pivot-to-core to find our WebObjects pivot."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

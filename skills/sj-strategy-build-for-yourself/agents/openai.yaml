@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Build For Yourself"
   short_description: "Build what the team deeply wants and understands"
-  default_prompt: "Use $sj-strategy-build-for-yourself to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-build-for-yourself to see where we should trust our own use."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

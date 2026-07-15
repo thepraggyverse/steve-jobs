@@ -11,33 +11,39 @@ Separate real traction from fake comfort.
 
 ## Workflow
 
-1. Name the suspected failure pattern directly.
-2. List the evidence that the pattern is present.
-3. Explain the consequence if it continues.
-4. Find the simplest honest test or correction.
-5. Return the stop-doing, start-doing, and verification signal.
+1. Reconcile sell-in, sell-through, inventory, returns, discounts, receivables, and end-customer activation by period and channel.
+2. Identify where incentives allow revenue or growth to be pulled forward without real demand.
+3. Stress-test reported performance after normalizing shipment timing, partner inventory, cancellations, and collection risk.
+4. Require owner explanations and independent evidence for anomalies before using the numbers in decisions.
+5. Correct forecasts, disclosures, incentives, and channel practices, then monitor the next clean period.
 
 ## Read References
 
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-A02`
+- Sources: `S04`, `S05`
+- Evidence level: `counterexample`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Failure pattern
-- Evidence
-- Cost
-- Correction
-- Verification signal
+- Channel reconciliation
+- Incentive risks
+- Normalized performance
+- Anomaly evidence
+- Corrections and monitoring
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Treat this as an integrity and accounting risk, not merely a sales tactic.
+- Escalate suspected fraud or disclosure failures to qualified legal and finance professionals.
+- Do not accuse individuals without evidence and due process.
 
 ## Example Prompt
 

@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Reality Is Malleable"
   short_description: "Challenge learned helplessness and false constraints"
-  default_prompt: "Use $sj-strategy-reality-is-malleable to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-reality-is-malleable to identify fake constraints."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

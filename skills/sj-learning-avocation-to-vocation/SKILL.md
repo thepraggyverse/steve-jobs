@@ -11,33 +11,39 @@ Turn deep curiosity into work.
 
 ## Workflow
 
-1. Identify the source, practice, decision, or life pattern under study.
-2. Extract the principle without turning it into hero worship.
-3. Convert the principle into a repeatable action, rep, question, or checklist.
-4. Name the tradeoff or warning attached to the lesson.
-5. Save only the reusable insight, not every anecdote.
+1. Describe the activity you return to voluntarily, the craft inside it, and the need it may serve for others.
+2. Collect evidence of sustained practice, growing skill, outside pull, and willingness to do the unglamorous work.
+3. Design small paid or accountable experiments that test demand and day-to-day fit.
+4. Map the capabilities, economics, lifestyle costs, and transition runway required for vocation.
+5. Choose to deepen, combine, professionalize, or keep it as an avocation based on evidence rather than identity.
 
 ## Read References
 
 - Read `references/sj-learning-practice.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-source-map.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-L04`
+- Sources: `S02`, `S07`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Lesson
-- Practice
-- Warning
-- Reusable prompt
-- Next rep
+- Recurring avocation
+- Practice and pull evidence
+- Accountable experiments
+- Vocation requirements
+- Deepen-combine-professionalize-keep decision
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Monetization can damage an activity whose value depends on freedom.
+- Do not romanticize passion while ignoring economics and obligations.
+- A vocation may combine several interests rather than mirror one hobby.
 
 ## Example Prompt
 

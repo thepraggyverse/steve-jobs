@@ -1,7 +1,7 @@
 interface:
   display_name: "Strategy Innovate Out"
   short_description: "Respond to commoditization with invention"
-  default_prompt: "Use $sj-strategy-innovate-out to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-strategy-innovate-out to find our way out of this market trap."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

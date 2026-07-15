@@ -1,7 +1,7 @@
 interface:
   display_name: "Anti Too Much Money Check"
   short_description: "Prevent abundant funding from killing discipline"
-  default_prompt: "Use $sj-anti-too-much-money-check to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-anti-too-much-money-check to audit this funding plan."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

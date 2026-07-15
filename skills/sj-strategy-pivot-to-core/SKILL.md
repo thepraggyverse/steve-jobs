@@ -11,33 +11,39 @@ Find the real business after the first plan fails.
 
 ## Workflow
 
-1. State the current reality in plain facts.
-2. Identify constraints, leverage, differentiation, focus, and failure risks.
-3. Separate ego story from business truth.
-4. Choose the next smaller, truer strategic move.
-5. Name what to stop, what to protect, and what to test next.
+1. Inventory what customers repeatedly value, what the team uniquely does well, and what generates durable economics.
+2. Separate the original product story from capabilities and assets proven in actual use.
+3. Find the smallest intersection of customer pull, distinctive capability, strategic control, and sustainable delivery.
+4. Design a pivot that preserves transferable value while explicitly retiring incompatible commitments.
+5. Test the new core with a narrow customer and measurable adoption before reorganizing the entire company.
 
 ## Read References
 
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-S10`
+- Sources: `S04`, `S05`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Facts
-- False story
-- Strategic choice
-- Tradeoff
-- Next test
+- Evidence inventory
+- Story-versus-capability split
+- Candidate core
+- Pivot and retirement plan
+- Narrow validation
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not call ordinary feature expansion a pivot.
+- A pivot must explain what stops as clearly as what begins.
+- Protect affected customers and employees from concealed transition risk.
 
 ## Example Prompt
 

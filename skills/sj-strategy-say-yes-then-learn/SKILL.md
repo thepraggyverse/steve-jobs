@@ -11,33 +11,39 @@ Commit before full certainty when the risk is survivable.
 
 ## Workflow
 
-1. State the current reality in plain facts.
-2. Identify constraints, leverage, differentiation, focus, and failure risks.
-3. Separate ego story from business truth.
-4. Choose the next smaller, truer strategic move.
-5. Name what to stop, what to protect, and what to test next.
+1. Define the opportunity, deadline, upside, irreversible exposure, and capability gap.
+2. Separate learnable unknowns from missing assets, legal permissions, safety knowledge, or core competence.
+3. Estimate the fastest credible learning path, mentors, prototypes, and checkpoints required.
+4. Say yes only with explicit scope, staged commitments, honest disclosure, and an exit condition.
+5. Review at each checkpoint whether evidence supports continuing, narrowing, partnering, or stopping.
 
 ## Read References
 
 - Read `references/sj-strategy-failure.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-S06`
+- Sources: `S04`, `S05`, `S08`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Facts
-- False story
-- Strategic choice
-- Tradeoff
-- Next test
+- Opportunity and exposure
+- Learnable-versus-hard gaps
+- Learning path
+- Staged commitment
+- Checkpoint decisions
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not misrepresent current capability.
+- Never learn through uncontrolled risk to customers or staff.
+- A stretch yes needs budget, time, and permission to stop.
 
 ## Example Prompt
 
