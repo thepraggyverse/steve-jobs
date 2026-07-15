@@ -1,7 +1,7 @@
 interface:
   display_name: "People Management By Values"
   short_description: "Align destination and values, then allow flexible routes"
-  default_prompt: "Use $sj-people-management-by-values to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-management-by-values to define decision values for this team."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

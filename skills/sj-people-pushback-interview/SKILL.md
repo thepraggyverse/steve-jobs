@@ -11,33 +11,39 @@ Test independent thinking and intelligent disagreement.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. Choose realistic role decisions where evidence is incomplete and disagreement is expected.
+2. Ask the candidate to challenge a flawed premise, senior opinion, or proposed shortcut.
+3. Probe how they gather facts, protect relationships, escalate risk, and change their mind.
+4. Use a consistent rubric for courage, reasoning, listening, clarity, and proportionality.
+5. Compare interviewer notes before discussion and verify signals with references or a work sample.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE03`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Pushback scenarios
+- Candidate responses
+- Evidence-seeking behavior
+- Scored rubric
+- Corroborated decision
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not reward theatrical confrontation over sound judgment.
+- Avoid trick questions and power games.
+- Apply equivalent difficulty and scoring across candidates.
 
 ## Example Prompt
 

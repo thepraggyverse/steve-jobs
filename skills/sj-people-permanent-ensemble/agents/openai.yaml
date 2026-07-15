@@ -1,7 +1,7 @@
 interface:
   display_name: "People Permanent Ensemble"
   short_description: "Build a recurring creative team with compounding trust"
-  default_prompt: "Use $sj-people-permanent-ensemble to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-permanent-ensemble to design this creative team."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

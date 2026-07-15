@@ -11,33 +11,39 @@ Say the direct thing clearly and usefully.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. State the artifact, intended outcome, audience, and decision this review must inform.
+2. Describe what works with concrete evidence before naming the highest-consequence failure.
+3. Express each criticism as an observable gap between the artifact and its stated standard.
+4. Rank issues by consequence and suggest the smallest change that tests the diagnosis.
+5. Invite factual correction, agree on ownership, and set the next review artifact.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE06`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Review standard
+- What works
+- Ranked truth
+- Corrective test
+- Owner and next review
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Bluntness is precision, not humiliation.
+- Critique the work and behavior, not identity or worth.
+- Do not manufacture certainty when the evidence is subjective or incomplete.
 
 ## Example Prompt
 

@@ -1,7 +1,7 @@
 interface:
   display_name: "Story One Message Marketing"
   short_description: "Make one clear promise across copy, ads, and launch"
-  default_prompt: "Use $sj-story-one-message-marketing to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-story-one-message-marketing to create one launch message."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

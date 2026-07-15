@@ -1,7 +1,7 @@
 interface:
   display_name: "Story Old Story New Tool"
   short_description: "Put new technology inside enduring human stories"
-  default_prompt: "Use $sj-story-old-story-new-tool to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-story-old-story-new-tool to humanize this AI tool story."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

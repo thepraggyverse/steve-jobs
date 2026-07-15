@@ -1,7 +1,7 @@
 interface:
   display_name: "People Confidant Board"
   short_description: "Use trusted outsiders to organize thought"
-  default_prompt: "Use $sj-people-confidant-board to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-confidant-board to design my personal advisory circle."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

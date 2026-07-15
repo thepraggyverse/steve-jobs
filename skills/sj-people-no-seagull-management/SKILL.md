@@ -11,33 +11,39 @@ Avoid detached executive drive-by feedback.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. Trace when the leader enters, what context they possess, what disruption follows, and when they leave.
+2. Ask the team which late interventions, reversals, or unowned criticisms create the most rework.
+3. Classify each issue as a genuine escalation, missing operating cadence, unclear authority, or executive preference.
+4. Replace episodic intervention with regular context review, explicit decision rights, and owned follow-through.
+5. Measure surprise reversals, rework, team confidence, and leader response time over the next cycle.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE07`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Intervention timeline
+- Team impact
+- Root-cause classification
+- Replacement cadence
+- Behavior metrics
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not suppress legitimate emergency intervention.
+- The audit must include the leader's perspective without allowing rank to settle facts.
+- Criticism requires ownership through resolution.
 
 ## Example Prompt
 

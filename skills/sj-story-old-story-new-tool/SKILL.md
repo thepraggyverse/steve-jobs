@@ -11,33 +11,39 @@ Put new technology inside enduring human stories.
 
 ## Workflow
 
-1. Name the audience and why they should care now.
-2. State the problem before the product.
-3. Reduce the message to one promise or narrative spine.
-4. Add proof through demo, numbers with context, analogy, or customer transformation.
-5. Return a concise draft or rehearsal plan.
+1. Name the enduring human desire, frustration, or ritual behind the new technology.
+2. Describe the old way in concrete actions, costs, and emotional stakes.
+3. Show exactly which step the new tool changes and which human responsibility remains.
+4. Choose one representative person and a before-and-after moment grounded in real capability.
+5. Write the story without technical jargon, then add only the minimum mechanism needed for trust.
 
 ## Read References
 
 - Read `references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-ST09`
+- Sources: `S01`, `S06`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Audience
-- Problem
-- One promise
-- Proof or demo
-- Draft or rehearsal move
+- Enduring human story
+- Old way
+- Changed step
+- Representative transformation
+- Grounded narrative
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not anthropomorphize the tool or erase the user's agency.
+- Avoid invented testimonials or capabilities.
+- The human need must remain legible when the novelty wears off.
 
 ## Example Prompt
 

@@ -1,7 +1,7 @@
 interface:
   display_name: "People Ask For Help"
   short_description: "Ask serious builders directly and specifically"
-  default_prompt: "Use $sj-people-ask-for-help to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-ask-for-help to draft this advice request."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

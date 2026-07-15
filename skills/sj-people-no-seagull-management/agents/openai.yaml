@@ -1,7 +1,7 @@
 interface:
   display_name: "People No Seagull Management"
   short_description: "Avoid detached executive drive-by feedback"
-  default_prompt: "Use $sj-people-no-seagull-management to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-no-seagull-management to audit this leadership pattern."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

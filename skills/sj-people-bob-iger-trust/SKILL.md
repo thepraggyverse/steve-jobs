@@ -11,33 +11,39 @@ Negotiate with transparency when trust matters.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. List the relationship history, commitments, sensitive interests, and current source of mistrust.
+2. Distinguish facts, interpretations, and unresolved fears on both sides.
+3. Lead with a material truth or concession that demonstrates good faith without surrendering core interests.
+4. Propose terms with clear ownership, information sharing, decision rights, and breach handling.
+5. Start with a reversible commitment and define the behavior that would earn deeper trust.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE19`
+- Sources: `S04`, `S05`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Trust context
+- Facts and fears
+- Good-faith move
+- Explicit terms
+- Reversible first commitment
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Trust does not require ignoring incentives or eliminating safeguards.
+- Do not offer transparency you cannot sustain.
+- Repair promises must be measurable on both sides.
 
 ## Example Prompt
 

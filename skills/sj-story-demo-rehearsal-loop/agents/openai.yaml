@@ -1,7 +1,7 @@
 interface:
   display_name: "Story Demo Rehearsal Loop"
   short_description: "Practice until the demo feels inevitable"
-  default_prompt: "Use $sj-story-demo-rehearsal-loop to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-story-demo-rehearsal-loop to tighten this demo."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

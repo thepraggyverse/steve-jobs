@@ -1,7 +1,7 @@
 interface:
   display_name: "Story Values Marketing"
   short_description: "Explain what the brand stands for"
-  default_prompt: "Use $sj-story-values-marketing to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-story-values-marketing to write the values layer of this launch."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

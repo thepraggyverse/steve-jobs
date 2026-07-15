@@ -11,33 +11,39 @@ Apply an unusually high talent standard.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. Define the role's mission, exceptional outcomes, and non-negotiable working behaviors.
+2. Collect evidence from shipped work, judgment under constraint, ownership, learning speed, and direct collaboration.
+3. Test whether the candidate raises the team's thinking through a role-relevant work sample and principled pushback.
+4. Separate missing experience that can be learned from gaps in judgment, integrity, or craft.
+5. Record a hire, no-hire, or further-evidence decision with the strongest counterargument.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE01`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Role bar
+- Evidence matrix
+- Work-sample signal
+- Risks and learnable gaps
+- Decision with counterargument
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not use pedigree, charisma, similarity, or aggression as proxies for excellence.
+- Apply the same written bar to every candidate.
+- High standards do not excuse disrespectful interviewing or discriminatory criteria.
 
 ## Example Prompt
 

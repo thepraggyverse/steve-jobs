@@ -1,7 +1,7 @@
 interface:
   display_name: "People Pushback Interview"
   short_description: "Test independent thinking and intelligent disagreement"
-  default_prompt: "Use $sj-people-pushback-interview to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-pushback-interview to create interview questions."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

@@ -11,33 +11,39 @@ Align destination and values, then allow flexible routes.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. Identify the repeated decisions where the team currently depends on escalation or personality.
+2. Choose a small set of values expressed as decision rules with observable positive and negative behaviors.
+3. Test each rule against hard cases where values conflict or impose a cost.
+4. Embed the rules in hiring, planning, review, recognition, and consequence systems.
+5. Audit recent decisions for consistency and revise language that did not produce useful judgment.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE08`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Repeated decision set
+- Behavioral value rules
+- Conflict tests
+- Operating-system changes
+- Consistency audit
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Avoid abstract nouns that permit any behavior after the fact.
+- Leaders must accept the same consequences the values impose on others.
+- Values cannot override law, safety, or basic dignity.
 
 ## Example Prompt
 

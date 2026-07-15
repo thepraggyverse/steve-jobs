@@ -11,33 +11,39 @@ Remember talented people are volunteers, not possessions.
 
 ## Workflow
 
-1. Name the mission and the level of excellence required.
-2. Look for evidence from shipped work, judgment, ownership, and pushback.
-3. Separate signal from charisma, status, or process theater.
-4. Identify the leadership behavior that raises or lowers the bar.
-5. Return a decision, risk, and next conversation or operating change.
+1. Identify high-impact people, their critical knowledge, growth needs, and current reasons to stay or leave.
+2. Gather direct signals about manager quality, autonomy, recognition, workload, fairness, mission, and market options.
+3. Separate healthy mobility from preventable organizational failure and single-person dependency.
+4. Fix systemic retention risks while creating succession, documentation, and respectful exit paths.
+5. Review whether the environment deserves commitment rather than treating retention as persuasion.
 
 ## Read References
 
 - Read `references/sj-people-leadership.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-anti-patterns.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-PE14`
+- Sources: `S03`, `S04`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Bar or value
-- Evidence
-- Risk
-- Decision
-- Next conversation
+- Impact and dependency map
+- Stay-leave signals
+- Systemic risks
+- Retention and succession actions
+- Environment verdict
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not use guilt, mission, or loyalty to trap people.
+- Counteroffers rarely repair a broken system by themselves.
+- Protect confidential employee information.
 
 ## Example Prompt
 

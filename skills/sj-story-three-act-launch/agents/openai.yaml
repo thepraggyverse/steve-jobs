@@ -1,7 +1,7 @@
 interface:
   display_name: "Story Three Act Launch"
   short_description: "Build the problem, meaning, solution arc"
-  default_prompt: "Use $sj-story-three-act-launch to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-story-three-act-launch to structure this product announcement."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

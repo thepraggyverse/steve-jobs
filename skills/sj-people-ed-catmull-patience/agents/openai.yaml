@@ -1,7 +1,7 @@
 interface:
   display_name: "People Ed Catmull Patience"
   short_description: "Use facts, trust, and time to change strong minds"
-  default_prompt: "Use $sj-people-ed-catmull-patience to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-ed-catmull-patience to plan this hard persuasion."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

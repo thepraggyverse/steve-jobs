@@ -11,33 +11,39 @@ Explain what the brand stands for.
 
 ## Workflow
 
-1. Name the audience and why they should care now.
-2. State the problem before the product.
-3. Reduce the message to one promise or narrative spine.
-4. Add proof through demo, numbers with context, analogy, or customer transformation.
-5. Return a concise draft or rehearsal plan.
+1. Name the value the company claims and the behavior that would make it observable.
+2. Gather product, policy, pricing, support, and company evidence that supports or contradicts the claim.
+3. Choose a value that matters to the audience and requires a meaningful company tradeoff.
+4. Write the campaign around demonstrated behavior, with the product as evidence rather than decoration.
+5. Run a hypocrisy check against current practices and remove or qualify claims that fail.
 
 ## Read References
 
 - Read `references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-ST07`
+- Sources: `S02`, `S06`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Audience
-- Problem
-- One promise
-- Proof or demo
-- Draft or rehearsal move
+- Claimed value
+- Behavioral evidence
+- Contradictions
+- Meaningful tradeoff
+- Values narrative
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Do not borrow moral language for ordinary positioning.
+- A value claim without a costly behavior is advertising posture.
+- Surface contradictions before publishing, not after criticism.
 
 ## Example Prompt
 

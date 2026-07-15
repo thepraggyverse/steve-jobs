@@ -11,33 +11,39 @@ Use publicity to educate, not just hype.
 
 ## Workflow
 
-1. Name the audience and why they should care now.
-2. State the problem before the product.
-3. Reduce the message to one promise or narrative spine.
-4. Add proof through demo, numbers with context, analogy, or customer transformation.
-5. Return a concise draft or rehearsal plan.
+1. Define the public problem and the useful belief the audience should gain even if they never buy.
+2. Identify a teachable insight, demonstration, or data point the company can credibly contribute.
+3. Separate the educational story from product claims and unsupported category hype.
+4. Choose a trusted messenger, format, and proof artifact suited to the audience.
+5. Draft the pitch around public value, with the product appearing only where it genuinely resolves the problem.
 
 ## Read References
 
 - Read `references/sj-story-selling.md` when this skill needs source grounding or deeper examples.
 - Read `references/sj-product-craft.md` when this skill needs source grounding or deeper examples.
 
+## Source Grounding
+
+- Claim: `SJ-ST08`
+- Sources: `S04`, `S06`, `S07`
+- Evidence level: `synthesized`
+- Resolve IDs in `references/sj-source-map.md` and the claim row in `references/sj-evidence-map.md`.
+
 ## Output
 
 Return a compact result with:
 
-- Audience
-- Problem
-- One promise
-- Proof or demo
-- Draft or rehearsal move
+- Public problem
+- Teachable insight
+- Credible proof
+- Messenger and format
+- Educational pitch
 
 ## Guardrails
 
-- Keep Jobs as a source of operating patterns, not as an imitation costume.
-- Prefer concrete artifacts, decisions, tradeoffs, and next actions.
-- Do not use long quotations from the source material.
-- If evidence is missing, ask for the artifact or state the assumption.
+- Education must stand on its own without a purchase request.
+- Do not manufacture a movement around a trivial feature.
+- Disclose commercial interests and evidence limits.
 
 ## Example Prompt
 

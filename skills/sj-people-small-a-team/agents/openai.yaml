@@ -1,7 +1,7 @@
 interface:
   display_name: "People Small A Team"
   short_description: "Prefer a small excellent team over a large average one"
-  default_prompt: "Use $sj-people-small-a-team to apply this Steve Jobs operating pattern to my task."
+  default_prompt: "Use $sj-people-small-a-team to shrink this project team."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false
