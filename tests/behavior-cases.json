@@ -1,0 +1,3551 @@
+{
+  "schema_version": 1,
+  "description": "Two behavioral contract cases for every executable sj-* skill.",
+  "case_count": 182,
+  "cases": [
+    {
+      "id": "sj-anti-channel-stuffing-check:positive",
+      "skill": "sj-anti-channel-stuffing-check",
+      "mode": "positive",
+      "prompt": "Use $sj-anti-channel-stuffing-check to audit these growth numbers. Context: A funded startup reports rapid channel growth while inventory, incentives, personal rivalry, spending, and end-customer demand remain insufficiently reconciled.",
+      "claim_id": "SJ-A02",
+      "required_output_fields": [
+        "Channel reconciliation",
+        "Incentive risks",
+        "Normalized performance",
+        "Anomaly evidence",
+        "Corrections and monitoring"
+      ],
+      "forbidden_behaviors": [
+        "Treat this as an integrity and accounting risk, not merely a sales tactic.",
+        "Escalate suspected fraud or disclosure failures to qualified legal and finance professionals.",
+        "Do not accuse individuals without evidence and due process."
+      ]
+    },
+    {
+      "id": "sj-anti-channel-stuffing-check:boundary",
+      "skill": "sj-anti-channel-stuffing-check",
+      "mode": "boundary",
+      "prompt": "Use $sj-anti-channel-stuffing-check. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-A02",
+      "required_output_fields": [
+        "Channel reconciliation",
+        "Incentive risks",
+        "Normalized performance",
+        "Anomaly evidence",
+        "Corrections and monitoring"
+      ],
+      "forbidden_behaviors": [
+        "Treat this as an integrity and accounting risk, not merely a sales tactic.",
+        "Escalate suspected fraud or disclosure failures to qualified legal and finance professionals.",
+        "Do not accuse individuals without evidence and due process."
+      ]
+    },
+    {
+      "id": "sj-anti-revenge-motive-check:positive",
+      "skill": "sj-anti-revenge-motive-check",
+      "mode": "positive",
+      "prompt": "Use $sj-anti-revenge-motive-check to test my motive here. Context: A funded startup reports rapid channel growth while inventory, incentives, personal rivalry, spending, and end-customer demand remain insufficiently reconciled.",
+      "claim_id": "SJ-A01",
+      "required_output_fields": [
+        "Action and emotional context",
+        "Rival-free value test",
+        "Neutral alternative",
+        "Removed punitive elements",
+        "Independent-review decision"
+      ],
+      "forbidden_behaviors": [
+        "Anger can reveal a boundary but should not set strategy alone.",
+        "Do not weaponize employees, customers, partners, or public channels in a personal conflict.",
+        "Use legal or safety escalation when genuine harm requires it."
+      ]
+    },
+    {
+      "id": "sj-anti-revenge-motive-check:boundary",
+      "skill": "sj-anti-revenge-motive-check",
+      "mode": "boundary",
+      "prompt": "Use $sj-anti-revenge-motive-check. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-A01",
+      "required_output_fields": [
+        "Action and emotional context",
+        "Rival-free value test",
+        "Neutral alternative",
+        "Removed punitive elements",
+        "Independent-review decision"
+      ],
+      "forbidden_behaviors": [
+        "Anger can reveal a boundary but should not set strategy alone.",
+        "Do not weaponize employees, customers, partners, or public channels in a personal conflict.",
+        "Use legal or safety escalation when genuine harm requires it."
+      ]
+    },
+    {
+      "id": "sj-anti-too-much-money-check:positive",
+      "skill": "sj-anti-too-much-money-check",
+      "mode": "positive",
+      "prompt": "Use $sj-anti-too-much-money-check to audit this funding plan. Context: A funded startup reports rapid channel growth while inventory, incentives, personal rivalry, spending, and end-customer demand remain insufficiently reconciled.",
+      "claim_id": "SJ-A03",
+      "required_output_fields": [
+        "Capital and runway map",
+        "Discipline risks",
+        "Lower-capital alternatives",
+        "Evidence-gated release",
+        "Stop-loss governance"
+      ],
+      "forbidden_behaviors": [
+        "Capital abundance is not itself a failure; undisciplined commitment is.",
+        "Do not underfund safety, obligations, or proven infrastructure merely to appear lean.",
+        "Consider qualified financial and legal advice for material funding decisions."
+      ]
+    },
+    {
+      "id": "sj-anti-too-much-money-check:boundary",
+      "skill": "sj-anti-too-much-money-check",
+      "mode": "boundary",
+      "prompt": "Use $sj-anti-too-much-money-check. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-A03",
+      "required_output_fields": [
+        "Capital and runway map",
+        "Discipline risks",
+        "Lower-capital alternatives",
+        "Evidence-gated release",
+        "Stop-loss governance"
+      ],
+      "forbidden_behaviors": [
+        "Capital abundance is not itself a failure; undisciplined commitment is.",
+        "Do not underfund safety, obligations, or proven infrastructure merely to appear lean.",
+        "Consider qualified financial and legal advice for material funding decisions."
+      ]
+    },
+    {
+      "id": "sj-core-catalog:positive",
+      "skill": "sj-core-catalog",
+      "mode": "positive",
+      "prompt": "Use $sj-core-catalog to choose the best Steve Jobs skill sequence for this product decision. Context: A team must choose how to improve a cluttered AI notes app before a launch in two weeks. It has weak onboarding, an unclear demo, and no durable learning log.",
+      "claim_id": "SJ-C01",
+      "required_output_fields": [
+        "Selected skill sequence",
+        "Why this sequence",
+        "First action",
+        "References to inspect"
+      ],
+      "forbidden_behaviors": [
+        "Keep Jobs as a source of operating patterns, not as an imitation costume.",
+        "Prefer concrete artifacts, decisions, tradeoffs, and next actions.",
+        "Do not use long quotations from the source material.",
+        "If evidence is missing, ask for the artifact or state the assumption."
+      ]
+    },
+    {
+      "id": "sj-core-catalog:boundary",
+      "skill": "sj-core-catalog",
+      "mode": "boundary",
+      "prompt": "Use $sj-core-catalog. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-C01",
+      "required_output_fields": [
+        "Selected skill sequence",
+        "Why this sequence",
+        "First action",
+        "References to inspect"
+      ],
+      "forbidden_behaviors": [
+        "Keep Jobs as a source of operating patterns, not as an imitation costume.",
+        "Prefer concrete artifacts, decisions, tradeoffs, and next actions.",
+        "Do not use long quotations from the source material.",
+        "If evidence is missing, ask for the artifact or state the assumption."
+      ]
+    },
+    {
+      "id": "sj-core-compound-learning:positive",
+      "skill": "sj-core-compound-learning",
+      "mode": "positive",
+      "prompt": "Use $sj-core-compound-learning to extract reusable Jobs lessons from this session. Context: A team must choose how to improve a cluttered AI notes app before a launch in two weeks. It has weak onboarding, an unclear demo, and no durable learning log.",
+      "claim_id": "SJ-C02",
+      "required_output_fields": [
+        "Candidate lessons",
+        "Type, domain, source, confidence, and tags",
+        "Duplicate or stale-learning check",
+        "Exact proposed file paths",
+        "Approval request",
+        "Saved paths",
+        "Tags that should retrieve each lesson",
+        "When to reuse the lesson",
+        "Any skipped candidate and why"
+      ],
+      "forbidden_behaviors": [
+        "Keep Jobs as a source of operating patterns, not as an imitation costume.",
+        "Prefer concrete artifacts, decisions, tradeoffs, and next actions.",
+        "Do not use long quotations from the source material.",
+        "Do not save full transcripts, private notes, secrets, local absolute source paths, or copyrighted excerpts.",
+        "Do not write durable learnings without user approval.",
+        "Do not overwrite an existing learning unless the user explicitly chooses update or merge.",
+        "If evidence is missing, ask for the artifact or state the assumption."
+      ]
+    },
+    {
+      "id": "sj-core-compound-learning:boundary",
+      "skill": "sj-core-compound-learning",
+      "mode": "boundary",
+      "prompt": "Use $sj-core-compound-learning. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-C02",
+      "required_output_fields": [
+        "Candidate lessons",
+        "Type, domain, source, confidence, and tags",
+        "Duplicate or stale-learning check",
+        "Exact proposed file paths",
+        "Approval request",
+        "Saved paths",
+        "Tags that should retrieve each lesson",
+        "When to reuse the lesson",
+        "Any skipped candidate and why"
+      ],
+      "forbidden_behaviors": [
+        "Keep Jobs as a source of operating patterns, not as an imitation costume.",
+        "Prefer concrete artifacts, decisions, tradeoffs, and next actions.",
+        "Do not use long quotations from the source material.",
+        "Do not save full transcripts, private notes, secrets, local absolute source paths, or copyrighted excerpts.",
+        "Do not write durable learnings without user approval.",
+        "Do not overwrite an existing learning unless the user explicitly chooses update or merge.",
+        "If evidence is missing, ask for the artifact or state the assumption."
+      ]
+    },
+    {
+      "id": "sj-core-learning-refresh:positive",
+      "skill": "sj-core-learning-refresh",
+      "mode": "positive",
+      "prompt": "Use $sj-core-learning-refresh to audit saved SJ learnings before we reuse them in this product strategy. Context: A team must choose how to improve a cluttered AI notes app before a launch in two weeks. It has weak onboarding, an unclear demo, and no durable learning log.",
+      "claim_id": "SJ-C03",
+      "required_output_fields": [
+        "Learning store path",
+        "Files reviewed",
+        "Findings grouped by action: keep, update, merge, archive",
+        "Exact file paths for every finding",
+        "Reason for each recommendation",
+        "Suggested next command or prompt"
+      ],
+      "forbidden_behaviors": [
+        "Treat saved learnings as user project knowledge, not plugin source material.",
+        "Do not add source books, transcripts, long quotes, private notes, secrets, or local absolute source paths.",
+        "Prefer updating or merging over archiving when useful knowledge can be preserved.",
+        "Keep recommendations short enough for a maintainer to act on."
+      ]
+    },
+    {
+      "id": "sj-core-learning-refresh:boundary",
+      "skill": "sj-core-learning-refresh",
+      "mode": "boundary",
+      "prompt": "Use $sj-core-learning-refresh. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-C03",
+      "required_output_fields": [
+        "Learning store path",
+        "Files reviewed",
+        "Findings grouped by action: keep, update, merge, archive",
+        "Exact file paths for every finding",
+        "Reason for each recommendation",
+        "Suggested next command or prompt"
+      ],
+      "forbidden_behaviors": [
+        "Treat saved learnings as user project knowledge, not plugin source material.",
+        "Do not add source books, transcripts, long quotes, private notes, secrets, or local absolute source paths.",
+        "Prefer updating or merging over archiving when useful knowledge can be preserved.",
+        "Keep recommendations short enough for a maintainer to act on."
+      ]
+    },
+    {
+      "id": "sj-ive-better-not-different:positive",
+      "skill": "sj-ive-better-not-different",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-better-not-different to test whether this unusual design choice is actually better. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I08",
+      "required_output_fields": [
+        "Novel choice",
+        "Claimed improvement",
+        "Evidence for better",
+        "Cost of different",
+        "Decision"
+      ],
+      "forbidden_behaviors": [
+        "Do not reward novelty because it photographs well.",
+        "Do not reject novelty simply because it is unfamiliar.",
+        "Anchor the decision in use and meaning.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-better-not-different:boundary",
+      "skill": "sj-ive-better-not-different",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-better-not-different. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I08",
+      "required_output_fields": [
+        "Novel choice",
+        "Claimed improvement",
+        "Evidence for better",
+        "Cost of different",
+        "Decision"
+      ],
+      "forbidden_behaviors": [
+        "Do not reward novelty because it photographs well.",
+        "Do not reject novelty simply because it is unfamiliar.",
+        "Anchor the decision in use and meaning.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-care-is-felt:positive",
+      "skill": "sj-ive-care-is-felt",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-care-is-felt to find where this product feels cared for or careless. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I07",
+      "required_output_fields": [
+        "Care signals",
+        "Careless signals",
+        "High-leverage details",
+        "Repair plan",
+        "Reinspection checklist"
+      ],
+      "forbidden_behaviors": [
+        "Do not polish meaningless details while core utility is broken.",
+        "Care should serve the user, not the maker ego.",
+        "Name concrete details instead of saying it needs more love.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-care-is-felt:boundary",
+      "skill": "sj-ive-care-is-felt",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-care-is-felt. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I07",
+      "required_output_fields": [
+        "Care signals",
+        "Careless signals",
+        "High-leverage details",
+        "Repair plan",
+        "Reinspection checklist"
+      ],
+      "forbidden_behaviors": [
+        "Do not polish meaningless details while core utility is broken.",
+        "Care should serve the user, not the maker ego.",
+        "Name concrete details instead of saying it needs more love.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-design-story:positive",
+      "skill": "sj-ive-design-story",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-design-story to find the design story for this product before we debate features. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I01",
+      "required_output_fields": [
+        "Human situation",
+        "Design story",
+        "Supporting choices",
+        "Detached choices",
+        "Next artifact"
+      ],
+      "forbidden_behaviors": [
+        "Do not turn story into decoration or marketing fluff.",
+        "Keep the story specific enough to cut features.",
+        "If the artifact is absent, state the assumptions you are making.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-design-story:boundary",
+      "skill": "sj-ive-design-story",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-design-story. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I01",
+      "required_output_fields": [
+        "Human situation",
+        "Design story",
+        "Supporting choices",
+        "Detached choices",
+        "Next artifact"
+      ],
+      "forbidden_behaviors": [
+        "Do not turn story into decoration or marketing fluff.",
+        "Keep the story specific enough to cut features.",
+        "If the artifact is absent, state the assumptions you are making.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-first-touch-moment:positive",
+      "skill": "sj-ive-first-touch-moment",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-first-touch-moment to review the first moment someone experiences this product. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I03",
+      "required_output_fields": [
+        "First moment sequence",
+        "Immediate signals",
+        "Trust deposits",
+        "Trust withdrawals",
+        "Improved first-touch plan"
+      ],
+      "forbidden_behaviors": [
+        "Do not optimize the first moment at the expense of the product truth.",
+        "Include physical, visual, sound, copy, and timing details when relevant.",
+        "Avoid vague delight language; name the actual signal.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-first-touch-moment:boundary",
+      "skill": "sj-ive-first-touch-moment",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-first-touch-moment. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I03",
+      "required_output_fields": [
+        "First moment sequence",
+        "Immediate signals",
+        "Trust deposits",
+        "Trust withdrawals",
+        "Improved first-touch plan"
+      ],
+      "forbidden_behaviors": [
+        "Do not optimize the first moment at the expense of the product truth.",
+        "Include physical, visual, sound, copy, and timing details when relevant.",
+        "Avoid vague delight language; name the actual signal.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-fragile-idea-protection:positive",
+      "skill": "sj-ive-fragile-idea-protection",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-fragile-idea-protection to protect this early idea long enough to test it fairly. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I09",
+      "required_output_fields": [
+        "Fragile idea",
+        "Threats to the idea",
+        "Protection plan",
+        "Inspection circle",
+        "Review trigger"
+      ],
+      "forbidden_behaviors": [
+        "Protection is temporary, not a shield from reality.",
+        "Do not protect ideas with no user or product promise.",
+        "Invite critique once the idea has enough form to be judged fairly.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-fragile-idea-protection:boundary",
+      "skill": "sj-ive-fragile-idea-protection",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-fragile-idea-protection. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I09",
+      "required_output_fields": [
+        "Fragile idea",
+        "Threats to the idea",
+        "Protection plan",
+        "Inspection circle",
+        "Review trigger"
+      ],
+      "forbidden_behaviors": [
+        "Protection is temporary, not a shield from reality.",
+        "Do not protect ideas with no user or product promise.",
+        "Invite critique once the idea has enough form to be judged fairly.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-future-without-betrayal:positive",
+      "skill": "sj-ive-future-without-betrayal",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-future-without-betrayal to modernize this product without betraying what people love about it. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I10",
+      "required_output_fields": [
+        "Enduring soul",
+        "False nostalgia",
+        "Future pressure",
+        "Continuity signals",
+        "Transition proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not preserve old form when it blocks the promise.",
+        "Do not use the future as permission to erase trust.",
+        "Make the transition inspectable through real artifacts.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-future-without-betrayal:boundary",
+      "skill": "sj-ive-future-without-betrayal",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-future-without-betrayal. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I10",
+      "required_output_fields": [
+        "Enduring soul",
+        "False nostalgia",
+        "Future pressure",
+        "Continuity signals",
+        "Transition proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not preserve old form when it blocks the promise.",
+        "Do not use the future as permission to erase trust.",
+        "Make the transition inspectable through real artifacts.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-humanize-technology:positive",
+      "skill": "sj-ive-humanize-technology",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-humanize-technology to make this interface feel less cold and more approachable. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I02",
+      "required_output_fields": [
+        "Cold or abstract points",
+        "Desired human feeling",
+        "Language changes",
+        "Interaction changes",
+        "Next prototype"
+      ],
+      "forbidden_behaviors": [
+        "Do not hide important power or risk behind friendliness.",
+        "Do not add fake warmth that slows expert users.",
+        "Favor clarity and care over cuteness.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-humanize-technology:boundary",
+      "skill": "sj-ive-humanize-technology",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-humanize-technology. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I02",
+      "required_output_fields": [
+        "Cold or abstract points",
+        "Desired human feeling",
+        "Language changes",
+        "Interaction changes",
+        "Next prototype"
+      ],
+      "forbidden_behaviors": [
+        "Do not hide important power or risk behind friendliness.",
+        "Do not add fake warmth that slows expert users.",
+        "Favor clarity and care over cuteness.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-manufacturing-as-design:positive",
+      "skill": "sj-ive-manufacturing-as-design",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-manufacturing-as-design to test whether this concept survives production reality. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I06",
+      "required_output_fields": [
+        "Production path",
+        "Constraint map",
+        "Creative constraints",
+        "Design changes",
+        "Next implementation proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not let feasibility flatten ambition too early.",
+        "Do not keep a concept alive if the making process destroys the experience.",
+        "Include maintainability and quality control in the design review.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-manufacturing-as-design:boundary",
+      "skill": "sj-ive-manufacturing-as-design",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-manufacturing-as-design. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I06",
+      "required_output_fields": [
+        "Production path",
+        "Constraint map",
+        "Creative constraints",
+        "Design changes",
+        "Next implementation proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not let feasibility flatten ambition too early.",
+        "Do not keep a concept alive if the making process destroys the experience.",
+        "Include maintainability and quality control in the design review.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-material-honesty:positive",
+      "skill": "sj-ive-material-honesty",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-material-honesty to audit the material and sensory truth of this artifact. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I05",
+      "required_output_fields": [
+        "Sensory inventory",
+        "Signals sent",
+        "Mismatches",
+        "Honest alternatives",
+        "Prototype or inspection"
+      ],
+      "forbidden_behaviors": [
+        "Do not chase premium signals for their own sake.",
+        "Respect constraints, durability, repair, and manufacturing reality.",
+        "For software, translate material into motion, latency, type, spacing, sound, and interaction texture.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-material-honesty:boundary",
+      "skill": "sj-ive-material-honesty",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-material-honesty. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I05",
+      "required_output_fields": [
+        "Sensory inventory",
+        "Signals sent",
+        "Mismatches",
+        "Honest alternatives",
+        "Prototype or inspection"
+      ],
+      "forbidden_behaviors": [
+        "Do not chase premium signals for their own sake.",
+        "Respect constraints, durability, repair, and manufacturing reality.",
+        "For software, translate material into motion, latency, type, spacing, sound, and interaction texture.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-prototype-volume:positive",
+      "skill": "sj-ive-prototype-volume",
+      "mode": "positive",
+      "prompt": "Use $sj-ive-prototype-volume to turn this design debate into a prototype selection loop. Context: An AI settings screen is dense, cold, jargon-heavy, and visually finished but emotionally difficult to approach. A working prototype is available.",
+      "claim_id": "SJ-I04",
+      "required_output_fields": [
+        "Abstract debate",
+        "Prototype unit",
+        "Variant set",
+        "Selection criteria",
+        "Decision from artifacts"
+      ],
+      "forbidden_behaviors": [
+        "Do not confuse prototype volume with unfocused thrashing.",
+        "Each prototype should test a distinct bet.",
+        "Choose after inspection, not after defending personal taste.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-ive-prototype-volume:boundary",
+      "skill": "sj-ive-prototype-volume",
+      "mode": "boundary",
+      "prompt": "Use $sj-ive-prototype-volume. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-I04",
+      "required_output_fields": [
+        "Abstract debate",
+        "Prototype unit",
+        "Variant set",
+        "Selection criteria",
+        "Decision from artifacts"
+      ],
+      "forbidden_behaviors": [
+        "Do not confuse prototype volume with unfocused thrashing.",
+        "Each prototype should test a distinct bet.",
+        "Choose after inspection, not after defending personal taste.",
+        "Do not use long quotations from the source material."
+      ]
+    },
+    {
+      "id": "sj-learning-all-glory-fleeting:positive",
+      "skill": "sj-learning-all-glory-fleeting",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-all-glory-fleeting to deflate this ego trap. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L09",
+      "required_output_fields": [
+        "Temporary glory",
+        "Durable anchors",
+        "Distortion risk",
+        "Grounding action",
+        "Contribution-based review"
+      ],
+      "forbidden_behaviors": [
+        "Humility does not require denying real achievement.",
+        "Do not use impermanence to avoid celebration or fair credit.",
+        "Grounding should restore perspective, not create self-punishment."
+      ]
+    },
+    {
+      "id": "sj-learning-all-glory-fleeting:boundary",
+      "skill": "sj-learning-all-glory-fleeting",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-all-glory-fleeting. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L09",
+      "required_output_fields": [
+        "Temporary glory",
+        "Durable anchors",
+        "Distortion risk",
+        "Grounding action",
+        "Contribution-based review"
+      ],
+      "forbidden_behaviors": [
+        "Humility does not require denying real achievement.",
+        "Do not use impermanence to avoid celebration or fair credit.",
+        "Grounding should restore perspective, not create self-punishment."
+      ]
+    },
+    {
+      "id": "sj-learning-avocation-to-vocation:positive",
+      "skill": "sj-learning-avocation-to-vocation",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-avocation-to-vocation to find the vocation inside this interest. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L04",
+      "required_output_fields": [
+        "Recurring avocation",
+        "Practice and pull evidence",
+        "Accountable experiments",
+        "Vocation requirements",
+        "Deepen-combine-professionalize-keep decision"
+      ],
+      "forbidden_behaviors": [
+        "Monetization can damage an activity whose value depends on freedom.",
+        "Do not romanticize passion while ignoring economics and obligations.",
+        "A vocation may combine several interests rather than mirror one hobby."
+      ]
+    },
+    {
+      "id": "sj-learning-avocation-to-vocation:boundary",
+      "skill": "sj-learning-avocation-to-vocation",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-avocation-to-vocation. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L04",
+      "required_output_fields": [
+        "Recurring avocation",
+        "Practice and pull evidence",
+        "Accountable experiments",
+        "Vocation requirements",
+        "Deepen-combine-professionalize-keep decision"
+      ],
+      "forbidden_behaviors": [
+        "Monetization can damage an activity whose value depends on freedom.",
+        "Do not romanticize passion while ignoring economics and obligations.",
+        "A vocation may combine several interests rather than mirror one hobby."
+      ]
+    },
+    {
+      "id": "sj-learning-balanced-builder-audit:positive",
+      "skill": "sj-learning-balanced-builder-audit",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-balanced-builder-audit to audit the life cost of this plan. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L08",
+      "required_output_fields": [
+        "Life-cost map",
+        "Temporary and chronic costs",
+        "Sustainability baselines",
+        "Plan redesign",
+        "Review and stop conditions"
+      ],
+      "forbidden_behaviors": [
+        "Do not glorify burnout, neglect, or untreated illness.",
+        "Important work does not erase obligations to other people.",
+        "This audit does not replace medical, mental-health, or financial professionals."
+      ]
+    },
+    {
+      "id": "sj-learning-balanced-builder-audit:boundary",
+      "skill": "sj-learning-balanced-builder-audit",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-balanced-builder-audit. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L08",
+      "required_output_fields": [
+        "Life-cost map",
+        "Temporary and chronic costs",
+        "Sustainability baselines",
+        "Plan redesign",
+        "Review and stop conditions"
+      ],
+      "forbidden_behaviors": [
+        "Do not glorify burnout, neglect, or untreated illness.",
+        "Important work does not erase obligations to other people.",
+        "This audit does not replace medical, mental-health, or financial professionals."
+      ]
+    },
+    {
+      "id": "sj-learning-biographies-as-mentors:positive",
+      "skill": "sj-learning-biographies-as-mentors",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-biographies-as-mentors to turn this biography into mentorship notes. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L01",
+      "required_output_fields": [
+        "Mentorship question",
+        "Evidence episodes",
+        "Transfer limits",
+        "Tested lesson",
+        "Sourced practice"
+      ],
+      "forbidden_behaviors": [
+        "Biography is curated interpretation, not direct access to a mind.",
+        "Do not copy harmful conduct because the subject succeeded.",
+        "Preserve contradictions instead of forcing a clean hero narrative."
+      ]
+    },
+    {
+      "id": "sj-learning-biographies-as-mentors:boundary",
+      "skill": "sj-learning-biographies-as-mentors",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-biographies-as-mentors. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L01",
+      "required_output_fields": [
+        "Mentorship question",
+        "Evidence episodes",
+        "Transfer limits",
+        "Tested lesson",
+        "Sourced practice"
+      ],
+      "forbidden_behaviors": [
+        "Biography is curated interpretation, not direct access to a mind.",
+        "Do not copy harmful conduct because the subject succeeded.",
+        "Preserve contradictions instead of forcing a clean hero narrative."
+      ]
+    },
+    {
+      "id": "sj-learning-endurance-loop:positive",
+      "skill": "sj-learning-endurance-loop",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-endurance-loop to design the 100-rep path. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L05",
+      "required_output_fields": [
+        "Capability and rep",
+        "Cadence and quality bar",
+        "Feedback signal",
+        "Progression rule",
+        "Recovery and stop boundary"
+      ],
+      "forbidden_behaviors": [
+        "Repetition without feedback can automate the wrong behavior.",
+        "Endurance is not permission to ignore injury or burnout.",
+        "Do not count trivial repetitions that avoid the real skill."
+      ]
+    },
+    {
+      "id": "sj-learning-endurance-loop:boundary",
+      "skill": "sj-learning-endurance-loop",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-endurance-loop. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L05",
+      "required_output_fields": [
+        "Capability and rep",
+        "Cadence and quality bar",
+        "Feedback signal",
+        "Progression rule",
+        "Recovery and stop boundary"
+      ],
+      "forbidden_behaviors": [
+        "Repetition without feedback can automate the wrong behavior.",
+        "Endurance is not permission to ignore injury or burnout.",
+        "Do not count trivial repetitions that avoid the real skill."
+      ]
+    },
+    {
+      "id": "sj-learning-fundamentals-practice:positive",
+      "skill": "sj-learning-fundamentals-practice",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-fundamentals-practice to define my daily reps. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L06",
+      "required_output_fields": [
+        "Fundamental map",
+        "Baseline task",
+        "Focused drill",
+        "Transfer practice",
+        "Retest and next fundamental"
+      ],
+      "forbidden_behaviors": [
+        "Fundamentals are not an excuse to postpone real work indefinitely.",
+        "Use qualified coaching where bad form creates safety risk.",
+        "Advance based on demonstrated control, not boredom."
+      ]
+    },
+    {
+      "id": "sj-learning-fundamentals-practice:boundary",
+      "skill": "sj-learning-fundamentals-practice",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-fundamentals-practice. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L06",
+      "required_output_fields": [
+        "Fundamental map",
+        "Baseline task",
+        "Focused drill",
+        "Transfer practice",
+        "Retest and next fundamental"
+      ],
+      "forbidden_behaviors": [
+        "Fundamentals are not an excuse to postpone real work indefinitely.",
+        "Use qualified coaching where bad form creates safety risk.",
+        "Advance based on demonstrated control, not boredom."
+      ]
+    },
+    {
+      "id": "sj-learning-mortality-lens:positive",
+      "skill": "sj-learning-mortality-lens",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-mortality-lens to clarify what matters here. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L03",
+      "required_output_fields": [
+        "Decision and pressure",
+        "Enduring importance",
+        "Reversibility and obligations",
+        "Value-aligned choice",
+        "Near-term step and review"
+      ],
+      "forbidden_behaviors": [
+        "Do not use mortality rhetoric to force impulsive or dangerous choices.",
+        "Urgency does not erase dependents, consent, health, or financial reality.",
+        "Seek appropriate support when the reflection involves grief or self-harm."
+      ]
+    },
+    {
+      "id": "sj-learning-mortality-lens:boundary",
+      "skill": "sj-learning-mortality-lens",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-mortality-lens. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L03",
+      "required_output_fields": [
+        "Decision and pressure",
+        "Enduring importance",
+        "Reversibility and obligations",
+        "Value-aligned choice",
+        "Near-term step and review"
+      ],
+      "forbidden_behaviors": [
+        "Do not use mortality rhetoric to force impulsive or dangerous choices.",
+        "Urgency does not erase dependents, consent, health, or financial reality.",
+        "Seek appropriate support when the reflection involves grief or self-harm."
+      ]
+    },
+    {
+      "id": "sj-learning-progressive-summarization:positive",
+      "skill": "sj-learning-progressive-summarization",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-progressive-summarization to process this book into skill material. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L07",
+      "required_output_fields": [
+        "Bounded source ledger",
+        "Atomic evidence notes",
+        "Claim and contradiction map",
+        "Reusable compression",
+        "Coverage and provenance audit"
+      ],
+      "forbidden_behaviors": [
+        "Do not summarize from highlights alone when full coverage is promised.",
+        "Compression must preserve uncertainty and disagreement.",
+        "Never publish private transcripts, secrets, or long copyrighted excerpts."
+      ]
+    },
+    {
+      "id": "sj-learning-progressive-summarization:boundary",
+      "skill": "sj-learning-progressive-summarization",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-progressive-summarization. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L07",
+      "required_output_fields": [
+        "Bounded source ledger",
+        "Atomic evidence notes",
+        "Claim and contradiction map",
+        "Reusable compression",
+        "Coverage and provenance audit"
+      ],
+      "forbidden_behaviors": [
+        "Do not summarize from highlights alone when full coverage is promised.",
+        "Compression must preserve uncertainty and disagreement.",
+        "Never publish private transcripts, secrets, or long copyrighted excerpts."
+      ]
+    },
+    {
+      "id": "sj-learning-regret-vs-mistake:positive",
+      "skill": "sj-learning-regret-vs-mistake",
+      "mode": "positive",
+      "prompt": "Use $sj-learning-regret-vs-mistake to evaluate this decision. Context: A builder has complete notes from a book, a difficult recent decision, limited weekly practice time, and wants one reusable lesson without hero worship.",
+      "claim_id": "SJ-L02",
+      "required_output_fields": [
+        "Decision context",
+        "Process-versus-outcome assessment",
+        "Regret classification",
+        "Repair or release action",
+        "Future decision rule"
+      ],
+      "forbidden_behaviors": [
+        "Do not rewrite history using information gained later.",
+        "Regret can signal values without proving the alternative would have succeeded.",
+        "Self-forgiveness should accompany accountability, not replace it."
+      ]
+    },
+    {
+      "id": "sj-learning-regret-vs-mistake:boundary",
+      "skill": "sj-learning-regret-vs-mistake",
+      "mode": "boundary",
+      "prompt": "Use $sj-learning-regret-vs-mistake. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-L02",
+      "required_output_fields": [
+        "Decision context",
+        "Process-versus-outcome assessment",
+        "Regret classification",
+        "Repair or release action",
+        "Future decision rule"
+      ],
+      "forbidden_behaviors": [
+        "Do not rewrite history using information gained later.",
+        "Regret can signal values without proving the alternative would have succeeded.",
+        "Self-forgiveness should accompany accountability, not replace it."
+      ]
+    },
+    {
+      "id": "sj-people-a-player-bar:positive",
+      "skill": "sj-people-a-player-bar",
+      "mode": "positive",
+      "prompt": "Use $sj-people-a-player-bar to evaluate this candidate. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE01",
+      "required_output_fields": [
+        "Role bar",
+        "Evidence matrix",
+        "Work-sample signal",
+        "Risks and learnable gaps",
+        "Decision with counterargument"
+      ],
+      "forbidden_behaviors": [
+        "Do not use pedigree, charisma, similarity, or aggression as proxies for excellence.",
+        "Apply the same written bar to every candidate.",
+        "High standards do not excuse disrespectful interviewing or discriminatory criteria."
+      ]
+    },
+    {
+      "id": "sj-people-a-player-bar:boundary",
+      "skill": "sj-people-a-player-bar",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-a-player-bar. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE01",
+      "required_output_fields": [
+        "Role bar",
+        "Evidence matrix",
+        "Work-sample signal",
+        "Risks and learnable gaps",
+        "Decision with counterargument"
+      ],
+      "forbidden_behaviors": [
+        "Do not use pedigree, charisma, similarity, or aggression as proxies for excellence.",
+        "Apply the same written bar to every candidate.",
+        "High standards do not excuse disrespectful interviewing or discriminatory criteria."
+      ]
+    },
+    {
+      "id": "sj-people-andy-grove-correction:positive",
+      "skill": "sj-people-andy-grove-correction",
+      "mode": "positive",
+      "prompt": "Use $sj-people-andy-grove-correction to process this harsh feedback. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE18",
+      "required_output_fields": [
+        "Feedback claim",
+        "Evidence assessment",
+        "Defensive blind spot",
+        "Response decision",
+        "Correction and review date"
+      ],
+      "forbidden_behaviors": [
+        "Do not accept abuse merely because some criticism is useful.",
+        "Do not dismiss accurate feedback because it arrived badly.",
+        "Correction requires a changed behavior, not a statement of agreement."
+      ]
+    },
+    {
+      "id": "sj-people-andy-grove-correction:boundary",
+      "skill": "sj-people-andy-grove-correction",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-andy-grove-correction. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE18",
+      "required_output_fields": [
+        "Feedback claim",
+        "Evidence assessment",
+        "Defensive blind spot",
+        "Response decision",
+        "Correction and review date"
+      ],
+      "forbidden_behaviors": [
+        "Do not accept abuse merely because some criticism is useful.",
+        "Do not dismiss accurate feedback because it arrived badly.",
+        "Correction requires a changed behavior, not a statement of agreement."
+      ]
+    },
+    {
+      "id": "sj-people-ask-for-help:positive",
+      "skill": "sj-people-ask-for-help",
+      "mode": "positive",
+      "prompt": "Use $sj-people-ask-for-help to draft this advice request. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE13",
+      "required_output_fields": [
+        "Specific need",
+        "Compact context",
+        "Bounded ask",
+        "Low-friction request",
+        "Close-the-loop plan"
+      ],
+      "forbidden_behaviors": [
+        "Do not disguise a large unpaid project as quick advice.",
+        "Avoid asking for help before making a reasonable first attempt.",
+        "Respect a no or silence without pressure."
+      ]
+    },
+    {
+      "id": "sj-people-ask-for-help:boundary",
+      "skill": "sj-people-ask-for-help",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-ask-for-help. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE13",
+      "required_output_fields": [
+        "Specific need",
+        "Compact context",
+        "Bounded ask",
+        "Low-friction request",
+        "Close-the-loop plan"
+      ],
+      "forbidden_behaviors": [
+        "Do not disguise a large unpaid project as quick advice.",
+        "Avoid asking for help before making a reasonable first attempt.",
+        "Respect a no or silence without pressure."
+      ]
+    },
+    {
+      "id": "sj-people-blunt-truth-review:positive",
+      "skill": "sj-people-blunt-truth-review",
+      "mode": "positive",
+      "prompt": "Use $sj-people-blunt-truth-review to give the plain version of this critique. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE06",
+      "required_output_fields": [
+        "Review standard",
+        "What works",
+        "Ranked truth",
+        "Corrective test",
+        "Owner and next review"
+      ],
+      "forbidden_behaviors": [
+        "Bluntness is precision, not humiliation.",
+        "Critique the work and behavior, not identity or worth.",
+        "Do not manufacture certainty when the evidence is subjective or incomplete."
+      ]
+    },
+    {
+      "id": "sj-people-blunt-truth-review:boundary",
+      "skill": "sj-people-blunt-truth-review",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-blunt-truth-review. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE06",
+      "required_output_fields": [
+        "Review standard",
+        "What works",
+        "Ranked truth",
+        "Corrective test",
+        "Owner and next review"
+      ],
+      "forbidden_behaviors": [
+        "Bluntness is precision, not humiliation.",
+        "Critique the work and behavior, not identity or worth.",
+        "Do not manufacture certainty when the evidence is subjective or incomplete."
+      ]
+    },
+    {
+      "id": "sj-people-bob-iger-trust:positive",
+      "skill": "sj-people-bob-iger-trust",
+      "mode": "positive",
+      "prompt": "Use $sj-people-bob-iger-trust to plan this partnership conversation. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE19",
+      "required_output_fields": [
+        "Trust context",
+        "Facts and fears",
+        "Good-faith move",
+        "Explicit terms",
+        "Reversible first commitment"
+      ],
+      "forbidden_behaviors": [
+        "Trust does not require ignoring incentives or eliminating safeguards.",
+        "Do not offer transparency you cannot sustain.",
+        "Repair promises must be measurable on both sides."
+      ]
+    },
+    {
+      "id": "sj-people-bob-iger-trust:boundary",
+      "skill": "sj-people-bob-iger-trust",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-bob-iger-trust. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE19",
+      "required_output_fields": [
+        "Trust context",
+        "Facts and fears",
+        "Good-faith move",
+        "Explicit terms",
+        "Reversible first commitment"
+      ],
+      "forbidden_behaviors": [
+        "Trust does not require ignoring incentives or eliminating safeguards.",
+        "Do not offer transparency you cannot sustain.",
+        "Repair promises must be measurable on both sides."
+      ]
+    },
+    {
+      "id": "sj-people-ceo-at-bottom:positive",
+      "skill": "sj-people-ceo-at-bottom",
+      "mode": "positive",
+      "prompt": "Use $sj-people-ceo-at-bottom to invert this leadership plan. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE11",
+      "required_output_fields": [
+        "Value-creation map",
+        "Executive bottlenecks",
+        "Delegated authority",
+        "Leadership service duties",
+        "Outcome measures"
+      ],
+      "forbidden_behaviors": [
+        "Inversion is not abdication of strategy, ethics, or accountability.",
+        "Do not push decisions downward without context and resources.",
+        "Avoid turning servant leadership into performative humility."
+      ]
+    },
+    {
+      "id": "sj-people-ceo-at-bottom:boundary",
+      "skill": "sj-people-ceo-at-bottom",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-ceo-at-bottom. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE11",
+      "required_output_fields": [
+        "Value-creation map",
+        "Executive bottlenecks",
+        "Delegated authority",
+        "Leadership service duties",
+        "Outcome measures"
+      ],
+      "forbidden_behaviors": [
+        "Inversion is not abdication of strategy, ethics, or accountability.",
+        "Do not push decisions downward without context and resources.",
+        "Avoid turning servant leadership into performative humility."
+      ]
+    },
+    {
+      "id": "sj-people-confidant-board:positive",
+      "skill": "sj-people-confidant-board",
+      "mode": "positive",
+      "prompt": "Use $sj-people-confidant-board to design my personal advisory circle. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE12",
+      "required_output_fields": [
+        "Advice needs",
+        "Confidant map",
+        "Roles and boundaries",
+        "Briefing cadence",
+        "Board health review"
+      ],
+      "forbidden_behaviors": [
+        "Do not outsource decisions or emotional regulation to the board.",
+        "Disclose conflicts and protect third-party confidentiality.",
+        "Fame and agreement are poor selection criteria."
+      ]
+    },
+    {
+      "id": "sj-people-confidant-board:boundary",
+      "skill": "sj-people-confidant-board",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-confidant-board. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE12",
+      "required_output_fields": [
+        "Advice needs",
+        "Confidant map",
+        "Roles and boundaries",
+        "Briefing cadence",
+        "Board health review"
+      ],
+      "forbidden_behaviors": [
+        "Do not outsource decisions or emotional regulation to the board.",
+        "Disclose conflicts and protect third-party confidentiality.",
+        "Fame and agreement are poor selection criteria."
+      ]
+    },
+    {
+      "id": "sj-people-ed-catmull-patience:positive",
+      "skill": "sj-people-ed-catmull-patience",
+      "mode": "positive",
+      "prompt": "Use $sj-people-ed-catmull-patience to plan this hard persuasion. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE17",
+      "required_output_fields": [
+        "Disagreement model",
+        "Shared ground",
+        "Evidence sequence",
+        "Decision horizon",
+        "Continue-adapt-stop call"
+      ],
+      "forbidden_behaviors": [
+        "Patience is not indefinite avoidance.",
+        "Do not manipulate, exhaust, or socially isolate the dissenter.",
+        "Allow evidence to change your own position too."
+      ]
+    },
+    {
+      "id": "sj-people-ed-catmull-patience:boundary",
+      "skill": "sj-people-ed-catmull-patience",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-ed-catmull-patience. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE17",
+      "required_output_fields": [
+        "Disagreement model",
+        "Shared ground",
+        "Evidence sequence",
+        "Decision horizon",
+        "Continue-adapt-stop call"
+      ],
+      "forbidden_behaviors": [
+        "Patience is not indefinite avoidance.",
+        "Do not manipulate, exhaust, or socially isolate the dissenter.",
+        "Allow evidence to change your own position too."
+      ]
+    },
+    {
+      "id": "sj-people-founder-soul-guardian:positive",
+      "skill": "sj-people-founder-soul-guardian",
+      "mode": "positive",
+      "prompt": "Use $sj-people-founder-soul-guardian to name what must not be compromised. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE10",
+      "required_output_fields": [
+        "Enduring purpose",
+        "Observable principles",
+        "Founder preference filter",
+        "Decision tradeoff",
+        "Distributed guardianship"
+      ],
+      "forbidden_behaviors": [
+        "Do not use soul as a veto against evidence or evolution.",
+        "A principle must constrain leaders as well as employees.",
+        "Protecting identity cannot justify harmful conduct."
+      ]
+    },
+    {
+      "id": "sj-people-founder-soul-guardian:boundary",
+      "skill": "sj-people-founder-soul-guardian",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-founder-soul-guardian. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE10",
+      "required_output_fields": [
+        "Enduring purpose",
+        "Observable principles",
+        "Founder preference filter",
+        "Decision tradeoff",
+        "Distributed guardianship"
+      ],
+      "forbidden_behaviors": [
+        "Do not use soul as a veto against evidence or evolution.",
+        "A principle must constrain leaders as well as employees.",
+        "Protecting identity cannot justify harmful conduct."
+      ]
+    },
+    {
+      "id": "sj-people-ideas-from-anywhere:positive",
+      "skill": "sj-people-ideas-from-anywhere",
+      "mode": "positive",
+      "prompt": "Use $sj-people-ideas-from-anywhere to improve this product review culture. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE09",
+      "required_output_fields": [
+        "Open decision question",
+        "Input channels",
+        "Evidence-based comparison",
+        "Decision owner",
+        "Feedback to contributors"
+      ],
+      "forbidden_behaviors": [
+        "Openness does not mean every idea receives equal investment.",
+        "Do not solicit ideas after the decision is secretly final.",
+        "Protect contributors from retaliation for principled dissent."
+      ]
+    },
+    {
+      "id": "sj-people-ideas-from-anywhere:boundary",
+      "skill": "sj-people-ideas-from-anywhere",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-ideas-from-anywhere. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE09",
+      "required_output_fields": [
+        "Open decision question",
+        "Input channels",
+        "Evidence-based comparison",
+        "Decision owner",
+        "Feedback to contributors"
+      ],
+      "forbidden_behaviors": [
+        "Openness does not mean every idea receives equal investment.",
+        "Do not solicit ideas after the decision is secretly final.",
+        "Protect contributors from retaliation for principled dissent."
+      ]
+    },
+    {
+      "id": "sj-people-management-by-values:positive",
+      "skill": "sj-people-management-by-values",
+      "mode": "positive",
+      "prompt": "Use $sj-people-management-by-values to define decision values for this team. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE08",
+      "required_output_fields": [
+        "Repeated decision set",
+        "Behavioral value rules",
+        "Conflict tests",
+        "Operating-system changes",
+        "Consistency audit"
+      ],
+      "forbidden_behaviors": [
+        "Avoid abstract nouns that permit any behavior after the fact.",
+        "Leaders must accept the same consequences the values impose on others.",
+        "Values cannot override law, safety, or basic dignity."
+      ]
+    },
+    {
+      "id": "sj-people-management-by-values:boundary",
+      "skill": "sj-people-management-by-values",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-management-by-values. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE08",
+      "required_output_fields": [
+        "Repeated decision set",
+        "Behavioral value rules",
+        "Conflict tests",
+        "Operating-system changes",
+        "Consistency audit"
+      ],
+      "forbidden_behaviors": [
+        "Avoid abstract nouns that permit any behavior after the fact.",
+        "Leaders must accept the same consequences the values impose on others.",
+        "Values cannot override law, safety, or basic dignity."
+      ]
+    },
+    {
+      "id": "sj-people-missionaries-not-mercenaries:positive",
+      "skill": "sj-people-missionaries-not-mercenaries",
+      "mode": "positive",
+      "prompt": "Use $sj-people-missionaries-not-mercenaries to rewrite this hiring screen. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE02",
+      "required_output_fields": [
+        "Mission and hard reality",
+        "Commitment evidence",
+        "Principled-disagreement signal",
+        "Honest employment proposition",
+        "Mutual-fit decision"
+      ],
+      "forbidden_behaviors": [
+        "Mission language must never excuse underpayment, overwork, or coercion.",
+        "Skepticism can coexist with deep commitment.",
+        "Do not treat personal life boundaries as lack of belief."
+      ]
+    },
+    {
+      "id": "sj-people-missionaries-not-mercenaries:boundary",
+      "skill": "sj-people-missionaries-not-mercenaries",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-missionaries-not-mercenaries. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE02",
+      "required_output_fields": [
+        "Mission and hard reality",
+        "Commitment evidence",
+        "Principled-disagreement signal",
+        "Honest employment proposition",
+        "Mutual-fit decision"
+      ],
+      "forbidden_behaviors": [
+        "Mission language must never excuse underpayment, overwork, or coercion.",
+        "Skepticism can coexist with deep commitment.",
+        "Do not treat personal life boundaries as lack of belief."
+      ]
+    },
+    {
+      "id": "sj-people-no-seagull-management:positive",
+      "skill": "sj-people-no-seagull-management",
+      "mode": "positive",
+      "prompt": "Use $sj-people-no-seagull-management to audit this leadership pattern. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE07",
+      "required_output_fields": [
+        "Intervention timeline",
+        "Team impact",
+        "Root-cause classification",
+        "Replacement cadence",
+        "Behavior metrics"
+      ],
+      "forbidden_behaviors": [
+        "Do not suppress legitimate emergency intervention.",
+        "The audit must include the leader's perspective without allowing rank to settle facts.",
+        "Criticism requires ownership through resolution."
+      ]
+    },
+    {
+      "id": "sj-people-no-seagull-management:boundary",
+      "skill": "sj-people-no-seagull-management",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-no-seagull-management. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE07",
+      "required_output_fields": [
+        "Intervention timeline",
+        "Team impact",
+        "Root-cause classification",
+        "Replacement cadence",
+        "Behavior metrics"
+      ],
+      "forbidden_behaviors": [
+        "Do not suppress legitimate emergency intervention.",
+        "The audit must include the leader's perspective without allowing rank to settle facts.",
+        "Criticism requires ownership through resolution."
+      ]
+    },
+    {
+      "id": "sj-people-one-owner-no-committees:positive",
+      "skill": "sj-people-one-owner-no-committees",
+      "mode": "positive",
+      "prompt": "Use $sj-people-one-owner-no-committees to fix this decision process. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE05",
+      "required_output_fields": [
+        "Decision and deadline",
+        "Accountable owner",
+        "Input and veto map",
+        "Decision protocol",
+        "Quality and latency review"
+      ],
+      "forbidden_behaviors": [
+        "Single ownership is not unilateral power over safety, law, or shared rights.",
+        "Do not assign accountability without authority and resources.",
+        "Consultation must be real even when consensus is unnecessary."
+      ]
+    },
+    {
+      "id": "sj-people-one-owner-no-committees:boundary",
+      "skill": "sj-people-one-owner-no-committees",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-one-owner-no-committees. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE05",
+      "required_output_fields": [
+        "Decision and deadline",
+        "Accountable owner",
+        "Input and veto map",
+        "Decision protocol",
+        "Quality and latency review"
+      ],
+      "forbidden_behaviors": [
+        "Single ownership is not unilateral power over safety, law, or shared rights.",
+        "Do not assign accountability without authority and resources.",
+        "Consultation must be real even when consensus is unnecessary."
+      ]
+    },
+    {
+      "id": "sj-people-permanent-ensemble:positive",
+      "skill": "sj-people-permanent-ensemble",
+      "mode": "positive",
+      "prompt": "Use $sj-people-permanent-ensemble to design this creative team. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE15",
+      "required_output_fields": [
+        "Recurring work",
+        "Capability and trust map",
+        "Core-plus-specialists design",
+        "Ensemble rituals",
+        "Health measures"
+      ],
+      "forbidden_behaviors": [
+        "Stability must not become closed membership or cultural sameness.",
+        "Rotate leadership when the work requires different expertise.",
+        "Preserve individual credit and career growth within the ensemble."
+      ]
+    },
+    {
+      "id": "sj-people-permanent-ensemble:boundary",
+      "skill": "sj-people-permanent-ensemble",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-permanent-ensemble. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE15",
+      "required_output_fields": [
+        "Recurring work",
+        "Capability and trust map",
+        "Core-plus-specialists design",
+        "Ensemble rituals",
+        "Health measures"
+      ],
+      "forbidden_behaviors": [
+        "Stability must not become closed membership or cultural sameness.",
+        "Rotate leadership when the work requires different expertise.",
+        "Preserve individual credit and career growth within the ensemble."
+      ]
+    },
+    {
+      "id": "sj-people-pushback-interview:positive",
+      "skill": "sj-people-pushback-interview",
+      "mode": "positive",
+      "prompt": "Use $sj-people-pushback-interview to create interview questions. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE03",
+      "required_output_fields": [
+        "Pushback scenarios",
+        "Candidate responses",
+        "Evidence-seeking behavior",
+        "Scored rubric",
+        "Corroborated decision"
+      ],
+      "forbidden_behaviors": [
+        "Do not reward theatrical confrontation over sound judgment.",
+        "Avoid trick questions and power games.",
+        "Apply equivalent difficulty and scoring across candidates."
+      ]
+    },
+    {
+      "id": "sj-people-pushback-interview:boundary",
+      "skill": "sj-people-pushback-interview",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-pushback-interview. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE03",
+      "required_output_fields": [
+        "Pushback scenarios",
+        "Candidate responses",
+        "Evidence-seeking behavior",
+        "Scored rubric",
+        "Corroborated decision"
+      ],
+      "forbidden_behaviors": [
+        "Do not reward theatrical confrontation over sound judgment.",
+        "Avoid trick questions and power games.",
+        "Apply equivalent difficulty and scoring across candidates."
+      ]
+    },
+    {
+      "id": "sj-people-small-a-team:positive",
+      "skill": "sj-people-small-a-team",
+      "mode": "positive",
+      "prompt": "Use $sj-people-small-a-team to shrink this project team. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE04",
+      "required_output_fields": [
+        "Smallest complete outcome",
+        "Required capabilities",
+        "Named core team",
+        "Removed coordination load",
+        "Cadence and expansion trigger"
+      ],
+      "forbidden_behaviors": [
+        "Small does not mean understaffed or permanently overloaded.",
+        "Do not exclude essential safety, legal, accessibility, or operational expertise.",
+        "Add people for demonstrated work, not political representation."
+      ]
+    },
+    {
+      "id": "sj-people-small-a-team:boundary",
+      "skill": "sj-people-small-a-team",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-small-a-team. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE04",
+      "required_output_fields": [
+        "Smallest complete outcome",
+        "Required capabilities",
+        "Named core team",
+        "Removed coordination load",
+        "Cadence and expansion trigger"
+      ],
+      "forbidden_behaviors": [
+        "Small does not mean understaffed or permanently overloaded.",
+        "Do not exclude essential safety, legal, accessibility, or operational expertise.",
+        "Add people for demonstrated work, not political representation."
+      ]
+    },
+    {
+      "id": "sj-people-smart-people-can-leave:positive",
+      "skill": "sj-people-smart-people-can-leave",
+      "mode": "positive",
+      "prompt": "Use $sj-people-smart-people-can-leave to audit retention risk. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE14",
+      "required_output_fields": [
+        "Impact and dependency map",
+        "Stay-leave signals",
+        "Systemic risks",
+        "Retention and succession actions",
+        "Environment verdict"
+      ],
+      "forbidden_behaviors": [
+        "Do not use guilt, mission, or loyalty to trap people.",
+        "Counteroffers rarely repair a broken system by themselves.",
+        "Protect confidential employee information."
+      ]
+    },
+    {
+      "id": "sj-people-smart-people-can-leave:boundary",
+      "skill": "sj-people-smart-people-can-leave",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-smart-people-can-leave. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE14",
+      "required_output_fields": [
+        "Impact and dependency map",
+        "Stay-leave signals",
+        "Systemic risks",
+        "Retention and succession actions",
+        "Environment verdict"
+      ],
+      "forbidden_behaviors": [
+        "Do not use guilt, mission, or loyalty to trap people.",
+        "Counteroffers rarely repair a broken system by themselves.",
+        "Protect confidential employee information."
+      ]
+    },
+    {
+      "id": "sj-people-truth-to-founder:positive",
+      "skill": "sj-people-truth-to-founder",
+      "mode": "positive",
+      "prompt": "Use $sj-people-truth-to-founder to create a truth channel. Context: A 12-person product team has unclear decision ownership, uneven craft standards, guarded feedback, and a critical release six weeks away.",
+      "claim_id": "SJ-PE16",
+      "required_output_fields": [
+        "Truth-sensitive decisions",
+        "Protected channels",
+        "Evidence brief",
+        "Founder response protocol",
+        "Channel effectiveness"
+      ],
+      "forbidden_behaviors": [
+        "Anonymous channels need abuse handling and corroboration.",
+        "Truth telling does not remove confidentiality duties.",
+        "A channel is fake if dissent reliably harms the messenger."
+      ]
+    },
+    {
+      "id": "sj-people-truth-to-founder:boundary",
+      "skill": "sj-people-truth-to-founder",
+      "mode": "boundary",
+      "prompt": "Use $sj-people-truth-to-founder. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-PE16",
+      "required_output_fields": [
+        "Truth-sensitive decisions",
+        "Protected channels",
+        "Evidence brief",
+        "Founder response protocol",
+        "Channel effectiveness"
+      ],
+      "forbidden_behaviors": [
+        "Anonymous channels need abuse handling and corroboration.",
+        "Truth telling does not remove confidentiality duties.",
+        "A channel is fake if dissent reliably harms the messenger."
+      ]
+    },
+    {
+      "id": "sj-product-apple-experience-audit:positive",
+      "skill": "sj-product-apple-experience-audit",
+      "mode": "positive",
+      "prompt": "Use $sj-product-apple-experience-audit to review this signup-to-first-value path. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P11",
+      "required_output_fields": [
+        "Journey segment",
+        "Trust deposits",
+        "Trust withdrawals",
+        "Broken handoffs",
+        "Priority repair and proof"
+      ],
+      "forbidden_behaviors": [
+        "Review the whole journey, not only the polished happy path.",
+        "Separate observed touchpoints from assumed ones.",
+        "Do not use long quotations from the source material.",
+        "Do not call delight a repair when reliability or clarity is broken."
+      ]
+    },
+    {
+      "id": "sj-product-apple-experience-audit:boundary",
+      "skill": "sj-product-apple-experience-audit",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-apple-experience-audit. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P11",
+      "required_output_fields": [
+        "Journey segment",
+        "Trust deposits",
+        "Trust withdrawals",
+        "Broken handoffs",
+        "Priority repair and proof"
+      ],
+      "forbidden_behaviors": [
+        "Review the whole journey, not only the polished happy path.",
+        "Separate observed touchpoints from assumed ones.",
+        "Do not use long quotations from the source material.",
+        "Do not call delight a repair when reliability or clarity is broken."
+      ]
+    },
+    {
+      "id": "sj-product-back-of-cabinet-quality:positive",
+      "skill": "sj-product-back-of-cabinet-quality",
+      "mode": "positive",
+      "prompt": "Use $sj-product-back-of-cabinet-quality to audit the unseen craft in this project. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P12",
+      "required_output_fields": [
+        "Hidden surface",
+        "Quality standard",
+        "Craftsmanship debt",
+        "User consequence",
+        "Repair and verification"
+      ],
+      "forbidden_behaviors": [
+        "Do not polish internals that cannot affect reliability, changeability, or trust.",
+        "Treat hidden quality as stewardship, not perfectionism.",
+        "Do not use long quotations from the source material.",
+        "Make the verification inspectable by another builder."
+      ]
+    },
+    {
+      "id": "sj-product-back-of-cabinet-quality:boundary",
+      "skill": "sj-product-back-of-cabinet-quality",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-back-of-cabinet-quality. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P12",
+      "required_output_fields": [
+        "Hidden surface",
+        "Quality standard",
+        "Craftsmanship debt",
+        "User consequence",
+        "Repair and verification"
+      ],
+      "forbidden_behaviors": [
+        "Do not polish internals that cannot affect reliability, changeability, or trust.",
+        "Treat hidden quality as stewardship, not perfectionism.",
+        "Do not use long quotations from the source material.",
+        "Make the verification inspectable by another builder."
+      ]
+    },
+    {
+      "id": "sj-product-beautiful-object-standard:positive",
+      "skill": "sj-product-beautiful-object-standard",
+      "mode": "positive",
+      "prompt": "Use $sj-product-beautiful-object-standard to critique this artifact as an object. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P16",
+      "required_output_fields": [
+        "Object promise",
+        "Coherent qualities",
+        "Disqualifying details",
+        "Beauty-through-use judgment",
+        "Verdict and next proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not confuse luxury signals with beauty.",
+        "Judge software as an interactive object, not a screenshot.",
+        "Do not use long quotations from the source material.",
+        "Utility must survive the aesthetic standard."
+      ]
+    },
+    {
+      "id": "sj-product-beautiful-object-standard:boundary",
+      "skill": "sj-product-beautiful-object-standard",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-beautiful-object-standard. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P16",
+      "required_output_fields": [
+        "Object promise",
+        "Coherent qualities",
+        "Disqualifying details",
+        "Beauty-through-use judgment",
+        "Verdict and next proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not confuse luxury signals with beauty.",
+        "Judge software as an interactive object, not a screenshot.",
+        "Do not use long quotations from the source material.",
+        "Utility must survive the aesthetic standard."
+      ]
+    },
+    {
+      "id": "sj-product-bicycle-for-the-mind:positive",
+      "skill": "sj-product-bicycle-for-the-mind",
+      "mode": "positive",
+      "prompt": "Use $sj-product-bicycle-for-the-mind to explain this AI workflow to normal users. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P03",
+      "required_output_fields": [
+        "Human ability",
+        "Current limitation",
+        "Leverage created",
+        "Before-and-after task",
+        "Plain-language promise and proof"
+      ],
+      "forbidden_behaviors": [
+        "Keep the human as the actor and the tool as the amplifier.",
+        "Do not claim leverage that removes agency or hides material risk.",
+        "Do not use long quotations from the source material.",
+        "Prefer a demonstrable task over an abstract productivity claim."
+      ]
+    },
+    {
+      "id": "sj-product-bicycle-for-the-mind:boundary",
+      "skill": "sj-product-bicycle-for-the-mind",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-bicycle-for-the-mind. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P03",
+      "required_output_fields": [
+        "Human ability",
+        "Current limitation",
+        "Leverage created",
+        "Before-and-after task",
+        "Plain-language promise and proof"
+      ],
+      "forbidden_behaviors": [
+        "Keep the human as the actor and the tool as the amplifier.",
+        "Do not claim leverage that removes agency or hides material risk.",
+        "Do not use long quotations from the source material.",
+        "Prefer a demonstrable task over an abstract productivity claim."
+      ]
+    },
+    {
+      "id": "sj-product-concrete-artifact-review:positive",
+      "skill": "sj-product-concrete-artifact-review",
+      "mode": "positive",
+      "prompt": "Use $sj-product-concrete-artifact-review to critique this artifact instead of the idea. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P23",
+      "required_output_fields": [
+        "Artifact inspected",
+        "Direct observations",
+        "Assumptions and gaps",
+        "Decisions made",
+        "Required next version"
+      ],
+      "forbidden_behaviors": [
+        "Do not accept a deck or description when the real artifact can be inspected.",
+        "Do not turn preference into an observation.",
+        "Do not use long quotations from the source material.",
+        "End with a versioned artifact, not an open-ended discussion."
+      ]
+    },
+    {
+      "id": "sj-product-concrete-artifact-review:boundary",
+      "skill": "sj-product-concrete-artifact-review",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-concrete-artifact-review. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P23",
+      "required_output_fields": [
+        "Artifact inspected",
+        "Direct observations",
+        "Assumptions and gaps",
+        "Decisions made",
+        "Required next version"
+      ],
+      "forbidden_behaviors": [
+        "Do not accept a deck or description when the real artifact can be inspected.",
+        "Do not turn preference into an observation.",
+        "Do not use long quotations from the source material.",
+        "End with a versioned artifact, not an open-ended discussion."
+      ]
+    },
+    {
+      "id": "sj-product-creative-selection:positive",
+      "skill": "sj-product-creative-selection",
+      "mode": "positive",
+      "prompt": "Use $sj-product-creative-selection to run the next demo review for this prototype. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P22",
+      "required_output_fields": [
+        "Decision under review",
+        "Variant set",
+        "Selection criteria",
+        "Comparison findings",
+        "Selection and next demo"
+      ],
+      "forbidden_behaviors": [
+        "Each variant must test a meaningfully different choice.",
+        "Do not let authorship determine selection.",
+        "Do not use long quotations from the source material.",
+        "Stop generating variants once the decision is visible."
+      ]
+    },
+    {
+      "id": "sj-product-creative-selection:boundary",
+      "skill": "sj-product-creative-selection",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-creative-selection. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P22",
+      "required_output_fields": [
+        "Decision under review",
+        "Variant set",
+        "Selection criteria",
+        "Comparison findings",
+        "Selection and next demo"
+      ],
+      "forbidden_behaviors": [
+        "Each variant must test a meaningfully different choice.",
+        "Do not let authorship determine selection.",
+        "Do not use long quotations from the source material.",
+        "Stop generating variants once the decision is visible."
+      ]
+    },
+    {
+      "id": "sj-product-customer-backwards:positive",
+      "skill": "sj-product-customer-backwards",
+      "mode": "positive",
+      "prompt": "Use $sj-product-customer-backwards to reframe this feature from the user experience back. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P02",
+      "required_output_fields": [
+        "User and moment",
+        "Ideal experience",
+        "Experience conditions",
+        "Required capabilities",
+        "First technology proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not smuggle the preferred implementation into the experience statement.",
+        "Distinguish a user request from the underlying progress they need.",
+        "Do not use long quotations from the source material.",
+        "Preserve feasibility constraints without letting them define the starting point."
+      ]
+    },
+    {
+      "id": "sj-product-customer-backwards:boundary",
+      "skill": "sj-product-customer-backwards",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-customer-backwards. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P02",
+      "required_output_fields": [
+        "User and moment",
+        "Ideal experience",
+        "Experience conditions",
+        "Required capabilities",
+        "First technology proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not smuggle the preferred implementation into the experience statement.",
+        "Distinguish a user request from the underlying progress they need.",
+        "Do not use long quotations from the source material.",
+        "Preserve feasibility constraints without letting them define the starting point."
+      ]
+    },
+    {
+      "id": "sj-product-design-is-how-it-works:positive",
+      "skill": "sj-product-design-is-how-it-works",
+      "mode": "positive",
+      "prompt": "Use $sj-product-design-is-how-it-works to review this dashboard. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P06",
+      "required_output_fields": [
+        "User intent",
+        "Behavior trace",
+        "Promise-behavior mismatch",
+        "Revised interaction rule",
+        "Task-based proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not grade a functional design from static appearance alone.",
+        "Include failure and recovery states in the design.",
+        "Do not use long quotations from the source material.",
+        "Prefer observed behavior over design rationale."
+      ]
+    },
+    {
+      "id": "sj-product-design-is-how-it-works:boundary",
+      "skill": "sj-product-design-is-how-it-works",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-design-is-how-it-works. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P06",
+      "required_output_fields": [
+        "User intent",
+        "Behavior trace",
+        "Promise-behavior mismatch",
+        "Revised interaction rule",
+        "Task-based proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not grade a functional design from static appearance alone.",
+        "Include failure and recovery states in the design.",
+        "Do not use long quotations from the source material.",
+        "Prefer observed behavior over design rationale."
+      ]
+    },
+    {
+      "id": "sj-product-founder-workbench:positive",
+      "skill": "sj-product-founder-workbench",
+      "mode": "positive",
+      "prompt": "Use $sj-product-founder-workbench to turn this abstract idea into a hands-on build step. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P18",
+      "required_output_fields": [
+        "Abstract claim",
+        "Workbench artifact",
+        "Facts discovered",
+        "Belief changed",
+        "Immediate hands-on action"
+      ],
+      "forbidden_behaviors": [
+        "Direct involvement must clarify reality, not bypass ownership.",
+        "Do not substitute founder taste for user evidence when the question is empirical.",
+        "Do not use long quotations from the source material.",
+        "Leave the builder with a clearer decision and authority."
+      ]
+    },
+    {
+      "id": "sj-product-founder-workbench:boundary",
+      "skill": "sj-product-founder-workbench",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-founder-workbench. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P18",
+      "required_output_fields": [
+        "Abstract claim",
+        "Workbench artifact",
+        "Facts discovered",
+        "Belief changed",
+        "Immediate hands-on action"
+      ],
+      "forbidden_behaviors": [
+        "Direct involvement must clarify reality, not bypass ownership.",
+        "Do not substitute founder taste for user evidence when the question is empirical.",
+        "Do not use long quotations from the source material.",
+        "Leave the builder with a clearer decision and authority."
+      ]
+    },
+    {
+      "id": "sj-product-hack-away-unessential:positive",
+      "skill": "sj-product-hack-away-unessential",
+      "mode": "positive",
+      "prompt": "Use $sj-product-hack-away-unessential to cut this roadmap down. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P09",
+      "required_output_fields": [
+        "Core promise",
+        "Essential set",
+        "Merge, defer, and remove list",
+        "Tradeoffs accepted",
+        "Post-cut journey proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not remove support that makes the core promise trustworthy.",
+        "Treat maintenance and cognitive cost as real cost.",
+        "Do not use long quotations from the source material.",
+        "Simplicity is a coherent whole, not the smallest feature count."
+      ]
+    },
+    {
+      "id": "sj-product-hack-away-unessential:boundary",
+      "skill": "sj-product-hack-away-unessential",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-hack-away-unessential. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P09",
+      "required_output_fields": [
+        "Core promise",
+        "Essential set",
+        "Merge, defer, and remove list",
+        "Tradeoffs accepted",
+        "Post-cut journey proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not remove support that makes the core promise trustworthy.",
+        "Treat maintenance and cognitive cost as real cost.",
+        "Do not use long quotations from the source material.",
+        "Simplicity is a coherent whole, not the smallest feature count."
+      ]
+    },
+    {
+      "id": "sj-product-liberal-arts-technology:positive",
+      "skill": "sj-product-liberal-arts-technology",
+      "mode": "positive",
+      "prompt": "Use $sj-product-liberal-arts-technology to add the humanities layer to this product. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P04",
+      "required_output_fields": [
+        "Technical capability",
+        "Human situation",
+        "Missing meaning",
+        "Humanities-informed change",
+        "Meaningful-use prototype"
+      ],
+      "forbidden_behaviors": [
+        "Do not add cultural references as surface decoration.",
+        "Respect the user's context rather than imposing the maker's taste.",
+        "Do not use long quotations from the source material.",
+        "Keep technical truth visible beneath the human framing."
+      ]
+    },
+    {
+      "id": "sj-product-liberal-arts-technology:boundary",
+      "skill": "sj-product-liberal-arts-technology",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-liberal-arts-technology. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P04",
+      "required_output_fields": [
+        "Technical capability",
+        "Human situation",
+        "Missing meaning",
+        "Humanities-informed change",
+        "Meaningful-use prototype"
+      ],
+      "forbidden_behaviors": [
+        "Do not add cultural references as surface decoration.",
+        "Respect the user's context rather than imposing the maker's taste.",
+        "Do not use long quotations from the source material.",
+        "Keep technical truth visible beneath the human framing."
+      ]
+    },
+    {
+      "id": "sj-product-make-something-wonderful:positive",
+      "skill": "sj-product-make-something-wonderful",
+      "mode": "positive",
+      "prompt": "Use $sj-product-make-something-wonderful to make this app concept feel worth making. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P01",
+      "required_output_fields": [
+        "Useful baseline",
+        "Ambition gap",
+        "Wonder opportunity",
+        "High-leverage improvement",
+        "Proof of meaningful improvement"
+      ],
+      "forbidden_behaviors": [
+        "Wonder must grow from usefulness and care.",
+        "Do not use ambition language to excuse an unfinished core experience.",
+        "Do not use long quotations from the source material.",
+        "Prefer one consequential improvement over a list of flourishes."
+      ]
+    },
+    {
+      "id": "sj-product-make-something-wonderful:boundary",
+      "skill": "sj-product-make-something-wonderful",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-make-something-wonderful. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P01",
+      "required_output_fields": [
+        "Useful baseline",
+        "Ambition gap",
+        "Wonder opportunity",
+        "High-leverage improvement",
+        "Proof of meaningful improvement"
+      ],
+      "forbidden_behaviors": [
+        "Wonder must grow from usefulness and care.",
+        "Do not use ambition language to excuse an unfinished core experience.",
+        "Do not use long quotations from the source material.",
+        "Prefer one consequential improvement over a list of flourishes."
+      ]
+    },
+    {
+      "id": "sj-product-no-second-rate-products:positive",
+      "skill": "sj-product-no-second-rate-products",
+      "mode": "positive",
+      "prompt": "Use $sj-product-no-second-rate-products to identify what feels mediocre here. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P15",
+      "required_output_fields": [
+        "Excellence bar",
+        "Component grades",
+        "Second-rate element",
+        "Remake or removal decision",
+        "Re-entry criterion"
+      ],
+      "forbidden_behaviors": [
+        "Apply the bar most strongly to the core promise, not every minor detail.",
+        "Do not use harsh labels without observable criteria.",
+        "Do not use long quotations from the source material.",
+        "A narrower excellent product is an acceptable outcome."
+      ]
+    },
+    {
+      "id": "sj-product-no-second-rate-products:boundary",
+      "skill": "sj-product-no-second-rate-products",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-no-second-rate-products. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P15",
+      "required_output_fields": [
+        "Excellence bar",
+        "Component grades",
+        "Second-rate element",
+        "Remake or removal decision",
+        "Re-entry criterion"
+      ],
+      "forbidden_behaviors": [
+        "Apply the bar most strongly to the core promise, not every minor detail.",
+        "Do not use harsh labels without observable criteria.",
+        "Do not use long quotations from the source material.",
+        "A narrower excellent product is an acceptable outcome."
+      ]
+    },
+    {
+      "id": "sj-product-pixel-polish:positive",
+      "skill": "sj-product-pixel-polish",
+      "mode": "positive",
+      "prompt": "Use $sj-product-pixel-polish to find rough edges in this UI. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P14",
+      "required_output_fields": [
+        "Surfaces inspected",
+        "Exact polish defects",
+        "User consequence",
+        "Prioritized fixes",
+        "Reinspection matrix"
+      ],
+      "forbidden_behaviors": [
+        "Do not polish screenshots while interactive states remain broken.",
+        "Accessibility defects outrank decorative refinements.",
+        "Do not use long quotations from the source material.",
+        "Use stable comparisons so subjective drift is visible."
+      ]
+    },
+    {
+      "id": "sj-product-pixel-polish:boundary",
+      "skill": "sj-product-pixel-polish",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-pixel-polish. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P14",
+      "required_output_fields": [
+        "Surfaces inspected",
+        "Exact polish defects",
+        "User consequence",
+        "Prioritized fixes",
+        "Reinspection matrix"
+      ],
+      "forbidden_behaviors": [
+        "Do not polish screenshots while interactive states remain broken.",
+        "Accessibility defects outrank decorative refinements.",
+        "Do not use long quotations from the source material.",
+        "Use stable comparisons so subjective drift is visible."
+      ]
+    },
+    {
+      "id": "sj-product-raw-work-no-filters:positive",
+      "skill": "sj-product-raw-work-no-filters",
+      "mode": "positive",
+      "prompt": "Use $sj-product-raw-work-no-filters to redesign this review process. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P21",
+      "required_output_fields": [
+        "Filters in the way",
+        "Raw artifacts inspected",
+        "Contradictions found",
+        "Decision changed",
+        "Recurring direct-review mechanism"
+      ],
+      "forbidden_behaviors": [
+        "Direct access must not become surveillance or random intervention.",
+        "Preserve context from the people closest to the work.",
+        "Do not use long quotations from the source material.",
+        "Keep the mechanism lightweight enough to recur."
+      ]
+    },
+    {
+      "id": "sj-product-raw-work-no-filters:boundary",
+      "skill": "sj-product-raw-work-no-filters",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-raw-work-no-filters. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P21",
+      "required_output_fields": [
+        "Filters in the way",
+        "Raw artifacts inspected",
+        "Contradictions found",
+        "Decision changed",
+        "Recurring direct-review mechanism"
+      ],
+      "forbidden_behaviors": [
+        "Direct access must not become surveillance or random intervention.",
+        "Preserve context from the people closest to the work.",
+        "Do not use long quotations from the source material.",
+        "Keep the mechanism lightweight enough to recur."
+      ]
+    },
+    {
+      "id": "sj-product-reputation-credits:positive",
+      "skill": "sj-product-reputation-credits",
+      "mode": "positive",
+      "prompt": "Use $sj-product-reputation-credits to find trust deposits and withdrawals in this flow. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P19",
+      "required_output_fields": [
+        "Promise under review",
+        "Trust ledger",
+        "Cumulative withdrawals",
+        "Reputation repair",
+        "Recovery signal"
+      ],
+      "forbidden_behaviors": [
+        "Do not treat branding as a substitute for reliable behavior.",
+        "Weight broken high-stakes promises more than cosmetic defects.",
+        "Do not use long quotations from the source material.",
+        "Avoid promising recovery before the repair is proven."
+      ]
+    },
+    {
+      "id": "sj-product-reputation-credits:boundary",
+      "skill": "sj-product-reputation-credits",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-reputation-credits. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P19",
+      "required_output_fields": [
+        "Promise under review",
+        "Trust ledger",
+        "Cumulative withdrawals",
+        "Reputation repair",
+        "Recovery signal"
+      ],
+      "forbidden_behaviors": [
+        "Do not treat branding as a substitute for reliable behavior.",
+        "Weight broken high-stakes promises more than cosmetic defects.",
+        "Do not use long quotations from the source material.",
+        "Avoid promising recovery before the repair is proven."
+      ]
+    },
+    {
+      "id": "sj-product-simple-stick:positive",
+      "skill": "sj-product-simple-stick",
+      "mode": "positive",
+      "prompt": "Use $sj-product-simple-stick to simplify this product memo. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P08",
+      "required_output_fields": [
+        "Central claim",
+        "Complexity removed",
+        "Plain statement",
+        "Hidden unresolved questions",
+        "Decision-ready rewrite"
+      ],
+      "forbidden_behaviors": [
+        "Do not simplify away a real technical or ethical constraint.",
+        "Plain language should expose uncertainty rather than disguise it.",
+        "Do not use long quotations from the source material.",
+        "Preserve only detail that changes the decision."
+      ]
+    },
+    {
+      "id": "sj-product-simple-stick:boundary",
+      "skill": "sj-product-simple-stick",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-simple-stick. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P08",
+      "required_output_fields": [
+        "Central claim",
+        "Complexity removed",
+        "Plain statement",
+        "Hidden unresolved questions",
+        "Decision-ready rewrite"
+      ],
+      "forbidden_behaviors": [
+        "Do not simplify away a real technical or ethical constraint.",
+        "Plain language should expose uncertainty rather than disguise it.",
+        "Do not use long quotations from the source material.",
+        "Preserve only detail that changes the decision."
+      ]
+    },
+    {
+      "id": "sj-product-simplify-to-one:positive",
+      "skill": "sj-product-simplify-to-one",
+      "mode": "positive",
+      "prompt": "Use $sj-product-simplify-to-one to find the one thing this MVP should do. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P07",
+      "required_output_fields": [
+        "Primary user and outcome",
+        "Competing priorities",
+        "One organizing priority",
+        "Cuts and subordinations",
+        "End-to-end proof"
+      ],
+      "forbidden_behaviors": [
+        "One priority may support several necessary steps, but only one outcome should organize them.",
+        "State who or what is no longer served.",
+        "Do not use long quotations from the source material.",
+        "Do not call a tagline simplification if the product remains split."
+      ]
+    },
+    {
+      "id": "sj-product-simplify-to-one:boundary",
+      "skill": "sj-product-simplify-to-one",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-simplify-to-one. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P07",
+      "required_output_fields": [
+        "Primary user and outcome",
+        "Competing priorities",
+        "One organizing priority",
+        "Cuts and subordinations",
+        "End-to-end proof"
+      ],
+      "forbidden_behaviors": [
+        "One priority may support several necessary steps, but only one outcome should organize them.",
+        "State who or what is no longer served.",
+        "Do not use long quotations from the source material.",
+        "Do not call a tagline simplification if the product remains split."
+      ]
+    },
+    {
+      "id": "sj-product-skepticism-hierarchy:positive",
+      "skill": "sj-product-skepticism-hierarchy",
+      "mode": "positive",
+      "prompt": "Use $sj-product-skepticism-hierarchy to triage this feedback. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P20",
+      "required_output_fields": [
+        "Normalized objections",
+        "Source and evidence assessment",
+        "Signal and consequence ranking",
+        "Act, test, monitor, or ignore decision",
+        "Resolving proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not equate status, confidence, or volume with signal.",
+        "Customer evidence can be important without being universal.",
+        "Do not use long quotations from the source material.",
+        "Preserve minority objections when their consequence is severe."
+      ]
+    },
+    {
+      "id": "sj-product-skepticism-hierarchy:boundary",
+      "skill": "sj-product-skepticism-hierarchy",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-skepticism-hierarchy. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P20",
+      "required_output_fields": [
+        "Normalized objections",
+        "Source and evidence assessment",
+        "Signal and consequence ranking",
+        "Act, test, monitor, or ignore decision",
+        "Resolving proof"
+      ],
+      "forbidden_behaviors": [
+        "Do not equate status, confidence, or volume with signal.",
+        "Customer evidence can be important without being universal.",
+        "Do not use long quotations from the source material.",
+        "Preserve minority objections when their consequence is severe."
+      ]
+    },
+    {
+      "id": "sj-product-speaks-for-itself:positive",
+      "skill": "sj-product-speaks-for-itself",
+      "mode": "positive",
+      "prompt": "Use $sj-product-speaks-for-itself to audit this onboarding flow. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P05",
+      "required_output_fields": [
+        "Unassisted task",
+        "Explanation dependencies",
+        "Root causes",
+        "Self-evident replacements",
+        "Novice re-test"
+      ],
+      "forbidden_behaviors": [
+        "Documentation may support depth but must not rescue the core path.",
+        "Do not hide consequential choices merely to reduce explanation.",
+        "Do not use long quotations from the source material.",
+        "Test comprehension through action, not stated preference."
+      ]
+    },
+    {
+      "id": "sj-product-speaks-for-itself:boundary",
+      "skill": "sj-product-speaks-for-itself",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-speaks-for-itself. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P05",
+      "required_output_fields": [
+        "Unassisted task",
+        "Explanation dependencies",
+        "Root causes",
+        "Self-evident replacements",
+        "Novice re-test"
+      ],
+      "forbidden_behaviors": [
+        "Documentation may support depth but must not rescue the core path.",
+        "Do not hide consequential choices merely to reduce explanation.",
+        "Do not use long quotations from the source material.",
+        "Test comprehension through action, not stated preference."
+      ]
+    },
+    {
+      "id": "sj-product-speed-as-feature:positive",
+      "skill": "sj-product-speed-as-feature",
+      "mode": "positive",
+      "prompt": "Use $sj-product-speed-as-feature to find the Safari-speed rule for this product. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P10",
+      "required_output_fields": [
+        "Critical wait moments",
+        "Current latency and variance",
+        "Speed budget",
+        "Structural speed move",
+        "Measurement and tradeoff"
+      ],
+      "forbidden_behaviors": [
+        "Optimize the user's wait, not an irrelevant benchmark.",
+        "Preserve correctness, safety, and trust boundaries.",
+        "Do not use long quotations from the source material.",
+        "Treat perceived speed and actual speed as separate evidence."
+      ]
+    },
+    {
+      "id": "sj-product-speed-as-feature:boundary",
+      "skill": "sj-product-speed-as-feature",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-speed-as-feature. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P10",
+      "required_output_fields": [
+        "Critical wait moments",
+        "Current latency and variance",
+        "Speed budget",
+        "Structural speed move",
+        "Measurement and tradeoff"
+      ],
+      "forbidden_behaviors": [
+        "Optimize the user's wait, not an irrelevant benchmark.",
+        "Preserve correctness, safety, and trust boundaries.",
+        "Do not use long quotations from the source material.",
+        "Treat perceived speed and actual speed as separate evidence."
+      ]
+    },
+    {
+      "id": "sj-product-taste-review:positive",
+      "skill": "sj-product-taste-review",
+      "mode": "positive",
+      "prompt": "Use $sj-product-taste-review to critique this screen. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P13",
+      "required_output_fields": [
+        "Intended standard",
+        "Coherent choices",
+        "Taste violations",
+        "Judgment and tradeoff",
+        "Counter-evidence and next variant"
+      ],
+      "forbidden_behaviors": [
+        "Taste is accountable judgment, not unexplained authority.",
+        "Do not use metrics as a veto or taste as immunity from evidence.",
+        "Do not use long quotations from the source material.",
+        "Judge the whole before polishing isolated details."
+      ]
+    },
+    {
+      "id": "sj-product-taste-review:boundary",
+      "skill": "sj-product-taste-review",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-taste-review. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P13",
+      "required_output_fields": [
+        "Intended standard",
+        "Coherent choices",
+        "Taste violations",
+        "Judgment and tradeoff",
+        "Counter-evidence and next variant"
+      ],
+      "forbidden_behaviors": [
+        "Taste is accountable judgment, not unexplained authority.",
+        "Do not use metrics as a veto or taste as immunity from evidence.",
+        "Do not use long quotations from the source material.",
+        "Judge the whole before polishing isolated details."
+      ]
+    },
+    {
+      "id": "sj-product-telegraph-to-telephone:positive",
+      "skill": "sj-product-telegraph-to-telephone",
+      "mode": "positive",
+      "prompt": "Use $sj-product-telegraph-to-telephone to make this tool feel like a telephone, not a telegraph. Context: A mobile AI notes app has 14 first-run choices, a five-step setup, 42 percent onboarding completion, and one week for a focused product improvement.",
+      "claim_id": "SJ-P17",
+      "required_output_fields": [
+        "Expert workflow",
+        "Ordinary-user intent",
+        "Complexity absorbed",
+        "Progressive path",
+        "Novice proof and expert escape hatch"
+      ],
+      "forbidden_behaviors": [
+        "Do not pretend complexity vanished when it merely became dangerous or opaque.",
+        "Preserve inspectability for consequential automation.",
+        "Do not use long quotations from the source material.",
+        "Simplify the frequent path before rare advanced cases."
+      ]
+    },
+    {
+      "id": "sj-product-telegraph-to-telephone:boundary",
+      "skill": "sj-product-telegraph-to-telephone",
+      "mode": "boundary",
+      "prompt": "Use $sj-product-telegraph-to-telephone. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-P17",
+      "required_output_fields": [
+        "Expert workflow",
+        "Ordinary-user intent",
+        "Complexity absorbed",
+        "Progressive path",
+        "Novice proof and expert escape hatch"
+      ],
+      "forbidden_behaviors": [
+        "Do not pretend complexity vanished when it merely became dangerous or opaque.",
+        "Preserve inspectability for consequential automation.",
+        "Do not use long quotations from the source material.",
+        "Simplify the frequent path before rare advanced cases."
+      ]
+    },
+    {
+      "id": "sj-story-demo-rehearsal-loop:positive",
+      "skill": "sj-story-demo-rehearsal-loop",
+      "mode": "positive",
+      "prompt": "Use $sj-story-demo-rehearsal-loop to tighten this demo. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST06",
+      "required_output_fields": [
+        "Audience and belief shift",
+        "Timed demo beats",
+        "Failure and fallback map",
+        "Revisions",
+        "Cold-run verdict"
+      ],
+      "forbidden_behaviors": [
+        "Do not substitute slide polish for a working demonstration.",
+        "Never conceal a mocked, cached, or pre-recorded step.",
+        "A rehearsal is incomplete until it has been timed under realistic conditions."
+      ]
+    },
+    {
+      "id": "sj-story-demo-rehearsal-loop:boundary",
+      "skill": "sj-story-demo-rehearsal-loop",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-demo-rehearsal-loop. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST06",
+      "required_output_fields": [
+        "Audience and belief shift",
+        "Timed demo beats",
+        "Failure and fallback map",
+        "Revisions",
+        "Cold-run verdict"
+      ],
+      "forbidden_behaviors": [
+        "Do not substitute slide polish for a working demonstration.",
+        "Never conceal a mocked, cached, or pre-recorded step.",
+        "A rehearsal is incomplete until it has been timed under realistic conditions."
+      ]
+    },
+    {
+      "id": "sj-story-historical-analogy:positive",
+      "skill": "sj-story-historical-analogy",
+      "mode": "positive",
+      "prompt": "Use $sj-story-historical-analogy to position this AI product. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST05",
+      "required_output_fields": [
+        "New change",
+        "Historical parallel",
+        "Structural mapping",
+        "Breakpoints",
+        "Plain-language positioning"
+      ],
+      "forbidden_behaviors": [
+        "Reject analogies based only on surface resemblance.",
+        "Do not treat historical recurrence as evidence of inevitable success.",
+        "State the analogy's limit before it can mislead the audience."
+      ]
+    },
+    {
+      "id": "sj-story-historical-analogy:boundary",
+      "skill": "sj-story-historical-analogy",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-historical-analogy. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST05",
+      "required_output_fields": [
+        "New change",
+        "Historical parallel",
+        "Structural mapping",
+        "Breakpoints",
+        "Plain-language positioning"
+      ],
+      "forbidden_behaviors": [
+        "Reject analogies based only on surface resemblance.",
+        "Do not treat historical recurrence as evidence of inevitable success.",
+        "State the analogy's limit before it can mislead the audience."
+      ]
+    },
+    {
+      "id": "sj-story-missionary-pr:positive",
+      "skill": "sj-story-missionary-pr",
+      "mode": "positive",
+      "prompt": "Use $sj-story-missionary-pr to create an educational PR angle. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST08",
+      "required_output_fields": [
+        "Public problem",
+        "Teachable insight",
+        "Credible proof",
+        "Messenger and format",
+        "Educational pitch"
+      ],
+      "forbidden_behaviors": [
+        "Education must stand on its own without a purchase request.",
+        "Do not manufacture a movement around a trivial feature.",
+        "Disclose commercial interests and evidence limits."
+      ]
+    },
+    {
+      "id": "sj-story-missionary-pr:boundary",
+      "skill": "sj-story-missionary-pr",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-missionary-pr. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST08",
+      "required_output_fields": [
+        "Public problem",
+        "Teachable insight",
+        "Credible proof",
+        "Messenger and format",
+        "Educational pitch"
+      ],
+      "forbidden_behaviors": [
+        "Education must stand on its own without a purchase request.",
+        "Do not manufacture a movement around a trivial feature.",
+        "Disclose commercial interests and evidence limits."
+      ]
+    },
+    {
+      "id": "sj-story-number-context:positive",
+      "skill": "sj-story-number-context",
+      "mode": "positive",
+      "prompt": "Use $sj-story-number-context to explain these benchmark numbers. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST04",
+      "required_output_fields": [
+        "Verified numbers",
+        "Baselines and denominators",
+        "Human-scale context",
+        "Limits",
+        "Final number story"
+      ],
+      "forbidden_behaviors": [
+        "Never compare values with different units or time windows without saying so.",
+        "Do not turn correlation into causation.",
+        "A large number without a decision-relevant baseline should be removed."
+      ]
+    },
+    {
+      "id": "sj-story-number-context:boundary",
+      "skill": "sj-story-number-context",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-number-context. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST04",
+      "required_output_fields": [
+        "Verified numbers",
+        "Baselines and denominators",
+        "Human-scale context",
+        "Limits",
+        "Final number story"
+      ],
+      "forbidden_behaviors": [
+        "Never compare values with different units or time windows without saying so.",
+        "Do not turn correlation into causation.",
+        "A large number without a decision-relevant baseline should be removed."
+      ]
+    },
+    {
+      "id": "sj-story-old-story-new-tool:positive",
+      "skill": "sj-story-old-story-new-tool",
+      "mode": "positive",
+      "prompt": "Use $sj-story-old-story-new-tool to humanize this AI tool story. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST09",
+      "required_output_fields": [
+        "Enduring human story",
+        "Old way",
+        "Changed step",
+        "Representative transformation",
+        "Grounded narrative"
+      ],
+      "forbidden_behaviors": [
+        "Do not anthropomorphize the tool or erase the user's agency.",
+        "Avoid invented testimonials or capabilities.",
+        "The human need must remain legible when the novelty wears off."
+      ]
+    },
+    {
+      "id": "sj-story-old-story-new-tool:boundary",
+      "skill": "sj-story-old-story-new-tool",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-old-story-new-tool. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST09",
+      "required_output_fields": [
+        "Enduring human story",
+        "Old way",
+        "Changed step",
+        "Representative transformation",
+        "Grounded narrative"
+      ],
+      "forbidden_behaviors": [
+        "Do not anthropomorphize the tool or erase the user's agency.",
+        "Avoid invented testimonials or capabilities.",
+        "The human need must remain legible when the novelty wears off."
+      ]
+    },
+    {
+      "id": "sj-story-one-message-marketing:positive",
+      "skill": "sj-story-one-message-marketing",
+      "mode": "positive",
+      "prompt": "Use $sj-story-one-message-marketing to create one launch message. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST01",
+      "required_output_fields": [
+        "Chosen audience",
+        "One remembered change",
+        "Supporting proof",
+        "Aligned campaign elements",
+        "Recall test"
+      ],
+      "forbidden_behaviors": [
+        "One message is not one vague slogan.",
+        "Do not hide necessary qualifications to create simplicity.",
+        "Secondary claims may support the message but may not compete with it."
+      ]
+    },
+    {
+      "id": "sj-story-one-message-marketing:boundary",
+      "skill": "sj-story-one-message-marketing",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-one-message-marketing. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST01",
+      "required_output_fields": [
+        "Chosen audience",
+        "One remembered change",
+        "Supporting proof",
+        "Aligned campaign elements",
+        "Recall test"
+      ],
+      "forbidden_behaviors": [
+        "One message is not one vague slogan.",
+        "Do not hide necessary qualifications to create simplicity.",
+        "Secondary claims may support the message but may not compete with it."
+      ]
+    },
+    {
+      "id": "sj-story-sell-the-improvement:positive",
+      "skill": "sj-story-sell-the-improvement",
+      "mode": "positive",
+      "prompt": "Use $sj-story-sell-the-improvement to rewrite this feature list. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST02",
+      "required_output_fields": [
+        "Feature-to-outcome map",
+        "Chosen improvement",
+        "Before and after",
+        "Proof",
+        "Transformation pitch"
+      ],
+      "forbidden_behaviors": [
+        "Do not promise an outcome the feature cannot cause.",
+        "Avoid generic benefits such as faster or easier without a task and baseline.",
+        "Keep necessary technical detail when it establishes credibility."
+      ]
+    },
+    {
+      "id": "sj-story-sell-the-improvement:boundary",
+      "skill": "sj-story-sell-the-improvement",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-sell-the-improvement. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST02",
+      "required_output_fields": [
+        "Feature-to-outcome map",
+        "Chosen improvement",
+        "Before and after",
+        "Proof",
+        "Transformation pitch"
+      ],
+      "forbidden_behaviors": [
+        "Do not promise an outcome the feature cannot cause.",
+        "Avoid generic benefits such as faster or easier without a task and baseline.",
+        "Keep necessary technical detail when it establishes credibility."
+      ]
+    },
+    {
+      "id": "sj-story-three-act-launch:positive",
+      "skill": "sj-story-three-act-launch",
+      "mode": "positive",
+      "prompt": "Use $sj-story-three-act-launch to structure this product announcement. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST03",
+      "required_output_fields": [
+        "Act one setup",
+        "Act two reveal",
+        "Act three resolution",
+        "Proof beats",
+        "Timed run of show"
+      ],
+      "forbidden_behaviors": [
+        "Narrative structure cannot compensate for a weak product truth.",
+        "Do not delay essential context merely to create suspense.",
+        "The call to action must match actual availability."
+      ]
+    },
+    {
+      "id": "sj-story-three-act-launch:boundary",
+      "skill": "sj-story-three-act-launch",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-three-act-launch. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST03",
+      "required_output_fields": [
+        "Act one setup",
+        "Act two reveal",
+        "Act three resolution",
+        "Proof beats",
+        "Timed run of show"
+      ],
+      "forbidden_behaviors": [
+        "Narrative structure cannot compensate for a weak product truth.",
+        "Do not delay essential context merely to create suspense.",
+        "The call to action must match actual availability."
+      ]
+    },
+    {
+      "id": "sj-story-values-marketing:positive",
+      "skill": "sj-story-values-marketing",
+      "mode": "positive",
+      "prompt": "Use $sj-story-values-marketing to write the values layer of this launch. Context: A research assistant launch claims faster synthesis, cites a benchmark, and has a working demo, but its announcement currently lists nine unrelated features.",
+      "claim_id": "SJ-ST07",
+      "required_output_fields": [
+        "Claimed value",
+        "Behavioral evidence",
+        "Contradictions",
+        "Meaningful tradeoff",
+        "Values narrative"
+      ],
+      "forbidden_behaviors": [
+        "Do not borrow moral language for ordinary positioning.",
+        "A value claim without a costly behavior is advertising posture.",
+        "Surface contradictions before publishing, not after criticism."
+      ]
+    },
+    {
+      "id": "sj-story-values-marketing:boundary",
+      "skill": "sj-story-values-marketing",
+      "mode": "boundary",
+      "prompt": "Use $sj-story-values-marketing. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-ST07",
+      "required_output_fields": [
+        "Claimed value",
+        "Behavioral evidence",
+        "Contradictions",
+        "Meaningful tradeoff",
+        "Values narrative"
+      ],
+      "forbidden_behaviors": [
+        "Do not borrow moral language for ordinary positioning.",
+        "A value claim without a costly behavior is advertising posture.",
+        "Surface contradictions before publishing, not after criticism."
+      ]
+    },
+    {
+      "id": "sj-strategy-ambush-distribution:positive",
+      "skill": "sj-strategy-ambush-distribution",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-ambush-distribution to find our Apple Store equivalent. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S05",
+      "required_output_fields": [
+        "Customer gathering map",
+        "Channel asymmetry",
+        "Entry wedge",
+        "Bounded experiment",
+        "Scale-or-stop decision"
+      ],
+      "forbidden_behaviors": [
+        "Do not confuse surprise with deception or unauthorized access.",
+        "Account for platform rules, partner incentives, and channel concentration risk.",
+        "A clever launch is not a distribution system until repeatability is proven."
+      ]
+    },
+    {
+      "id": "sj-strategy-ambush-distribution:boundary",
+      "skill": "sj-strategy-ambush-distribution",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-ambush-distribution. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S05",
+      "required_output_fields": [
+        "Customer gathering map",
+        "Channel asymmetry",
+        "Entry wedge",
+        "Bounded experiment",
+        "Scale-or-stop decision"
+      ],
+      "forbidden_behaviors": [
+        "Do not confuse surprise with deception or unauthorized access.",
+        "Account for platform rules, partner incentives, and channel concentration risk.",
+        "A clever launch is not a distribution system until repeatability is proven."
+      ]
+    },
+    {
+      "id": "sj-strategy-build-for-yourself:positive",
+      "skill": "sj-strategy-build-for-yourself",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-build-for-yourself to see where we should trust our own use. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S13",
+      "required_output_fields": [
+        "Internal problem",
+        "Representativeness test",
+        "Dogfood evidence",
+        "Non-generalizable preferences",
+        "External validation gate"
+      ],
+      "forbidden_behaviors": [
+        "Being the customer improves access to pain, not certainty about the market.",
+        "Do not dismiss accessibility or unfamiliar-user needs because insiders cope.",
+        "Internal enthusiasm cannot substitute for willingness to adopt or pay."
+      ]
+    },
+    {
+      "id": "sj-strategy-build-for-yourself:boundary",
+      "skill": "sj-strategy-build-for-yourself",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-build-for-yourself. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S13",
+      "required_output_fields": [
+        "Internal problem",
+        "Representativeness test",
+        "Dogfood evidence",
+        "Non-generalizable preferences",
+        "External validation gate"
+      ],
+      "forbidden_behaviors": [
+        "Being the customer improves access to pain, not certainty about the market.",
+        "Do not dismiss accessibility or unfamiliar-user needs because insiders cope.",
+        "Internal enthusiasm cannot substitute for willingness to adopt or pay."
+      ]
+    },
+    {
+      "id": "sj-strategy-company-as-invention:positive",
+      "skill": "sj-strategy-company-as-invention",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-company-as-invention to design the company behind this product. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S14",
+      "required_output_fields": [
+        "Enduring capability",
+        "Organization-system map",
+        "Institutional mechanism",
+        "Bounded organization prototype",
+        "Codification plan"
+      ],
+      "forbidden_behaviors": [
+        "Do not redesign reporting lines without changing decisions and information flow.",
+        "Institutional strength must not erase accountability or creative dissent.",
+        "The company is unfinished infrastructure, not a founder monument."
+      ]
+    },
+    {
+      "id": "sj-strategy-company-as-invention:boundary",
+      "skill": "sj-strategy-company-as-invention",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-company-as-invention. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S14",
+      "required_output_fields": [
+        "Enduring capability",
+        "Organization-system map",
+        "Institutional mechanism",
+        "Bounded organization prototype",
+        "Codification plan"
+      ],
+      "forbidden_behaviors": [
+        "Do not redesign reporting lines without changing decisions and information flow.",
+        "Institutional strength must not erase accountability or creative dissent.",
+        "The company is unfinished infrastructure, not a founder monument."
+      ]
+    },
+    {
+      "id": "sj-strategy-differentiation-or-death:positive",
+      "skill": "sj-strategy-differentiation-or-death",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-differentiation-or-death to test this startup idea. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S02",
+      "required_output_fields": [
+        "User and alternatives",
+        "Choice criteria",
+        "Defensible difference",
+        "Choice-changing evidence",
+        "Concentrate-or-stop call"
+      ],
+      "forbidden_behaviors": [
+        "Novelty without user value is not differentiation.",
+        "A claim competitors can copy in a sentence is not yet defensible.",
+        "Do not invent category language to hide commodity economics."
+      ]
+    },
+    {
+      "id": "sj-strategy-differentiation-or-death:boundary",
+      "skill": "sj-strategy-differentiation-or-death",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-differentiation-or-death. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S02",
+      "required_output_fields": [
+        "User and alternatives",
+        "Choice criteria",
+        "Defensible difference",
+        "Choice-changing evidence",
+        "Concentrate-or-stop call"
+      ],
+      "forbidden_behaviors": [
+        "Novelty without user value is not differentiation.",
+        "A claim competitors can copy in a sentence is not yet defensible.",
+        "Do not invent category language to hide commodity economics."
+      ]
+    },
+    {
+      "id": "sj-strategy-direct-channel:positive",
+      "skill": "sj-strategy-direct-channel",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-direct-channel to design our direct customer loop. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S04",
+      "required_output_fields": [
+        "Intermediary map",
+        "Direct-channel opportunity",
+        "Customer value proposition",
+        "Operating economics",
+        "Pilot comparison"
+      ],
+      "forbidden_behaviors": [
+        "Direct does not automatically mean cheaper, trusted, or convenient.",
+        "Preserve privacy, consent, and viable partner relationships.",
+        "Do not own a channel the organization cannot support reliably."
+      ]
+    },
+    {
+      "id": "sj-strategy-direct-channel:boundary",
+      "skill": "sj-strategy-direct-channel",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-direct-channel. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S04",
+      "required_output_fields": [
+        "Intermediary map",
+        "Direct-channel opportunity",
+        "Customer value proposition",
+        "Operating economics",
+        "Pilot comparison"
+      ],
+      "forbidden_behaviors": [
+        "Direct does not automatically mean cheaper, trusted, or convenient.",
+        "Preserve privacy, consent, and viable partner relationships.",
+        "Do not own a channel the organization cannot support reliably."
+      ]
+    },
+    {
+      "id": "sj-strategy-do-not-overplay-hand:positive",
+      "skill": "sj-strategy-do-not-overplay-hand",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-do-not-overplay-hand to review this negotiation plan. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S12",
+      "required_output_fields": [
+        "Leverage inventory",
+        "Bluff and assumption check",
+        "Minimum and alternative",
+        "Proportionate proposal",
+        "Exit and de-escalation rules"
+      ],
+      "forbidden_behaviors": [
+        "Do not threaten actions you cannot or should not execute.",
+        "Short-term extraction can destroy strategic trust.",
+        "Power asymmetry does not remove legal or ethical duties."
+      ]
+    },
+    {
+      "id": "sj-strategy-do-not-overplay-hand:boundary",
+      "skill": "sj-strategy-do-not-overplay-hand",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-do-not-overplay-hand. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S12",
+      "required_output_fields": [
+        "Leverage inventory",
+        "Bluff and assumption check",
+        "Minimum and alternative",
+        "Proportionate proposal",
+        "Exit and de-escalation rules"
+      ],
+      "forbidden_behaviors": [
+        "Do not threaten actions you cannot or should not execute.",
+        "Short-term extraction can destroy strategic trust.",
+        "Power asymmetry does not remove legal or ethical duties."
+      ]
+    },
+    {
+      "id": "sj-strategy-failure-apprenticeship:positive",
+      "skill": "sj-strategy-failure-apprenticeship",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-failure-apprenticeship to autopsy this failed launch. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S08",
+      "required_output_fields": [
+        "Failure timeline",
+        "Cause classification",
+        "Missed signal",
+        "Causal lessons",
+        "Changed operating tests"
+      ],
+      "forbidden_behaviors": [
+        "Avoid hindsight certainty and blame narratives.",
+        "Do not turn every painful event into a universal rule.",
+        "A lesson is incomplete until a future behavior changes."
+      ]
+    },
+    {
+      "id": "sj-strategy-failure-apprenticeship:boundary",
+      "skill": "sj-strategy-failure-apprenticeship",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-failure-apprenticeship. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S08",
+      "required_output_fields": [
+        "Failure timeline",
+        "Cause classification",
+        "Missed signal",
+        "Causal lessons",
+        "Changed operating tests"
+      ],
+      "forbidden_behaviors": [
+        "Avoid hindsight certainty and blame narratives.",
+        "Do not turn every painful event into a universal rule.",
+        "A lesson is incomplete until a future behavior changes."
+      ]
+    },
+    {
+      "id": "sj-strategy-focus-matrix:positive",
+      "skill": "sj-strategy-focus-matrix",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-focus-matrix to simplify this product portfolio. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S01",
+      "required_output_fields": [
+        "Portfolio inventory",
+        "Decision axes",
+        "Evidence-based matrix",
+        "Fund-stop-merge-maintain calls",
+        "Resource shift and review"
+      ],
+      "forbidden_behaviors": [
+        "A matrix is a decision aid, not a decorative inventory.",
+        "Do not choose axes after seeing where favored projects land.",
+        "Focus requires actual resource withdrawal from rejected bets."
+      ]
+    },
+    {
+      "id": "sj-strategy-focus-matrix:boundary",
+      "skill": "sj-strategy-focus-matrix",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-focus-matrix. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S01",
+      "required_output_fields": [
+        "Portfolio inventory",
+        "Decision axes",
+        "Evidence-based matrix",
+        "Fund-stop-merge-maintain calls",
+        "Resource shift and review"
+      ],
+      "forbidden_behaviors": [
+        "A matrix is a decision aid, not a decorative inventory.",
+        "Do not choose axes after seeing where favored projects land.",
+        "Focus requires actual resource withdrawal from rejected bets."
+      ]
+    },
+    {
+      "id": "sj-strategy-innovate-out:positive",
+      "skill": "sj-strategy-innovate-out",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-innovate-out to find our way out of this market trap. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S03",
+      "required_output_fields": [
+        "Strategic trap",
+        "Transferable assets",
+        "Escape hypotheses",
+        "Contained tests",
+        "Evidence thresholds"
+      ],
+      "forbidden_behaviors": [
+        "Innovation cannot be a synonym for an unbounded rescue project.",
+        "Protect customers and obligations during transition.",
+        "Do not abandon a viable core before the escape path earns evidence."
+      ]
+    },
+    {
+      "id": "sj-strategy-innovate-out:boundary",
+      "skill": "sj-strategy-innovate-out",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-innovate-out. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S03",
+      "required_output_fields": [
+        "Strategic trap",
+        "Transferable assets",
+        "Escape hypotheses",
+        "Contained tests",
+        "Evidence thresholds"
+      ],
+      "forbidden_behaviors": [
+        "Innovation cannot be a synonym for an unbounded rescue project.",
+        "Protect customers and obligations during transition.",
+        "Do not abandon a viable core before the escape path earns evidence."
+      ]
+    },
+    {
+      "id": "sj-strategy-pivot-to-core:positive",
+      "skill": "sj-strategy-pivot-to-core",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-pivot-to-core to find our WebObjects pivot. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S10",
+      "required_output_fields": [
+        "Evidence inventory",
+        "Story-versus-capability split",
+        "Candidate core",
+        "Pivot and retirement plan",
+        "Narrow validation"
+      ],
+      "forbidden_behaviors": [
+        "Do not call ordinary feature expansion a pivot.",
+        "A pivot must explain what stops as clearly as what begins.",
+        "Protect affected customers and employees from concealed transition risk."
+      ]
+    },
+    {
+      "id": "sj-strategy-pivot-to-core:boundary",
+      "skill": "sj-strategy-pivot-to-core",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-pivot-to-core. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S10",
+      "required_output_fields": [
+        "Evidence inventory",
+        "Story-versus-capability split",
+        "Candidate core",
+        "Pivot and retirement plan",
+        "Narrow validation"
+      ],
+      "forbidden_behaviors": [
+        "Do not call ordinary feature expansion a pivot.",
+        "A pivot must explain what stops as clearly as what begins.",
+        "Protect affected customers and employees from concealed transition risk."
+      ]
+    },
+    {
+      "id": "sj-strategy-reality-is-malleable:positive",
+      "skill": "sj-strategy-reality-is-malleable",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-reality-is-malleable to identify fake constraints. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S07",
+      "required_output_fields": [
+        "Constraint statements",
+        "Constraint classes",
+        "Challenge evidence",
+        "System redesign",
+        "Moved-held-next record"
+      ],
+      "forbidden_behaviors": [
+        "Optimism does not repeal physics, law, consent, safety, or ethics.",
+        "Do not pressure people to absorb risk created by an unrealistic commitment.",
+        "A constraint is not fake merely because it is inconvenient."
+      ]
+    },
+    {
+      "id": "sj-strategy-reality-is-malleable:boundary",
+      "skill": "sj-strategy-reality-is-malleable",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-reality-is-malleable. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S07",
+      "required_output_fields": [
+        "Constraint statements",
+        "Constraint classes",
+        "Challenge evidence",
+        "System redesign",
+        "Moved-held-next record"
+      ],
+      "forbidden_behaviors": [
+        "Optimism does not repeal physics, law, consent, safety, or ethics.",
+        "Do not pressure people to absorb risk created by an unrealistic commitment.",
+        "A constraint is not fake merely because it is inconvenient."
+      ]
+    },
+    {
+      "id": "sj-strategy-say-yes-then-learn:positive",
+      "skill": "sj-strategy-say-yes-then-learn",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-say-yes-then-learn to decide if this is a stretch yes. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S06",
+      "required_output_fields": [
+        "Opportunity and exposure",
+        "Learnable-versus-hard gaps",
+        "Learning path",
+        "Staged commitment",
+        "Checkpoint decisions"
+      ],
+      "forbidden_behaviors": [
+        "Do not misrepresent current capability.",
+        "Never learn through uncontrolled risk to customers or staff.",
+        "A stretch yes needs budget, time, and permission to stop."
+      ]
+    },
+    {
+      "id": "sj-strategy-say-yes-then-learn:boundary",
+      "skill": "sj-strategy-say-yes-then-learn",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-say-yes-then-learn. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S06",
+      "required_output_fields": [
+        "Opportunity and exposure",
+        "Learnable-versus-hard gaps",
+        "Learning path",
+        "Staged commitment",
+        "Checkpoint decisions"
+      ],
+      "forbidden_behaviors": [
+        "Do not misrepresent current capability.",
+        "Never learn through uncontrolled risk to customers or staff.",
+        "A stretch yes needs budget, time, and permission to stop."
+      ]
+    },
+    {
+      "id": "sj-strategy-startup-discipline:positive",
+      "skill": "sj-strategy-startup-discipline",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-startup-discipline to audit our burn and discipline. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S09",
+      "required_output_fields": [
+        "Runway truth",
+        "Milestone-cost map",
+        "Cuts and protected work",
+        "Leading controls",
+        "Reforecast decision"
+      ],
+      "forbidden_behaviors": [
+        "Frugality must not externalize harm, evade obligations, or destroy core quality.",
+        "Revenue volume without margin or collectability is not safety.",
+        "Do not delay bad-news reporting to preserve morale."
+      ]
+    },
+    {
+      "id": "sj-strategy-startup-discipline:boundary",
+      "skill": "sj-strategy-startup-discipline",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-startup-discipline. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S09",
+      "required_output_fields": [
+        "Runway truth",
+        "Milestone-cost map",
+        "Cuts and protected work",
+        "Leading controls",
+        "Reforecast decision"
+      ],
+      "forbidden_behaviors": [
+        "Frugality must not externalize harm, evade obligations, or destroy core quality.",
+        "Revenue volume without margin or collectability is not safety.",
+        "Do not delay bad-news reporting to preserve morale."
+      ]
+    },
+    {
+      "id": "sj-strategy-synthesizer-strategy:positive",
+      "skill": "sj-strategy-synthesizer-strategy",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-synthesizer-strategy to combine these capabilities into one product. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S11",
+      "required_output_fields": [
+        "Capability inventory",
+        "Chosen user problem",
+        "Integration thesis",
+        "Removed novelty",
+        "Coherence test"
+      ],
+      "forbidden_behaviors": [
+        "Synthesis requires functional integration, not a list of partnerships.",
+        "Respect licensing, attribution, and domain expertise.",
+        "Complexity belongs behind the experience, not in the user's task."
+      ]
+    },
+    {
+      "id": "sj-strategy-synthesizer-strategy:boundary",
+      "skill": "sj-strategy-synthesizer-strategy",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-synthesizer-strategy. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S11",
+      "required_output_fields": [
+        "Capability inventory",
+        "Chosen user problem",
+        "Integration thesis",
+        "Removed novelty",
+        "Coherence test"
+      ],
+      "forbidden_behaviors": [
+        "Synthesis requires functional integration, not a list of partnerships.",
+        "Respect licensing, attribution, and domain expertise.",
+        "Complexity belongs behind the experience, not in the user's task."
+      ]
+    },
+    {
+      "id": "sj-strategy-web-as-community:positive",
+      "skill": "sj-strategy-web-as-community",
+      "mode": "positive",
+      "prompt": "Use $sj-strategy-web-as-community to build our web community strategy. Context: A software company has nine months of runway, four scattered product bets, indirect customer feedback, and one promising but unproven core workflow.",
+      "claim_id": "SJ-S15",
+      "required_output_fields": [
+        "Community purpose",
+        "Member journey",
+        "Member-to-member mechanisms",
+        "Governance and safety",
+        "Health measures"
+      ],
+      "forbidden_behaviors": [
+        "An audience, mailing list, or support queue is not automatically a community.",
+        "Do not exploit unpaid contribution without clear reciprocal value.",
+        "Growth must not outrun moderation and member safety."
+      ]
+    },
+    {
+      "id": "sj-strategy-web-as-community:boundary",
+      "skill": "sj-strategy-web-as-community",
+      "mode": "boundary",
+      "prompt": "Use $sj-strategy-web-as-community. The requested artifact and decision evidence are missing. Do not invent facts, quotations, or a Steve Jobs persona. State the missing inputs, apply only what is supportable, and preserve every declared guardrail.",
+      "claim_id": "SJ-S15",
+      "required_output_fields": [
+        "Community purpose",
+        "Member journey",
+        "Member-to-member mechanisms",
+        "Governance and safety",
+        "Health measures"
+      ],
+      "forbidden_behaviors": [
+        "An audience, mailing list, or support queue is not automatically a community.",
+        "Do not exploit unpaid contribution without clear reciprocal value.",
+        "Growth must not outrun moderation and member safety."
+      ]
+    }
+  ]
+}

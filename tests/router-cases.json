@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "description": "Ambiguous requests that the implicit catalog router must resolve without loading all leaf skills.",
+  "cases": [
+    {
+      "id": "router-cluttered-mvp",
+      "prompt": "Our MVP serves three audiences and has six primary actions. Help us decide what it is.",
+      "expected_primary": "sj-product-simplify-to-one",
+      "expected_followups": ["sj-product-customer-backwards"]
+    },
+    {
+      "id": "router-cold-interface",
+      "prompt": "This AI settings screen works, but people say it feels cold and intimidating.",
+      "expected_primary": "sj-ive-humanize-technology",
+      "expected_followups": ["sj-ive-first-touch-moment", "sj-ive-care-is-felt"]
+    },
+    {
+      "id": "router-novelty",
+      "prompt": "The redesign is dramatically different, but we cannot explain why it is better.",
+      "expected_primary": "sj-ive-better-not-different",
+      "expected_followups": ["sj-product-taste-review"]
+    },
+    {
+      "id": "router-feature-launch",
+      "prompt": "Our launch page has nine feature claims and no memorable promise.",
+      "expected_primary": "sj-story-one-message-marketing",
+      "expected_followups": ["sj-story-sell-the-improvement"]
+    },
+    {
+      "id": "router-live-demo",
+      "prompt": "The keynote is tomorrow and our live demo fails unpredictably after the second transition.",
+      "expected_primary": "sj-story-demo-rehearsal-loop",
+      "expected_followups": []
+    },
+    {
+      "id": "router-benchmark",
+      "prompt": "We say our model is 37 percent faster, but the audience does not know whether that matters.",
+      "expected_primary": "sj-story-number-context",
+      "expected_followups": []
+    },
+    {
+      "id": "router-hiring",
+      "prompt": "We need a high-bar hiring decision based on a candidate's work, not pedigree or charisma.",
+      "expected_primary": "sj-people-a-player-bar",
+      "expected_followups": ["sj-people-pushback-interview"]
+    },
+    {
+      "id": "router-committee",
+      "prompt": "Seven people can block this roadmap decision and nobody owns the deadline.",
+      "expected_primary": "sj-people-one-owner-no-committees",
+      "expected_followups": []
+    },
+    {
+      "id": "router-founder-insulation",
+      "prompt": "Bad news gets softened before it reaches the founder and dissenters stop speaking up.",
+      "expected_primary": "sj-people-truth-to-founder",
+      "expected_followups": ["sj-people-blunt-truth-review"]
+    },
+    {
+      "id": "router-portfolio",
+      "prompt": "We have four products, nine months of runway, and cannot fund all of them.",
+      "expected_primary": "sj-strategy-focus-matrix",
+      "expected_followups": ["sj-strategy-startup-discipline"]
+    },
+    {
+      "id": "router-failed-plan",
+      "prompt": "The first business failed, but one internal capability has surprising customer pull.",
+      "expected_primary": "sj-strategy-pivot-to-core",
+      "expected_followups": ["sj-strategy-failure-apprenticeship"]
+    },
+    {
+      "id": "router-fake-constraint",
+      "prompt": "Everyone says procurement makes this impossible, but nobody has checked the actual rule.",
+      "expected_primary": "sj-strategy-reality-is-malleable",
+      "expected_followups": []
+    },
+    {
+      "id": "router-book-notes",
+      "prompt": "Turn my complete book notes into a few reusable practices with provenance.",
+      "expected_primary": "sj-learning-progressive-summarization",
+      "expected_followups": ["sj-core-compound-learning"]
+    },
+    {
+      "id": "router-life-cost",
+      "prompt": "This ambitious plan may work, but it is already damaging sleep, health, and relationships.",
+      "expected_primary": "sj-learning-balanced-builder-audit",
+      "expected_followups": []
+    },
+    {
+      "id": "router-channel-growth",
+      "prompt": "Shipments are up sharply, but partner inventory and end-customer activation are unclear.",
+      "expected_primary": "sj-anti-channel-stuffing-check",
+      "expected_followups": []
+    },
+    {
+      "id": "router-rivalry",
+      "prompt": "I want to enter this market mainly because a former partner said we could not.",
+      "expected_primary": "sj-anti-revenge-motive-check",
+      "expected_followups": []
+    },
+    {
+      "id": "router-funding",
+      "prompt": "We raised far more than planned and now every team wants to scale before retention is proven.",
+      "expected_primary": "sj-anti-too-much-money-check",
+      "expected_followups": ["sj-strategy-startup-discipline"]
+    },
+    {
+      "id": "router-modernize-icon",
+      "prompt": "Modernize an iconic physical product without preserving obsolete forms or betraying what users love.",
+      "expected_primary": "sj-ive-future-without-betrayal",
+      "expected_followups": ["sj-ive-material-honesty", "sj-ive-manufacturing-as-design"]
+    }
+  ]
+}
